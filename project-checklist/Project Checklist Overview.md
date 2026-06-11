@@ -1,5 +1,12 @@
 # Index
 - [[agents-driven]]
 - [[api]]
-- [[web]]
 - [[api-gateway]]
+- [[microservice-infrastructure]]
+- [[spring-boot-api]]
+- [[spring-boot-api-gateway]]
+- [[spring-boot-eureka]]
+- [[spring-boot-loadbalance]]
+- [[spring-boot-microservice-infrastructure]]
+- [[spring-boot-oauth]]
+- [[web]]
