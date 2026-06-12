@@ -93,10 +93,29 @@
 - [ ] **Error classification** — Not all errors are equal. Validation errors → 400. Not found → 404. Conflict → 409. Downstream failure → 502/503. Unexpected → 500. Log unexpected errors at ERROR level, expected errors at WARN or INFO.
 - [ ] **Graceful degradation** — If a downstream service fails, return partial data or cached stale data, not a 500. Feature toggles to disable non-critical features when dependencies are unhealthy.
 - [ ] **Retry with backoff** — Exponential backoff + jitter for transient failures (network, deadlock). Only for idempotent operations. Max retries, max total time. Retry budget per request.
-- [ ] **Circuit breaker** — Stop calling a failing downstream after N failures. Half-open state for probing recovery. Per-downstream, not one global breaker. `gobreaker` (Go), `opossum` (Node), Resilience4j (Java).
 - [ ] **Dead letter queue** — Failed async jobs go to DLQ for inspection and replay. Don't just drop them. Alert on DLQ growth. Have a replay mechanism.
 
-## 10. Message Queues & Event-Driven Architecture
+## 10. Circuit Breaker & Resilience Patterns
+
+> **When you need it:**  
+> 🔄 **Microservices** — ✅ mandatory. Every service-to-service HTTP/gRPC call is a potential cascading failure.  
+> 🧱 **Monolith calling external APIs** (payment gateway, email provider, SMS, third-party) — ✅ recommended. External dependencies can fail or slow down.  
+> 🧱 **Monolith internal calls** (in-process method invocations) — ❌ unnecessary. No network hop = no thread pool exhaustion. Circuit breakers protect remote calls, not local method calls.
+>
+> **Framework-specific checklists:** This is the general pattern. For Spring Boot specifics (Resilience4j config, `@CircuitBreaker`, fallback patterns), see [Spring Boot API Checklist](./spring-boot-api.md). For gateway-level circuit breaking, see [API Gateway Checklist](./api-gateway.md) and [Spring Boot API Gateway Checklist](./spring-boot-api-gateway.md).
+
+- [ ] **Circuit breaker** — Stop calling a failing downstream after N failures within a time window. Three states: closed (normal), open (fail fast, no calls), half-open (probing recovery). Per-downstream, never one global breaker. Libraries: `gobreaker` (Go), `opossum` (Node), `resilience4j` (Java), `circuitbreaker` (Python), `fault-tolerant` (Rust).
+- [ ] **Per-destination tuning** — Different downstreams, different thresholds. Payment gateway: tight (fail fast at 30% error rate, wait 60s to recover). Email service: loose (80% error rate tolerated, 15s recovery). Non-critical features: more lenient. One size fits none.
+- [ ] **Fallback strategy** — When circuit is open: return cached stale data, default/empty response, degraded view, or a domain error. Never return `null` silently — pushes the problem downstream. Choose per-endpoint: login fallback = hard error, product listing fallback = stale cache.
+- [ ] **Half-open probing** — After timeout expires, limited requests probe the downstream. Successes close the circuit; any failure re-opens it immediately. Prevents thundering-herd reconnection.
+- [ ] **Exception filtering** — Not all errors should open the circuit. Connectivity/timeout exceptions: yes. Business exceptions (`NotFound`, `ValidationError`): no — those are successful calls that returned expected errors. A 404 from downstream is a response, not a failure.
+- [ ] **Retry + Circuit Breaker ordering** — Retry INSIDE circuit breaker. Circuit breaker wraps retry. Why: retries exhaust and still fail → counted as ONE failure. Circuit open → retries fail fast, no wasted waits.
+- [ ] **Timeout always paired** — Circuit breaker doesn't stop slow calls — it only counts failures after they happen. Always set connection + read timeouts on every outbound HTTP client. Shorter than the caller's own timeout, or you'll still hang.
+- [ ] **Service mesh alternative** — If you have Istio/Linkerd/Consul Connect, circuit breaking can live in the sidecar proxy transparently. No code changes, language-agnostic. Trade-off: operational complexity vs code simplicity. Best for polyglot or ops-managed environments.
+- [ ] **Monitoring** — Circuit state metric (closed=0, open=1, half-open=2). Alert when any circuit opens. Track: success/failure/blocked call counts, failure rate per breaker. Dashboard panel: circuit breaker state per downstream service.
+- [ ] **Testing circuit breakers** — Integration test: downstream returns 500 for N calls → circuit opens → fallback returned → wait for half-open → successful probe closes circuit. Chaos test: kill a downstream service → verify system degrades gracefully, doesn't cascade.
+
+## 11. Message Queues & Event-Driven Architecture
 
 - [ ] **When to use** — Anything that can be deferred: email, notifications, report generation, image processing. Decouple services: Order service emits `order.created`, Inventory service consumes it. Not just "put it in a queue" — events tell a story.
 - [ ] **Message broker choice** — RabbitMQ (routing flexibility, mature), Kafka (event streaming, replay, high throughput), NATS (lightweight, Cloud Native), Redis Streams (if already using Redis, small scale), SQS/GCP PubSub (managed, zero ops).
@@ -106,7 +125,7 @@
 - [ ] **Schema evolution** — Avro + Schema Registry, Protobuf, or JSON Schema. Forward and backward compatibility. Don't break consumers when producers evolve.
 - [ ] **Observability** — Trace context in message headers. Correlate producer trace with consumer trace. Metrics: publish rate, consume rate, lag, retry count, DLQ size.
 
-## 11. File Storage (if applicable)
+## 12. File Storage (if applicable)
 
 - [ ] **Object storage** — S3, MinIO, GCS, Azure Blob. Not the local filesystem (not scalable, lost on restart). Not the database (bloats, expensive).
 - [ ] **Presigned URLs** — Generate short-lived upload/download URLs. Client uploads directly to storage, not through your server. Send URL to client, let them stream directly.
@@ -115,7 +134,7 @@
 - [ ] **Access control** — Private bucket by default. Presigned URLs for authenticated access. CDN with signed URLs or token auth for public-facing files.
 - [ ] **Backup & lifecycle** — Bucket versioning. Lifecycle policies (archive old objects, delete expired). Cross-region replication for critical data.
 
-## 12. Testing
+## 13. Testing
 
 - [ ] **Unit tests** — Business logic, pure functions. Fast, no I/O. Naming: `Method_Scenario_ExpectedResult`.
 - [ ] **Integration tests** — Repository with real DB (testcontainers). HTTP handlers with real router. Message queue with test instance. External service mocks at the network level (WireMock, MockServer).
@@ -125,7 +144,7 @@
 - [ ] **Load tests** — k6 or locust. Target realistic traffic patterns. Run against staging with production-like data volume. Don't just test the happy path at 1x traffic.
 - [ ] **Chaos engineering** — Kill a random pod. Does the system recover? Circuit breakers open? Retries work? DLQ catches failed messages? Start small. Don't chaos test in production without experience.
 
-## 13. Performance
+## 14. Performance
 
 - [ ] **Caching strategy** — Redis/Memcached. Cache-aside (app manages) or read-through. Invalidation is the hard part. Cache stampede protection (lock on miss or probabilistic early recompute). Separate cache per data type, don't share TTLs blindly.
 - [ ] **Database query optimization** — Use `EXPLAIN ANALYZE`. Covering indexes. Avoid `SELECT *`. Batch inserts/updates. `INSERT ... ON CONFLICT` for upserts. Materialized views for expensive aggregations.
@@ -135,7 +154,7 @@
 - [ ] **Graceful shutdown** — SIGTERM → stop accepting requests → drain in-flight (with timeout) → close DB pools → close message queue connections → exit. K8s `terminationGracePeriodSeconds` (default 30s) should exceed your drain timeout.
 - [ ] **Startup warmup** — Preload caches, establish connection pools, validate config BEFORE reporting healthy. `ReadinessProbe` with `initialDelaySeconds` to allow warmup. Don't route traffic to a half-ready instance.
 
-## 14. CI/CD
+## 15. CI/CD
 
 - [ ] **Pipeline stages** — Lint → type-check → unit test → build → integration test → deploy staging → E2E → deploy production. Fast feedback at every stage. Fail fast: lint fails first, don't wait for E2E to fail for a typo.
 - [ ] **Build once, deploy many** — Same artifact (Docker image, binary) promoted through environments. Config changes via env vars, not rebuilds. Image tag = git SHA, not `:latest`.
@@ -144,7 +163,7 @@
 - [ ] **Blue-green or canary deploy** — Zero-downtime deploys. Shift traffic gradually (canary: 5% → 25% → 50% → 100%). Health check new instances before routing. Auto-rollback on error rate spike.
 - [ ] **GitOps** — Declarative config in git. PR merges trigger deploy. Git is the source of truth for what's running. No manual `kubectl edit` in production.
 
-## 15. Documentation
+## 16. Documentation
 
 - [ ] **README** — What it does, how to run locally (single command), how to deploy, architecture overview, link to API docs. New team member should be productive in < 30 minutes.
 - [ ] **API documentation** — OpenAPI spec rendered (Swagger UI, Scalar, Redoc). Examples for every endpoint. Authentication instructions. Rate limit info. Deprecation notices.
@@ -152,7 +171,7 @@
 - [ ] **Architecture Decision Records (ADRs)** — Why you chose PostgreSQL over MongoDB. Why JWT over sessions. Why this message broker, not that one. Date-stamped, immutable. Superseded ADRs link to the replacement.
 - [ ] **Runbook testing** — Once a quarter: hand the runbook to someone new. Can they execute each procedure? Fix the gaps. A runbook that's never been tested is a wishlist.
 
-## 16. Production Readiness
+## 17. Production Readiness
 
 - [ ] **Graceful shutdown & startup** — See Section 13 (Performance). Health checks report ready only after warmup. Graceful shutdown drains in-flight requests.
 - [ ] **Configuration management** — 12-factor app. Env vars for config. Feature flags (LaunchDarkly, Unleash, or simple DB table) for toggles. Kill broken features without redeploy.

@@ -89,21 +89,110 @@ com.example.app/
 - [ ] **Password encoder** — `BCryptPasswordEncoder` or `Argon2PasswordEncoder` bean. `PasswordEncoder` interface. Strength: `BCryptPasswordEncoder(12)` (tune for ~250ms).
 - [ ] **JSpecify null safety** — Spring APIs now annotated with `@Nullable`/`@NonNull` via JSpecify. Kotlin projects: expect null-safety compilation errors where Spring APIs were assumed non-null. Fix type declarations to match null contracts.
 
-## 7. Caching
+## 7. Circuit Breaker & Service Resilience
+
+> **When you need it:**  
+> 🔄 **Microservices** — ✅ mandatory. Every service-to-service HTTP call is a potential failure point.  
+> 🧱 **Monolith calling external APIs** (payment gateway, email provider, SMS, third-party) — ✅ recommended.  
+> 🧱 **Monolith internal calls** (in-process method invocations) — ❌ unnecessary. No network hop = no thread pool exhaustion. Circuit breakers protect remote calls, not local method calls.
+
+- [ ] **Resilience4j** — `spring-cloud-starter-circuitbreaker-resilience4j`. De-facto for Spring Boot (Hystrix is dead). Works with `WebClient`, `RestClient`, `RestTemplate`.
+- [ ] **Declarative: `@CircuitBreaker`** — Annotate service methods that make remote calls:
+
+```java
+@CircuitBreaker(name = "orderService", fallbackMethod = "orderServiceFallback")
+public OrderResponse getOrder(Long id) {
+    return orderServiceClient.getOrder(id);  // WebClient / @HttpExchange call
+}
+
+public OrderResponse orderServiceFallback(Long id, Exception e) {
+    log.warn("Order service degraded for id={}", id, e);
+    return OrderResponse.degraded(id); // stale cache, default, or domain error
+}
+```
+
+- [ ] **Programmatic: `CircuitBreakerFactory`** — When you need more control or dynamic breaker creation:
+
+```java
+@Autowired
+private CircuitBreakerFactory<?, ?> cbFactory;
+
+public PaymentResult charge(PaymentRequest req) {
+    return cbFactory.create("paymentGateway").run(
+        () -> paymentClient.charge(req),
+        throwable -> paymentFallback(req)
+    );
+}
+```
+
+- [ ] **Fallback method rules** — Same return type as original method. Same parameters + one `Exception` (or `Throwable`) at the end. One fallback per circuit breaker name. Fallback logic: return cached stale data, default/empty response, or throw a domain-specific exception. Never return `null` silently — that pushes the problem downstream.
+- [ ] **Per-destination configuration** — Not one global breaker. Different downstreams have different failure profiles:
+
+```yaml
+resilience4j.circuitbreaker:
+  configs:
+    default:
+      slidingWindowSize: 10
+      failureRateThreshold: 50
+      waitDurationInOpenState: 30s
+      permittedNumberOfCallsInHalfOpenState: 3
+  instances:
+    paymentGateway:
+      failureRateThreshold: 30     # stricter: money
+      waitDurationInOpenState: 60s  # slower recovery: money
+    notificationService:
+      failureRateThreshold: 80     # looser: non-critical
+      waitDurationInOpenState: 15s
+```
+
+- [ ] **Sliding window type** — Count-based (`slidingWindowType: COUNT_BASED`, `slidingWindowSize: 10`) for predictable load. Time-based (`TIME_BASED`, `slidingWindowSize: 30`) for bursty traffic patterns. Count-based is simpler and usually sufficient.
+- [ ] **Half-open state** — After `waitDurationInOpenState` expires, circuit moves to half-open. `permittedNumberOfCallsInHalfOpenState` requests probe the downstream. All succeed → circuit closes. Any fail → circuit re-opens immediately. This prevents thundering-herd reconnection.
+- [ ] **Record vs ignore exceptions** — By default, all exceptions count toward opening the circuit. Fine-tune:
+  - `recordExceptions` — only trip on connectivity/timeout (e.g., `ConnectTimeoutException`, `IOException`)
+  - `ignoreExceptions` — don't count business exceptions (`NotFoundException`, `ValidationException`, `IllegalArgumentException`)
+  - A 404 from downstream is a successful call (it responded), not a circuit breaker event
+- [ ] **Retry + Circuit Breaker ordering** — Retry goes INSIDE circuit breaker. Circuit breaker wraps retry, not the other way around. Why: if retries exhaust and still fail, breaker counts it as ONE failure. If circuit is open, retries fail fast instead of waiting.
+- [ ] **Timeout always paired** — Circuit breaker alone doesn't stop slow calls — it only counts failures after they happen. Always pair with timeouts:
+  - `spring.cloud.openfeign.client.config.*.connectTimeout: 3000` / `readTimeout: 30000` (if using OpenFeign)
+  - `WebClient` / `RestClient`: `.requestFactory(..).connectTimeout(Duration.ofSeconds(3)).readTimeout(Duration.ofSeconds(30))`
+  - `@TimeLimiter` for reactive stacks (`spring-cloud-starter-circuitbreaker-reactor-resilience4j`)
+- [ ] **Metrics** — Resilience4j exposes via Micrometer automatically. Key metrics: `resilience4j.circuitbreaker.calls` (success/failure/not_permitted), circuit state (closed/open/half_open), failure rate, number of calls blocked. Alert when any circuit opens.
+- [ ] **Health indicator** — `management.health.circuitbreakers.enabled: true`. Circuit state visible in `/actuator/health`. Open circuits → `DOWN` (may be noisy — configure per breaker whether to fail health).
+- [ ] **Testing circuit breakers** — Simulate downstream failure → verify circuit opens → verify fallback returned → verify half-open after wait duration → verify successful probe closes circuit. Use `CircuitBreakerRegistry` to inspect state in tests:
+
+```java
+@Autowired
+private CircuitBreakerRegistry registry;
+
+@Test
+void shouldOpenCircuitOnRepeatedFailure() {
+    // given: downstream returns 500
+    for (int i = 0; i < 5; i++) {
+        assertThat(orderService.getOrder(1L).isDegraded()).isTrue();
+    }
+    // then: circuit is open
+    assertThat(registry.circuitBreaker("orderService").getState())
+        .isEqualTo(CircuitBreaker.State.OPEN);
+}
+```
+
+> **Gateway + Service tier:** Circuit breaker at the API gateway protects external callers. But internal service-to-service calls bypass the gateway. Each service needs its own breaker for calls it makes to other services. Both tiers, same principle. See [API Gateway Checklist — Resilience Patterns](./api-gateway.md).
+
+## 8. Caching
 
 - [ ] **`@EnableCaching`** — On `@Configuration` class. Cache manager: `ConcurrentMapCacheManager` (dev/test), `RedisCacheManager` (production).
 - [ ] **`@Cacheable`** — On service methods. `@Cacheable(value = "users", key = "#id")`. Cache `null` unless you handle it: `unless = "#result == null"`.
 - [ ] **`@CacheEvict`** — On update/delete methods. `@CacheEvict(value = "users", key = "#id")` or `allEntries = true` for list caches. Evict before or after? `beforeInvocation = false` (default, after method succeeds — safe). `beforeInvocation = true` (evict even if method fails — use with caution).
 - [ ] **`@CachePut`** — Updates cache without skipping method. Use sparingly — usually better to evict + let next read re-populate.
 
-## 8. Async Processing (Virtual Threads Ready)
+## 9. Async Processing (Virtual Threads Ready)
 
 - [ ] **`@EnableAsync`** — On `@Configuration` class. `TaskExecutor` bean.
 - [ ] **`@Async`** — On service methods. Return `void`, `CompletableFuture<T>`, or `ListenableFuture<T>`. `CompletableFuture` preferred — composable, cancellable.
 - [ ] **Virtual threads — auto-configured** — Boot 4 on Java 21+ auto-configures virtual threads. `spring.threads.virtual.enabled` defaults to `true`. No thread pool tuning needed. Hibernate 7.1's `ReentrantLock` switch makes virtual threads significantly faster under database load.
 - [ ] **Thread pool for non-virtual** — If disabling virtual threads: `ThreadPoolTaskExecutor` with `corePoolSize`, `maxPoolSize`, `queueCapacity`. Rejection policy: `CallerRunsPolicy`.
 
-## 9. Observability (Actuator + Micrometer + OpenTelemetry)
+## 10. Observability (Actuator + Micrometer + OpenTelemetry)
 
 - [ ] **Spring Boot Actuator** — `spring-boot-starter-actuator`. Endpoints: `health`, `metrics`, `info`, `loggers`, `env` (restricted). Secure in production: `management.endpoints.web.exposure.include: health,metrics,info`. `management.endpoint.health.show-details: when-authorized`.
 - [ ] **OpenTelemetry starter (NEW in Boot 4)** — `spring-boot-starter-opentelemetry`. First-party observability starter. Replaces manual Micrometer + Prometheus + OTel wiring. Traces, metrics, logs exported to OTel collector automatically.
@@ -112,7 +201,7 @@ com.example.app/
 - [ ] **Modularized observability starters** — Boot 4 splits observability into focused modules: `spring-boot-starter-micrometer-metrics`, `-micrometer-tracing`, `-opentelemetry`, `-zipkin`. Pick what you need.
 - [ ] **Logging** — Logback (default) or Log4j2. JSON logging: `logstash-logback-encoder`. Config: `logback-spring.xml` (supports `springProfile`). Not `logback.xml` (loaded before Spring context).
 
-## 10. Testing (Modular Test Starters)
+## 11. Testing (Modular Test Starters)
 
 - [ ] **Test starter companions — new in Boot 4** — Every tech has a test starter. `@WebMvcTest` needs `spring-boot-starter-webmvc-test`. `@DataJpaTest` needs `spring-boot-starter-data-jpa-test`. Security tests need `spring-boot-starter-security-test` (for `@WithMockUser`). Don't rely on a single `spring-boot-starter-test` pulling everything transitively.
 - [ ] **Test slices, not `@SpringBootTest` for everything** — Fast feedback. `@WebMvcTest(UserController.class)` — only web layer. `@DataJpaTest` — only JPA layer, auto-rollback. `@JsonTest`, `@RestClientTest`. `@SpringBootTest` only for full integration tests.
@@ -122,7 +211,7 @@ com.example.app/
 - [ ] **Security testing** — `@WithMockUser(roles = "ADMIN")`, `@WithAnonymousUser`. Requires `spring-boot-starter-security-test`. Test new CSRF defaults: without explicit `.csrf().disable()`, expect 403 on POST/PUT/DELETE.
 - [ ] **Test configuration** — `@TestConfiguration` inner class. `@TestPropertySource` for test-specific properties.
 
-## 11. Database Performance (Spring + JPA Specific)
+## 12. Database Performance (Spring + JPA Specific)
 
 - [ ] **Hibernate statistics** — `spring.jpa.properties.hibernate.generate_statistics: true` in dev. Log slow queries: `hibernate.session.events.log.LOG_QUERIES_SLOWER_THAN_MS`. Fix what you can see.
 - [ ] **Batch processing** — `spring.jpa.properties.hibernate.jdbc.batch_size: 20`. `spring.jpa.properties.hibernate.order_inserts: true`. For bulk operations: `JdbcTemplate` or `EntityManager.flush()` + `clear()` in batches. JPA is for entities, not ETL.
@@ -130,7 +219,7 @@ com.example.app/
 - [ ] **Lazy loading boundary** — `@Transactional` defines the persistence context boundary. Lazy loading only works inside it. Return DTOs from within the transaction — don't cross the boundary with lazy proxies.
 - [ ] **Second-level cache** — Hibernate L2C + `hibernate-jcache` + a JCache provider (Ehcache, Hazelcast). Only cache rarely-changed, frequently-read data. L2C adds complexity — make sure you need it.
 
-## 12. Containerization (Spring Boot 4 Specific)
+## 13. Containerization (Spring Boot 4 Specific)
 
 - [ ] **Buildpacks** — `spring-boot:build-image` (Maven) or `bootBuildImage` (Gradle). Cloud Native Buildpacks, no Dockerfile needed. Paketo buildpacks produce secure, layered, minimal images.
 - [ ] **Custom Dockerfile** — Multi-stage: `eclipse-temurin:21-jdk-alpine` for build, `eclipse-temurin:21-jre-alpine` for run. `EXPLODE` the JAR and `COPY` exploded layers.
@@ -138,7 +227,7 @@ com.example.app/
 - [ ] **Graceful shutdown** — `server.shutdown: graceful`. `spring.lifecycle.timeout-per-shutdown-phase: 30s`. Align with K8s `terminationGracePeriodSeconds`.
 - [ ] **Embedded server** — Tomcat (default, spring-boot-starter-tomcat) or Jetty (spring-boot-starter-jetty). Undertow removed in Boot 4.
 
-## 13. Config & Secrets
+## 14. Config & Secrets
 
 - [ ] **Externalized config** — `application.yml` for defaults. Env vars for overrides. Spring's `PropertySource` order: command line args > env vars > profile-specific `.yml` > default `.yml`.
 - [ ] **Secrets** — `spring.config.import: vault://` or `configtree:/run/secrets/`. Never `spring.datasource.password: mypassword` in committed properties. Env vars or mounted secrets files.
@@ -168,3 +257,7 @@ com.example.app/
 - [ ] Modular test starters declared (spring-boot-starter-webmvc-test, etc.)
 - [ ] Virtual threads tested under load (auto-enabled on Java 21+)
 - [ ] `spring-boot-properties-migrator` removed after migration complete
+- [ ] Circuit breaker configured for every remote HTTP call (service-to-service or external API)
+- [ ] Fallback methods return sane degraded responses, never null
+- [ ] Circuit breaker + retry ordering correct (retry inside breaker)
+- [ ] Circuit breaker tested (downstream killed → circuit opens → fallback returns → recovery)
