@@ -13,7 +13,7 @@ A practical guide for teaching English to functioning adults who rarely speak En
 
 ## 02 Tenses & Time
 
-- [[05 12 English Tense]] — The full grid: Past/Present/Future × Simple/Continuous/Perfect/Perfect Continuous
+- [[05 12 English Tense Overview]] — Master grid + decision flow. Then deep-dive into all 12 individual tenses (05.1–05.12)
 - [[06 Active vs Passive Voice]] — Who does vs who receives — and why Thai speakers avoid passive
 - [[07 Verb Forms]] — V1, V2, V3, Ving — the building blocks behind every tense
 
