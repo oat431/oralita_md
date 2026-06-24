@@ -18,7 +18,7 @@ Math is an essential element to be a better software engineer so I need math in 
 
 - #### Predicate Logic
 
-### 2. Proof Techniques
+### 2. [[Proof Techniques]]
 
 - #### Direct Proof
 
@@ -28,7 +28,7 @@ Math is an essential element to be a better software engineer so I need math in 
 
 - #### Proof by Example
 
-### 3. Set, Relations, Functions
+### 3. [[Set, Relations, Functions]]
 
 - #### Set Operations
 
@@ -36,19 +36,19 @@ Math is an essential element to be a better software engineer so I need math in 
 
 - #### Relations and Functions
 
-### 4. Graphs and Trees
+### 4. [[Graphs and Trees]]
 
 - #### Graphs
 
 - #### Trees
 
-### 5. Finite State Machines
+### 5. [[Finite State Machines]]
 
-### 6. Grammars
+### 6. [[Grammars]]
 
 - #### Language Recognition
 
-### 7. Number Theory
+### 7. [[Number Theory]]
 
 - #### Types of Numbers
 
@@ -58,18 +58,18 @@ Math is an essential element to be a better software engineer so I need math in 
 
 - #### Greatest Common Divisor
 
-### 8. Basics of Counting
+### 8. [[Basics of Counting]]
 
-### 9. Discrete Probability
+### 9. [[Discrete Probability]]
 
-### 10. Numerical Precision, Accuracy, and Errors
+### 10. [[Numerical Precision, Accuracy, and Errors]]
 
-### 11. Algebraic Structures
+### 11. [[Algebraic Structures]]
 
 - #### Groups
 
 - #### Rings
 
-### 12. Calculus
+### 12. [[Calculus]]
 
 Life long learning goal with online material
