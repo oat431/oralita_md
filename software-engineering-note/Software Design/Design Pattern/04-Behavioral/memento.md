@@ -31,6 +31,30 @@ In the text editor example: a separate `History` class acts as the caretaker. A 
 
 ## Structure
 
+```mermaid
+classDiagram
+    class Originator {
+        -state
+        +createMemento() Memento
+        +restore(Memento)
+    }
+    class Memento {
+        -state
+        -creationDate
+        +getState()
+        +getName()
+        +getDate()
+    }
+    class Caretaker {
+        -mementos: Stack
+        +backup()
+        +undo()
+    }
+    Originator --> Memento : creates
+    Caretaker --> Memento : stores
+    Originator <.. Caretaker : uses
+```
+
 ### 1. Implementation Based on Nested Classes
 
 The classic implementation (C++, C#, Java — languages with nested class support):

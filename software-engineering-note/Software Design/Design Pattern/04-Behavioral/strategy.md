@@ -46,11 +46,6 @@ The context becomes **independent of concrete strategies**. Add a new algorithm?
 ## Structure
 
 ```mermaid
-2. **Strategy interface** — Declares a method (or methods) common to all algorithm variants. The context uses this method to trigger the algorithm.
-3. **Concrete Strategies** — Each implements a distinct variant of the algorithm. They share the same interface, making them interchangeable.
-4. **Client** — Creates a specific strategy object and passes it to the context. Must be aware of the differences between strategies to select the right one.
-
-```mermaid
 classDiagram
     class Context {
         -strategy: Strategy

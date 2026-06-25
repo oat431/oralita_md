@@ -26,8 +26,44 @@ The result: adding a new variant means writing one new concrete factory and its 
 
 ## Structure
 
+```mermaid
+classDiagram
+    class AbstractProductA {
+        <<interface>>
+    }
+    class AbstractProductB {
+        <<interface>>
+    }
+    class ProductA1
+    class ProductA2
+    class ProductB1
+    class ProductB2
+    class AbstractFactory {
+        <<interface>>
+        +createProductA() AbstractProductA
+        +createProductB() AbstractProductB
+    }
+    class ConcreteFactory1 {
+        +createProductA() ProductA1
+        +createProductB() ProductB1
+    }
+    class ConcreteFactory2 {
+        +createProductA() ProductA2
+        +createProductB() ProductB2
+    }
+    class Client
+    AbstractProductA <|.. ProductA1
+    AbstractProductA <|.. ProductA2
+    AbstractProductB <|.. ProductB1
+    AbstractProductB <|.. ProductB2
+    AbstractFactory <|.. ConcreteFactory1
+    AbstractFactory <|.. ConcreteFactory2
+    Client --> AbstractFactory
+    Client --> AbstractProductA
+    Client --> AbstractProductB
+```
 
-1. **Abstract Products** — Interfaces for each distinct but related product in a family (e.g., `Chair`, `Sofa`).
+1. **Abstract Products**
 2. **Concrete Products** — Variant-specific implementations of abstract products, grouped by variant (`ModernChair`, `VictorianChair`, …).
 3. **Abstract Factory** — Interface declaring creation methods for every abstract product. Return types are the abstract product interfaces.
 4. **Concrete Factories** — One per variant. Each implements the abstract factory interface and instantiates only its variant's concrete products. Method signatures return the *abstract* type, decoupling the client from concrete classes.
