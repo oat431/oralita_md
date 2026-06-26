@@ -9,7 +9,7 @@ Quick-reference index for programming topics. Where deep content exists in [[sof
 | Topic | Primary Content | Local Note |
 |-------|:---------------:|:----------:|
 | **API Design** | [[Clean Architecture Overview]] (Details, Architecture) | [[Api Note]] — outline |
-| **Microservices** | [[Clean Architecture Overview]] (Boundaries, Independence, Services) | [[Microservice Note]] — outline |
+| **Microservices** | [[Microservice Overview]] — 19 files: Decomposition, Integration, Database, Resilience, Observability, Cross-Cutting, Deployment | [[Microservice Overview]] — 19 files across 7 categories |
 | **Algorithms & Data Structures** | [[Math For SE Note Overview]] (Graphs, Trees, Counting) | [[Algorithm And Datastructure]] — outline |
 | **Testing & QA** | [[Clean Code Overview]] (Unit Testing, TDD) / [[Clean Coder Overview]] (Testing Strategies) | [[QA note]] — outline |
 | **Cybersecurity** | — | [[Cybersecurity]] — unique, not covered elsewhere |
