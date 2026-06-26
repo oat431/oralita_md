@@ -8,7 +8,7 @@ Quick-reference index for programming topics. Where deep content exists in [[sof
 
 | Topic | Primary Content | Local Note |
 |-------|:---------------:|:----------:|
-| **API Design** | [[Clean Architecture Overview]] (Details, Architecture) | [[Api Note]] — outline |
+| **API Design** | [[API Overview]] — REST, GraphQL, gRPC, WebSocket, WebHook + Security + Operations | [[API Overview]] — 11 files across 4 categories |
 | **Microservices** | [[Microservice Overview]] — 19 files: Decomposition, Integration, Database, Resilience, Observability, Cross-Cutting, Deployment | [[Microservice Overview]] — 19 files across 7 categories |
 | **Algorithms & Data Structures** | [[Math For SE Note Overview]] (Graphs, Trees, Counting) | [[Algorithm And Datastructure]] — outline |
 | **Testing & QA** | [[Clean Code Overview]] (Unit Testing, TDD) / [[Clean Coder Overview]] (Testing Strategies) | [[QA note]] — outline |
