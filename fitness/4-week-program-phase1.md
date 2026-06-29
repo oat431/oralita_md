@@ -27,23 +27,23 @@ Session length: see table above (45-60 min per lifting session, ~40 min Wed)
 
 ### Mon — Upper (Push/Pull Focus)
 
-| Exercise | Sets × Reps | Notes |
-|----------|-------------|-------|
-| Dumbbell Bench Press | 3×8 | Start 8-10 kg per hand. Flat bench. Bar path: lower chest to lockout |
-| Chest-Supported Row | 3×10 | Machine or DB row on incline bench. Squeeze shoulder blades |
-| Seated Dumbbell OHP | 3×8 | 5-6 kg per hand. Elbows slightly forward, don't flare |
-| Face Pulls | 3×12 | Cable with rope. Pull to forehead, external rotation at end |
-| Tricep Pushdown | 2×12 | Optional. Cable with straight bar or rope |
+| Exercise             | Sets × Reps | Notes                                                                |
+| -------------------- | ----------- | -------------------------------------------------------------------- |
+| Dumbbell Bench Press | 3×8         | Start 8-10 kg per hand. Flat bench. Bar path: lower chest to lockout |
+| Chest-Supported Row  | 3×10        | Machine or DB row on incline bench. Squeeze shoulder blades          |
+| Seated Dumbbell OHP  | 3×8         | 5-6 kg per hand. Elbows slightly forward, don't flare                |
+| Face Pulls           | 3×12        | Cable with rope. Pull to forehead, external rotation at end          |
+| Tricep Pushdown      | 2×12        | Optional. Cable with straight bar or rope                            |
 
 ### Tue — Lower (Squat Focus)
 
-| Exercise | Sets × Reps | Notes |
-|----------|-------------|-------|
-| Goblet Squat | 3×8 | One dumbbell held at chest. 10-12 kg. Heels down, depth as mobility allows |
-| Leg Press | 3×10 | Machine. Feet shoulder-width. Don't lock knees at top |
-| Lying Leg Curl | 3×12 | Hamstrings. 2 sec negative, explosive positive |
-| Calf Raises | 3×15 | Bodyweight or Smith machine. Full stretch at bottom |
-| Plank | 2×30 sec | Hips level. Breathe normally |
+| Exercise       | Sets × Reps | Notes                                                                      |
+| -------------- | ----------- | -------------------------------------------------------------------------- |
+| Goblet Squat   | 3×8         | One dumbbell held at chest. 10-12 kg. Heels down, depth as mobility allows |
+| Leg Press      | 3×10        | Machine. Feet shoulder-width. Don't lock knees at top                      |
+| Lying Leg Curl | 3×12        | Hamstrings. 2 sec negative, explosive positive                             |
+| Calf Raises    | 3×15        | Bodyweight or Smith machine. Full stretch at bottom                        |
+| Plank          | 2×30 sec    | Hips level. Breathe normally                                               |
 
 ### Wed — Run/Walk + Light Accessories
 
