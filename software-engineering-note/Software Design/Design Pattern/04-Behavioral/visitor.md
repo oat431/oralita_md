@@ -235,4 +235,4 @@ Use the Visitor pattern when:
 
 ## Related
 
-[[Iterator]] | [[Composite]] | [[Command]] | [[Strategy]] | [[State]] | [[SOLID Principles]]
+[[Iterator]] | [[Composite]] | [[Command]] | [[Strategy]] | [[State]] | [[solid-principles]]

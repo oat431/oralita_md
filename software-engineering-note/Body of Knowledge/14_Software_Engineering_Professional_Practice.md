@@ -67,8 +67,8 @@ tags:
 ## Related SWEBOK Chapters
 
 - [[09_Software_Engineering_Management]]: Risk management, stakeholder negotiation, team organization
-- [[10_Software_Engineering_Models_and_Methods]]: Agile methods, pair programming referenced in team dynamics
-- [[11_Software_Quality]]: Reviews and audits, peer review practices
-- [[12_Software_Requirements]]: Requirements reviews, stakeholder needs, requirements negotiation
-- [[13_Engineering_Foundations]]: Engineering design, problem-solving techniques
+- [[11_Software_Engineering_Models_and_Methods]]: Agile methods, pair programming referenced in team dynamics
+- [[12_Software_Quality]]: Reviews and audits, peer review practices
+- [[01_Software_Requirements]]: Requirements reviews, stakeholder needs, requirements negotiation
+- [[18_Engineering_Foundations]]: Engineering design, problem-solving techniques
 - [[15_Software_Engineering_Economics]]: Economic impact, trade-off analysis, cost-benefit evaluation

@@ -58,4 +58,4 @@ tags:
 - [[05_Software_Testing]]: Test case generation from models
 - [[10_Software_Engineering_Process]]: Process models, agile process models, large-scale agile
 - [[08_Software_Configuration_Management]]: Traceability and work product dependencies
-- [[06_Software_Quality]]: Inspections, reviews, and quality assurance of models
+- [[12_Software_Quality]]: Inspections, reviews, and quality assurance of models

@@ -22,7 +22,7 @@ Thai has no articles. English requires them.
 | Sun is hot. | **The** sun is hot. | Unique thing |
 | She is teacher. | She is **a** teacher. | Job/profession needs article |
 
-> See [[Articles]] for full detail.
+> See [[02 Articles]] for full detail.
 
 ---
 
@@ -37,7 +37,7 @@ Thai verbs don't change for tense — time is shown by context words (เมื�
 | I eat already. | I **have eaten** already. |
 | Tomorrow I will went. | Tomorrow I **will go**. (V1 after will!) |
 
-> See [[12 English Tense]] for the full system.
+> See [[05 12 English Tense Overview]] for the full system.
 
 ---
 
@@ -63,7 +63,7 @@ Thai uses `และ` (láe) and `แล้วก็` loosely. English uses sent
 |---------|-----------|
 | I woke up and ate breakfast and went to school and met my friend and we talked. | I woke up and ate breakfast. **Then** I went to school, **where** I met my friend. We talked for a while. |
 
-> See [[Sentence Structure]] and [[Conjunctions]].
+> See [[08 Sentence Structure]] and [[19 Conjunctions]].
 
 ---
 
@@ -102,7 +102,7 @@ Thai question particles go at the end and word order doesn't change. English inv
 | He went where? | **Where did** he go? |
 | She is how old? | **How old is** she? |
 
-> See [[Question Formation]].
+> See [[10 Question Formation]].
 
 ---
 

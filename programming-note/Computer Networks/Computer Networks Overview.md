@@ -24,7 +24,7 @@ Networks are the backbone of every distributed system. Every backend developer n
 
 > [[02 HTTP & HTTPS]] — Methods, status codes, headers, TLS handshake, HTTP/2, HTTP/3
 > [[02 TCP & UDP]] — 3-way handshake, flow control, congestion, when to use UDP
-> [[02 Email, FTP & Supporting Protocols]] — SMTP, POP3, IMAP, FTP/SFTP, DHCP, SNMP
+> [[02 Supporting Protocols]] — SMTP, POP3, IMAP, FTP/SFTP, DHCP, SNMP
 
 ### 03 Infrastructure
 

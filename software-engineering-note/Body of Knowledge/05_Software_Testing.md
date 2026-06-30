@@ -68,7 +68,7 @@ tags:
 - [[04_Software_Construction]]: Unit testing, TDD, and construction testing are core construction activities
 - [[12_Software_Quality]]: Testing is the dynamic analysis arm of quality assurance; static techniques complement testing
 - [[13_Software_Security]]: Security testing, privacy testing, fuzz testing, and penetration testing are specialized testing objectives
-- [[06_Software_Engineering_Models_and_Methods]]: Formal methods provide oracles; model-based testing techniques use behavioral models
+- [[11_Software_Engineering_Models_and_Methods]]: Formal methods provide oracles; model-based testing techniques use behavioral models
 - [[10_Software_Engineering_Process]]: Test process maturity, life cycle integration, shift-left methods (Agile, DevOps)
-- [[11_Software_Engineering_Management]]: Test effort estimation, measurement programs, staffing, and risk management
-- [[15_Computing_Foundations]]: Graph theory for control flow graphs; cyclomatic complexity as a coverage measure
+- [[09_Software_Engineering_Management]]: Test effort estimation, measurement programs, staffing, and risk management
+- [[16_Computing_Foundations]]: Graph theory for control flow graphs; cyclomatic complexity as a coverage measure

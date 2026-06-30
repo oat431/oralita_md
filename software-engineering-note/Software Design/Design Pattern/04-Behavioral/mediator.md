@@ -213,5 +213,5 @@ Use Mediator when:
 - [[Facade]]
 - [[Observer]]
 - [[Command]]
-- [[Chain of Responsibility]]
-- [[SOLID Principles]]
+- [[chain-of-responsibility]]
+- [[solid-principles]]

@@ -133,7 +133,7 @@ Key thread-safety detail: **double-checked locking.** After acquiring the thread
 - **[[Flyweight]]** — would resemble Singleton if you reduced all shared states to a single flyweight object. Two key differences:
   1. Only **one** Singleton instance exists; Flyweight can have **multiple** instances with different intrinsic states.
   2. Singleton objects **can be mutable**; Flyweight objects are **immutable**.
-- **[[Abstract Factory]]**, **[[Builder]]**, **[[Prototype]]** — all can be implemented as Singletons when only one instance of the factory or builder is needed.
+- **[[abstract-factory]]**, **[[Builder]]**, **[[Prototype]]** — all can be implemented as Singletons when only one instance of the factory or builder is needed.
 
 ## Summary Checklist
 
@@ -146,4 +146,4 @@ Key thread-safety detail: **double-checked locking.** After acquiring the thread
 
 ## Related
 
-[[Factory Method]], [[Abstract Factory]], [[Builder]], [[Prototype]], [[Facade]], [[SOLID Principles]]
+[[factory-method]], [[abstract-factory]], [[Builder]], [[Prototype]], [[Facade]], [[solid-principles]]

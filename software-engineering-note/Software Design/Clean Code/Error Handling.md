@@ -99,7 +99,7 @@ The `catch` must leave the program in a **consistent state** no matter what happ
 
 ### **Use Unchecked Exceptions**
 
-Checked exceptions violate the [[Open/Closed Principle]]: a new checked exception at a low level forces signature changes on every method in the call chain up to the handler. This breaks encapsulation — all intermediate methods must know about a low-level detail they don't care about.
+Checked exceptions violate the [[Class Design & SOLID]]: a new checked exception at a low level forces signature changes on every method in the call chain up to the handler. This breaks encapsulation — all intermediate methods must know about a low-level detail they don't care about.
 
 - **Cost:** Cascading signature changes, forced rebuilds/redeploys, broken encapsulation.
 - **Reality:** C#, C++, Python, and Ruby produce robust software without checked exceptions.
@@ -212,7 +212,7 @@ public class PerDiemMealExpenses implements MealExpenses {
 }
 ```
 
-[[Special Case Pattern]] encapsulates exceptional behavior so the client never has to deal with it.
+[[Error Handling]] encapsulates exceptional behavior so the client never has to deal with it.
 
 ---
 
@@ -289,6 +289,6 @@ Assertions (`assert p1 != null`) document intent but don't solve the runtime pro
 - [[Clean Code Principles]]
 - [[Function Design]]
 - [[Code Smells Catalog]]
-- [[Open/Closed Principle]]
-- [[Special Case Pattern]]
-- [[Logging Best Practices]]
+- [[Class Design & SOLID]]
+- [[Error Handling]]
+- [[Error Handling]]

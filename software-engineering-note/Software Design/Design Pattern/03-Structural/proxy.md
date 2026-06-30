@@ -209,4 +209,4 @@ The `YouTubeManager` never knows it received a proxy. Repeated calls to the same
 - [[Facade]]
 - [[Flyweight]]
 - [[Singleton]]
-- [[SOLID Principles]]
+- [[solid-principles]]

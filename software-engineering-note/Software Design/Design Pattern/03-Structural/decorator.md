@@ -210,4 +210,4 @@ class SalaryManager is
 
 ## Related
 
-[[Composite]], [[Adapter]], [[Proxy]], [[Chain of Responsibility]], [[Strategy]], [[SOLID Principles]]
+[[Composite]], [[Adapter]], [[Proxy]], [[chain-of-responsibility]], [[Strategy]], [[solid-principles]]

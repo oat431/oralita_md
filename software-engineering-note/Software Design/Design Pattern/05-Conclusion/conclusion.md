@@ -26,7 +26,7 @@ The conclusion is brief and forward-looking. Shvets treats this book as a founda
 
 ## Related
 
-- [[Introduction to Design Patterns]]
-- [[Design Principles]]
-- [[SOLID Principles]]
-- [[Features of Good Design]]
+- [[introduction-to-design-patterns]]
+- [[design-principles]]
+- [[solid-principles]]
+- [[features-of-good-design]]

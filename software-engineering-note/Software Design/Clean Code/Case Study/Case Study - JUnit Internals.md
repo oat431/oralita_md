@@ -720,4 +720,4 @@ Use this when reviewing your own comparison/formatting code:
 - [[Class Design & SOLID]] — Single Responsibility: separate analysis from synthesis
 - [[Code Smells Catalog]] — G9 (dead code), G11 (inconsistency), G28, G29, G30, G31, G32, G33
 - [[Unit Testing]] — Tests as safety net; 100% coverage enables aggressive refactoring
-- [[Refactoring]] — Iterative process, trial and error, extract/inline round-tripping
+- [[Function Design]] — Iterative process, trial and error, extract/inline round-tripping

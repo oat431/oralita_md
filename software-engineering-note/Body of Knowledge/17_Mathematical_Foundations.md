@@ -89,7 +89,7 @@ tags:
 - [[05_Software_Testing]]: Test coverage combinatorics, statistical testing, and probability-based quality metrics
 - [[01_Software_Requirements]]: Formal specification using predicate logic and set theory for requirement validation
 - [[03_Software_Design]]: Graph theory for architecture and component dependencies; FSM for behavioral design
-- [[13_Software_Engineering_Professional_Practice]]: Numerical precision, accuracy, and error analysis for engineering judgment
+- [[14_Software_Engineering_Professional_Practice]]: Numerical precision, accuracy, and error analysis for engineering judgment
 
 ## References
 

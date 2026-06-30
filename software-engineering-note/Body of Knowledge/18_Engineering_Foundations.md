@@ -80,6 +80,6 @@ tags:
 - [[12_Software_Quality]]: Measurement for quality assurance
 - [[10_Software_Engineering_Process]]: Engineering process in software life cycles
 - [[16_Computing_Foundations]]: Computing disciplines complementing engineering foundations
-- [[03_Software_Architecture]]: Engineering design applied to software architecture
-- [[04_Software_Design]]: Design-specific practices in software engineering
-- [[09_Software_Engineering_Economics]]: Financial criteria in engineering decision-making
+- [[02_Software_Architecture]]: Engineering design applied to software architecture
+- [[03_Software_Design]]: Design-specific practices in software engineering
+- [[15_Software_Engineering_Economics]]: Financial criteria in engineering decision-making

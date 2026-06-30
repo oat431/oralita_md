@@ -31,9 +31,9 @@ Databases are not just storage. They're the foundation that determines how fast,
 
 ### 03 Database Operations
 
-> [[03 Migration & Versioning]] — Flyway, Liquibase, version-controlled schema
-> [[03 Backup & Recovery]] — Full, differential, PITR, disaster recovery
-> [[03 Scaling Strategies]] — Replication, sharding, read replicas, connection pooling
+> [[03 Migration Backup & Scaling]] — Flyway, Liquibase, version-controlled schema
+> [[03 Migration Backup & Scaling]] — Full, differential, PITR, disaster recovery
+> [[03 Migration Backup & Scaling]] — Replication, sharding, read replicas, connection pooling
 
 ---
 

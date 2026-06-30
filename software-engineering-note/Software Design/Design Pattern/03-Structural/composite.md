@@ -206,7 +206,7 @@ class ImageEditor is
 | Pattern | Relationship |
 |---------|-------------|
 | **[[Builder]]** | Use Builder when constructing complex Composite trees; its construction steps can be programmed to work recursively. |
-| **[[Chain of Responsibility]]** | Often combined with Composite: when a leaf gets a request, it can pass it up the chain through parent components to the root. |
+| **[[chain-of-responsibility]]** | Often combined with Composite: when a leaf gets a request, it can pass it up the chain through parent components to the root. |
 | **[[Iterator]]** | Use Iterators to traverse Composite trees. |
 | **[[Visitor]]** | Use Visitor to execute an operation over an entire Composite tree without polluting component classes with operation logic. |
 | **[[Flyweight]]** | Implement shared leaf nodes of the Composite tree as Flyweights to save RAM. |
@@ -230,4 +230,4 @@ class ImageEditor is
 ---
 
 ## Related
-[[Decorator]] | [[Iterator]] | [[Visitor]] | [[Chain of Responsibility]] | [[Builder]] | [[Flyweight]] | [[Prototype]] | [[SOLID Principles]]
+[[Decorator]] | [[Iterator]] | [[Visitor]] | [[chain-of-responsibility]] | [[Builder]] | [[Flyweight]] | [[Prototype]] | [[solid-principles]]

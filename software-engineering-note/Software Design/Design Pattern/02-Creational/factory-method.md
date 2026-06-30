@@ -238,9 +238,9 @@ class Application {
 
 ## Related
 
-- [[Abstract Factory]]
+- [[abstract-factory]]
 - [[Builder]]
 - [[Prototype]]
 - [[Singleton]]
-- [[Template Method]]
-- [[SOLID Principles]]
+- [[template-method]]
+- [[solid-principles]]

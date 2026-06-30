@@ -51,8 +51,8 @@ tags:
 - [[11_Software_Engineering_Models_and_Methods]]: Quality models (ISO 25010 SQuaRE), formal methods, model checking
 - [[03_Software_Design]]: Design quality attributes and trade-off analysis
 - [[01_Software_Requirements]]: Quality requirements as Quality of Service constraints; stakeholder needs drive quality targets
-- [[15_Software_Engineering_Management]]: Risk management, measurement, and organizational commitment to quality
-- [[06_Software_Configuration_Management]]: SCM as a supporting activity for process and product quality assurance
-- [[09_Software_Engineering_Professional_Practice]]: Code of ethics and professional conduct
-- [[07_Software_Construction]]: Static analysis tools and coding standards
-- [[14_Software_Engineering_Economics]]: Cost of quality and return on quality investment
+- [[09_Software_Engineering_Management]]: Risk management, measurement, and organizational commitment to quality
+- [[08_Software_Configuration_Management]]: SCM as a supporting activity for process and product quality assurance
+- [[14_Software_Engineering_Professional_Practice]]: Code of ethics and professional conduct
+- [[04_Software_Construction]]: Static analysis tools and coding standards
+- [[15_Software_Engineering_Economics]]: Cost of quality and return on quality investment

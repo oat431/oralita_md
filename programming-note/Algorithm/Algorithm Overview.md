@@ -36,7 +36,7 @@ Data structures organize data. Algorithms process it. Together they're the found
 
 ### 03 Problem Solving
 
-> [[03 Complexity Analysis]] — Big-O, space-time tradeoffs, amortized analysis
+> [[03 Patterns & Strategies]] — Big-O, space-time tradeoffs, amortized analysis
 > [[03 Patterns & Strategies]] — Two pointers, sliding window, fast-slow, prefix sum, intervals
 
 ---

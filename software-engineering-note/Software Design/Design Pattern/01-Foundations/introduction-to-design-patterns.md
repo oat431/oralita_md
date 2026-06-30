@@ -91,11 +91,11 @@ Patterns differ by complexity, level of detail, and scale of applicability:
 
 ## Related
 
-- [[Introduction to OOP]]
-- [[Design Principles]]
-- [[SOLID Principles]]
-- [[Factory Method]]
-- [[Abstract Factory]]
+- [[introduction-to-oop]]
+- [[design-principles]]
+- [[solid-principles]]
+- [[factory-method]]
+- [[abstract-factory]]
 - [[Builder]]
 - [[Prototype]]
 - [[Singleton]]
@@ -106,7 +106,7 @@ Patterns differ by complexity, level of detail, and scale of applicability:
 - [[Facade]]
 - [[Flyweight]]
 - [[Proxy]]
-- [[Chain of Responsibility]]
+- [[chain-of-responsibility]]
 - [[Command]]
 - [[Iterator]]
 - [[Mediator]]
@@ -114,5 +114,5 @@ Patterns differ by complexity, level of detail, and scale of applicability:
 - [[Observer]]
 - [[State]]
 - [[Strategy]]
-- [[Template Method]]
+- [[template-method]]
 - [[Visitor]]

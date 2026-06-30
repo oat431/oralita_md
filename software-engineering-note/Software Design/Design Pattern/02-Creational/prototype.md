@@ -213,4 +213,4 @@ Use the Prototype pattern when:
 
 ## Related
 
-[[Factory Method]] | [[Abstract Factory]] | [[Builder]] | [[Singleton]] | [[Command]] | [[Memento]] | [[Composite]] | [[Decorator]]
+[[factory-method]] | [[abstract-factory]] | [[Builder]] | [[Singleton]] | [[Command]] | [[Memento]] | [[Composite]] | [[Decorator]]

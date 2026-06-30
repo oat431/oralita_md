@@ -90,6 +90,6 @@ tags:
 - [[04_Software_Construction]]: Construction executes design; design must provide sufficient detail (algorithms, data structures, interfaces) for programmers to code.
 - [[05_Software_Testing]]: Testing validates design; design provides the foundation for overall testing strategy and test cases.
 - [[11_Software_Engineering_Models_and_Methods]]: Design methods (OOD, structured, DDD, etc.) overlap significantly with SE models and methods; formal methods enable rigorous design analysis.
-- [[01_Computing_Foundations]]: Abstraction, problem-solving techniques, and design theory fundamentals.
+- [[16_Computing_Foundations]]: Abstraction, problem-solving techniques, and design theory fundamentals.
 - [[09_Software_Engineering_Management]]: Design reviews, audits, and quality measurement.
-- [[10_Software_Quality]]: Quality attributes, verification, validation, and certification.
+- [[12_Software_Quality]]: Quality attributes, verification, validation, and certification.

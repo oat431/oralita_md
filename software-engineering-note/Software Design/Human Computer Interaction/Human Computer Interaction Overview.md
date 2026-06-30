@@ -18,10 +18,10 @@ How to design software that humans can actually use. HCI sits at the intersectio
 
 | Section | Folder | Topics |
 |---------|--------|--------|
-| **Gestalt Laws** | [[01 Gestalt Laws/]] | 5 principles of visual perception — how the brain groups elements |
-| **UI Design** | [[02 UI Design/]] | Practical tips: typography, color, spacing, mobile-first, dark mode |
-| **UX Laws** | [[03 UX Laws/]] | 15 psychology-backed laws that govern user behavior |
-| **UX Principles** | [[04 UX Principles/]] | High-level design philosophy: user-centered design, accessibility, consistency |
+| **Gestalt Laws** | [[01 Law of Proximity]] | 5 principles of visual perception — how the brain groups elements |
+| **UI Design** | [[06 Mobile First Design]] | Practical tips: typography, color, spacing, mobile-first, dark mode |
+| **UX Laws** | [[10 Aesthetic Usability Effect]] | 15 psychology-backed laws that govern user behavior |
+| **UX Principles** | [[25 User-Centered Design]] | High-level design philosophy: user-centered design, accessibility, consistency |
 
 ---
 
@@ -42,11 +42,11 @@ Gestalt tells you **why** the eye groups things. UI tips tell you **how** to exe
 
 | You Want To... | Start Here |
 |---------------|------------|
-| Make an interface look cleaner | [[01 Gestalt Laws/]] → Proximity, Similarity |
-| Fix a cluttered screen | [[02 UI Design/]] → Spacing, Typography |
-| Understand why users leave | [[03 UX Laws/]] → Doherty Threshold, Fitts' Law |
-| Design for everyone | [[04 UX Principles/]] → Accessibility, User-Centered Design |
-| Just make it look good | [[01 Gestalt Laws/]] + [[02 UI Design/]] |
+| Make an interface look cleaner | [[01 Law of Proximity]] → Proximity, Similarity |
+| Fix a cluttered screen | [[06 Mobile First Design]] → Spacing, Typography |
+| Understand why users leave | [[10 Aesthetic Usability Effect]] → Doherty Threshold, Fitts' Law |
+| Design for everyone | [[25 User-Centered Design]] → Accessibility, User-Centered Design |
+| Just make it look good | [[01 Law of Proximity]] + [[06 Mobile First Design]] |
 
 ---
 

@@ -52,10 +52,10 @@ tags:
 ## Related SWEBOK Chapters
 
 - [[01_Software_Requirements]]: Requirements scope management, elicitation, and the review/revision process for project initiation
-- [[02_Software_Design]]: Design as part of software construction; architectural design documents as deliverables
-- [[06_Software_Configuration_Management]]: Configuration control, status accounting, and auditing during enactment and closure
-- [[08_Software_Engineering_Process]]: SDLC models (waterfall, incremental, spiral, Agile) and process-planning alignment
-- [[10_Software_Quality]]: Quality management processes, SQA, verification & validation, quality attributes
-- [[12_Software_Engineering_Economics]]: Estimation fundamentals, cost-benefit analysis, economic decision-making
-- [[14_Engineering_Foundations]]: Statistical analysis techniques, general measurement concepts underpinning software measurement
-- [[13_Software_Engineering_Models_and_Methods]]: Methods and modeling approaches selected during process planning
+- [[03_Software_Design]]: Design as part of software construction; architectural design documents as deliverables
+- [[08_Software_Configuration_Management]]: Configuration control, status accounting, and auditing during enactment and closure
+- [[10_Software_Engineering_Process]]: SDLC models (waterfall, incremental, spiral, Agile) and process-planning alignment
+- [[12_Software_Quality]]: Quality management processes, SQA, verification & validation, quality attributes
+- [[15_Software_Engineering_Economics]]: Estimation fundamentals, cost-benefit analysis, economic decision-making
+- [[18_Engineering_Foundations]]: Statistical analysis techniques, general measurement concepts underpinning software measurement
+- [[11_Software_Engineering_Models_and_Methods]]: Methods and modeling approaches selected during process planning

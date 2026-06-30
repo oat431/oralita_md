@@ -16,7 +16,7 @@ UI is the visual layer — what users see and touch. These notes cover the psych
 
 ## Gestalt Laws — How the Brain Sees
 
-> [[01 Gestalt Laws/]] — 5 principles of visual perception
+> [[01 Law of Proximity]] — 5 principles of visual perception
 
 | # | Law | File |
 |---|-----|------|
@@ -30,7 +30,7 @@ UI is the visual layer — what users see and touch. These notes cover the psych
 
 ## UI Design Tips — How to Execute
 
-> [[02 UI Design/]] — Practical techniques
+> [[06 Mobile First Design]] — Practical techniques
 
 | # | Topic | File |
 |---|-------|------|

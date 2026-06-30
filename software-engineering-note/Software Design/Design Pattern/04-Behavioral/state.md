@@ -272,5 +272,5 @@ class PlayingState extends State is
 - [[Bridge]] — Similar delegation-based structure but solves orthogonal dimension separation (abstraction vs. implementation), not internal state changes.
 - [[Observer]] — Can be combined with State to notify observers when state transitions occur.
 - [[Memento]] — Complements State for undo/rollback scenarios: Memento captures snapshots, State manages which snapshot is current.
-- [[Chain of Responsibility]] — Both avoid hard-wired decision logic, but Chain passes along a linked list while State switches a single active delegate.
-- [[SOLID Principles]] — State enforces SRP (one class per state concern) and OCP (new states without modifying existing ones).
+- [[chain-of-responsibility]] — Both avoid hard-wired decision logic, but Chain passes along a linked list while State switches a single active delegate.
+- [[solid-principles]] — State enforces SRP (one class per state concern) and OCP (new states without modifying existing ones).

@@ -275,7 +275,7 @@ Instead of storing state snapshots, each command can define an inverse operation
 
 ## Related
 
-- [[Chain of Responsibility]]
+- [[chain-of-responsibility]]
 - [[Memento]]
 - [[Observer]]
 - [[Strategy]]
@@ -283,4 +283,4 @@ Instead of storing state snapshots, each command can define an inverse operation
 - [[Iterator]]
 - [[Mediator]]
 - [[Visitor]]
-- [[SOLID Principles]]
+- [[solid-principles]]

@@ -83,6 +83,6 @@ Accounting, cost/costing (including total cost of ownership — TCO), finance, c
 - [[14_Software_Engineering_Professional_Practice]] — Code of Ethics §3.09 on estimation obligations, economic impact of professional decisions
 - [[07_Software_Maintenance]] — Maintenance cost dominance in SPLC; operate-maintain-retire consumes more resources than SDLC
 - [[12_Software_Quality]] — Quality actions that reduce rework (the largest resource consumer), defect cost growth
-- [[06_Software_Engineering_Process]] — Software life cycle models (SDLC vs. SPLC), iterative/Agile economics
-- [[02_Software_Requirements]] — Requirements prioritization as an economic decision, value-based feature selection
-- [[11_Software_Architecture]] — ATAM for architecture tradeoff analysis as compensatory MCDA
+- [[10_Software_Engineering_Process]] — Software life cycle models (SDLC vs. SPLC), iterative/Agile economics
+- [[01_Software_Requirements]] — Requirements prioritization as an economic decision, value-based feature selection
+- [[02_Software_Architecture]] — ATAM for architecture tradeoff analysis as compensatory MCDA

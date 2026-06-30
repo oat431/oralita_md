@@ -80,4 +80,4 @@ tags:
 - [[06_Software_Engineering_Operations]]: Operations and maintenance activities are deeply intertwined, especially under DevOps
 - [[09_Software_Engineering_Management]]: Maintenance planning, cost estimation, staffing, and organizational design
 - [[05_Software_Testing]]: Regression testing, continuous testing, and test planning for modification requests
-- [[10_Software_Quality]]: Maintainability as a quality characteristic; SQA, V&V, reviews, and audits in the maintenance context
+- [[12_Software_Quality]]: Maintainability as a quality characteristic; SQA, V&V, reviews, and audits in the maintenance context

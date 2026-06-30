@@ -223,4 +223,4 @@ class Application is
 
 ## Related
 
-[[Factory Method]], [[Abstract Factory]], [[Prototype]], [[Singleton]], [[Composite]], [[SOLID Principles]], [[Bridge]]
+[[factory-method]], [[abstract-factory]], [[Prototype]], [[Singleton]], [[Composite]], [[solid-principles]], [[Bridge]]

@@ -245,4 +245,4 @@ Each rule creates pressure toward the next. Tests enable fearless refactoring. R
 - [[Class Design & SOLID]] — SRP, DIP, dependency injection, interfaces
 - [[Unit Testing]] — tests as safety net, documentation, and design pressure
 - [[Code Smells Catalog]] — recognising duplication, rigidity, opacity before they metastasise
-- [[Design Patterns]] — TEMPLATE METHOD, STRATEGY, and other patterns that emerge from refactoring
+- [[Clean Code Overview]] — TEMPLATE METHOD, STRATEGY, and other patterns that emerge from refactoring

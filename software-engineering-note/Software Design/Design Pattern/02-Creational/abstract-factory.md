@@ -206,9 +206,9 @@ class ApplicationConfigurator is
 
 ## Related
 
-- [[Factory Method]]
+- [[factory-method]]
 - [[Builder]]
 - [[Prototype]]
 - [[Singleton]]
 - [[Bridge]]
-- [[SOLID Principles]]
+- [[solid-principles]]

@@ -175,7 +175,7 @@ class MonstersAI extends GameAI {
 
 ## Relations with Other Patterns
 
-- **[[Factory Method]]** — A specialization of Template Method. A Factory Method may also serve as a single step within a larger Template Method.
+- **[[factory-method]]** — A specialization of Template Method. A Factory Method may also serve as a single step within a larger Template Method.
 - **[[Strategy]]** — Template Method uses *inheritance* (class-level, static); Strategy uses *composition* (object-level, runtime-swappable). Template Method alters parts of an algorithm by extending them in subclasses; Strategy alters behavior by supplying different strategy objects.
 - **[[Bridge]]** — Template Method can define the high-level structure of an algorithm, delegating to the Bridge's implementation hierarchy for the variable parts.
 - **[[Command]]** — Template Method defines invariant algorithm skeletons; Command encapsulates requests as objects. Command may use Template Method to define a standard execution sequence for command processing.
@@ -194,7 +194,7 @@ class MonstersAI extends GameAI {
 ## Related
 
 - [[Strategy]]
-- [[Factory Method]]
+- [[factory-method]]
 - [[Bridge]]
 - [[Command]]
-- [[SOLID Principles]]
+- [[solid-principles]]

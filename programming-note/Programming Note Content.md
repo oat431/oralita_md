@@ -6,7 +6,7 @@ tags:
 
 # Programming Note — Content
 
-Quick-reference index for programming topics. Where deep content exists in [[software-engineering-note]], this file routes you there. Where it doesn't, the local note holds the outline.
+Quick-reference index for programming topics. Where deep content exists in [[Software Engineering Note Content]], this file routes you there. Where it doesn't, the local note holds the outline.
 
 ---
 

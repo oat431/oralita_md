@@ -55,4 +55,4 @@ tags:
 - [[06_Software_Engineering_Operations]] — SCM enables repeatable deployment pipelines, environment configuration management, and operational release management.
 - [[07_Software_Maintenance]] — SCM provides the traceability and change control infrastructure essential for corrective, adaptive, and perfective maintenance.
 - [[10_Software_Engineering_Process]] — SCM is a foundational software life cycle process (SLCP); process controls and audits govern configuration activities.
-- [[09_Software_Quality]] — SQA activities (V&V, audits, reviews) depend on SCM for controlled baselines; FCA/PCA are closely related to quality reviews.
+- [[12_Software_Quality]] — SQA activities (V&V, audits, reviews) depend on SCM for controlled baselines; FCA/PCA are closely related to quality reviews.

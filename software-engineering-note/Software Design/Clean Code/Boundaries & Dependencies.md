@@ -203,6 +203,6 @@ Change happens at boundaries. Good designs absorb it without huge rework.
 - [[Class Design & SOLID]] — Dependency Inversion: depend on abstractions you own
 - [[System Architecture]] — boundaries as architectural seams
 - [[Code Smells Catalog]] — *Inappropriate Intimacy* (with foreign code), *Shotgun Surgery* (Map signature changes)
-- [[Design Patterns]] — Adapter, Facade (wrapping), Seam (testing)
+- [[Clean Code Overview]] — Adapter, Facade (wrapping), Seam (testing)
 - *Test-Driven Development* — Kent Beck (learning tests origin)
 - *Working Effectively with Legacy Code* — Michael Feathers (seams)

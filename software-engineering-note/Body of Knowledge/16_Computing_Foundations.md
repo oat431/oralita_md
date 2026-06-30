@@ -96,8 +96,8 @@ AI enables machines to acquire and correlate knowledge for intelligent decision-
 ## Related SWEBOK Chapters
 
 - [[04_Software_Construction]]: Programming, coding standards, and construction practices
-- [[09_Software_Engineering_Models_and_Methods]]: Modeling techniques applied across computing domains
-- [[11_Software_Quality]]: Quality attributes impacted by architecture, algorithms, and design choices
-- [[12_Software_Quality_Assurance]]: Testing, verification, and validation of computing solutions
+- [[11_Software_Engineering_Models_and_Methods]]: Modeling techniques applied across computing domains
+- [[12_Software_Quality]]: Quality attributes impacted by architecture, algorithms, and design choices
+- [[05_Software_Testing]]: Testing, verification, and validation of computing solutions
 - [[17_Mathematical_Foundations]]: Formal underpinnings of algorithms, complexity, graphs, and logic
 - [[18_Engineering_Foundations]]: Engineering principles, design methods, and empirical methods

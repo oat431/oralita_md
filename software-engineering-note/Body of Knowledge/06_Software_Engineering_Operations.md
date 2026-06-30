@@ -52,8 +52,8 @@ tags:
 
 ## Related SWEBOK Chapters
 
-- [[02_Software_Construction]] — Preparing software for deployment: integrating, building, packaging, and testing.
+- [[04_Software_Construction]] — Preparing software for deployment: integrating, building, packaging, and testing.
 - [[08_Software_Configuration_Management]] — Release control, versioning, and build management underpin operations deployment.
-- [[07_Software_Engineering_Maintenance]] — Operations and maintenance share long-term planning; SLAs bridge both.
+- [[07_Software_Maintenance]] — Operations and maintenance share long-term planning; SLAs bridge both.
 - [[13_Software_Security]] — DevSecOps integrates security into operational practices.
 - [[12_Software_Quality]] — Operational quality, availability, and service continuity are nonfunctional quality attributes.

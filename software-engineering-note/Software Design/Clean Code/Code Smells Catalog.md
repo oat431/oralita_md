@@ -465,5 +465,5 @@ When deadlines tighten, slow tests are the first to be dropped. Do whatever it t
 - [[Emergent Design]] — Simple Design rules, refactoring toward cleanliness
 - [[Concurrency]] — Thread safety, deadlock, testing multithreaded code
 - [[System Architecture]] — Separation, configuration at high levels
-- [[Code Smell Overview]] — Alternative listing of the same smells
+- [[Code Smells Catalog]] — Alternative listing of the same smells
 - [[Clean Architecture Overview]] — Higher-level architectural heuristics

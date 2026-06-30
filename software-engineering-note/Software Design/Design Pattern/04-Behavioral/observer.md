@@ -228,7 +228,7 @@ The subscription list is dynamic. Subscribers join and leave at runtime as neede
 | Pattern | Relationship |
 |---------|-------------|
 | **[[Mediator]]** | Mediator eliminates direct component dependencies through a central object; Observer establishes dynamic one-way connections. They combine well: mediator acts as publisher, components as subscribers. A pure Mediator with permanent links doesn't resemble Observer. |
-| **[[Chain of Responsibility]]** | Chain passes a request sequentially along a dynamic chain until handled. Observer broadcasts to all subscribers simultaneously. |
+| **[[chain-of-responsibility]]** | Chain passes a request sequentially along a dynamic chain until handled. Observer broadcasts to all subscribers simultaneously. |
 | **[[Command]]** | Command establishes unidirectional sender→receiver connections. Observer adds dynamic subscribe/unsubscribe to that model. |
 | **[[State]]** | State pattern often uses Observer to notify interested objects of state transitions. |
 | **[[Strategy]]** | Both rely on interfaces for decoupling, but Strategy swaps algorithms while Observer manages notification subscriptions. |
@@ -251,4 +251,4 @@ The subscription list is dynamic. Subscribers join and leave at runtime as neede
 
 ## Related
 
-[[Mediator]] | [[Chain of Responsibility]] | [[Command]] | [[State]] | [[Strategy]] | [[SOLID Principles]]
+[[Mediator]] | [[chain-of-responsibility]] | [[Command]] | [[State]] | [[Strategy]] | [[solid-principles]]

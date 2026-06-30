@@ -244,9 +244,9 @@ Instead of multiplying subclasses, `Transport` objects delegate to `Engine` and 
 
 ## Related
 
-- [[SOLID Principles]]
-- [[Features of Good Design]]
-- [[Introduction to OOP]]
+- [[solid-principles]]
+- [[features-of-good-design]]
+- [[introduction-to-oop]]
 - [[Strategy]]
 - [[Decorator]]
 - [[Adapter]]

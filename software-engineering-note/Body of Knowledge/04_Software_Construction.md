@@ -57,10 +57,10 @@ tags:
 
 ## Related SWEBOK Chapters
 
-- [[02_Software_Design]]: Design flows directly into construction; much detailed design happens during construction
+- [[03_Software_Design]]: Design flows directly into construction; much detailed design happens during construction
 - [[05_Software_Testing]]: Construction testing (unit + integration) feeds into broader testing activities; test-first programming bridges both KAs
-- [[06_Software_Configuration_Management]]: Construction produces the highest volume of configuration items (source files, docs, test cases)
-- [[08_Software_Quality]]: Code is the ultimate deliverable; construction quality techniques directly determine product quality
+- [[08_Software_Configuration_Management]]: Construction produces the highest volume of configuration items (source files, docs, test cases)
+- [[12_Software_Quality]]: Code is the ultimate deliverable; construction quality techniques directly determine product quality
 - [[09_Software_Engineering_Management]]: Construction produces the most deliverables to manage; planning and measurement are critical
-- [[13_Computing_Foundations]]: Construction depends on knowledge of algorithms, data structures, and coding practices
+- [[16_Computing_Foundations]]: Construction depends on knowledge of algorithms, data structures, and coding practices
 - [[10_Software_Engineering_Process]]: Construction measurement and life cycle model choices interact with process KAs

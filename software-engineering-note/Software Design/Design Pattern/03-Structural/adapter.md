@@ -204,4 +204,4 @@ The app's data pipeline produces XML; a third-party analytics library consumes o
 - [[Decorator]]
 - [[Proxy]]
 - [[Facade]]
-- [[SOLID Principles]]
+- [[solid-principles]]

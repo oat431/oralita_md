@@ -402,7 +402,7 @@ classDiagram
 
 ## Related
 
-- [[How to Read This Book]]
-- [[Introduction to Design Patterns]]
-- [[Design Principles]]
-- [[SOLID Principles]]
+- [[how-to-read-this-book]]
+- [[introduction-to-design-patterns]]
+- [[design-principles]]
+- [[solid-principles]]

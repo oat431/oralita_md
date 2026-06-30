@@ -77,9 +77,9 @@ tags:
 - [[03_Software_Design]]: Design realizes requirements; each requirement fans out into many design decisions
 - [[04_Software_Construction]]: Construction translates requirements-based designs into code
 - [[05_Software_Testing]]: Testing validates against requirements; ATDD/BDD blur the boundary between specification and testing
-- [[06_Software_Configuration_Management]]: Requirements documentation is subject to CM; change control is a shared concern
+- [[08_Software_Configuration_Management]]: Requirements documentation is subject to CM; change control is a shared concern
 - [[09_Software_Engineering_Management]]: Requirements drive project scope, estimation, and trade-off decisions
-- [[10_Software_Engineering_Models_and_Methods]]: Model-based requirements specification (UML, SysML, formal methods)
-- [[11_Software_Quality]]: Requirements quality (well-formedness) and reviews/audits
-- [[12_Software_Engineering_Economics]]: Economic analysis of quality-of-service constraints and cost-value trade-offs
+- [[11_Software_Engineering_Models_and_Methods]]: Model-based requirements specification (UML, SysML, formal methods)
+- [[12_Software_Quality]]: Requirements quality (well-formedness) and reviews/audits
+- [[15_Software_Engineering_Economics]]: Economic analysis of quality-of-service constraints and cost-value trade-offs
 - [[13_Software_Security]]: Security requirements as a critical, often-overlooked nonfunctional category

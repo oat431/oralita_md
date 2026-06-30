@@ -223,4 +223,4 @@ Since each memento is linked to a specific editor object (passed via constructor
 - [[Iterator]]
 - [[Prototype]]
 - [[State]]
-- [[SOLID Principles]]
+- [[solid-principles]]

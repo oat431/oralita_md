@@ -83,7 +83,7 @@ Show relationships in **time** (`at 5pm`, `on Monday`, `in June`), **place** (`a
 
 ## 7. Conjunctions
 
-See [[Conjunctions]] for full detail. Three types: coordinating (FANBOYS: `for, and, nor, but, or, yet, so`), subordinating (`because`, `although`, `if`), and correlative (`either...or`, `neither...nor`).
+See [[19 Conjunctions]] for full detail. Three types: coordinating (FANBOYS: `for, and, nor, but, or, yet, so`), subordinating (`because`, `although`, `if`), and correlative (`either...or`, `neither...nor`).
 
 ## 8. Interjections
 

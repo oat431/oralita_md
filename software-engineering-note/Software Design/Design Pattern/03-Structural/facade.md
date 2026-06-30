@@ -147,4 +147,4 @@ class Application is
 
 ## Related
 
-[[Adapter]], [[Mediator]], [[Singleton]], [[Abstract Factory]], [[Proxy]], [[SOLID Principles]]
+[[Adapter]], [[Mediator]], [[Singleton]], [[abstract-factory]], [[Proxy]], [[solid-principles]]

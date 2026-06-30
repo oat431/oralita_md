@@ -25,7 +25,7 @@ APIs are the contracts between systems. Design them well and they last for years
 > [[02 gRPC]] — Protobuf, streaming, HTTP/2, code generation, vs REST
 > [[02 WebSocket]] — Persistent connections, real-time use cases, vs polling
 > [[02 WebHook]] — Event-driven callbacks, idempotency, retry, vs polling
-> [[02 SOAP, MQTT & AMQP]] — Legacy enterprise, IoT messaging, wire-level protocol reference
+> [[02 SOAP MQTT AMQP]] — Legacy enterprise, IoT messaging, wire-level protocol reference
 
 ### 03 API Security
 

@@ -207,6 +207,6 @@ class ExampleApplication is
 - [[State]] — Shares the composition + delegation structure. Strategy keeps strategies independent; State allows concrete states to know and transition between each other.
 - [[Bridge]] — Similar delegation structure, but Bridge separates orthogonal dimensions (abstraction vs. implementation); Strategy swaps interchangeable behaviors.
 - [[Command]] — Both parameterize objects with actions. Command wraps operations for deferred execution and history; Strategy swaps algorithmic behavior at runtime.
-- [[Template Method]] — Inheritance-based alternative: Template Method defines a skeleton at class level (static); Strategy uses composition at object level (runtime-swappable).
+- [[template-method]] — Inheritance-based alternative: Template Method defines a skeleton at class level (static); Strategy uses composition at object level (runtime-swappable).
 - [[Decorator]] — Strategy changes the "guts" (core behavior); Decorator changes the "skin" (adds wrapping layers without altering the core interface).
-- [[SOLID Principles]] — Strategy directly embodies the Open/Closed Principle: new algorithms are added by creating classes, not by modifying the context.
+- [[solid-principles]] — Strategy directly embodies the Open/Closed Principle: new algorithms are added by creating classes, not by modifying the context.

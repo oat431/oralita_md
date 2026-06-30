@@ -258,5 +258,5 @@ The caller shouldn't know about dots, slashes, file extensions, or directory pat
 - [[Clean Code Principles]] — The foundation: meaningful names, small functions, minimal side effects
 - [[Class Design & SOLID]] — SRP, OCP, LSP, ISP, DIP applied to class organization
 - [[Code Smells Catalog]] — G36 (train wrecks), G34 (mixed levels of abstraction), Feature Envy from Refactoring
-- [[Tell Don't Ask]] — The principle that objects should be commanded, not interrogated
-- [[Law of Demeter]] — Deeper exploration of the "talk to friends" heuristic
+- [[Objects vs Data Structures]] — The principle that objects should be commanded, not interrogated
+- [[Objects vs Data Structures]] — Deeper exploration of the "talk to friends" heuristic

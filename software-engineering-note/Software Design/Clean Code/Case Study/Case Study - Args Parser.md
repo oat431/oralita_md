@@ -624,4 +624,4 @@ Use this as a mental checklist when approaching your own refactoring:
 - [[Naming Conventions]] — N1–N7: use intention-revealing, pronounceable, searchable names
 - [[Class Design & SOLID]] — SRP, OCP, ISP; extract class, push behavior down
 - [[Code Smells Catalog]] — G16 (Large Class), G23 (Type-case with instanceof), G7 (Feature Envy), F1 (too many arguments), N5 (long names)
-- [[Refactoring Techniques]] — Replace Conditional with Polymorphism, Extract Class, Inline Method, Pull Up / Push Down
+- [[Code Smells Catalog]] — Replace Conditional with Polymorphism, Extract Class, Inline Method, Pull Up / Push Down

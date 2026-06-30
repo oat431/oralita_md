@@ -207,4 +207,4 @@ Use Chain of Responsibility when:
 
 ## Related
 
-[[Command]] | [[Mediator]] | [[Observer]] | [[Composite]] | [[Decorator]] | [[SOLID Principles]]
+[[Command]] | [[Mediator]] | [[Observer]] | [[Composite]] | [[Decorator]] | [[solid-principles]]

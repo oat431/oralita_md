@@ -16,7 +16,7 @@ UX is the layer beneath the visuals — how users feel, behave, and decide. Thes
 
 ## UX Laws — How Users Behave
 
-> [[03 UX Laws/]] — 15 psychology-backed principles
+> [[10 Aesthetic Usability Effect]] — 15 psychology-backed principles
 
 | # | Law | File | Core Idea |
 |---|-----|------|-----------|
@@ -40,7 +40,7 @@ UX is the layer beneath the visuals — how users feel, behave, and decide. Thes
 
 ## UX Principles — How to Design
 
-> [[04 UX Principles/]] — 5 high-level design philosophies
+> [[25 User-Centered Design]] — 5 high-level design philosophies
 
 | # | Principle | File |
 |---|-----------|------|

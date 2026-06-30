@@ -345,9 +345,9 @@ The direction of the original dependency has been **inverted**: low-level classe
 
 ## Related
 
-- [[Design Principles]]
-- [[Features of Good Design]]
-- [[Introduction to OOP]]
+- [[design-principles]]
+- [[features-of-good-design]]
+- [[introduction-to-oop]]
 - [[Strategy]]
-- [[Factory Method]]
+- [[factory-method]]
 - [[Decorator]]

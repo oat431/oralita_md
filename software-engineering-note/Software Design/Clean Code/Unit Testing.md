@@ -267,5 +267,5 @@ Tests are written **just before** the production code that makes them pass. Writ
 - [[Function Design]] — small, single-responsibility functions apply equally to tests
 - [[Class Design & SOLID]] — testability drives good class design
 - [[Code Smells Catalog]] — duplication [G5], obscurity, and mental mapping in test code
-- [[TDD Red-Green-Refactor]] — the rhythm behind the Three Laws
-- [[Given-When-Then]] — BDD-style test structuring (RSpec, Cucumber)
+- [[Unit Testing]] — the rhythm behind the Three Laws
+- [[Unit Testing]] — BDD-style test structuring (RSpec, Cucumber)

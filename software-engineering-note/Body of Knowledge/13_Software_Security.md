@@ -61,4 +61,4 @@ tags:
 - [[04_Software_Construction]]: Secure coding practices — CERT guidelines, input validation, least privilege, defense in depth
 - [[05_Software_Testing]]: Security testing — static analysis, penetration testing, fuzzing, vulnerability assessment
 - [[06_Software_Engineering_Operations]]: DevSecOps — integrating security into CI/CD culture and automation
-- [[11_Software_Quality]]: Product quality model (ISO/IEC 25010:2023) — security as a quality characteristic
+- [[12_Software_Quality]]: Product quality model (ISO/IEC 25010:2023) — security as a quality characteristic

@@ -66,6 +66,6 @@ tags:
 - [[11_Software_Engineering_Models_and_Methods]]: Methods shape and prescribe process activities
 - [[12_Software_Quality]]: Process quality and assurance
 - [[04_Software_Construction]]: Construction processes
-- [[Engineering_Foundations]]: Measurement and root cause analysis underpinning process assessment
-- [[Software_Architecture]]: Architecture definition as a technical process
-- [[Software_Testing]]: Verification and validation processes
+- [[18_Engineering_Foundations]]: Measurement and root cause analysis underpinning process assessment
+- [[02_Software_Architecture]]: Architecture definition as a technical process
+- [[05_Software_Testing]]: Verification and validation processes

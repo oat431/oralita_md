@@ -61,7 +61,7 @@ Function as a noun in the sentence. Start with: `that`, `what`, `who`, `where`, 
 
 ### 3. Adverbial Clauses
 
-Function as an adverb — describe time, reason, condition, contrast, purpose. See [[Sentence Structure]] for full list of subordinating conjunctions.
+Function as an adverb — describe time, reason, condition, contrast, purpose. See [[08 Sentence Structure]] for full list of subordinating conjunctions.
 
 | Type | Conjunction | Example |
 |------|------------|---------|

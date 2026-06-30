@@ -11,7 +11,7 @@ This is a life long learning of my software engineering career about Software De
 
 - [[Clean Architecture Overview]]
 - [[Clean Code Overview]]
-- [[Code Smell Overview]]
+- [[Code Smells Catalog]]
 - design pattern
 - [[Human Computer Interaction Overview]]
 

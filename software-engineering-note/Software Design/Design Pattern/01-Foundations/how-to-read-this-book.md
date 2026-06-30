@@ -23,7 +23,7 @@ This chapter serves as a navigation guide for the book. It establishes two readi
 
 ## Related
 
-- [[Introduction to OOP]]
-- [[Introduction to Design Patterns]]
-- [[Design Principles]]
-- [[SOLID Principles]]
+- [[introduction-to-oop]]
+- [[introduction-to-design-patterns]]
+- [[design-principles]]
+- [[solid-principles]]
