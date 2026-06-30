@@ -206,10 +206,10 @@ These three aren't optional at scale. They're the difference between a demo and 
 
 These are adjacent but separate concerns (covered in other checklists):
 
-- **API Gateway** — Routing, rate limiting, transformation, CORS, versioning → [API Gateway Checklist](./api-gateway.md)
+- **API Gateway** — Routing, rate limiting, transformation, CORS, versioning → [API Gateway Checklist](api-gateway.md)
 - **Observability** — Logging, metrics, distributed tracing → [Monitoring](../6-maintenance/MONITORING.md)
 - **Service Mesh** — mTLS, traffic splitting, advanced routing → (future checklist)
-- **Message Queues** — Async communication, event-driven architecture → covered in [API Checklist](./api.md) (Section: Message Queues)
+- **Message Queues** — Async communication, event-driven architecture → covered in [API Checklist](api.md) (Section: Message Queues)
 
 ---
 
@@ -286,7 +286,7 @@ These are adjacent but separate concerns (covered in other checklists):
 ## Related Checklists
 
 - [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md) — Concrete implementation with Eureka, Traefik, Keycloak
-- [API Gateway Checklist](./api-gateway.md) — Gateway-specific concerns (routing, rate limiting, CORS)
+- [API Gateway Checklist](api-gateway.md) — Gateway-specific concerns (routing, rate limiting, CORS)
 - [Spring Boot API Gateway Checklist](spring-boot-api-gateway.md) — Spring Cloud Gateway implementation
 - [Spring Boot API Checklist](spring-boot-api.md) — Downstream service implementation
-- [API Checklist](./api.md) — General API design patterns and security
+- [API Checklist](api.md) — General API design patterns and security
