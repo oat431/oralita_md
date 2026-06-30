@@ -2,7 +2,7 @@
 
 > OAuth2 / OpenID Connect with Keycloak + Spring Security for Spring Boot 4.x microservices.
 > Covers Boot 4.0+ (Spring Framework 7, Security 7, modular OAuth2 starters). Docker-focused for self-hosted homelabs.
-> Read the concept-level [Microservice Infrastructure Checklist](./microservice-infrastructure.md) (Part 3) first for grant types, patterns, and build vs adopt decisions.
+> Read the concept-level [Microservice Infrastructure Checklist](microservice-infrastructure.md) (Part 3) first for grant types, patterns, and build vs adopt decisions.
 > Last updated: 2026-06-11
 
 ---
@@ -507,8 +507,8 @@ public class ServiceToServiceConfig {
 
 ## Related Checklists
 
-- [Microservice Infrastructure](./microservice-infrastructure.md) — Concepts: OAuth2 vs OIDC, grant types, architecture patterns
-- [Spring Boot Microservice Infrastructure](./spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
-- [Spring Boot Eureka](./spring-boot-eureka.md) — Service Discovery
-- [Spring Boot Load Balancing](./spring-boot-loadbalance.md) — Traefik + SC LoadBalancer
-- [Spring Boot API Gateway](./spring-boot-api-gateway.md) — Gateway routes, filters, rate limiting
+- [Microservice Infrastructure](microservice-infrastructure.md) — Concepts: OAuth2 vs OIDC, grant types, architecture patterns
+- [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
+- [Spring Boot Eureka](spring-boot-eureka.md) — Service Discovery
+- [Spring Boot Load Balancing](spring-boot-loadbalance.md) — Traefik + SC LoadBalancer
+- [Spring Boot API Gateway](spring-boot-api-gateway.md) — Gateway routes, filters, rate limiting

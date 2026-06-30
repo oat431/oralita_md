@@ -102,7 +102,7 @@
 > 🧱 **Monolith calling external APIs** (payment gateway, email provider, SMS, third-party) — ✅ recommended. External dependencies can fail or slow down.  
 > 🧱 **Monolith internal calls** (in-process method invocations) — ❌ unnecessary. No network hop = no thread pool exhaustion. Circuit breakers protect remote calls, not local method calls.
 >
-> **Framework-specific checklists:** This is the general pattern. For Spring Boot specifics (Resilience4j config, `@CircuitBreaker`, fallback patterns), see [Spring Boot API Checklist](./spring-boot-api.md). For gateway-level circuit breaking, see [API Gateway Checklist](./api-gateway.md) and [Spring Boot API Gateway Checklist](./spring-boot-api-gateway.md).
+> **Framework-specific checklists:** This is the general pattern. For Spring Boot specifics (Resilience4j config, `@CircuitBreaker`, fallback patterns), see [Spring Boot API Checklist](spring-boot-api.md). For gateway-level circuit breaking, see [API Gateway Checklist](./api-gateway.md) and [Spring Boot API Gateway Checklist](spring-boot-api-gateway.md).
 
 - [ ] **Circuit breaker** — Stop calling a failing downstream after N failures within a time window. Three states: closed (normal), open (fail fast, no calls), half-open (probing recovery). Per-downstream, never one global breaker. Libraries: `gobreaker` (Go), `opossum` (Node), `resilience4j` (Java), `circuitbreaker` (Python), `fault-tolerant` (Rust).
 - [ ] **Per-destination tuning** — Different downstreams, different thresholds. Payment gateway: tight (fail fast at 30% error rate, wait 60s to recover). Email service: loose (80% error rate tolerated, 15s recovery). Non-critical features: more lenient. One size fits none.

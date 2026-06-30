@@ -181,7 +181,7 @@ services:
   #                        auth.panomete.com → 127.0.0.1:8443
 ```
 
-See [Spring Boot Load Balancing](./spring-boot-loadbalance.md) for the full nginx config file.
+See [Spring Boot Load Balancing](spring-boot-loadbalance.md) for the full nginx config file.
 
 ---
 
@@ -226,18 +226,18 @@ KC_SERVICE_B_SECRET=service-b-client-secret
 
 | Concern | Checklist | What's Covered |
 |---------|-----------|---------------|
-| **Service Discovery** | [Spring Boot Eureka](./spring-boot-eureka.md) | Eureka server + client setup, Docker config, `@LoadBalanced WebClient`, debugging, 9 gotchas |
-| **Load Balancing** | [Spring Boot Load Balancing](./spring-boot-loadbalance.md) | nginx or Traefik edge (TLS, domain routing, security headers) + SC LoadBalancer internal, gotchas for both |
-| **Open Authentication** | [Spring Boot OAuth](./spring-boot-oauth.md) | Keycloak server, realm/client config, Gateway as OAuth2 Client + Resource Server, downstream Resource Servers, client credentials, role mapping, 15+ gotchas |
+| **Service Discovery** | [Spring Boot Eureka](spring-boot-eureka.md) | Eureka server + client setup, Docker config, `@LoadBalanced WebClient`, debugging, 9 gotchas |
+| **Load Balancing** | [Spring Boot Load Balancing](spring-boot-loadbalance.md) | nginx or Traefik edge (TLS, domain routing, security headers) + SC LoadBalancer internal, gotchas for both |
+| **Open Authentication** | [Spring Boot OAuth](spring-boot-oauth.md) | Keycloak server, realm/client config, Gateway as OAuth2 Client + Resource Server, downstream Resource Servers, client credentials, role mapping, 15+ gotchas |
 
-For concepts, patterns, and build vs adopt decisions (framework-agnostic), read the [Microservice Infrastructure](./microservice-infrastructure.md) concept checklist first.
+For concepts, patterns, and build vs adopt decisions (framework-agnostic), read the [Microservice Infrastructure](microservice-infrastructure.md) concept checklist first.
 
 ---
 
 ## Related Checklists
 
-- [Microservice Infrastructure](./microservice-infrastructure.md) — Concepts, patterns, technology comparisons
-- [Spring Boot API Gateway](./spring-boot-api-gateway.md) — Gateway routes, filters, rate limiting, CORS
-- [Spring Boot API](./spring-boot-api.md) — Downstream service implementation
-- [API Gateway](./api-gateway.md) — General gateway concepts
-- [API](./api.md) — General API design and security
+- [Microservice Infrastructure](microservice-infrastructure.md) — Concepts, patterns, technology comparisons
+- [Spring Boot API Gateway](spring-boot-api-gateway.md) — Gateway routes, filters, rate limiting, CORS
+- [Spring Boot API](spring-boot-api.md) — Downstream service implementation
+- [API Gateway](api-gateway.md) — General gateway concepts
+- [API](api.md) — General API design and security

@@ -1016,9 +1016,9 @@ docker exec flowero-gate redis-cli -h redis ping
 ## Related Documents
 
 - [Flowero Guard](./Flowero%20Guard.md) — OAuth2 / Keycloak authentication system
-- [Spring Boot API Gateway Checklist](../project-checklist/spring-boot-api-gateway.md)
+- [Spring Boot API Gateway Checklist](spring-boot-api-gateway.md)
 - [API Gateway Checklist](../project-checklist/api-gateway.md)
-- [Spring Boot OAuth Checklist](../project-checklist/spring-boot-oauth.md)
+- [Spring Boot OAuth Checklist](spring-boot-oauth.md)
 - [Web app for homelab](./Web%20app%20for%20homelab.md) — Project index
 
 ---

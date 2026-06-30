@@ -1,7 +1,7 @@
 # Microservice Infrastructure Checklist
 
 > Service Discovery, Load Balancing, and Open Authentication — the three pillars that turn a collection of services into a system.
-> Framework-agnostic. For Spring Boot implementation, see [Spring Boot Microservice Infrastructure](./spring-boot-microservice-infrastructure.md).
+> Framework-agnostic. For Spring Boot implementation, see [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md).
 > Last updated: 2026-06-11
 
 ---
@@ -285,8 +285,8 @@ These are adjacent but separate concerns (covered in other checklists):
 
 ## Related Checklists
 
-- [Spring Boot Microservice Infrastructure](./spring-boot-microservice-infrastructure.md) — Concrete implementation with Eureka, Traefik, Keycloak
+- [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md) — Concrete implementation with Eureka, Traefik, Keycloak
 - [API Gateway Checklist](./api-gateway.md) — Gateway-specific concerns (routing, rate limiting, CORS)
-- [Spring Boot API Gateway Checklist](./spring-boot-api-gateway.md) — Spring Cloud Gateway implementation
-- [Spring Boot API Checklist](./spring-boot-api.md) — Downstream service implementation
+- [Spring Boot API Gateway Checklist](spring-boot-api-gateway.md) — Spring Cloud Gateway implementation
+- [Spring Boot API Checklist](spring-boot-api.md) — Downstream service implementation
 - [API Checklist](./api.md) — General API design patterns and security

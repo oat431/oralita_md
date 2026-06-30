@@ -2,7 +2,7 @@
 
 > Service Discovery implementation with Spring Cloud Netflix Eureka for Spring Boot 4.x microservices.
 > Covers Boot 4.0+ (Spring Framework 7, Spring Cloud 2025.x). Docker-focused for self-hosted homelabs.
-> Read the concept-level [Microservice Infrastructure Checklist](./microservice-infrastructure.md) (Part 1) first for patterns and decisions.
+> Read the concept-level [Microservice Infrastructure Checklist](microservice-infrastructure.md) (Part 1) first for patterns and decisions.
 > Last updated: 2026-06-11
 
 ---
@@ -265,7 +265,7 @@ spring:
 
 ## Related Checklists
 
-- [Microservice Infrastructure](./microservice-infrastructure.md) — Concepts: client-side vs server-side discovery, AP vs CP, build vs adopt
-- [Spring Boot Microservice Infrastructure](./spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
-- [Spring Boot Load Balancing](./spring-boot-loadbalance.md) — Traefik + Spring Cloud LoadBalancer
-- [Spring Boot OAuth](./spring-boot-oauth.md) — Keycloak + Spring Security OAuth2
+- [Microservice Infrastructure](microservice-infrastructure.md) — Concepts: client-side vs server-side discovery, AP vs CP, build vs adopt
+- [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
+- [Spring Boot Load Balancing](spring-boot-loadbalance.md) — Traefik + Spring Cloud LoadBalancer
+- [Spring Boot OAuth](spring-boot-oauth.md) — Keycloak + Spring Security OAuth2

@@ -1,6 +1,6 @@
 # Spring Boot API Checklist
 
-> Spring Boot 4.x-specific companion to the general [Backend Checklist](./api.md).
+> Spring Boot 4.x-specific companion to the general [Backend Checklist](api.md).
 > Covers Boot 4.0+ (Spring Framework 7, Java 21+, modular starters, Security 7, Jackson 3).
 > Last updated: 2026-06-11
 
@@ -176,7 +176,7 @@ void shouldOpenCircuitOnRepeatedFailure() {
 }
 ```
 
-> **Gateway + Service tier:** Circuit breaker at the API gateway protects external callers. But internal service-to-service calls bypass the gateway. Each service needs its own breaker for calls it makes to other services. Both tiers, same principle. See [API Gateway Checklist — Resilience Patterns](./api-gateway.md).
+> **Gateway + Service tier:** Circuit breaker at the API gateway protects external callers. But internal service-to-service calls bypass the gateway. Each service needs its own breaker for calls it makes to other services. Both tiers, same principle. See [API Gateway Checklist — Resilience Patterns](api-gateway.md).
 
 ## 8. Caching
 

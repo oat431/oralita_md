@@ -3,7 +3,7 @@
 > Edge Load Balancing with nginx or Traefik v3 + Internal Load Balancing with Spring Cloud LoadBalancer for Spring Boot 4.x microservices.
 > Covers Boot 4.0+ (Spring Framework 7, Spring Cloud 2025.x). Docker-focused for self-hosted homelabs.
 > Choose your edge LB — both are production-grade. nginx is simpler if you already run it; Traefik adds Docker auto-discovery.
-> Read the concept-level [Microservice Infrastructure Checklist](./microservice-infrastructure.md) (Part 2) first for algorithms and patterns.
+> Read the concept-level [Microservice Infrastructure Checklist](microservice-infrastructure.md) (Part 2) first for algorithms and patterns.
 > Last updated: 2026-06-12
 
 ---
@@ -582,8 +582,8 @@ WebClient.builder()
 
 ## Related Checklists
 
-- [Microservice Infrastructure](./microservice-infrastructure.md) — Concepts: edge vs internal LB, algorithms, health checks
-- [Spring Boot Microservice Infrastructure](./spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
-- [Spring Boot Eureka](./spring-boot-eureka.md) — Service Discovery with Eureka
-- [Spring Boot OAuth](./spring-boot-oauth.md) — Keycloak + Spring Security OAuth2
-- [Spring Boot API Gateway](./spring-boot-api-gateway.md) — Gateway filters, rate limiting, CORS
+- [Microservice Infrastructure](microservice-infrastructure.md) — Concepts: edge vs internal LB, algorithms, health checks
+- [Spring Boot Microservice Infrastructure](spring-boot-microservice-infrastructure.md) — Integration overview: architecture diagram, full Docker Compose, startup sequence
+- [Spring Boot Eureka](spring-boot-eureka.md) — Service Discovery with Eureka
+- [Spring Boot OAuth](spring-boot-oauth.md) — Keycloak + Spring Security OAuth2
+- [Spring Boot API Gateway](spring-boot-api-gateway.md) — Gateway filters, rate limiting, CORS

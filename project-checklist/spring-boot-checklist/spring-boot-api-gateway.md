@@ -1,6 +1,6 @@
 # Spring Boot API Gateway Checklist
 
-> Spring Cloud Gateway-specific companion to the general [API Gateway Checklist](./api-gateway.md).
+> Spring Cloud Gateway-specific companion to the general [API Gateway Checklist](api-gateway.md).
 > Covers Boot 4.0+ (Spring Framework 7, Spring Cloud 2025.x, Security 7 reactive, modular starters).
 > Last updated: 2026-06-11
 

@@ -838,7 +838,7 @@ curl -H "Authorization: Bearer <token>" https://gateway.panomete.com/api/v1/user
 
 - [Flowero Gate](./Flowero%20Gate.md) — API Gateway specification
 - [Spring Boot API Gateway Checklist](../project-checklist/spring-boot-flowero-gateway.md)
-- [Spring Boot OAuth Checklist](../project-checklist/spring-boot-oauth.md)
+- [Spring Boot OAuth Checklist](spring-boot-oauth.md)
 - [Web app for flowerogate](./Web%20app%20for%20flowerogate.md) — Project index
 
 ---
