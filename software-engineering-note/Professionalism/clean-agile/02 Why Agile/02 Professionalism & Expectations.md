@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 02 Professionalism & Customer Expectations
 
 Agile is often adopted for speed and quality. Those results don't show up immediately and developers get disappointed. The more important reasons: **professionalism** and **meeting reasonable customer expectations.**

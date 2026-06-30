@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Security
 
 > **Purpose:** Covers the engineering discipline of building security into software throughout the entire development life cycle — from requirements and design through construction, testing, and maintenance. Introduced new in SWEBOK v4, this KA addresses threat modeling, vulnerability management, secure coding practices, security testing methodologies, and domain-specific concerns like cloud, IoT, and machine learning security.

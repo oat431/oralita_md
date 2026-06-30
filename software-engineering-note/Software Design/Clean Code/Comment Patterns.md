@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Comment Patterns
 
 > *Source: Clean Code by Robert C. Martin, Chapter 4 (pp. 53–74)*

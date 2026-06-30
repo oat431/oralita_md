@@ -1,3 +1,11 @@
+---
+tags:
+- algorithms
+- data-structures
+- overview
+- programming
+---
+
 # Algorithms & Data Structures — Overview
 
 Data structures organize data. Algorithms process it. Together they're the foundation of efficient software — and the core of technical interviews. This vault covers practical implementations, time/space complexity, and problem-solving patterns.

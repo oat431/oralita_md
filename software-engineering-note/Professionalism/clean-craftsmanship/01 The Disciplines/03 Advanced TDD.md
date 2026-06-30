@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 03 Advanced TDD
 
 Beyond the basics — what happens when TDD gets hard. Sorting algorithms, test doubles, and the London vs Chicago debate.

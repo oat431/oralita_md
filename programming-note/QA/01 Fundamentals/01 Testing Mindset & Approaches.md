@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 01 Testing Mindset & Approaches
 
 QA is not about proving the software works. It's about finding where it doesn't — before your users do. The tester's mindset is skepticism, curiosity, and the willingness to break things.

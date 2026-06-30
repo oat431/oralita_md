@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 08 Acceptance Tests
 
 Acceptance tests are the business's definition of "done." They are specification, documentation, and regression safety net — all in one.

@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 04 Sustainable Pace
 
 A software project is a **marathon**, not a sprint (despite Scrum's terminology). Working long hours isn't dedication — it's a consequence of bad planning.

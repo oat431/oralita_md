@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 08 Color & Opacity
 
 Color is the first thing users notice and the easiest thing to get wrong. Good color use creates hierarchy, communicates state, and guides attention. Bad color use creates chaos.

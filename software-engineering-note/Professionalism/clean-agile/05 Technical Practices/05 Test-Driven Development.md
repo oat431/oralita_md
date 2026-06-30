@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 05 Test-Driven Development
 
 TDD is the programmer's equivalent of double-entry bookkeeping. Every required behavior is entered twice: once as test code, once as production code. The difference must be zero — zero failing tests.

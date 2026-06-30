@@ -1,3 +1,11 @@
+---
+tags:
+- design-patterns
+- oop
+- software-design
+- software-engineering
+---
+
 > *Source: Dive Into Design Patterns by Alexander Shvets, "How to Read This Book" (p. 6)*
 
 > The book describes 22 classic GoF design patterns. You can read cover-to-cover or jump to patterns of interest via cross-reference anchors. All code is presented in pseudocode to remain language-agnostic. Readers new to OOP should brush up on key OOP terms and UML diagram basics first.

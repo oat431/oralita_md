@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Object-Oriented Programming
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 5 (pp. 46–55)*

@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 02 Test-Driven Development
 
 TDD flips the script: write the test first, watch it fail, write the code to make it pass, then refactor. It's a design discipline, not a testing technique.

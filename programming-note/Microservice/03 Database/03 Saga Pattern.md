@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 03 Saga Pattern
 
 When a business transaction spans multiple services, you can't use a single ACID transaction. The Saga pattern coordinates a sequence of local transactions — each with a compensating action if something fails.

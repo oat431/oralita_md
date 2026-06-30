@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 02 Test-Driven Development
 
 TDD is the foundational discipline. Without it, the rest crumbles. This chapter covers the basics — what every craftsman must know cold.

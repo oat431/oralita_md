@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Saying No
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 2 (pp. 23–44)*

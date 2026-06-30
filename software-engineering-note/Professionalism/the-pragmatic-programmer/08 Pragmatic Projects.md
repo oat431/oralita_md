@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 08 Pragmatic Projects (Tips 55–63)
 
 Projects, not programs. Teams, not individuals. How Pragmatic Programmers work together to deliver quality.

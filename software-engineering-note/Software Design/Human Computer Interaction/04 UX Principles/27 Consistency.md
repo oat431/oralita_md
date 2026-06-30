@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 27 Consistency
 
 > **Same thing, same way. Every time.**

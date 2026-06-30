@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 03 Complexity Analysis & Problem-Solving Patterns
 
 Most interview problems fit a known pattern. Recognizing the pattern unlocks the optimal solution. This file covers Big-O analysis and the 10 most common problem-solving patterns.

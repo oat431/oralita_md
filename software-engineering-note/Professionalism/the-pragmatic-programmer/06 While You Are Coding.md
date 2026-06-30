@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 06 While You Are Coding (Tips 44–49)
 
 The act of typing — done right or wrong. This chapter covers what to think about while your fingers are on the keyboard.

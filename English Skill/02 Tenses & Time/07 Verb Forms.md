@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- tenses
+---
+
 # Verb Forms: V1, V2, V3, Ving
 
 Every English verb has up to 5 forms. Understanding these is the foundation for all tense construction.

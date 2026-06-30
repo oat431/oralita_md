@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Operations
 
 > **Purpose:** This knowledge area covers the activities and tasks needed to deploy, operate, and support a software application while preserving its integrity and stability in production environments. Brand new in SWEBOK v4, it reflects the modern shift toward DevOps, infrastructure-as-code, and site reliability engineering—where software engineers increasingly own operational responsibilities traditionally handled by separate IT operations teams.

@@ -1,3 +1,12 @@
+---
+tags:
+- database
+- nosql
+- overview
+- programming
+- sql
+---
+
 # 02 NoSQL Overview
 
 NoSQL doesn't mean "no SQL." It means "not only SQL" — databases designed for use cases where relational databases struggle: massive scale, flexible schemas, specialized data models.

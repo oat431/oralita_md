@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 04 Test Reporting & Metrics
 
 Testing without reporting is invisible. Stakeholders don't read test code — they need high-level visibility into quality. Metrics and dashboards turn test results into actionable information.

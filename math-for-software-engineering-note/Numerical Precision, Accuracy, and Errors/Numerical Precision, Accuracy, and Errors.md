@@ -1,3 +1,9 @@
+---
+tags:
+- math
+- software-engineering
+---
+
 # Topic 10: Numerical Precision, Accuracy, and Errors
 
 Computers represent numbers with finite memory. Every computation is an approximation. Understanding the limits of numerical representation is critical for scientific computing, financial systems, and any domain where precision matters.

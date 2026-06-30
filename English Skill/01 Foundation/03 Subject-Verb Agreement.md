@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- foundation
+- grammar
+- teaching
+---
+
 # Subject-Verb Agreement
 
 In English, the subject and verb must match in number. Singular subjects take singular verbs; plural subjects take plural verbs. It sounds simple — but there are many traps.

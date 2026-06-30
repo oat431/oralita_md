@@ -1,3 +1,11 @@
+---
+tags:
+- overview
+- programming
+- qa
+- testing
+---
+
 # QA & Testing — Overview
 
 Testing is not "finding bugs." It's assessing product quality through investigation and providing information to stakeholders so they can make informed decisions. This vault covers the mindset, techniques, automation, and operations of modern QA.

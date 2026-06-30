@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 21 Prägnanz's Law (Law of Simplicity)
 
 > **People perceive and interpret ambiguous or complex images in the simplest form possible.**

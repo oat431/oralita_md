@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 26 Visual Hierarchy
 
 > **Guide the user's eye by making important elements look important.**

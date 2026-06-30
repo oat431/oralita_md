@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 03 Network & TLS
 
 Network security is the outermost layer. If an attacker can't reach your service, they can't exploit it. TLS ensures that if they can reach it, they can't read or modify the traffic.

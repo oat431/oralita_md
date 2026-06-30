@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 12 Harm — The Programmer's Oath
 
 Ethics isn't optional. Programmers hold power over systems that affect lives, money, and safety. With that power comes a solemn obligation: **First, do no harm.**

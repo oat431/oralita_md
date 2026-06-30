@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 01 Common Web Attacks — OWASP Top 10
 
 These are the attacks every backend developer must defend against. Each one has a specific fix. None are hard to prevent — you just need to know them.

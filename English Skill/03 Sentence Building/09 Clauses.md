@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- sentence-structure
+- teaching
+---
+
 # Clauses
 
 A clause is a group of words with a subject and a verb. Understanding clauses is the key to building complex, accurate sentences.

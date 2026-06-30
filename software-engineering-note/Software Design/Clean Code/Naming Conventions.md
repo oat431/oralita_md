@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Naming Conventions
 
 > *Source: Clean Code by Robert C. Martin, Chapter 2 (pp. 17–30), by Tim Ottinger*

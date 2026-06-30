@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 01 CPU Scheduling
 
 The OS decides which thread gets the CPU next. Understanding scheduling helps you reason about latency, fairness, and why your thread isn't running.

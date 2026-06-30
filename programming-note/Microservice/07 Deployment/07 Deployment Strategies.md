@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 07 Deployment Strategies
 
 How you deploy matters as much as what you deploy. The wrong strategy means downtime, broken users, and 3am rollbacks. The right strategy means users never notice.

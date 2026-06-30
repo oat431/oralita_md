@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 04 Test Design
 
 How to test the hard stuff: databases, GUIs, and fragile tests. Plus the Transformation Priority Premise — a way to make TDD's small steps systematic.

@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Component Cohesion
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 12–13 (pp. 88–97)*

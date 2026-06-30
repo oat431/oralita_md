@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 05 Law of Closure
 
 > **The brain fills in missing information to perceive a complete shape.**

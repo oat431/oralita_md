@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 02 A Pragmatic Approach (Tips 11–19)
 
 How to design systems that don't break when you look at them wrong. DRY, orthogonality, reversibility — the principles that make code maintainable.

@@ -1,3 +1,10 @@
+---
+tags:
+- networking
+- programming
+- protocols
+---
+
 # 03 Troubleshooting Tools
 
 When something breaks between client and server, these tools tell you where and why. Every backend developer should be fluent in all of them.

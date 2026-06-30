@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- foundation
+- grammar
+- teaching
+---
+
 # Articles: A, An, The
 
 Articles are tiny words that cause huge problems — especially for Thai speakers (Thai has no articles). The choice between `a/an`, `the`, and no article depends on whether you're talking about something specific or general.

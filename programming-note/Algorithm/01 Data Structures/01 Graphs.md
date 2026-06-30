@@ -1,3 +1,12 @@
+---
+tags:
+- algorithms
+- data-structures
+- discrete-math
+- graphs
+- programming
+---
+
 # 01 Graphs
 
 A graph G = (V, E) is a set of vertices connected by edges. Graphs model networks, dependencies, recommendations, maps — and they're the most common interview topic after arrays and trees.

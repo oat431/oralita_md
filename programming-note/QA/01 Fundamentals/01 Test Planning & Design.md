@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 01 Test Planning & Design
 
 Testing without a plan is just hoping. Good test design answers: what to test, how to test it, in what order, and when to stop.

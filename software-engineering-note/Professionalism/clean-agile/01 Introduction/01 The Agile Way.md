@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 01 The Agile Way
 
 Agile replaces hope with data. Waterfall guesses. Agile measures.

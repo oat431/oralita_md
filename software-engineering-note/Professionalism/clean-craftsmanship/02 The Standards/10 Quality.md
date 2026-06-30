@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 10 Quality
 
 Quality is not a feature. It's not a phase. It's not something you "add later." It's the foundation everything else rests on.

@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 04 Continuous Integration & Standups
 
 CI keeps the team in sync. Standups keep the team aligned. Both are about feedback — fast, frequent, honest.

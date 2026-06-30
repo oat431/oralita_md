@@ -1,3 +1,11 @@
+---
+tags:
+- combinatorics
+- math
+- probability
+- software-engineering
+---
+
 # Topic 8: Basics of Counting
 
 Counting principles answer "how many?" — essential for complexity analysis, combinatorial testing, and probability calculations. These are the foundations Big-O notation rests on.

@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 01 Verification & Validation
 
 Verification asks: "Did we build it right?" Validation asks: "Did we build the right thing?" Both are essential. One without the other = a well-built solution to the wrong problem, or a great idea poorly executed.

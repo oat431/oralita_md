@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Testing and Embedded Architecture
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 28–29 (pp. 192–208)*

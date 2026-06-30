@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Class Design & SOLID
 
 > *"We want our systems to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors."*

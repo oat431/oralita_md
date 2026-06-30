@@ -1,3 +1,11 @@
+---
+tags:
+- common-mistakes
+- english
+- teaching
+- thai-speakers
+---
+
 # False Friends & Direct Translation Pitfalls
 
 False friends are words that look similar in Thai and English but mean different things — or Thai expressions that don't translate directly. Direct translation is the #1 source of unnatural English.

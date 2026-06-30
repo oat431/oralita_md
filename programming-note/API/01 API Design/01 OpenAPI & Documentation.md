@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 01 OpenAPI & Documentation
 
 An undocumented API is a private API — even if it's publicly accessible. OpenAPI (formerly Swagger) is the standard for describing REST APIs in a machine-readable format that generates docs, client SDKs, and tests.

@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 03 Migration, Backup & Scaling
 
 Databases in production need care. Schema changes must be versioned. Data must be backed up. And when you grow, the database must scale.

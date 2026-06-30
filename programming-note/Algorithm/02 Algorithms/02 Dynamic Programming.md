@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Dynamic Programming
 
 DP solves problems by breaking them into **overlapping subproblems** and storing results to avoid recomputation. If you find yourself solving the same subproblem repeatedly, DP is the answer.

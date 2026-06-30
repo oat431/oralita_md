@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 01 Processes & Threads
 
 A process is a running program. A thread is a unit of execution within a process. Understanding both is fundamental to writing performant backend code.

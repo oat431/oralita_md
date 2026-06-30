@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 01 SQL Fundamentals
 
 SQL is the universal language of relational databases. Every backend developer needs it — regardless of what ORM they use.

@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Construction
 
 > **Purpose:** Software Construction is the hands-on activity of creating and maintaining software through detailed design, coding, verification, unit testing, integration testing, and debugging. It sits at the intersection of design and testing — consuming design outputs and producing artifacts that feed into testing — and is where the software engineer's craft is most directly expressed.

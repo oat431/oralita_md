@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 04 Law of Continuity
 
 > **The eye follows the smoothest path. Elements arranged on a line or curve are perceived as related.**

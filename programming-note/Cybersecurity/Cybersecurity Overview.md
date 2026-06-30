@@ -1,3 +1,11 @@
+---
+tags:
+- cybersecurity
+- overview
+- programming
+- security
+---
+
 # Cybersecurity for Backend Engineers — Overview
 
 Security is not a feature. It's a property of every line of code you write. This vault focuses on what matters for building safer backends — from cryptography basics to incident response. Not a CISSP study guide. A practical defense toolkit.

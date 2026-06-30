@@ -1,3 +1,10 @@
+---
+tags:
+- networking
+- programming
+- protocols
+---
+
 # 03 Load Balancing & Proxies
 
 Distributing traffic across multiple servers. Reverse proxies sit in front. Load balancers distribute. CDNs cache at the edge.

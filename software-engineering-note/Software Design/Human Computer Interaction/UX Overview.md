@@ -1,3 +1,13 @@
+---
+tags:
+- hci
+- overview
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # User Experience Design
 
 UX is the layer beneath the visuals — how users feel, behave, and decide. These notes cover the psychology laws and design principles that govern user behavior.

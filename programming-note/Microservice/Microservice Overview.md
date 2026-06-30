@@ -1,3 +1,11 @@
+---
+tags:
+- architecture
+- microservices
+- overview
+- programming
+---
+
 # Microservice Architecture — Overview
 
 A practical guide to designing, building, and operating microservice systems. From decomposition to deployment — with the patterns, tools, and trade-offs you need in production.

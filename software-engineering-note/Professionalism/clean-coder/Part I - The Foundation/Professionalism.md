@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Professionalism
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 1 (pp. 7–22)*

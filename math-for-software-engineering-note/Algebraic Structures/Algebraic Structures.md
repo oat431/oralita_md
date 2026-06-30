@@ -1,3 +1,10 @@
+---
+tags:
+- algebra
+- math
+- software-engineering
+---
+
 # Topic 11: Algebraic Structures
 
 Algebraic structures formalize the properties of operations — what rules do `+`, `*`, `∧`, `∪` follow? Understanding these abstractions helps recognize patterns across domains and underpins functional programming typeclasses, cryptography, and abstract algebra libraries.

@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 03 The Basic Tools (Tips 20–29)
 
 A craftsman masters their tools. These are the Pragmatic Programmer's essential toolkit — not IDEs, not frameworks, but the fundamentals.

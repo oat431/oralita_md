@@ -1,3 +1,11 @@
+---
+tags:
+- conditionals
+- english
+- grammar
+- teaching
+---
+
 # Wish and If Only
 
 We use `wish` and `if only` to express desires for things that are NOT true — regrets about the present, past, or hopes for change. The grammar follows conditional patterns.

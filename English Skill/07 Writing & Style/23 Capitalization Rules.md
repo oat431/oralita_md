@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- writing
+---
+
 # Capitalization Rules
 
 English capitalizes far more words than Thai. Getting capitalization wrong in formal writing looks careless — but the rules are systematic.

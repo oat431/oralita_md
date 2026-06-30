@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 07 Service Mesh
 
 A service mesh offloads networking, security, and observability from your application code to a sidecar proxy. Your service just handles business logic — the mesh handles everything else.

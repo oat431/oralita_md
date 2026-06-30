@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 01 Stacks & Queues
 
 Stack = LIFO (last in, first out). Queue = FIFO (first in, first out). Both are O(1) for core operations. Simple structures, powerful patterns.

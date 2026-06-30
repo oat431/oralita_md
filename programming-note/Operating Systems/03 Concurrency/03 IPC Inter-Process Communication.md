@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 03 IPC — Inter-Process Communication
 
 Processes are isolated by design. IPC is how they talk to each other. Understanding the options helps you choose the right communication pattern.

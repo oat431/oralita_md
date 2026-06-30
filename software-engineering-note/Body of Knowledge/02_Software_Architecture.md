@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Architecture
 
 > **Purpose:** This knowledge area covers the fundamental concepts, representation, process, and evaluation of software architectures. It treats architecture as a distinct discipline from design—focusing on the fundamental properties of a system in its environment, the structures needed to reason about it, and the decisions that shape it throughout the lifecycle.

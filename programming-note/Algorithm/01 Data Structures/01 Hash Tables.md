@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 01 Hash Tables
 
 Hash tables give O(1) average-time insert, delete, and lookup. They're the most-used data structure in practice — dictionaries, caches, sets, database indexes all use hashing.

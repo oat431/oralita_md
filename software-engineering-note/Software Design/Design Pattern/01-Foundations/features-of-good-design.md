@@ -1,3 +1,11 @@
+---
+tags:
+- design-patterns
+- oop
+- software-design
+- software-engineering
+---
+
 > *Source: Dive Into Design Patterns by Alexander Shvets, "Features of Good Design" (pp. 32–36)*
 
 # Features of Good Design

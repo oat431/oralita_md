@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Computing Foundations
 
 > **Purpose:** This knowledge area covers the fundamental computer science concepts every software engineer must master to go beyond mere programming. It spans computer architecture and organization, data structures and algorithms, programming paradigms and languages, operating systems, database management, computer networks, human factors in interface and code design, and the principles of artificial intelligence and machine learning — the bedrock on which all software engineering practice is built.

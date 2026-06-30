@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 02 Secure Coding Practices
 
 Most vulnerabilities come from a handful of coding mistakes. Fix these patterns and you eliminate the majority of attack surface.

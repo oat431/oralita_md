@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Management
 
 > **Purpose:** This knowledge area covers the planning, estimating, measuring, controlling, coordinating, leading, and risk management activities required to deliver software products and services efficiently and effectively. It unifies project management and measurement management — arguing that management without measurement lacks discipline, and measurement without management lacks purpose. The chapter addresses the unique challenges of managing software projects, where intangible, malleable products, evolving requirements, and human-centric dynamics demand approaches distinct from traditional engineering management.

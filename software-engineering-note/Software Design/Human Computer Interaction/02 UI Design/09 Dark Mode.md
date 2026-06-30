@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 09 Dark Mode
 
 Dark mode isn't just "white background becomes black." It's a complete rethinking of contrast, depth, and visual hierarchy. Done wrong, it's harder to read than light mode.

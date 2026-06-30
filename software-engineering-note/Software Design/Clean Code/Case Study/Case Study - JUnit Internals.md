@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Case Study: JUnit Internals
 
 *Robert C. Martin — Clean Code, Chapter 15 (pp. 251–266)*

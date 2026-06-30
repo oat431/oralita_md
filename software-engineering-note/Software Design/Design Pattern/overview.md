@@ -1,3 +1,12 @@
+---
+tags:
+- design-patterns
+- oop
+- overview
+- software-design
+- software-engineering
+---
+
 # Design Patterns — Knowledge Base
 
 > *Source: Dive Into Design Patterns by Alexander Shvets, Refactoring.Guru (2022), 411 pages*

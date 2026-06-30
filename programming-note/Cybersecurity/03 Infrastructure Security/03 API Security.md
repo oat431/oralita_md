@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 03 API Security
 
 APIs are the front door to your backend. Every public endpoint is an attack surface. Secure the door before worrying about the windows.

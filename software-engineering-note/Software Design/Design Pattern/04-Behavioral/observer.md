@@ -1,3 +1,11 @@
+---
+tags:
+- design-patterns
+- oop
+- software-design
+- software-engineering
+---
+
 > *Source: Dive Into Design Patterns by Alexander Shvets, "Observer" (pp. 337–352)*
 
 # Observer

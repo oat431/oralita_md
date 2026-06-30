@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- writing
+---
+
 # Parallel Structure
 
 Parallel structure means keeping the same grammatical form in a list, comparison, or series. When items match in form, sentences flow smoothly. When they don't, the reader stumbles.

@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 04 Compliance & Frameworks
 
 Security frameworks turn "be secure" from a vague goal into a checklist. Compliance proves you're following the checklist to auditors, customers, and regulators.

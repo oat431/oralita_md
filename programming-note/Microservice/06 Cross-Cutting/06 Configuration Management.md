@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 06 Configuration Management
 
 Hardcoded config values (URLs, passwords, feature flags) scattered across services = a nightmare. Externalized configuration centralizes settings so you can change them without redeploying.

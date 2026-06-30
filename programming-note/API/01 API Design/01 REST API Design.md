@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 01 REST API Design
 
 REST is the dominant API architecture on the web. When done right, it's simple, cacheable, and scalable. When done wrong, it's a mess of inconsistent URLs and broken conventions.

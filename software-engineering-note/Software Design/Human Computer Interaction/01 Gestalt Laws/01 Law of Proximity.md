@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 01 Law of Proximity
 
 > **Objects that are close together are perceived as a group.**

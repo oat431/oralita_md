@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 09 Productivity
 
 Your new CTO walks in. She doesn't know the codebase, doesn't know the history, doesn't owe anyone loyalty. She asks one question: **"Are we productive?"** These are the standards she'll judge you by.

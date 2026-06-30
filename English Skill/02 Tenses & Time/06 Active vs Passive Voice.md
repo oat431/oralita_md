@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- tenses
+---
+
 # Active vs Passive Voice
 
 Voice tells us whether the subject **does** the action or **receives** it. Choosing the right voice makes your English sound natural — and wrong voice is a dead giveaway of a non-native speaker.

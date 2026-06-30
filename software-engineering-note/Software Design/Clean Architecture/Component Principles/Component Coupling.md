@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Component Coupling
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 14 (pp. 98–116)*

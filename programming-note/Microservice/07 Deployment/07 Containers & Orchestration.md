@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 07 Containers & Orchestration
 
 Containers package your service with its dependencies into a single, portable unit. Orchestrators manage containers at scale — scheduling, scaling, networking, and healing.

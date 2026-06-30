@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 15 Tesler's Law (Law of Conservation of Complexity)
 
 > **Every system has an irreducible amount of complexity. The question is: who handles it — the user or the system?**

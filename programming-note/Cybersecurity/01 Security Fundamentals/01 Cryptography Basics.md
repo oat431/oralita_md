@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 01 Cryptography Basics
 
 Cryptography is the math that keeps secrets secret. You don't need to implement ciphers — you need to know which algorithms to use, when, and how not to misuse them.

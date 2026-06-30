@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 03 Planning & Estimation
 
 Planning in Agile is continuous, not a one-time phase. Estimation is honest, not exact. The goal: replace hope with data.

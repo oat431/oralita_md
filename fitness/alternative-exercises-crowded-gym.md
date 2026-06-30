@@ -1,6 +1,10 @@
 ---
 date: 2026-06-29
-tags: [fitness, program, alternatives]
+tags:
+- adaptation
+- alternatives
+- fitness
+- program
 ---
 
 # Alternative Exercises — Crowded Gym Swaps

@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Practicing
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 6 (pp. 85–94)*

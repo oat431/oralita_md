@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Teams and Projects
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 13 (pp. 167–171)*

@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 04 Monitoring & Incident Response
 
 You will be breached. The question is whether you detect it in minutes or months. Monitoring catches attacks. Incident response contains the damage.

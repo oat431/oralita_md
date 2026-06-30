@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- sentence-structure
+- teaching
+---
+
 # Question Formation
 
 Asking questions correctly is harder than answering them. English has strict word order rules for questions — get them wrong and you sound like a beginner.

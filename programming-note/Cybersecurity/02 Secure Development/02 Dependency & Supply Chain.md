@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 02 Dependency & Supply Chain Security
 
 Your code is only as secure as your dependencies. A single vulnerable library can expose everything. Supply chain attacks inject malware through the tools you trust.

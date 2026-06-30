@@ -1,3 +1,11 @@
+---
+tags:
+- conditionals
+- english
+- grammar
+- teaching
+---
+
 # Conditionals
 
 Conditionals express "if X, then Y" relationships. English has five main types — each with specific tense patterns and meanings. Using the wrong type completely changes what you're saying.

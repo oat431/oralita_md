@@ -1,3 +1,11 @@
+---
+tags:
+- common-mistakes
+- english
+- teaching
+- thai-speakers
+---
+
 # Thai-English Common Mistakes
 
 These errors come from the structural differences between Thai and English. Knowing them is half the battle — awareness lets you catch yourself before the mistake leaves your mouth (or keyboard).

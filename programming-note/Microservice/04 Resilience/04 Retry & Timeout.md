@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 04 Retry, Timeout & Fallback
 
 Not every failure is permanent. Sometimes a request fails because of a momentary network blip. But retrying blindly makes things worse. These three patterns work together as a resilience stack.

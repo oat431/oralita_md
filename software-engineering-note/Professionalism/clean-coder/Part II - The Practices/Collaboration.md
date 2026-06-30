@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Collaboration
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 12 (pp. 157–166)*

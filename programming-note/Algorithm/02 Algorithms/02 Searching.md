@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Searching
 
 Finding an element in a collection. From simple linear scan to binary search and beyond.

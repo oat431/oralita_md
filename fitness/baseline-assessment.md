@@ -1,6 +1,10 @@
 ---
 date: 2026-06-29
-tags: [fitness, baseline]
+tags:
+- assessment
+- baseline
+- fitness
+- program
 ---
 
 # Baseline Assessment

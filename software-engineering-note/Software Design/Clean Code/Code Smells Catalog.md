@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Code Smells Catalog
 
 > *"Clean code is not written by following a set of rules. Professionalism and craftsmanship come from values that drive disciplines."*

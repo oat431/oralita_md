@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Testing Strategies
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 8 (pp. 113–119)*

@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Boundaries & Dependencies
 
 **Source:** *Clean Code* — Robert C. Martin, Chapter 8 by James Grenning  

@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 03 User Stories & INVEST
 
 User stories are not detailed feature specs. They are **reminders** of features — placeholders for conversations between business and development.

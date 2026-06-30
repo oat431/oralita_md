@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Concurrency
 
 *Clean Code — Robert C. Martin (by Brett L. Schuchert), pp. 177–196*

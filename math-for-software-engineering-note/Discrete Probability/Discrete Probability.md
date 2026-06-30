@@ -1,3 +1,9 @@
+---
+tags:
+- math
+- software-engineering
+---
+
 # Topic 9: Discrete Probability
 
 Probability quantifies uncertainty — how likely events are to occur. Discrete probability deals with finite sample spaces. It's the mathematical foundation for machine learning, randomized algorithms, reliability engineering, and performance modeling.

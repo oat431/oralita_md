@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 03 Container & Cloud Security
 
 Containers and cloud shift the security boundary. Misconfigured S3 buckets and privileged Docker containers have caused more breaches than exotic zero-days.

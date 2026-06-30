@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 01 Decomposition Patterns
 
 The hardest question in microservices: **where do you draw the lines?** Decompose wrong and you get a distributed monolith — all the complexity of microservices with none of the benefits.

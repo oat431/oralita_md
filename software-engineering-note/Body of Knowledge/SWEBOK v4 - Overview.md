@@ -1,3 +1,10 @@
+---
+tags:
+- overview
+- software-engineering
+- swebok
+---
+
 # SWEBOK v4 — Software Engineering Body of Knowledge
 
 > **Guide to the Software Engineering Body of Knowledge v4.0**

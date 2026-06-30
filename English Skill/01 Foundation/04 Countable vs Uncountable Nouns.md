@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- foundation
+- grammar
+- teaching
+---
+
 # Countable vs Uncountable Nouns
 
 English divides nouns into things you can count and things you can't. This affects which articles, quantifiers, and verb forms you use.

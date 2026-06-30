@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 11 Fitts' Law
 
 > **The time to reach a target depends on its size and distance.**

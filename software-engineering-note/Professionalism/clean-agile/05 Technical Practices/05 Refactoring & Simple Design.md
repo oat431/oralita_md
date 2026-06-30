@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 05 Refactoring & Simple Design
 
 Refactoring improves structure without changing behavior. Simple Design writes only what's needed. Together, they keep the codebase alive.

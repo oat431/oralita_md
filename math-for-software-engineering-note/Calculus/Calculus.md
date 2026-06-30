@@ -1,3 +1,10 @@
+---
+tags:
+- calculus
+- math
+- software-engineering
+---
+
 # Topic 12: Calculus
 
 Calculus studies continuous change — how functions grow, shrink, and accumulate. Essential for optimization, computer graphics, physics simulation, machine learning, and understanding performance curves.

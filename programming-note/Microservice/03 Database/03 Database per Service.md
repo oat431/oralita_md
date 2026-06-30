@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 03 Database per Service
 
 Each microservice owns its data. No other service touches it directly — only through the service's API. This is the single most important rule in microservice data management.

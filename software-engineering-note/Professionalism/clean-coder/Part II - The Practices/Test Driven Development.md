@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Test Driven Development
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 5 (pp. 77–84)*

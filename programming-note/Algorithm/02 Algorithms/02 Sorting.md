@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Sorting
 
 Sorting is the most studied algorithm family. Know quick sort for interviews, merge sort for stable external sort, and when to use counting/radix for integers.

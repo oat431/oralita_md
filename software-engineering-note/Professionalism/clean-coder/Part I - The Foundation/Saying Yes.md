@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Saying Yes
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 3 (pp. 45–56)*

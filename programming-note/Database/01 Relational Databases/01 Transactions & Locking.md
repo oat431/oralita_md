@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 01 Transactions & Locking
 
 Transactions keep your data consistent when things go wrong. Locking keeps concurrent transactions from stepping on each other.

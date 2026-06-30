@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 03 Backend Automation
 
 Automated backend tests are fast, reliable, and run on every commit. The goal: catch regressions before they reach production.

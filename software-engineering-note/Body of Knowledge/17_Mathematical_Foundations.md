@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Mathematical Foundations
 
 > **Purpose:** This knowledge area equips software engineers with the formal logic and mathematical reasoning needed to translate unambiguous requirements into correct code. It covers discrete structures, proof techniques, automata theory, probability, numerical methods, and algebra — the mathematical underpinnings that enable rigorous specification, verification, and analysis of software systems. Beyond numbers, it teaches how to describe and verify that logic in code is consistent with its abstractions.

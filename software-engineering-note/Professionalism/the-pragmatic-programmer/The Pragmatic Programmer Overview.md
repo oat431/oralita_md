@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- overview
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # The Pragmatic Programmer — Overview
 
 > *Source: The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt & David Thomas (1999, Addison-Wesley)*

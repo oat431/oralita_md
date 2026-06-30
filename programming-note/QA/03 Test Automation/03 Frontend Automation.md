@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 03 Frontend Automation
 
 Frontend tests validate what users actually see and interact with. They're slower and flakier than backend tests — use them sparingly at the E2E level, heavily at the component level.

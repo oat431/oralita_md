@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 19 Zeigarnik Effect
 
 > **People remember interrupted or incomplete tasks better than completed ones.**

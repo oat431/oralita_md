@@ -1,3 +1,13 @@
+---
+tags:
+- hci
+- overview
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # User Interface Design
 
 UI is the visual layer — what users see and touch. These notes cover the psychology (Gestalt) and the craft (typography, color, layout).

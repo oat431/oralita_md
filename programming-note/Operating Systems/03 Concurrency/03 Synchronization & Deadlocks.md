@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 03 Synchronization & Deadlocks
 
 When multiple threads share data, you need synchronization. When synchronization goes wrong, you get deadlocks.

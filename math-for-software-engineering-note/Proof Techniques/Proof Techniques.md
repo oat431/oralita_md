@@ -1,3 +1,11 @@
+---
+tags:
+- discrete-math
+- math
+- proofs
+- software-engineering
+---
+
 # Topic 2: Proof Techniques
 
 A proof is a logical argument that establishes the truth of a mathematical statement. Proofs are built from **axioms** (statements assumed true), and produce **theorems** (proven true), **lemmas** (helper theorems), **corollaries** (immediate consequences), and **conjectures** (unproven claims).

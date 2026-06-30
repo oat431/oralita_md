@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Clean Code Principles
 
 > *Source: Clean Code by Robert C. Martin, Chapter 1 (pp. 1–15)*

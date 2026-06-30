@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 07 Before the Project (Tips 50–54)
 
 The work that happens before a single line of code is written. Requirements, puzzles, and resisting the pressure to start coding too soon.

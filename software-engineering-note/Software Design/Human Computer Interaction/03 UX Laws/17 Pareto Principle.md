@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 17 Pareto Principle (80/20 Rule)
 
 > **80% of effects come from 20% of causes.**

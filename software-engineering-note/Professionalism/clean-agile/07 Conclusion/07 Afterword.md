@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 07 Afterword (by Eric Crichlow)
 
 Eric Crichlow, a mobile developer, reflects on 11 years of Agile experience — from skepticism to appreciation. His voice represents the working developer: not a consultant, not a founder, just someone trying to write good code.

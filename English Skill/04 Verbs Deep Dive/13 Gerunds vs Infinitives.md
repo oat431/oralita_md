@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- verbs
+---
+
 # Gerunds vs Infinitives
 
 When one verb follows another, the second verb takes either `-ing` (gerund) or `to + V1` (infinitive). There's no one rule — you must learn which verbs take which pattern.

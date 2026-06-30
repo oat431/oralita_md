@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 25 User-Centered Design (UCD)
 
 > **Design for the user, with the user, validated by the user.**

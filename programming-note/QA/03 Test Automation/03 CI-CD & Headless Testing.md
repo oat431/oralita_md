@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 03 CI/CD & Headless Testing
 
 Tests that only run on a developer's machine are useless. CI/CD pipelines run tests automatically on every commit — blocking broken code from reaching production.

@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 20 Serial Position Effect
 
 > **Users remember the first and last items in a series best.**

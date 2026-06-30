@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Mentoring & Craftsmanship
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 14 (pp. 173–185)*

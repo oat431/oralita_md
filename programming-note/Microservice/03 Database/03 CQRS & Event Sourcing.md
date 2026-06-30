@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 03 CQRS & Event Sourcing
 
 CQRS separates reads from writes. Event Sourcing stores state as a sequence of events instead of a snapshot. Together they enable audit trails, high-scale reads, and eventual consistency.

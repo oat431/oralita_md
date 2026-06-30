@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 04 Circuit Breaker
 
 When a downstream service fails, retrying only makes things worse — you flood a dying service with more requests. The Circuit Breaker stops calling the failing service and fails fast, giving it time to recover.

@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Time Management
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 9 (pp. 121–133)*

@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Acceptance Testing
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 7 (pp. 95–111)*

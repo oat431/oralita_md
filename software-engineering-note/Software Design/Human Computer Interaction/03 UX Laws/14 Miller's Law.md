@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 14 Miller's Law
 
 > **The average person can hold 7 ± 2 items in working memory.**

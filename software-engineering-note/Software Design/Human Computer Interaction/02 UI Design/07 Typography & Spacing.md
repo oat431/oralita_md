@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 07 Typography & Spacing
 
 Typography is 90% of web design. Get the fonts, weights, sizes, and spacing right and everything else falls into place. Get them wrong and no amount of color or animation saves you.

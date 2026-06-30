@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 02 Key-Value & Document Databases
 
 Key-value is the simplest NoSQL model — a giant distributed hash map. Document stores extend that to semi-structured JSON documents with query capabilities.

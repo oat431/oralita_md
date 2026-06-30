@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 01 Indexing & Performance
 
 Indexes are the #1 lever for database performance. A single index can turn a 30-second query into 5 milliseconds. A missing index can bring your production database to its knees.

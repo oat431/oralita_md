@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 02 Columnar & Graph Databases
 
 When relational doesn't fit: wide-column for massive scale writes, graph for deeply connected data.

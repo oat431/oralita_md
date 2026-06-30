@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 02 Event-Driven Architecture
 
 Synchronous REST calls create tight coupling. When Service A calls Service B, A must wait for B — and if B is down, A fails. Event-driven architecture decouples services: they communicate by publishing and subscribing to events.

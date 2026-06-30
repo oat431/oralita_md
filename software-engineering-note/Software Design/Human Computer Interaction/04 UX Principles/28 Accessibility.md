@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 28 Accessibility (A11y)
 
 > **Design for everyone — including people with disabilities.**

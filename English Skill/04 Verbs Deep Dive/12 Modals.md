@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- verbs
+---
+
 # Modals
 
 Modal verbs express ability, possibility, permission, obligation, and advice. They don't change form (no -s, no -ing, no -ed) and are always followed by a **bare infinitive** (V1 without "to").

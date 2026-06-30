@@ -1,3 +1,11 @@
+---
+tags:
+- common-mistakes
+- english
+- teaching
+- thai-speakers
+---
+
 # Pronunciation Guide (Thai Speakers)
 
 English has sounds that don't exist in Thai. Mastering these makes the difference between being understood and being misunderstood.

@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Engineering Foundations
 
 > **Purpose:** This knowledge area explores the engineering mindset and its application to software: a systematic, disciplined, quantifiable approach to problem-solving. It covers the common engineering process, design thinking, abstraction, empirical and statistical methods, modeling and simulation, measurement theory, standards, root cause analysis, and the emerging intersection of Industry 4.0 with software engineering — all serving as foundational cross-cutting disciplines that underpin the other SWEBOK knowledge areas.

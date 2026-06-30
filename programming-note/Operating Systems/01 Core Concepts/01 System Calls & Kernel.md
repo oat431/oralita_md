@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 01 System Calls & Kernel
 
 System calls are the interface between your application and the OS kernel. Every file read, network send, and thread creation is a system call.

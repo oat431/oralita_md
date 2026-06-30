@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 01 Craftsmanship
 
 The opening chapter sets the stage. Craftsmanship is not a certificate. It's not a job title. It's a way of working — defined by disciplines, measured by standards, governed by ethics.

@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- foundation
+- grammar
+- teaching
+---
+
 # Parts of Speech
 
 Every English word belongs to one of eight categories. Understanding these is the first step to building correct sentences.

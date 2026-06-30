@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 02 Secrets Management
 
 Secrets are credentials that grant access: passwords, API keys, tokens, certificates, private keys, connection strings. A single leaked secret can compromise your entire system.

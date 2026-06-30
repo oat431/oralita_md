@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 01 A Pragmatic Philosophy (Tips 1–10)
 
 The foundation. Before tools, before techniques — the mindset of a Pragmatic Programmer.

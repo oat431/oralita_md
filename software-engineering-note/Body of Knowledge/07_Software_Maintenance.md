@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Maintenance
 
 > **Purpose:** Software maintenance covers the totality of activities required to cost-effectively support software while it's in operation. It is the most expensive phase of the software lifecycle — studies consistently show that over 80% of total lifecycle cost is consumed by post-delivery evolution, not initial development. This knowledge area equips engineers to understand the categories, processes, techniques, and tools needed to keep operational software healthy, adaptable, and aligned with changing business needs.

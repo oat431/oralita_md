@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 06 Coaching, Scaling & Tools
 
 Coaching keeps the team honest. Scaling keeps Agile working beyond 12 people. Tools should become transparent — not become the process.

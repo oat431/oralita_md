@@ -1,3 +1,11 @@
+---
+tags:
+- networking
+- overview
+- programming
+- protocols
+---
+
 # Computer Networks — Overview
 
 Networks are the backbone of every distributed system. Every backend developer needs to understand what happens between "the request left the browser" and "the database returned the result." This vault covers the essentials.

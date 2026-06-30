@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 02 Common Region
 
 > **Elements within the same bounded area are perceived as a group.**

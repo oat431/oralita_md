@@ -1,3 +1,13 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- overview
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Clean Craftsmanship — Overview
 
 > *Source: Clean Craftsmanship: Disciplines, Standards, and Ethics by Robert C. Martin (2022, Addison-Wesley)*

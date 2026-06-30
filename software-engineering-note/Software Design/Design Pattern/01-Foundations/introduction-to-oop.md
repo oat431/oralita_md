@@ -1,3 +1,12 @@
+---
+tags:
+- design-patterns
+- introduction
+- oop
+- software-design
+- software-engineering
+---
+
 > *Source: Dive Into Design Patterns by Alexander Shvets, "Introduction to OOP" (pp. 7–25)*
 
 # Introduction to OOP

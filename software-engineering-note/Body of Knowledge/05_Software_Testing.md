@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Testing
 
 > **Purpose:** This knowledge area covers the dynamic validation that a system under test (SUT) provides expected behaviors on a finite set of suitably selected test cases. It addresses the entire testing lifecycle — from fundamental concepts and test levels through techniques, measures, processes, tools, and domain-specific testing — making it the largest chapter in the SWEBOK at 35 pages.

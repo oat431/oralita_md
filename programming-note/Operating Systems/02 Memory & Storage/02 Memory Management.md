@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 02 Memory Management
 
 The OS gives every process the illusion of having its own private, contiguous memory — even though physical RAM is shared, fragmented, and limited.

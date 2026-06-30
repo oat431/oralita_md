@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 01 History & The Agile Manifesto
 
 Agile wasn't invented in 2001. It was a reaction to Waterfall's failures — and a return to how software was built before "Scientific Management" took over.

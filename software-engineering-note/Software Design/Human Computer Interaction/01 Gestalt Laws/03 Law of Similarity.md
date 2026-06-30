@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 03 Law of Similarity
 
 > **Elements that look similar are perceived as related or part of the same group.**

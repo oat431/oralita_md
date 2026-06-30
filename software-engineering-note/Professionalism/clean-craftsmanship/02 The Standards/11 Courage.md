@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 11 Courage
 
 The standards of productivity and quality require courage. It takes guts to say no, to give honest estimates, and to keep learning when it's easier to coast.

@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Process
 
 > **Purpose:** This knowledge area examines how software engineers organize and execute their work activities — from defining processes and selecting life cycle models (waterfall, iterative, Agile, spiral) to continuously assessing and improving those processes. It covers the fundamental concepts that transform inputs into software outputs through structured, measurable, and adaptable engineering processes.

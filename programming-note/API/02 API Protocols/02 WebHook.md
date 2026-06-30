@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 02 WebHook
 
 A WebHook is a user-defined HTTP callback. Instead of polling "has anything changed?", the server calls YOUR endpoint when something happens. It's the "don't call us, we'll call you" pattern.

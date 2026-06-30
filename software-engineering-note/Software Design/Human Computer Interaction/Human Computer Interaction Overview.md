@@ -1,3 +1,13 @@
+---
+tags:
+- hci
+- overview
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # Human Computer Interaction
 
 How to design software that humans can actually use. HCI sits at the intersection of psychology, design, and engineering — it's the science behind why some interfaces feel natural and others make you want to throw your computer out the window.

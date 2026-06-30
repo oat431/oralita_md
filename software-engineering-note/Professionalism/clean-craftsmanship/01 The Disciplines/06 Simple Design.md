@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 06 Simple Design
 
 Simple design is not easy design. It takes discipline to write only what's needed — and the skill to make that minimal code expressive.

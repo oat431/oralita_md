@@ -1,3 +1,11 @@
+---
+tags:
+- linux
+- os
+- overview
+- programming
+---
+
 # Operating Systems — Overview
 
 The OS is the layer between your code and the hardware. Understanding it helps you write faster, more reliable software — and debug problems that "make no sense" until you understand what the OS is doing underneath.

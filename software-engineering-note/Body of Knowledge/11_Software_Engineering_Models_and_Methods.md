@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Models and Methods
 
 > **Purpose:** This knowledge area covers how models and methods impose structure on software engineering to make it systematic, repeatable, and success-oriented. It addresses modeling principles (essentials, perspective, communication), the properties and analysis of models, common model types (structural and behavioral), and the landscape of development methods—from heuristic and formal to prototyping and agile.

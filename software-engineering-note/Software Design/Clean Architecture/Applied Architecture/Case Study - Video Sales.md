@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Case Study - Video Sales
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 33 (pp. 220–224)*

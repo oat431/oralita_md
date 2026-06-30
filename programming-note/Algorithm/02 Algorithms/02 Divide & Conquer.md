@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Divide & Conquer
 
 Split the problem into smaller subproblems, solve them recursively, combine the results. Three steps: **Divide → Conquer → Combine**.

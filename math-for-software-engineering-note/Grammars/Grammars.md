@@ -1,3 +1,9 @@
+---
+tags:
+- math
+- software-engineering
+---
+
 # Topic 6: Grammars and the Chomsky Hierarchy
 
 Grammars are formal systems that define languages by specifying production rules. Understanding grammars is essential for compiler design, parser generation, and any system that processes structured text. The Chomsky hierarchy classifies all formal languages into four nested levels of expressive power.

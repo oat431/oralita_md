@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Emergent Design
 
 *Clean Code — Robert C. Martin (by Jeff Langr), pp. 171–176*

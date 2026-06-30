@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # The Clean Architecture
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 22 (pp. 161–166)*

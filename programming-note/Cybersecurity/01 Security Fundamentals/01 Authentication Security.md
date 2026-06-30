@@ -1,3 +1,10 @@
+---
+tags:
+- cybersecurity
+- programming
+- security
+---
+
 # 01 Authentication Security
 
 Authentication is the most attacked surface. Get it wrong and everything else is irrelevant.

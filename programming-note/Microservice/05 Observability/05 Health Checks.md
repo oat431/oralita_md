@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 05 Health Checks
 
 Kubernetes and load balancers need to know: is this service alive and ready to receive traffic? Health checks answer that. Without them, traffic routes to dead instances.

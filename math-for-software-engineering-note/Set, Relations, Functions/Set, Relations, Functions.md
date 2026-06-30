@@ -1,3 +1,11 @@
+---
+tags:
+- discrete-math
+- math
+- set-theory
+- software-engineering
+---
+
 # Topic 3: Sets, Relations, and Functions
 
 The fundamental building blocks of discrete mathematics. Sets group objects; relations describe connections between them; functions map inputs to outputs deterministically. Together they underpin type systems, database theory, and all of data modeling.

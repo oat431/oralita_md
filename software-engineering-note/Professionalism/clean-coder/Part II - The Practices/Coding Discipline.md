@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Coding Discipline
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 4 (pp. 57–76)*

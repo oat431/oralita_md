@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Objects vs Data Structures
 
 > *Source: Clean Code — Chapter 6, Robert C. Martin*

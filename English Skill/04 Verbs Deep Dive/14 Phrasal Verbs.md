@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- verbs
+---
+
 # Phrasal Verbs
 
 A phrasal verb = verb + particle (preposition/adverb) that together create a meaning different from the individual words. They're everywhere in spoken English — and they're a nightmare for learners because you can't guess the meaning from the parts.

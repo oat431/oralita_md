@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Screaming Architecture
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 21 (pp. 158–160)*

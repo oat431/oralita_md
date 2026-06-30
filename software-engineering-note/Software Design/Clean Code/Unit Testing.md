@@ -1,7 +1,14 @@
 ---
-source: "Clean Code — Robert C. Martin, Chapter 9, pp. 121–135"
+source: Clean Code — Robert C. Martin, Chapter 9, pp. 121–135
 created: 2026-06-20
-tags: [unit-testing, tdd, clean-code, test-design, java]
+tags:
+- clean-code
+- java
+- software-design
+- software-engineering
+- tdd
+- test-design
+- unit-testing
 ---
 
 # Unit Testing

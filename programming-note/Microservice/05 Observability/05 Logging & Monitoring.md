@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 05 Logging & Monitoring
 
 You can't fix what you can't see. In a monolith, you check one log file. In microservices, a single user request touches 5+ services — you need centralized logging and metrics to understand what's happening.

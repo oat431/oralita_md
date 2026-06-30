@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 02 GraphQL
 
 GraphQL flips REST on its head: instead of the server defining fixed endpoints, the client asks for exactly the data it needs — no over-fetching, no under-fetching, one request.

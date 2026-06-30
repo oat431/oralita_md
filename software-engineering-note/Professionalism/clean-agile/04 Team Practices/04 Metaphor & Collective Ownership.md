@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 04 Metaphor & Collective Ownership
 
 Team Practices are about the relationships of team members to one another and to the product. Metaphor creates shared language. Collective Ownership eliminates knowledge silos.

@@ -1,3 +1,10 @@
+---
+tags:
+- networking
+- programming
+- protocols
+---
+
 # 03 Network Security
 
 Security at the network layer: protecting data in transit, blocking attackers, and designing zero-trust architectures.

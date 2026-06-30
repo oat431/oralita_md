@@ -1,3 +1,10 @@
+---
+tags:
+- introduction
+- software-engineering
+- swebok
+---
+
 # Introduction to SWEBOK v4
 
 > **Purpose:** The SWEBOK Guide, maintained by the IEEE Computer Society's Professional and Educational Activities Board, defines the generally accepted knowledge of the software engineering discipline. Version 4 updates the 2014 V3 edition to improve currency, readability, consistency, and usability, incorporating modern practices like Agile, DevOps, AI/ML, and IoT across its knowledge areas.

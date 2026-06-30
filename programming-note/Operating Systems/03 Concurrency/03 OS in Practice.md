@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 03 OS in Practice — Linux Tools for Developers
 
 The tools every backend developer needs to diagnose OS-level problems. Not the theory — the practice.

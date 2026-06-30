@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 07 Collaborative Programming
 
 Programming is not a solo activity. Collaboration — through pairing, mobbing, and code review — distributes knowledge, reduces errors, and strengthens the team.

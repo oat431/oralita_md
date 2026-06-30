@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Boundaries
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 17–18 (pp. 133–148)*

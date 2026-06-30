@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 24 Robustness Principle (Postel's Law)
 
 > **Be conservative in what you do, be liberal in what you accept from others.**

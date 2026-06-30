@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 04 API Monitoring
 
 If your API is down and you don't know before your users do, you're flying blind. API monitoring catches errors, measures performance, and alerts before customers complain.

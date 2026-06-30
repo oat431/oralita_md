@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 02 The Bill of Rights
 
 Agile is supposed to heal the divide between business and development. Both sides have complementary **rights** — not just responsibilities.

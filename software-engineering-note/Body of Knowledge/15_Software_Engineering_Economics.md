@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Economics
 
 > **Purpose:** This knowledge area applies engineering economics to software — the science of choosing how to invest limited resources for maximum value. It covers ROI analysis, estimation, decision-making processes (for-profit, nonprofit, and present-economy), lifecycle costing, and the alignment of technical decisions with business goals across the entire software product life cycle.

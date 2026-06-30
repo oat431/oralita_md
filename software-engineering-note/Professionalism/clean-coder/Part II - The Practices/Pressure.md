@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Pressure
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 11 (pp. 149–155)*

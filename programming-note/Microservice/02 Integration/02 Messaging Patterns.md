@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 02 Messaging Patterns
 
 When services communicate asynchronously via messages, you need patterns for reliability, ordering, and correctness. Messages can be lost, duplicated, or arrive out of order — your system must handle all three.

@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 04 API CI/CD
 
 APIs need testing, versioning, and deployment pipelines just like any other software. But APIs have unique challenges: contract changes break consumers, versioning is political, and rollbacks are harder when external clients depend on you.

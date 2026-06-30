@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Formatting Style
 
 > *Source: Robert C. Martin, "Clean Code" — Chapter 5: Formatting*

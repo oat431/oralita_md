@@ -1,3 +1,9 @@
+---
+tags:
+- math
+- software-engineering
+---
+
 # Topic 5: Finite-State Machines (FSM)
 
 A Finite-State Machine is a mathematical abstraction of a system with a finite number of states, where inputs drive transitions between states. FSMs are the theoretical backbone of lexical analysis, protocol design, UI state management, and any reactive system.

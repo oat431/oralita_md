@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 02 Non-Functional Testing
 
 Functional testing checks WHAT the system does. Non-functional testing checks HOW WELL it does it — speed, security, usability, reliability.

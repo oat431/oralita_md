@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Greedy Algorithms
 
 Make the locally optimal choice at each step, hoping it leads to a globally optimal solution. Greedy algorithms are fast but don't always work — you must prove correctness.

@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 06 Security Patterns
 
 In a monolith, security is one login check. In microservices, every service call needs authentication and authorization — but you can't make the user log in 5 times. Security patterns solve this without coupling every service to an auth system.

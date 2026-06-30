@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- verbs
+---
+
 # Causative Verbs
 
 Causative verbs express that someone **causes** something to happen — but they may or may not do it themselves. The core four are: **make, have, let, get** (plus **help**).

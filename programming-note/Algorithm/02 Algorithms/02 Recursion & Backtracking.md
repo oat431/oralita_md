@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 02 Recursion & Backtracking
 
 Recursion: a function that calls itself. Backtracking: systematically trying possibilities and abandoning dead ends. Together they solve combinatorial problems that iteration can't express cleanly.

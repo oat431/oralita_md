@@ -1,3 +1,11 @@
+---
+tags:
+- conditionals
+- english
+- grammar
+- teaching
+---
+
 # Reported Speech (Indirect Speech)
 
 Reported speech is how we tell someone what another person said — without quoting them word-for-word. It requires shifting tenses, pronouns, and time expressions backward.

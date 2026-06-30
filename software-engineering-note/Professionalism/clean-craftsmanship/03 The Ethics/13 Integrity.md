@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 13 Integrity
 
 Integrity is doing the right thing when no one is watching. For a programmer, it means maintaining quality, consistency, and discipline — even when cutting corners would be easier.

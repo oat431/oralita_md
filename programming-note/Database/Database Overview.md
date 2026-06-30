@@ -1,3 +1,12 @@
+---
+tags:
+- database
+- nosql
+- overview
+- programming
+- sql
+---
+
 # Database Design & Management — Overview
 
 Databases are not just storage. They're the foundation that determines how fast, reliable, and scalable your application can be. This vault covers relational fundamentals, NoSQL alternatives, and production operations.

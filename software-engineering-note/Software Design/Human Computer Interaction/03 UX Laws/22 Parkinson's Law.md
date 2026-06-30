@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 22 Parkinson's Law
 
 > **Work expands to fill the time available for its completion.**

@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 02 SOAP, MQTT & AMQP
 
 Three additional protocols from the original API note. SOAP is legacy enterprise, MQTT is IoT-focused, AMQP is a messaging wire protocol — none are first-choice for new projects but all still appear in production.

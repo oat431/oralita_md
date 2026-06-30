@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 05 Pair Programming
 
 Two programmers, one screen. One types (driver), one thinks (navigator). Pairing is optional, intermittent, and the team's decision — not the manager's.

@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Quality
 
 > **Purpose:** This knowledge area covers the fundamentals of software quality — what it means, how to manage it, and how to assure it. It addresses quality from both product and process perspectives, including Software Quality Assurance (SQA), verification & validation (V&V), defect management, and quality measurement. The chapter ties software quality to organizational culture, cost, standards, safety-critical systems, and the tools that support quality activities across the development life cycle.

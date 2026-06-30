@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Main Component and Services
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 26–27 (pp. 181–191)*

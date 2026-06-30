@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 03 Acceptance Tests & Whole Team
 
 Acceptance tests turn vague requirements into unambiguous completion criteria. Whole Team removes the walls between roles.

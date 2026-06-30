@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 02 API Gateway
 
 The single entry point for all clients. Instead of every client calling every service directly, the gateway routes, aggregates, authenticates, and protects.

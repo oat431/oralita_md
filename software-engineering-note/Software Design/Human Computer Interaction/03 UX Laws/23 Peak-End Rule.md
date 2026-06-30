@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 23 Peak-End Rule
 
 > **People judge an experience based on how they felt at its peak and at its end — not on the average or sum of every moment.**

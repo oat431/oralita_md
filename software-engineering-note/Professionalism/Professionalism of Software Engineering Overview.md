@@ -1,3 +1,10 @@
+---
+tags:
+- overview
+- professionalism
+- software-engineering
+---
+
 # professionalism of Software Engineering
 
 this is a ethical and professionalism

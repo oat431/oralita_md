@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Design
 
 > **Purpose:** This knowledge area covers the discipline, processes, and work products of software design—the transformation of requirements into implementable specifications. It spans from foundational principles and design thinking through the three stages of design (architectural, high-level, and detailed), to strategies, methods, recording approaches, and quality evaluation.

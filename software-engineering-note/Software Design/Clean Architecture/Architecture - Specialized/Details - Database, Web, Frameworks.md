@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Details - Database, Web, Frameworks
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 30–32 (pp. 209–219)*

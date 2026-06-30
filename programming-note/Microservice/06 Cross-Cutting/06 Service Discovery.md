@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 06 Service Discovery
 
 In a static world, you hardcode service URLs. In microservices, instances come and go — scaling up, scaling down, crashing, restarting. Service discovery lets services find each other dynamically.

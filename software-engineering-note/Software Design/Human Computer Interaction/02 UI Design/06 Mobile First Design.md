@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 06 Mobile First Design
 
 > **Design for the smallest screen first, then scale up.**

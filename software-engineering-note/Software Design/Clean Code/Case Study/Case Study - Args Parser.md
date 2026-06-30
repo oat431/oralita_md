@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Case Study - Args Parser
 
 **Source:** *Clean Code* by Robert C. Martin — Chapter 14, "Successive Refinement" (pp. 193–250)

@@ -1,3 +1,11 @@
+---
+tags:
+- api
+- overview
+- programming
+- protocols
+---
+
 # API Design & Protocols — Overview
 
 APIs are the contracts between systems. Design them well and they last for years. Design them poorly and every integration is a firefight. This vault covers REST, GraphQL, gRPC, WebSocket, WebHook — plus the security and operations that keep them running.

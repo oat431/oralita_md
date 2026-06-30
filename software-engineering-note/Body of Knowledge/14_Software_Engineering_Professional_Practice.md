@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Engineering Professional Practice
 
 > **Purpose:** This knowledge area covers the knowledge, skills, and attitudes software engineers must possess to practice in a professional, responsible, and ethical manner. It addresses professionalism (ethics, standards, accreditation, and legal obligations), group dynamics and psychology (teamwork, cognition, and stakeholder interaction), and communication skills (reading, writing, presenting) — the non-technical foundations essential to competent and accountable engineering practice.

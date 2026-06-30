@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 04 Bulkhead Pattern
 
 In a ship, bulkheads are walls that seal off compartments. If one compartment floods, the ship stays afloat. In microservices, bulkheads isolate failures so one bad service doesn't sink the whole system.

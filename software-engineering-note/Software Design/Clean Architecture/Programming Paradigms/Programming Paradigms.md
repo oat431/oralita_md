@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Programming Paradigms
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 3–4, 6 (pp. 38–45, 56–63)*

@@ -1,3 +1,13 @@
+---
+tags:
+- agile
+- book-summary
+- overview
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Clean Agile — Overview
 
 > *Source: Clean Agile: Back to Basics by Robert C. Martin (2020, Prentice Hall)*

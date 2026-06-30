@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- sentence-structure
+- teaching
+---
+
 # Sentence Structure
 
 English sentences come in four types, from simple to complex. Mastering sentence variety makes your English sound mature and professional instead of childish and robotic.

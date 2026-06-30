@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 02 Time-Series & Search Databases
 
 Specialized databases for specialized problems: time-series for metrics/IoT, full-text search for... search.

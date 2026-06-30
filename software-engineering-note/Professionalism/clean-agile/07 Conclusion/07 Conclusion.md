@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 07 Conclusion
 
 The book's final word — one paragraph that echoes through the entire history of computing.

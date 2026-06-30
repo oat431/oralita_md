@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Requirements
 
 > **Purpose:** This knowledge area covers what software requirements *are* (an expression of needs and constraints on a product or project) and the activities needed to develop and maintain them over the software's service life. Getting requirements wrong triggers exponentially cascading rework—each requirement error fans out into many design, code, and test errors. The two primary real-world problems are **incompleteness** (stakeholder needs that never reach engineers) and **ambiguity** (requirements open to multiple interpretations).

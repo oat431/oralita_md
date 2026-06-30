@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 01 Circle of Life
 
 From Kent Beck's *Extreme Programming Explained* — the Circle of Life organizes XP practices into three concentric rings. Practices in the inner rings depend on those in the outer rings. Start from the outside and work inward.

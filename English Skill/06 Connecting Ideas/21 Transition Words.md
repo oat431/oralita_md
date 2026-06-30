@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- teaching
+- writing
+---
+
 # Transition Words
 
 Transition words connect ideas between sentences and paragraphs. They guide the reader through your logic — without them, writing feels choppy and disconnected.

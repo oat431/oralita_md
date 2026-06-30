@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # The Missing Chapter
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 34 — Written by Simon Brown (pp. 225–240)*

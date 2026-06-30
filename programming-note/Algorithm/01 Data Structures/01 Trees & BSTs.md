@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 01 Trees & BSTs
 
 Trees are hierarchical data structures. Every node has a value and references to children. The most important tree variants: binary trees, BSTs, and tries.

@@ -1,6 +1,10 @@
 ---
 date: 2026-06-29
-tags: [fitness, nutrition, protein]
+tags:
+- fitness
+- meal-plan
+- nutrition
+- protein
 ---
 
 # 160g Protein — Meal Templates

@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 01 Heaps & Priority Queues
 
 A heap is a complete binary tree where every parent is ordered relative to its children. Min-heap: parent ≤ children. Max-heap: parent ≥ children. The smallest/largest element is always at the root.

@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 02 I/O & Device Management
 
 Every disk read, network packet, and keystroke involves I/O. The OS manages devices through a layered architecture of drivers, buffers, and interrupts.

@@ -1,6 +1,10 @@
 ---
 date: 2026-06-29
-tags: [fitness, program, phase-1]
+tags:
+- beginner
+- fitness
+- phase-1
+- program
 ---
 
 # 4-Week Beginner Program — Phase 1

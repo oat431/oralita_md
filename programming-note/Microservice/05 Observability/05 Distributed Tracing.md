@@ -1,3 +1,10 @@
+---
+tags:
+- architecture
+- microservices
+- programming
+---
+
 # 05 Distributed Tracing
 
 A single user request can touch the API gateway, auth service, order service, payment service, inventory service, and notification service. When something goes wrong — which service broke? Distributed tracing follows the request across every hop.

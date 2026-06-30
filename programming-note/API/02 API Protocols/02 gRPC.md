@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 02 gRPC
 
 gRPC is a high-performance RPC framework from Google. It uses Protocol Buffers for serialization and HTTP/2 for transport — making it dramatically faster and smaller than REST/JSON for service-to-service communication.

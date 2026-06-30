@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 06 Craftsmanship (by Sandro Mancuso)
 
 Agile was quickly adopted — and quickly distorted. It became a process to deliver software faster, not better. Developers were micro-managed again, with the transparency Agile provided used **against** them. The Software Craftsmanship movement was the response.

@@ -1,3 +1,11 @@
+---
+tags:
+- discrete-math
+- math
+- number-theory
+- software-engineering
+---
+
 # Topic 7: Number Theory
 
 Number theory studies the properties of integers. It underpins cryptography, hashing, random number generation, and modular arithmetic — essential for security engineering and efficient algorithms.

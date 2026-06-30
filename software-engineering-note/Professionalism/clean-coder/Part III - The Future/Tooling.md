@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Tooling
 
 > *Source: The Clean Coder by Robert C. Martin, Appendix A (pp. 187–204)*

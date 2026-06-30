@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 03 Authorization & Rate Limiting
 
 Authentication tells you WHO. Authorization tells you what they CAN DO. Rate limiting prevents abuse. Together they're the gatekeepers of your API.

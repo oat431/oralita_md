@@ -1,3 +1,11 @@
+---
+tags:
+- database
+- nosql
+- programming
+- sql
+---
+
 # 01 Normalization
 
 Normalization eliminates data redundancy. Done right, your database is consistent and efficient. Done wrong, you get update anomalies and wasted storage.

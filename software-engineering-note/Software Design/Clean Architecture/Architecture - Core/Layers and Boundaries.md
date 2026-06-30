@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Layers and Boundaries
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 25 (pp. 174–180)*

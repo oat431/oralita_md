@@ -1,3 +1,11 @@
+---
+tags:
+- discrete-math
+- logic
+- math
+- software-engineering
+---
+
 # Topic 1: Basic Logic
 
 Logic is the foundation of all mathematical reasoning and all automated reasoning. The rules of logic specify the meaning of mathematical statements — they help us determine what follows from what. In software engineering, logic is directly translated into conditional expressions, loop guards, and formal specifications.

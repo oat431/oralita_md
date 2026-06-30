@@ -1,3 +1,10 @@
+---
+tags:
+- linux
+- os
+- programming
+---
+
 # 02 File Systems
 
 The OS organizes raw disk blocks into files and directories. Understanding inodes, journaling, and permissions helps you debug "permission denied" and "disk full" errors.

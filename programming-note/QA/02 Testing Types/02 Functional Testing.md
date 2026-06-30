@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 02 Functional Testing
 
 Functional testing verifies that the software does what it's supposed to do. It tests **what** the system does — given input X, output should be Y.

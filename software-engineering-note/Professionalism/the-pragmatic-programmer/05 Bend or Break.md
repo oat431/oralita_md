@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 05 Bend, or Break (Tips 36–43)
 
 Write code that bends but doesn't break. Flexible, decoupled, configurable — the opposite of rigid, fragile software.

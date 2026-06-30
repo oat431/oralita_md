@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # Estimation
 
 > *Source: The Clean Coder by Robert C. Martin, Chapter 10 (pp. 135–148)*

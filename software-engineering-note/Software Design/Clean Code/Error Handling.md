@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Error Handling
 
 > *"Error handling is important, but if it obscures logic, it's wrong."*

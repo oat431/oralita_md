@@ -1,3 +1,11 @@
+---
+tags:
+- discrete-math
+- graphs
+- math
+- software-engineering
+---
+
 # Topic 4: Graphs and Trees
 
 Graphs model pairwise relationships between objects. Trees are a special case — connected, acyclic graphs that form the backbone of hierarchical data structures. Together they're the mathematical foundation for networks, dependency management, and efficient search.

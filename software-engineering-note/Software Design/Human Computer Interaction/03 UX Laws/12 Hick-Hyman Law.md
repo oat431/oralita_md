@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 12 Hick-Hyman Law
 
 > **The more choices you give someone, the longer they take to decide.**

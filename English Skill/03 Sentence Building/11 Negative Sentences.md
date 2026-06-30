@@ -1,3 +1,11 @@
+---
+tags:
+- english
+- grammar
+- sentence-structure
+- teaching
+---
+
 # Negative Sentences
 
 Making a sentence negative in English is more than just adding "no." The structure changes depending on the verb and tense.

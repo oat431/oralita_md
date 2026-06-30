@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 02 WebSocket
 
 REST is request-response. WebSocket is a persistent, bidirectional connection. Once opened, either side can send data at any time — no polling, no repeated handshakes.

@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 18 Doherty Threshold
 
 > **Productivity increases when the computer and user interact at a pace (< 400ms) that ensures neither has to wait for the other.**

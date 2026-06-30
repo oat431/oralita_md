@@ -1,3 +1,10 @@
+---
+tags:
+- clean-code
+- software-design
+- software-engineering
+---
+
 # Case Study: Refactoring SerialDate
 
 **Source:** Robert C. Martin, *Clean Code: A Handbook of Agile Software Craftsmanship*, Chapter 16, pp. 267–284

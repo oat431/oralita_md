@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # SOLID Design Principles
 
 > *Source: Clean Architecture by Robert C. Martin, Chapters 7–11 (pp. 64–87)*

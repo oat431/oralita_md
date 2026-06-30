@@ -1,3 +1,9 @@
+---
+tags:
+- software-engineering
+- swebok
+---
+
 # Software Configuration Management
 
 > **Purpose:** Software Configuration Management (SCM) is the discipline of identifying, controlling, and tracking the evolution of software artifacts throughout the entire life cycle. It ensures integrity and traceability of configuration items through version control, baseline establishment, formal change control, status accounting, auditing, and release management — providing the backbone for collaborative development and quality assurance.

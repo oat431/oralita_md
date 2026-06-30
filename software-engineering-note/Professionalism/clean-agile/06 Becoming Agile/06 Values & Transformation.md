@@ -1,3 +1,12 @@
+---
+tags:
+- agile
+- book-summary
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 06 Agile Values & Transformation
 
 Becoming Agile looks easy — just a couple of disciplines and practices. Yet many organizations fail. The reason: they have misconceptions about what "becoming Agile" actually means.

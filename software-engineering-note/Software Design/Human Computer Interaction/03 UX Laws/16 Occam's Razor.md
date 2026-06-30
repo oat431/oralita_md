@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 16 Occam's Razor
 
 > **The simplest solution is usually the best.**

@@ -1,3 +1,10 @@
+---
+tags:
+- clean-architecture
+- software-design
+- software-engineering
+---
+
 # Architectural Independence
 
 > *Source: Clean Architecture by Robert C. Martin, Chapter 16 (pp. 125–132)*

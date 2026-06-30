@@ -1,3 +1,10 @@
+---
+tags:
+- algorithms
+- data-structures
+- programming
+---
+
 # 01 Arrays & Linked Lists
 
 The two most fundamental data structures. Arrays give O(1) random access. Linked lists give O(1) insertion/deletion at ends. Know both cold.

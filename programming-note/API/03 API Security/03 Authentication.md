@@ -1,3 +1,10 @@
+---
+tags:
+- api
+- programming
+- protocols
+---
+
 # 03 API Authentication
 
 Authentication answers: **who are you?** Every API endpoint must know — or it must explicitly be public. This file covers JWT, OAuth2, API keys, and session vs token auth.

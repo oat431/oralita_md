@@ -1,3 +1,10 @@
+---
+tags:
+- programming
+- qa
+- testing
+---
+
 # 04 Production Testing & Monitoring
 
 Testing doesn't stop at deployment. Production is the ultimate test environment — real users, real data, real edge cases. Production testing catches what pre-production testing misses.

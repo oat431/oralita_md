@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 05 Refactoring
 
 Refactoring is the discipline of continuous improvement. Without it, code rots. With it, code stays young forever.

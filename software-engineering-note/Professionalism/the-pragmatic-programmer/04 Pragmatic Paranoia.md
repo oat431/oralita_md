@@ -1,3 +1,11 @@
+---
+tags:
+- book-summary
+- pragmatic-programmer
+- professionalism
+- software-engineering
+---
+
 # 04 Pragmatic Paranoia (Tips 30–35)
 
 You can't write perfect software. Acknowledge that — and write code that survives when things go wrong.

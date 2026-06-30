@@ -1,3 +1,12 @@
+---
+tags:
+- hci
+- software-design
+- software-engineering
+- ui
+- ux
+---
+
 # 29 Comfort & Usability
 
 > **If using your product feels like work, users will find one that doesn't.**

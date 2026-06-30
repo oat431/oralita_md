@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- overview
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # The Clean Coder — Overview
 
 > *"We will not ship shit."*

@@ -1,3 +1,12 @@
+---
+tags:
+- book-summary
+- craftsmanship
+- professionalism
+- software-engineering
+- uncle-bob
+---
+
 # 14 Teamwork
 
 Software is built by teams. The ethics of teamwork govern how we treat each other, how we estimate, and how we hold ourselves accountable.
