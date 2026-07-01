@@ -33,12 +33,12 @@ Bring this log to your next check-in with Coach.
 | Plank          | —           | 2×30 sec    |       |
 
 ### Wed — Run/Walk + Accessories
-| Exercise | Weight (kg) | Sets × Reps / Time | Notes |
-|----------|-------------|---------------------|-------|
-| Run/Walk Intervals | — | min | Protocol used: __ |
-| Dumbbell Curls | | 2×10 | |
-| Dumbbell Lateral Raises | | 2×12 | |
-| Dead Bugs | — | 2×10/side | |
+| Exercise                | Weight (kg) | Sets × Reps / Time | Notes             |
+| ----------------------- | ----------- | ------------------ | ----------------- |
+| Run/Walk Intervals      | —           | 45 min             | Protocol used: __ |
+| Dumbbell Curls          | 15          | 2×10               |                   |
+| Dumbbell Lateral Raises | 15          | 2×12               |                   |
+| Dead Bugs               | —           | 2×10/side          |                   |
 
 ### Sat — Full Body
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -53,15 +53,15 @@ Bring this log to your next check-in with Coach.
 
 ## Week 1 Daily Check-In
 
-| Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
-| --- | ----------- | ---------------- | ------------ | ----- |
-| Mon | 8           | 122.3            | 100g         |       |
-| Tue | 6           | 122.3            | 130g         |       |
-| Wed |             |                  |              |       |
-| Thu |             |                  |              |       |
-| Fri |             |                  |              |       |
-| Sat |             |                  |              |       |
-| Sun |             |                  |              |       |
+| Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes                 |
+| --- | ----------- | ---------------- | ------------ | --------------------- |
+| Mon | 8           | 122.3            | 100g         |                       |
+| Tue | 6           | 122.3            | 130g         |                       |
+| Wed | 10          | 123.3            | 160g         | why do i gain weight? |
+| Thu |             |                  |              |                       |
+| Fri |             |                  |              |                       |
+| Sat |             |                  |              |                       |
+| Sun |             |                  |              |                       |
 
 ---
 
