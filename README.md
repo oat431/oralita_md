@@ -1,7 +1,3 @@
-# Oralita Obsidian Git Backup
+# Oralita Harness Backup
 
-it my second brain and I leave it as public
-
-I am sharing this Note between my laptop and my tablet
-
-nice to mee ya 🖖
+in case, i got new computer, or new environment.
