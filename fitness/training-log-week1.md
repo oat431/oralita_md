@@ -146,13 +146,13 @@ Bring this log to your next check-in with Coach.
 | Dead Bugs               | —           | 2×10/side          | rest              |
 
 ### Sat — Full Body
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Romanian Deadlift (RDL) | | 3×8 | |
-| Lat Pulldown | | 3×10 | |
-| Incline Dumbbell Press | | 3×8 | |
-| Bulgarian Split Squat | | 3×8/leg | |
-| Seated Cable Row | | 3×10 | |
+| Exercise                | Weight (kg) | Sets × Reps | Notes                                                   |
+| ----------------------- | ----------- | ----------- | ------------------------------------------------------- |
+| Romanian Deadlift (RDL) | 40,50,55,55 | 3×8         | Do 4x12 it quite hard, but do able                      |
+| Lat Pulldown            | 20,20,20    | 3×10        | Medium                                                  |
+| Incline Dumbbell Press  | 20,20,20,20 | 3×8         | Do 4x12, Medium                                         |
+| Bulgarian Split Squat   | 10,10,10    | 3×8/leg     | Do reverse lung instead, not a big fan with split squat |
+| Seated Cable Row        | 25,25,25    | 3×10        | Medium                                                  |
 
 ---
 ## Week 3 Daily Check-In
@@ -164,7 +164,7 @@ Bring this log to your next check-in with Coach.
 | Wed | 8           | 122.5            | 160          |       |
 | Thu | 8           | 122.3            | 160          |       |
 | Fri | 8           | 122.3            | 160          |       |
-| Sat |             |                  |              |       |
+| Sat | 8           | 122.2            | 160          |       |
 | Sun |             |                  |              |       |
 
 ---
