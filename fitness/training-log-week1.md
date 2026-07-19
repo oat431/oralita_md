@@ -165,7 +165,7 @@ Bring this log to your next check-in with Coach.
 | Thu | 8           | 122.3            | 160          |       |
 | Fri | 8           | 122.3            | 160          |       |
 | Sat | 8           | 122.2            | 160          |       |
-| Sun |             |                  |              |       |
+| Sun | 8           | 122.2            | 160          |       |
 
 ---
 ## Week 4

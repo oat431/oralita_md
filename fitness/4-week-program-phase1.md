@@ -27,63 +27,50 @@ Session length: see table above (45-60 min per lifting session, ~40 min Wed)
 
 ---
 
-## Week 1–2: Learn the Movements
+## Week 4 — Current Targets
 
 ### Mon — Upper (Push/Pull Focus)
 
-| Exercise             | Sets × Reps | Rest   | Notes                                                                |
-| -------------------- | ----------- | ------ | -------------------------------------------------------------------- |
-| Dumbbell Bench Press | 3×8         | 2 min  | Start 8-10 kg per hand. Flat bench. Bar path: lower chest to lockout |
-| Chest-Supported Row  | 3×10        | 90 sec | Machine or DB row on incline bench. Squeeze shoulder blades          |
-| Seated Dumbbell OHP  | 3×8         | 90 sec | 5-6 kg per hand. Elbows slightly forward, don't flare                |
-| Face Pulls           | 3×12        | 60 sec | Cable with rope. Pull to forehead, external rotation at end          |
-| Tricep Pushdown      | 2×12        | 60 sec | Optional. Cable with straight bar or rope                            |
+| Exercise             | Sets × Reps | Rest   | W4 Weight | Notes                                                                |
+| -------------------- | ----------- | ------ | --------- | -------------------------------------------------------------------- |
+| Dumbbell Bench Press | 3×8         | 2 min  | **22 kg** | All 3 sets at 22 kg. No ramping                                      |
+| Chest-Supported Row  | 3×10        | 90 sec | **22 kg** | All 3 sets at 22 kg                                                  |
+| Seated Dumbbell OHP  | 3×8         | 90 sec | **14 kg** | ⚠️ Strict form — full ROM, no leg drive. Rebuilding from collapse     |
+| Face Pulls           | 3×12        | 60 sec | **17 kg** | Pull to forehead, external rotation                                  |
+| Tricep Pushdown      | 2×12        | 60 sec | **17 kg** | Cable with straight bar or rope                                      |
 
 ### Tue — Lower (Squat Focus)
 
-| Exercise       | Sets × Reps | Rest   | Notes                                                                      |
-| -------------- | ----------- | ------ | -------------------------------------------------------------------------- |
-| Goblet Squat   | 3×8         | 2 min  | One dumbbell held at chest. 10-12 kg. Heels down, depth as mobility allows |
-| Leg Press      | 3×10        | 90 sec | Machine. Feet shoulder-width. Don't lock knees at top                      |
-| Lying Leg Curl | 3×12        | 60 sec | Hamstrings. 2 sec negative, explosive positive                             |
-| Calf Raises    | 3×15        | 60 sec | Bodyweight or Smith machine. Full stretch at bottom                        |
-| Plank          | 2×30 sec    | 30 sec | Hips level. Breathe normally                                               |
+| Exercise       | Sets × Reps | Rest   | W4 Weight | Notes                                                    |
+| -------------- | ----------- | ------ | --------- | -------------------------------------------------------- |
+| Goblet Squat   | 3×8         | 2 min  | **22 kg** | All 3 sets at 22 kg. Controlled depth, no ramping        |
+| Leg Press      | 3×10        | 90 sec | **45 kg** | All 3 sets at 45 kg. No ramping                          |
+| Lying Leg Curl | 3×12        | 60 sec | **22 kg** | 2 sec negative, explosive positive                       |
+| Calf Raises    | 3×15        | 60 sec | **30 kg** | All 3 sets at 30 kg                                      |
+| Plank          | 2×30 sec    | 30 sec | —         | Hips level. Breathe normally                             |
 
 ### Wed — Run/Walk + Light Accessories
 
-| Exercise                  | Sets × Reps       | Rest   | Notes                                                     |
-|---------------------------|-------------------|--------|-----------------------------------------------------------|
-| Run/Walk Intervals        | Per schedule below| —      | Treadmill or outdoor                                      |
-| Dumbbell Curls            | 2×10              | 60 sec | Light. 5-6 kg. No swinging                                |
-| Dumbbell Lateral Raises   | 2×12              | 60 sec | 3-4 kg. Lead with elbows, don't shrug                     |
-| Dead Bugs                 | 2×10/side         | 30 sec | Slow. Opposite arm/leg, lower back pressed to floor       |
+| Exercise                  | Sets × Reps       | Rest   | W4 Weight | Notes                                                     |
+|---------------------------|-------------------|--------|-----------|-----------------------------------------------------------|
+| Run/Walk Intervals        | Per schedule below| —      | **30 min**| 3 min jog / 2 min walk × 6                                |
+| Dumbbell Curls            | 2×10              | 60 sec | **10 kg** | Strict form. No swinging                                  |
+| Dumbbell Lateral Raises   | 2×12              | 60 sec | **6 kg**  | ⚠️ Lead with elbows, 2-sec negative. Should burn by rep 10 |
+| Dead Bugs                 | 2×10/side         | 30 sec | —         | Slow. Opposite arm/leg, lower back pressed to floor       |
 
 > Wed is **not** a heavy day. If you're too sore from Mon-Tue, just do the run/walk and skip accessories. Recovery > volume.
 
 ### Sat — Full Body (Deadlift Focus)
 
-| Exercise                | Sets × Reps | Rest   | Notes                                                                 |
-| ----------------------- | ----------- | ------ | --------------------------------------------------------------------- |
-| Romanian Deadlift (RDL) | 3×8         | 2 min  | Dumbbells or empty bar. Push hips back, soft knees, flat back         |
-| Lat Pulldown            | 3×10        | 90 sec | Wide grip. Drive elbows down, don't pull with biceps                  |
-| Incline Dumbbell Press  | 3×8         | 90 sec | 30° incline. 6-8 kg per hand. Lower to upper chest                    |
-| Bulgarian Split Squat   | 3×8/leg     | 90 sec | Bodyweight first week. Back foot on bench, front knee tracks over toe |
-| Seated Cable Row        | 3×10        | 60 sec | Close grip. Squeeze 1 sec at chest                                    |
+| Exercise                | Sets × Reps | Rest   | W4 Weight | Notes                                                          |
+| ----------------------- | ----------- | ------ | --------- | -------------------------------------------------------------- |
+| Romanian Deadlift (RDL) | 3×8         | 2 min  | **40 kg** | All 3 sets at 40 kg. 3×8, not 4×12. Hinge, soft knees          |
+| Lat Pulldown            | 3×10        | 90 sec | **22 kg** | Wide grip. Drive elbows down                                    |
+| Incline Dumbbell Press  | 3×8         | 90 sec | **22 kg** | 30° incline. 3×8, not 4×12                                     |
+| Reverse Lunges          | 3×8/leg     | 90 sec | **12 kg** | Dumbbells in each hand. Back knee nearly touches floor          |
+| Seated Cable Row        | 3×10        | 60 sec | **27.5 kg**| Close grip. Squeeze 1 sec at chest                             |
 
 ---
-
-## Week 3–4: Add Weight
-
-Same exercises. **Add 2.5 kg to every compound lift each session** if you completed all reps with good form last time.
-
-| Exercise | Week 1-2 start | Week 3 target | Week 4 target |
-|----------|---------------|---------------|---------------|
-| DB Bench Press | 8 kg × 8 | 10 kg × 8 | 12.5 kg × 8 |
-| Goblet Squat | 12 kg × 8 | 14 kg × 8 | 16 kg × 8 |
-| Lat Pulldown | Plate 3-4 | +1 plate | +1 plate |
-| RDL | 12 kg DBs × 8 | 14 kg × 8 | 16 kg × 8 |
-
-*Weights are per dumbbell. Increase only if form is clean.*
 
 ---
 
@@ -209,4 +196,44 @@ Same exercises. **Add 2.5 kg to every compound lift each session** if you comple
 
 ---
 
-*Next review: Week 4. Bring your log. — Coach*
+## Week 3 Review (2026-07-13 → 07-19)
+
+| Metric | Result | Verdict |
+|--------|--------|---------|
+| Weight | 122.5 → 122.2 kg | -0.3 kg this week. 7d MA: 122.36 (↑ from W2 122.13). Net 3wk: -0.1 kg ⚠️ |
+| Protein avg | 160g (target 160g) | 7/7 days ✅ |
+| Sleep avg | 7.4h (only 2 days at 6h) | Big improvement ✅ |
+
+### ⚠️ Calorie Adjustment
+Weight essentially flat over 3 weeks. SOUL trigger met. **Week 4: cut to 2,200 kcal** (-200 from 2,400). Drop one snack or reduce rice portions.
+
+### Week 3 Performance → Week 4 Targets
+
+| Exercise | W3 Target | W3 Actual | W4 Target | Note |
+|----------|-----------|-----------|-----------|------|
+| DB Bench Press | 22 kg 3×8 | 15→20→20→25, 4 sets | **22 kg 3×8** | Same weight all 3 sets. No ramping, no extra set |
+| Chest-Supported Row | 17 kg 3×10 | 20→20→25 | **22 kg 3×10** | Same weight all 3 sets |
+| Seated DB OHP | 12 kg 3×8 | 20 kg 3×8 ⚠️ | **14 kg 3×8** | Ignored the 12 drop. 14 is the compromise — strict form, no leg drive, full ROM |
+| Face Pulls | 15 kg | 15 kg 3×12 ✅ | **17 kg** | Consistent — increase |
+| Tricep Pushdown | 15 kg | 15 kg 2×12 ✅ | **17 kg** | Consistent — increase |
+| Goblet Squat | 20 kg 3×8 | 30→35→40→45→50, 5 sets | **22 kg 3×8** | 3 sets, one weight. Grip is the limiter, not legs |
+| Leg Press | 40 kg 3×10 | 30→50→60→70→80, 5 sets | **45 kg 3×10** | 3 sets, one weight |
+| Lying Leg Curl | 20 kg | 20 kg 3×12 ✅ | **22 kg** | Consistent — increase |
+| Calf Raises | 25 kg | 30→30→35 | **30 kg 3×15** | Same weight all 3 sets |
+| RDL | 35 kg 3×8 | 40→50→55→55, 4×12 | **40 kg 3×8** | 3 sets, one weight. No extra reps |
+| Lat Pulldown | 27.5 kg | 20 kg 3×10 | **22 kg** | Consistent across sets — good. Increase |
+| Incline DB Press | 22 kg 3×8 | 20 kg 4×12 | **22 kg 3×8** | 3 sets, programmed reps |
+| Bulgarian SS / Reverse Lunge | 12 kg | 10 kg (swapped) | **12 kg reverse lunges** | Swap approved. 3×8/leg |
+| Seated Cable Row | 27.5 kg | 25 kg 3×10 ✅ | **27.5 kg** | Consistent — increase |
+
+### ⚠️ Flags from Week 3
+
+1. **OHP: 20 kg after I said 12.** You collapsed at 20 last week. If 20 was "Medium" this week, your form changed — likely shorter ROM or leg drive. Week 4: 14 kg, strict, prove the form is clean before we climb back up.
+2. **Goblet squat 50 kg.** At that weight the dumbbell grip fails before your legs do. If you want real squat loading, we move to barbell in Phase 2. For now: 22 kg, controlled depth.
+3. **RDL: 4×12 instead of 3×8.** Extra volume on a deficit = extra fatigue you can't recover from. 3×8 at 40 kg.
+4. **Wednesday skipped** — OT, acknowledged. 15 min walk minimum on skip days.
+5. **You CAN do consistent sets** — face pulls, pushdowns, leg curls, lat pulldowns, incline DB, cable rows all had uniform weights. Apply that discipline to the compounds.
+
+---
+
+*Next review: end of Week 4 — Phase 1 complete. Bring your log. — Coach*
