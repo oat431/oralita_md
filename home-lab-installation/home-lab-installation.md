@@ -8,6 +8,7 @@
 ## Steps
 
 1. [[01-SSH-Key-Setup]]
+   - [[01.1-Allow-Other-Devices]]
 2. [[02-SSH-Hardening]]
 3. [[03-Firewall-UFW]]
 4. [[04-Fail2ban]]
@@ -15,6 +16,7 @@
 6. [[06-Tailscale]]
 7. [[07-Cloudflare-Tunnel]]
 8. [[08-Reverse-Proxy-Nginx]]
+   - [[08.1-Add-Subdomain]]
 9. [[09-Backups]]
 10. [[10-Monitoring]]
 
