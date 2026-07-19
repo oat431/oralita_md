@@ -17,6 +17,7 @@
 7. [[07-Cloudflare-Tunnel]]
 8. [[08-Reverse-Proxy-Nginx]]
    - [[08.1-Add-Subdomain]]
+   - [[08.2-Serve-Static-Files]]
 9. [[09-Backups]]
 10. [[10-Monitoring]]
 
