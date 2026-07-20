@@ -171,13 +171,13 @@ Bring this log to your next check-in with Coach.
 ## Week 4
 
 ### Mon — Upper
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Dumbbell Bench Press | | 3×8 | |
-| Chest-Supported Row | | 3×10 | |
-| Seated Dumbbell OHP | | 3×8 | |
-| Face Pulls | | 3×12 | |
-| Tricep Pushdown | | 2×12 | |
+| Exercise             | Weight (kg) | Sets × Reps | Notes  |
+| -------------------- | ----------- | ----------- | ------ |
+| Dumbbell Bench Press | 25,25,25    | 3×8         | Medium |
+| Chest-Supported Row  | 25,25,25    | 3×10        | Medium |
+| Seated Dumbbell OHP  | 20,20,20    | 3×8         | Medium |
+| Face Pulls           | 17,17,17    | 3×12        | Medium |
+| Tricep Pushdown      | 17,17       | 2×12        | Medium |
 
 ### Tue — Lower
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -206,5 +206,16 @@ Bring this log to your next check-in with Coach.
 | Seated Cable Row | | 3×10 | |
 
 ---
+## Week 4 Daily Check-In
+
+| Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes                     |
+| --- | ----------- | ---------------- | ------------ | ------------------------- |
+| Mon | 8           | 121.5            | 160          | hey i lose lots of weight |
+| Tue |             |                  |              |                           |
+| Wed |             |                  |              |                           |
+| Thu |             |                  |              |                           |
+| Fri |             |                  |              |                           |
+| Sat |             |                  |              |                           |
+| Sun |             |                  |              |                           |
 
 *Fill in after every set. Don't rely on memory — you'll forget by the time you get home. Phone notes app works too if that's faster.*
