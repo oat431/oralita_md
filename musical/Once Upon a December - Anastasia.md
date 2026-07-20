@@ -138,8 +138,8 @@ By studying this song, you will be able to:
 
 | #   | English              | Thai                       | หมายเหตุ                                |
 | --- | -------------------- | -------------------------- | --------------------------------------- |
-| 13  | And a song           | เสียงร้องเพลงก้องสดใส      | Repetition of opening                   |
-| 14  | Someone sings        |                            | **Present Simple** timeless             |
+| 13  | And a song           | เสียงร้องเพลง              | Repetition of opening                   |
+| 14  | Someone sings        | ก้องสดใส                   | **Present Simple** timeless             |
 | 15  | Once upon a December | ครั้งหนึ่งในอดีตผ่าน....มา | Returns to the title circular structure |
 
 ---

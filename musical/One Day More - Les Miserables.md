@@ -356,16 +356,16 @@ By studying this song, you will be able to:
 
 ### Thénardiers: อาชญากรรม
 
-| # | English | Thai | หมายเหตุ |
-|---|---------|-----|----------|
-| 29 | Watch 'em run amuck, | พวกมันวิ่งกันกระส่ายกระสับ | **Idiom** "run amok" = วุ่นวาย, คลั่ง |
-| 30 | Catch 'em as they fall, | คว้าตอนพวกมันดับ | "catch as they fall" = ฉวยโอกาส |
-| 31 | Never know your luck | เราอาจโชคดี | "never know your luck" = ไม่ลองไม่รู้ |
-| 32 | When there's a free for all, | ตอนของฟรียุบยับ | **Idiom** "free-for-all" = ชุลมุน, แย่งกัน |
-| 33 | Here, a little 'dip' | ฉกตรงนั้นหมึบ | **Slang** "dip" = ล้วงกระเป๋า |
-| 34 | There, a little 'touch' | จับตรงนี้หมับ | **Slang** "touch" = ขโมย |
-| 35 | Most of them are goners | ตายกันแล้วก็คงไม่ห่วงสินทรัพย์ | **Slang** "goners" = คนที่ตายแล้ว |
-| 36 | So they won't miss much! | | "won't miss much" = ไม่เสียดายหรอก (ของที่ขโมยไป) |
+| #   | English                      | Thai                       | หมายเหตุ                                          |
+| --- | ---------------------------- | -------------------------- | ------------------------------------------------- |
+| 29  | Watch 'em run amuck,         | พวกมันวิ่งกันกระส่ายกระสับ | **Idiom** "run amok" = วุ่นวาย, คลั่ง             |
+| 30  | Catch 'em as they fall,      | คว้าตอนพวกมันดับ           | "catch as they fall" = ฉวยโอกาส                   |
+| 31  | Never know your luck         | เราอาจโชคดี                | "never know your luck" = ไม่ลองไม่รู้             |
+| 32  | When there's a free for all, | ตอนของฟรียุบยับ            | **Idiom** "free-for-all" = ชุลมุน, แย่งกัน        |
+| 33  | Here, a little 'dip'         | ฉกตรงนั้นหมึบ              | **Slang** "dip" = ล้วงกระเป๋า                     |
+| 34  | There, a little 'touch'      | จับตรงนี้หมับ              | **Slang** "touch" = ขโมย                          |
+| 35  | Most of them are goners      | ตายกันแล้ว                 | **Slang** "goners" = คนที่ตายแล้ว                 |
+| 36  | So they won't miss much!     | ก็คงไม่ห่วงสินทรัพย์       | "won't miss much" = ไม่เสียดายหรอก (ของที่ขโมยไป) |
 
 ### Students: การปฏิวัติ
 
