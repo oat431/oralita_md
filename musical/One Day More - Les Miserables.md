@@ -534,8 +534,8 @@ By studying this song, you will be able to:
 ## Key Takeaways
 
 1. **"Will" ไม่ได้แปลแค่ "จะ"**: ในเพลงนี้ "will" ใช้ 3 แบบ: ทำนาย (will come), สัญญา (will be true), เชิญชวน (will you take your place)
-2. **"Shall I" = formal British English**: ในอเมริกันแทบไม่ใช้ — แต่ในเพลง/formal ยังเห็นได้ แปลว่า "ฉันควร...ไหม?"
-3. **Idioms ต้องจำเป็นชุด**: "nip in the bud," "run amok," "free-for-all" — 3 สำนวนนี้ปรากฏในข่าว บทสนทนา ทุกวัน
-4. **Register = ระดับภาษา**: เพลงนี้มี 7 registers ในเพลงเดียว — poetic, romantic, military, authoritarian, criminal slang, idealistic, emotional — ภาษาอังกฤษจริงก็ switch register แบบนี้
-5. **"Goners" = สแลง**: แปลว่า "คนที่ตายแล้ว" — ไม่ใช่ formal English แต่ Thénardiers เป็นโจร ใช้สแลงเพราะเหมาะกับ character
-6. **Question inversion คือหัวใจของคำถามอังกฤษ**: "Do I stay?" ไม่ใช่ "I do stay?" — auxiliary verb ต้องนำหน้า subject เสมอ
+2. **"Shall I" = formal British English**: ในอเมริกันแทบไม่ใช้ แต่ในเพลง/formal ยังเห็นได้ แปลว่า "ฉันควร...ไหม?"
+3. **Idioms ต้องจำเป็นชุด**: "nip in the bud," "run amok," "free-for-all" 3 สำนวนนี้ปรากฏในข่าว บทสนทนา ทุกวัน
+4. **Register = ระดับภาษา**: เพลงนี้มี 7 registers ในเพลงเดียว poetic, romantic, military, authoritarian, criminal slang, idealistic, emotional ภาษาอังกฤษจริงก็ switch register แบบนี้
+5. **"Goners" = สแลง**: แปลว่า "คนที่ตายแล้ว" ไม่ใช่ formal English แต่ Thénardiers เป็นโจร ใช้สแลงเพราะเหมาะกับ character
+6. **Question inversion คือหัวใจของคำถามอังกฤษ**: "Do I stay?" ไม่ใช่ "I do stay?" auxiliary verb ต้องนำหน้า subject เสมอ
