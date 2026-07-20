@@ -71,6 +71,23 @@ Use emoji tables for risk/impact matrices:
 
 Legend: 🔴 Critical | 🟠 High | 🟡 Medium | 🟢 Low
 
+## Multi-Step Guide Organization
+
+When creating installation/setup guides or any multi-step procedure:
+- **Split into numbered files**, one per step: `01-SSH-Key-Setup.md`, `02-SSH-Hardening.md`, etc.
+- **Create an index file** that links to all steps with `[[wikilinks]]`
+- Each step file is **self-contained** — includes commands, flag breakdowns, and "why" explanations
+- Naming convention: `{NN}-{Title-With-Hyphens}.md` (no spaces, hyphenated, zero-padded number)
+- User preference: prefers individual files over one large monolithic file for navigability in Obsidian
+
+## Team-Facing Content Anonymization
+
+When writing documentation for a shared/team knowledge base:
+- **Replace personal project codenames** with generic labels: "Service A", "Service B", etc.
+- **Replace personal service names** (e.g., "Flowero Gate") with generic terms (e.g., "API Gateway")
+- Add a disclaimer note: "⚠️ Service names are anonymized — replace with actual project names in your private vault"
+- Keep the mapping in a private vault, not in the shared one
+
 ## Checklist Management
 
 When creating templates in bulk:

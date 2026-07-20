@@ -69,6 +69,10 @@ User points at a vault with an overview/MOC file and empty or stub topic notes. 
 3. Update the overview to add proper `[[wikilinks]]` for all topics.
 4. Rewrite the overview if it's a stub — make it a proper teaching roadmap with routes.
 
+### Writing SWEBOK chapters
+
+For the `swe-knowledge` vault specifically, follow the exact chapter template in `references/swebok-chapter-format.md`. Read 2–3 existing chapters first to calibrate tone and depth before writing new ones.
+
 ## Pitfalls
 
 ### read_file quirks

@@ -45,6 +45,16 @@
 | **go-fiber-api** | Building Go REST APIs with Fiber v3 + sqlx. Clean architecture, PostgreSQL, spec-driven. |
 | **software-specification** | Writing detailed software specifications from user requirements — features, architecture, data models. |
 
+### 🖥️ Homelab
+
+| Skill | Use when |
+|-------|---------|
+| **homelab-setup** | Initial homelab server setup — Docker, nginx, SSL, user accounts, firewall. |
+| **homelab-infra-setup** | Infrastructure provisioning — networks, volumes, DNS, reverse proxy. |
+| **homelab-infrastructure** | Infrastructure-as-code for homelab services — compose files, configs, monitoring. |
+| **homelab-management** | Day-to-day homelab management — updates, backups, health checks, log review. |
+| **homelab-server-setup** | Fresh server bootstrap — OS config, packages, SSH, base security hardening. |
+
 ### ⚙️ Hermes Configuration
 
 | Skill | Use when |
@@ -120,4 +130,4 @@ hermes -s <skill-name>
 
 ---
 
-*Last updated: 2026-07-18*
+*Last updated: 2026-07-21*
