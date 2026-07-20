@@ -161,7 +161,7 @@ By studying this song, you will be able to:
 
 ---
 
-### 2. "Used to" — เคย (แต่ไม่ทำแล้ว)
+### 2. "Used to" : เคย (แต่ไม่ทำแล้ว)
 **ปรากฏในเพลง:** ท่อน 11
 
 - Things my heart **used to** know = สิ่งที่หัวใจเคยรู้จัก (แต่ตอนนี้ลืมไปแล้ว)
@@ -174,7 +174,7 @@ By studying this song, you will be able to:
 | **be used to** | คุ้นเคยกับ | I **am used to** waking up early. |
 | **get used to** | เริ่มคุ้นเคยกับ | I'm **getting used to** the new job. |
 
-> ⚠️ **Thai Speaker Trap:** "used to" 3 แบบนี้ความหมายต่างกันมาก — "I used to smoke" (เคยสูบแต่เลิกแล้ว) ≠ "I am used to smoking" (คุ้นเคยกับควันบุหรี่)
+> ⚠️ **Thai Speaker Trap:** "used to" 3 แบบนี้ความหมายต่างกันมาก : "I used to smoke" (เคยสูบแต่เลิกแล้ว) ≠ "I am used to smoking" (คุ้นเคยกับควันบุหรี่)
 
 🔗 ดูเพิ่ม: [05.5 Past Simple](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/02%20Tenses%20%26%20Time/05%2012%20English%20Tense/05.5%20Past%20Simple.md) (used to อยู่ในหมวด past habits)
 
@@ -185,13 +185,13 @@ By studying this song, you will be able to:
 
 - Glowing dim **as** an ember = ส่องสว่างจางๆ เหมือนถ่านที่ยังคุ
 
-| Simile | Meaning | Thai |
-|--------|---------|-----|
-| dim **as** an ember | จางเหมือนถ่านคุ | ถ่านที่เกือบดับ — ยังมีแสงอยู่บ้าง |
-| soft **as** thunder (เพลงที่ 1) | แผ่วเบาดั่งฟ้าร้อง | ขัดแย้งเพื่อเน้น |
-| like objects (เพลงที่ 2) | เหมือนสิ่งของ | ดูถูก |
+| Simile                          | Meaning            | Thai                             |
+| ------------------------------- | ------------------ | -------------------------------- |
+| dim **as** an ember             | จางเหมือนถ่านคุ    | ถ่านที่เกือบดับ ยังมีแสงอยู่บ้าง |
+| soft **as** thunder (เพลงที่ 1) | แผ่วเบาดั่งฟ้าร้อง | ขัดแย้งเพื่อเน้น                 |
+| like objects (เพลงที่ 2)        | เหมือนสิ่งของ      | ดูถูก                            |
 
-> 💡 **Why this matters:** Simile ปรากฏในภาษาอังกฤษทุกวัน — "quiet as a mouse," "busy as a bee," "like a house on fire" — ถ้ารู้แค่ literal meaning จะไม่เข้าใจ
+> 💡 **Why this matters:** Simile ปรากฏในภาษาอังกฤษทุกวัน "quiet as a mouse," "busy as a bee," "like a house on fire" — ถ้ารู้แค่ literal meaning จะไม่เข้าใจ
 
 ---
 
