@@ -111,7 +111,7 @@ By studying this song, you will be able to:
 
 | #   | English                       | Thai                     | หมายเหตุ                                                            |
 | --- | ----------------------------- | ------------------------ | ------------------------------------------------------------------- |
-| 1   | Dancing bears, painted wings, | มองลวดลาย แสง และ เส้น   | **Reduced clause**: "[There are] dancing bears" — verb ถูกตัดออก    |
+| 1   | Dancing bears, painted wings, | มองลวดลาย แสง และ เส้น   | **Reduced clause**: "[There are] dancing bears" verb ถูกตัดออก      |
 | 2   | Things I almost remember      | เหมือนเคยเห็นเคยจดจำไว้  | **Relative clause**: "Things [that] I almost remember"              |
 | 3   | And a song someone sings,     | ยินเสียงเพลงกล่อมร้องไป  | **Reduced clause**: "a song [that] someone sings"                   |
 | 4   | Once upon a December          | ครั้งหนึ่งให้อดีตเหมันต์ | **Play on "Once upon a time"** = กาลครั้งหนึ่ง (fairy tale opening) |
@@ -136,11 +136,11 @@ By studying this song, you will be able to:
 
 ### Outro: เสียงสุดท้าย
 
-| # | English | Thai | หมายเหตุ |
-|---|---------|-----|----------|
-| 13 | And a song | เสียงร้องเพลงก้องสดใส | Repetition of opening |
-| 14 | Someone sings | | **Present Simple** — timeless |
-| 15 | Once upon a December | ครั้งหนึ่งในอดีตผ่าน....มา | Returns to the title — circular structure |
+| #   | English              | Thai                       | หมายเหตุ                                |
+| --- | -------------------- | -------------------------- | --------------------------------------- |
+| 13  | And a song           | เสียงร้องเพลงก้องสดใส      | Repetition of opening                   |
+| 14  | Someone sings        |                            | **Present Simple** timeless             |
+| 15  | Once upon a December | ครั้งหนึ่งในอดีตผ่าน....มา | Returns to the title circular structure |
 
 ---
 
@@ -155,7 +155,7 @@ By studying this song, you will be able to:
 
 **รูปแบบ:** ตัด relative pronoun (that/which/who) ออกเมื่อเป็น object
 
-> ⚠️ **Thai Speaker Trap:** ภาษาไทยไม่มี relative pronoun ให้ตัด — แต่ในอังกฤษ "Things I remember" เป็น informal/ poetic ที่ตัด "that" ออก ซึ่งเป็นเรื่องปกติในเพลงและบทกวี
+> ⚠️ **Thai Speaker Trap:** ภาษาไทยไม่มี relative pronoun ให้ตัด แต่ในอังกฤษ "Things I remember" เป็น informal/ poetic ที่ตัด "that" ออก ซึ่งเป็นเรื่องปกติในเพลงและบทกวี
 
 🔗 ดูเพิ่ม: [09 Clauses](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/03%20Sentence%20Building/09%20Clauses.md)
 
@@ -191,7 +191,7 @@ By studying this song, you will be able to:
 | soft **as** thunder (เพลงที่ 1) | แผ่วเบาดั่งฟ้าร้อง | ขัดแย้งเพื่อเน้น                 |
 | like objects (เพลงที่ 2)        | เหมือนสิ่งของ      | ดูถูก                            |
 
-> 💡 **Why this matters:** Simile ปรากฏในภาษาอังกฤษทุกวัน "quiet as a mouse," "busy as a bee," "like a house on fire" — ถ้ารู้แค่ literal meaning จะไม่เข้าใจ
+> 💡 **Why this matters:** Simile ปรากฏในภาษาอังกฤษทุกวัน "quiet as a mouse," "busy as a bee," "like a house on fire" ถ้ารู้แค่ literal meaning จะไม่เข้าใจ
 
 ---
 
@@ -206,7 +206,7 @@ By studying this song, you will be able to:
 | **Touch** | safe and warm | ปลอดภัยและอบอุ่น | Chorus |
 | **Sound** | a song someone sings | เพลงที่ใครร้อง | Verse 1 |
 
-> 💡 **Why this matters:** การอธิบายความทรงจำด้วย sensory details ทำให้ภาษาอังกฤษมีชีวิตชีวา — ไม่ใช่แค่ "I remember" แต่ "I remember the warmth, the music, the dancing figures"
+> 💡 **Why this matters:** การอธิบายความทรงจำด้วย sensory details ทำให้ภาษาอังกฤษมีชีวิตชีวาไม่ใช่แค่ "I remember" แต่ "I remember the warmth, the music, the dancing figures"
 
 ---
 
@@ -244,7 +244,7 @@ By studying this song, you will be able to:
 
 - [05.1 Present Simple](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/02%20Tenses%20%26%20Time/05%2012%20English%20Tense/05.1%20Present%20Simple.md): "Someone sings," "Someone holds me"
 - [05.2 Present Continuous](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/02%20Tenses%20%26%20Time/05%2012%20English%20Tense/05.2%20Present%20Continuous.md): "Dancing bears" (present participle as adjective)
-- [09 Clauses](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/03%20Sentence%20Building/09%20Clauses.md): Reduced clauses — "Things I remember"
+- [09 Clauses](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/03%20Sentence%20Building/09%20Clauses.md): Reduced clauses "Things I remember"
 - [30 Collocations](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/09%20Vocabulary%20Building/30%20Collocations.md): "safe and warm," "once upon a time"
 - [05.5 Past Simple](https://github.com/oat431/general-knowledge/tree/main/English%20Skill/02%20Tenses%20%26%20Time/05%2012%20English%20Tense/05.5%20Past%20Simple.md): "used to" for past habits
 
@@ -252,9 +252,9 @@ By studying this song, you will be able to:
 
 ## Key Takeaways
 
-1. **Reduced clauses คือ poetic English**: "Things I remember" ตัด "that" ออก — เป็นเรื่องปกติในเพลงและบทกวี ไม่ใช่ error
+1. **Reduced clauses คือ poetic English**: "Things I remember" ตัด "that" ออก เป็นเรื่องปกติในเพลงและบทกวี ไม่ใช่ error
 2. **"Once upon a December" = play on "Once upon a time"**: ใช้โครงสร้าง fairy tale แต่เปลี่ยน "time" เป็น "December" เพื่อเน้นความทรงจำเฉพาะเจาะจง
 3. **"Used to" ≠ "be used to"**: "Things my heart used to know" = เคยรู้แต่ลืมแล้ว ≠ คุ้นเคยกับ
 4. **Sensory language คือหัวใจของ memory description**: ไม่ใช่แค่ "I remember" แต่ "I remember the warmth, the music, the dancing figures"
-5. **"Ember" = ถ่านที่ยังคุ**: ไฟเกือบดับ — เปรียบเทียบความทรงจำที่เลือนรางแต่ยังมีชีวิตอยู่บ้าง
-6. **Simile ใช้ "as" หรือ "like"**: "dim as an ember" — โครงสร้างเดียวกับ "soft as thunder" ในเพลงแรก
+5. **"Ember" = ถ่านที่ยังคุ**: ไฟเกือบดับ เปรียบเทียบความทรงจำที่เลือนรางแต่ยังมีชีวิตอยู่บ้าง
+6. **Simile ใช้ "as" หรือ "like"**: "dim as an ember" โครงสร้างเดียวกับ "soft as thunder" ในเพลงแรก
