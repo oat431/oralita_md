@@ -1,7 +1,7 @@
 # Home Lab Server
 
 > A personal server that can host many applications.
-> Last updated: 2026-07-20
+> Last updated: 2026-07-23
 
 ---
 
@@ -9,9 +9,9 @@
 
 | Service | Sub Domain | Code Name | Port BE | Port FE | Status |
 |---------|-----------|-----------|---------|---------|--------|
-| Gateway | api | Flowero Gate | 8000 | - | ❌ |
-| Service Discovery | discovery | Flowero Discover | 8999 | 3999 | ❌ |
-| Keycloak | auth | Flowero Guard | 8001 | 3001 | ❌ |
+| Gateway | api | Flowero Gate | 8000 | - | ✅ |
+| Service Discovery | discovery | Flowero Discover | 8999 | 3999 | ✅ |
+| Keycloak | auth | Flowero Guard | 8001 | 3001 | ✅ |
 | Url Shortener | short | Fluffy Mouton | 8002 | 3002 | ❌ |
 | Todo List | todo | Tiny Mchwa | 8003 | 3003 | ❌ |
 | Ledger | ledger | Big Schwein | 8004 | 3004 | ❌ |
