@@ -1,7 +1,19 @@
 # Flowero Discover
 
 > Eureka Service Registry for the Panomete Platform.
-> Last updated: 2026-07-23
+> Last updated: 2026-07-24
+
+---
+
+## Deployment Status
+
+> **Deployed:** 2026-07-23 | **Verified:** Healthy
+>
+> - Container: `flowero-discover` — Up, healthy
+> - Health: `status: UP`
+> - Dashboard: `https://discovery.panomete.com` — HTTP 200
+> - Registry API: `http://localhost:8999/eureka/apps` — working
+> - Registered services: `FLOWERO-GATE` (1 instance)
 
 ---
 
@@ -77,9 +89,7 @@ sudo nginx -t && sudo systemctl reload nginx
 
 > No DNS changes needed — `*.panomete.com` wildcard already routes to the Cloudflare tunnel.
 
-### Step 3: Add to platform compose
-
-Add this service block to `/home/flowero/platform/docker-compose.platform.yml` under `services:`:
+### Compose service definition (actual deployed config)
 
 ```yaml
   flowero-discover:
@@ -88,8 +98,8 @@ Add this service block to `/home/flowero/platform/docker-compose.platform.yml` u
       dockerfile: Dockerfile
     container_name: flowero-discover
     ports:
-      - "127.0.0.1:8999:8999"
-      - "127.0.0.1:3999:8999"
+      - "127.0.0.1:8999:8999"   # BE: REST API for service registration / discovery
+      - "127.0.0.1:3999:8999"   # FE: Dashboard (Nginx proxies discovery.panomete.com → :3999)
     networks:
       - shared-network
     healthcheck:
@@ -101,13 +111,7 @@ Add this service block to `/home/flowero/platform/docker-compose.platform.yml` u
     restart: unless-stopped
 ```
 
-> Make sure the `networks:` section at the bottom still has:
-> ```yaml
-> networks:
->   shared-network:
->     external: true
->     name: db-network
-> ```
+> **Note:** The Dockerfile must install `curl` for the healthcheck to work. See Troubleshooting below.
 
 ### Step 4: Build and deploy
 

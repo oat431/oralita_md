@@ -1,7 +1,20 @@
 # Keycloak
 
 > Identity provider (IAM). OAuth2 / OIDC server for the Panomete Platform.
-> Last updated: 2026-07-23
+> Last updated: 2026-07-24
+
+---
+
+## Deployment Status
+
+> **Deployed:** 2026-07-23 | **Verified:** Healthy
+>
+> - Container: `flowero-guard` — Up, running
+> - OIDC Discovery: `https://auth.panomete.com/realms/panomete/.well-known/openid-configuration` ✅
+> - JWKS: 2 RSA keys ✅
+> - Admin Console: `https://auth.panomete.com/admin` — HTTP 302 (redirect to login) ✅
+> - Realm: `panomete` imported ✅
+> - Permanent admin: Created via Post Install procedure ✅
 
 ---
 
