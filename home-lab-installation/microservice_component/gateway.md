@@ -10,10 +10,12 @@
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
 > - Container: `flowero-gate` — Up, healthy
+> - Image: `ghcr.io/oat431/flowero-gateway:latest` (GHCR)
 > - Health: `status: UP`
 > - 401 rejection: Working (unauthenticated requests correctly rejected)
 > - Eureka registration: `FLOWERO-GATE` — 1 instance registered
 > - External access: `https://api.panomete.com` — HTTP 200
+> - Metrics: `/actuator/prometheus` ✅
 > - Routes: blog, short, todo (all `lb://` via Eureka)
 
 ---

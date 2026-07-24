@@ -10,9 +10,11 @@
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
 > - Container: `flowero-discover` — Up, healthy
+> - Image: `ghcr.io/oat431/flowero-discovery:latest` (GHCR)
 > - Health: `status: UP`
 > - Dashboard: `https://discovery.panomete.com` — HTTP 200
 > - Registry API: `http://localhost:8999/eureka/apps` — working
+> - Metrics: `/actuator/prometheus` ✅
 > - Registered services: `FLOWERO-GATE` (1 instance)
 
 ---

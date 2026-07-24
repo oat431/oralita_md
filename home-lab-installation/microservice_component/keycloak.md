@@ -9,12 +9,14 @@
 
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
-> - Container: `flowero-guard` — Up, running
+> - Container: `flowero-guard` — Up, healthy
+> - Image: `ghcr.io/oat431/flowero-guard:latest` (GHCR)
 > - OIDC Discovery: `https://auth.panomete.com/realms/panomete/.well-known/openid-configuration` ✅
 > - JWKS: 2 RSA keys ✅
 > - Admin Console: `https://auth.panomete.com/admin` — HTTP 302 (redirect to login) ✅
 > - Realm: `panomete` imported ✅
 > - Permanent admin: Created via Post Install procedure ✅
+> - Metrics: `/metrics` on management port 9000 ✅
 
 ---
 
