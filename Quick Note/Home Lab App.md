@@ -1,7 +1,7 @@
 # Home Lab Server
 
 > A personal server that can host many applications.
-> Last updated: 2026-07-23
+> Last updated: 2026-07-24
 
 ---
 
@@ -33,6 +33,16 @@
 | Stirling PDF | pdf-tools | 7007 | [stirlingpdf.com](https://docs.stirlingpdf.com/Installation/Docker%20Install) | ❌ |
 | Byte Stash | snippet | 7008 | [jordan-dalby/ByteStash](https://github.com/jordan-dalby/ByteStash) | ❌ |
 
+## Home Lab Monitoring & Observability
+
+| Name | Sub Domain | Port | Source | Status |
+|------|-----------|------|--------|--------|
+| Grafana | grafana | — | [grafana/grafana](https://hub.docker.com/r/grafana/grafana) | ✅ |
+| Prometheus | — | — | [prom/prometheus](https://hub.docker.com/r/prom/prometheus) | ✅ |
+| Loki | — | — | [grafana/loki](https://hub.docker.com/r/grafana/loki) | ✅ |
+| Promtail | — | — | [grafana/promtail](https://hub.docker.com/r/grafana/promtail) | ✅ |
+| Uptime Kuma | status | — | [louislam/uptime-kuma](https://hub.docker.com/r/louislam/uptime-kuma) | ⚠️ |
+
 ## Home Lab Database : Default Ports
 
 | DB | Sub Domain | Port | Status |
@@ -56,4 +66,4 @@
 | Cloudflare Tunnel | ✅ |
 | Nginx Reverse Proxy | ✅ |
 | Backups (rclone → OneDrive) | ✅ (configured, no cron yet) |
-| Monitoring | ❌ |
+| Monitoring | ✅ |
