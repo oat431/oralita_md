@@ -5,6 +5,19 @@
 
 ---
 
+## Deployment Status
+
+> **Deployed:** 2026-07-24 | **Verified:** Working
+>
+> - CI workflows: ✅ All 3 repos (`ci.yml` + `deploy.yml`)
+> - CI runs: ✅ All 3 pass (compile + test + push to GHCR)
+> - GHCR images: ✅ `ghcr.io/oat431/flowero-guard`, `flowero-discovery`, `flowero-gateway`
+> - Tailscale auth key: ✅ Configured in GitHub secrets
+> - SSH deploy key: ✅ Configured in GitHub secrets
+> - Manual deploy: ✅ `workflow_dispatch` only (per DEC-007)
+
+---
+
 ## Why This Is Needed
 
 The homelab server (`remote.panomete.com`) resolves to a Tailscale IP (`100.73.143.25`). GitHub Actions runners are on the public internet and **cannot reach Tailscale IPs directly**.
