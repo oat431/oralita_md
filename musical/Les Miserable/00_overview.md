@@ -12,15 +12,15 @@ tags:
 
 ## About the Musical
 
-| Detail | Info |
-|--------|------|
-| **Based on** | *Les Misérables* (1862 novel by Victor Hugo) |
-| **Music by** | Claude-Michel Schönberg |
-| **Original French lyrics** | Alain Boublil, Jean-Marc Natel |
-| **English lyrics** | Herbert Kretzmer |
-| **Premiere** | 1980 (Paris, French concept album) / 1985 (London, English version) |
-| **Film adaptation** | 2012 (directed by Tom Hooper) |
-| **Status** | Longest-running musical in West End history |
+| Detail                     | Info                                                                |
+| -------------------------- | ------------------------------------------------------------------- |
+| **Based on**               | *Les Misérables* (1862 novel by Victor Hugo)                        |
+| **Music by**               | Claude-Michel Schönberg                                             |
+| **Original French lyrics** | Alain Boublil, Jean-Marc Natel                                      |
+| **English lyrics**         | Herbert Kretzmer                                                    |
+| **Premiere**               | 1980 (Paris, French concept album) / 1985 (London, English version) |
+| **Film adaptation**        | 2012 (directed by Tom Hooper)                                       |
+| **Status**                 | Longest-running musical in West End history                         |
 
 ---
 
@@ -118,8 +118,8 @@ timeline
 
 | Song | Character | Context in Story | Lesson File |
 |------|-----------|-----------------|------------|
-| **I Dreamed a Dream** | Fantine | Fantine reflects on her lost youth and dreams after losing her job and being driven to prostitution (Act I) | [[I Dreamed a Dream - Les Miserable]] |
-| **One Day More** | Full Cast | The night before the June Rebellion: every character prepares for what tomorrow brings (End of Act I) | [[One Day More - Les Miserables]] |
+| **I Dreamed a Dream** | Fantine | Fantine reflects on her lost youth and dreams after losing her job and being driven to prostitution (Act I) | [[05_I_Dreamed_a_Dream]] |
+| **One Day More** | Full Cast | The night before the June Rebellion: every character prepares for what tomorrow brings (End of Act I) | [[22_One_Day_More]] |
 
 ---
 

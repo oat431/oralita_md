@@ -173,7 +173,7 @@ timeline
 
 | Song | Character | Context in Story | Lesson File |
 |------|-----------|-----------------|------------|
-| **Would You Fall in Love with Me Again** | Odysseus, Penelope | The final song. After 20 years apart, Odysseus reunites with Penelope. He confesses his sins; she tests his identity with the wedding bed secret, then declares she will love him forever (Ithaca Saga, Act 2 finale) | [[Would you fall in love with me again - Epic the Musical]] |
+| **Would You Fall in Love with Me Again** | Odysseus, Penelope | The final song. After 20 years apart, Odysseus reunites with Penelope. He confesses his sins; she tests his identity with the wedding bed secret, then declares she will love him forever (Ithaca Saga, Act 2 finale) | [[40_Would_you_fall_in_love_with_me_again]] |
 
 ---
 

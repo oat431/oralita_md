@@ -103,7 +103,7 @@ timeline
 
 | Song | Character | Context in Story | Lesson File |
 |------|-----------|-----------------|------------|
-| **Once Upon a December** | Anya | Anya wanders the abandoned Winter Palace. As she sings, she sees visions of dancing bears, prancing horses, and warm arms holding her: memories of her lost childhood resurface through sensory fragments | [[Once Upon a December - Anastasia]] |
+| **Once Upon a December** | Anya | Anya wanders the abandoned Winter Palace. As she sings, she sees visions of dancing bears, prancing horses, and warm arms holding her: memories of her lost childhood resurface through sensory fragments | [[03_Once_Upon_a_December]] |
 
 ---
 
