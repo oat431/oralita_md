@@ -92,6 +92,17 @@ timeline
 
 ---
 
+## ⭐ Songs Studied in This Vault
+
+| Song | Character | Context in Story | Lesson File |
+|------|-----------|-----------------|------------|
+| **Another Day of Sun** | Ensemble | Opening number: LA traffic jam, dreamers sing about chasing success in the city | [[01_Another_Day_of_Sun]] |
+| **Someone in the Crowd** | Mia & Roommates | Mia's roommates prepare for a Hollywood party, hoping to meet someone who can change their lives | [[02_Someone_in_the_Crowd]] |
+| **City of Stars** | Sebastian & Mia | A duet about hope and love in LA. Seb plays piano on the pier; Mia joins him | [[03_City_of_Stars]] |
+| **Audition (The Fools Who Dream)** | Mia | Mia's audition song about her aunt who chased dreams in Paris. The emotional climax of the film | [[04_Audition_The_Fools_Who_Dream]] |
+
+---
+
 ## Themes for English Learning
 
 | Theme | Example |
