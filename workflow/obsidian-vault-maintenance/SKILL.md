@@ -13,6 +13,58 @@ Maintenance operations that keep a multi-vault Obsidian setup healthy: wikilink 
 - User says "fix broken backlinks", "wikilinks are wrong", or "check my links"
 - User wants to add tags to all notes
 - After major vault restructuring (renames, moves, consolidations)
+- After delegating batch work (sub-agents writing .md files) — run post-batch verification
+
+## Post-Batch Verification (After Sub-Agent Batches)
+
+After delegating batch work where sub-agents write .md files (common in the `oralita-book-sum-obs` pipeline), run these checks on EVERY batch before proceeding to the next batch or claiming completion:
+
+### 1. Language Check (Mandatory)
+
+Sub-agents can output non-English text (Chinese, Korean, Japanese). This has happened 15+ times across multiple sessions. Check every newly arrived file:
+
+```python
+c = open(path, encoding='utf-8').read()
+chinese = [ch for ch in c if '\\u4e00' <= ch <= '\\u9fff']
+korean = [ch for ch in c if '\\uac00' <= ch <= '\\ud7af' or '\\u3131' <= ch <= '\\u318e']
+print(f'{file}: Chinese={len(chinese)}, Korean={len(korean)}')
+```
+
+If >0 non-English characters found, **rewrite the ENTIRE file in English** using `write_file`. Do not patch individual lines — the file is fully non-English.
+
+### 2. Wikilink Check (Mandatory)
+
+Sub-agents skip `[[wikilinks]]` ~60% of the time. Verify every file has them:
+
+```python
+for f in files:
+    c = open(os.path.join(base, f), encoding='utf-8').read()
+    has_links = '[[' in c
+    status = '✅' if has_links else '⚠️'
+    print(f'[{status}] {f}')
+```
+
+If links are missing, add a `## Related` section at the end of each affected file with `[[wikilinks]]` to sibling notes and the overview. Batch all fixes in one `execute_code` call using a `related_sections` dict:
+
+```python
+related_sections = {
+    'file1.md': '\n\n## Related\n\n- [[Overview]] — Description\n- [[Other_File]] — Description\n',
+    'file2.md': '\n\n## Related\n\n- [[Overview]] — Description\n',
+}
+for fname, related in related_sections.items():
+    path = os.path.join(base, fname)
+    with open(path, 'a', encoding='utf-8') as f:
+        f.write(related)
+```
+
+### 3. Frontmatter Consistency Check
+
+Sub-agents may use inconsistent field names (`date:` vs `created:`, unquoted vs quoted `source:`). Standardize on the format used by the first batch. Key checks:
+- `created:` not `date:`
+- `source:` quoted if it contains em-dashes (`—`), colons, or special characters
+- Tags use inline format: `tags: [tag1, tag2, tag3]`
+
+## Pitfalls
 
 ## Broken Wikilink Detection & Fixing
 

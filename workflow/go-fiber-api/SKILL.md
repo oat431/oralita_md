@@ -263,7 +263,22 @@ github.com/jmoiron/sqlx              # SQL extensions
 github.com/lib/pq                    # Postgres driver
 github.com/go-playground/validator/v10 # Struct validation (wire as StructValidator)
 github.com/joho/godotenv             # .env file loading (one-liner in config.Load())
+github.com/pressly/goose/v3          # SQL migrations
+github.com/stretchr/testify          # Test assertions (assert + require)
 ```
+
+### godotenv — .env loading
+
+`os.Getenv()` reads shell env vars only — it does NOT read `.env` files. Add `godotenv.Load()` in `config.Load()`:
+
+```go
+func Load() *Config {
+    _ = godotenv.Load()  // ignore error if .env missing
+    return &Config{Port: getEnv("PORT", "8080"), ...}
+}
+```
+
+**Key behavior:** `godotenv.Load()` does NOT override existing env vars. Shell vars and parent-process vars take precedence. This is useful for test runners (Playwright, CI) that inject env vars — they win over `.env` values.
 
 ## Wiring Pattern (internal/app/)
 
@@ -299,6 +314,8 @@ Main becomes: load config → `app.New(cfg)` → listen → graceful shutdown.
 ## Makefile
 
 Template at `templates/Makefile`. Copy and adjust. Targets: `run`, `build`, `test`, `vet`, `lint`, `dev` (air), `clean`.
+
+Keep only `BINARY` as a variable — other config (port, DB URL) comes from `.env`. Include `go run ./cmd/server` as a comment alternative to `make run`:
 
 ## v2 → v3 Migration
 
@@ -362,4 +379,5 @@ Spec: [[02 API Spec]], checklist section name
 - User's checklist: `F:\projects\orlita_md\project-checklist\backend-checklist\fiber-v3-api.md`
 - Fiber v3 docs: https://docs.gofiber.io/
 - **Frontend:** When user wants a React frontend for the API, see `references/bun-react-frontend.md`
+- **Mono-repo:** When API + web live in one repo, see `references/monorepo-go-react-postgres.md`
 - **GitHub MCP:** When GitHub MCP is available, use it for branch/PR/issue creation. See `references/github-mcp-workflow.md`

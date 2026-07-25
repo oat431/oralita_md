@@ -43,6 +43,7 @@
 | Skill | Use when |
 |-------|---------|
 | **go-fiber-api** | Building Go REST APIs with Fiber v3 + sqlx. Clean architecture, PostgreSQL, spec-driven. |
+| **full-stack-monorepo** | Scaffolding full-stack monorepos — Go/Fiber API + React/Vite frontend + PostgreSQL + Playwright E2E. Three projects, one repo. |
 | **software-specification** | Writing detailed software specifications from user requirements — features, architecture, data models. |
 
 ### 🖥️ Homelab

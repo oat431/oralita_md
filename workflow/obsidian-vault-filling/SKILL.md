@@ -117,6 +117,19 @@ For framework-specific checklists, the full pattern is:
 
 Each framework gets its own file in the same folder: `backend-checklist/` holds `API Launch.md` + `spring-boot-api.md` + `fiber-v3-api.md` + `nestjs-api.md` + `rust-axum-api.md`. Similarly for frontend and microservice folders.
 
+### Source material split across files
+
+When source text is provided as a workspace directory with multiple `.txt` files, do NOT assume the file named after the topic contains the actual chapter text. Source material is often split into:
+- A file with endnotes/references only (bibliography entries, citation lines)
+- Other files with the actual prose (chapter body content)
+
+**Workflow for split source material:**
+1. `search_files` across **ALL** files in the directory for `CHAPTER` or numbered headers before committing to one file
+2. Cross-reference chapter numbers found in endnote files with chapter headers found in prose files
+3. Read transitions and conclusions to verify the chapter boundaries — endnote-only files may have chapter markers but no prose content beyond citation lines that start with "Author, 'Title', source URL"
+4. Never assume a single file contains the complete chapter; content may span two files (first half in one, continuation in another)
+5. When a file's chapter content appears to end mid-sentence, search other files for the continuation — look for sentences that pick up where the previous file left off
+
 ### Post-fill maintenance
 
 After filling a vault, additional operations may be needed:
