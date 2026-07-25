@@ -111,12 +111,12 @@
 
 ### Infrastructure (3 containers + systemd)
 
-| Service | Container | Status | Health |
-|---------|-----------|--------|--------|
-| AdGuard Home | `adguard` | ✅ Up 5 days | — |
-| Portainer | `portainer` | ✅ Up 5 days | — |
-| Cloudflared | (systemd) | ✅ Active | — |
-| Nginx | (systemd) | ✅ Active | — |
+| Service      | Container   | Status      | Health |
+| ------------ | ----------- | ----------- | ------ |
+| AdGuard Home | `adguard`   | ✅ Up 5 days | —      |
+| Portainer    | `portainer` | ✅ Up 5 days | —      |
+| Cloudflared  | (systemd)   | ✅ Active    | —      |
+| Nginx        | (systemd)   | ✅ Active    | —      |
 
 ### Platform Services (3 containers)
 

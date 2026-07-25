@@ -95,6 +95,16 @@ timeline
 
 ---
 
+## ⭐ Songs Studied in This Vault
+
+| Song | Character | Context in Story | Lesson File |
+|------|-----------|-----------------|------------|
+| **Lost Stars (Gretta's Version)** | Gretta | Gretta's intimate, acoustic version of the love ballad she wrote for Dave. The song is a meditation on being lost and searching for meaning | [[01_Lost_Stars]] |
+| **Tell Me If You Wanna Go Home** | Gretta | Gretta's emotional plea to Dave: "Tell me if you're staying or going." A song about uncertainty in love | [[02_Tell_Me_If_You_Wanna_Go_Home]] |
+| **A Step You Can't Take Back** | Gretta & Dan | The emotional climax of the album. A song about irreversible life decisions, recorded on a NYC rooftop | [[03_A_Step_You_Cant_Take_Back]] |
+
+---
+
 ## Themes for English Learning
 
 | Theme | Example |
