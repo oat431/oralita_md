@@ -236,4 +236,47 @@ Weight essentially flat over 3 weeks. SOUL trigger met. **Week 4: cut to 2,200 k
 
 ---
 
-*Next review: end of Week 4 — Phase 1 complete. Bring your log. — Coach*
+## Week 4 Review — Phase 1 Complete (2026-07-20 → 07-26)
+
+| Metric | W3 End | W4 End | Δ | Verdict |
+|--------|--------|--------|-----|---------|
+| Weight | 122.2 | 121.1 | -1.1 kg | 2,200 kcal working ✅ |
+| Protein | 160g avg | 160g avg | — | 3 weeks perfect ✅ |
+| Sleep | 7.4h | 7.3h | — | Solid ✅ |
+
+### Training: Best Week Yet
+
+- **No ramping.** Every single exercise — all 15 — same weight across all sets. First time.
+- **No extra sets.** 3 sets = 3 sets everywhere.
+- **Wednesday completed.** 30 min, on protocol.
+- **13/15 exercises hit or exceeded target.**
+- Goblet squat and leg press both "Easy" → ready for barbell.
+
+### ⚠️ Smart Scale Baseline (Xiaomi S400 — 2026-07-27)
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Body fat | 43.1 kg (35.6%) | |
+| Muscle mass | 76.0 kg | ✅ Strong base — well above average for this height |
+| Visceral fat | 23 | 🚨 Very high. Priority to drop |
+| Body water | 45.5% | Low normal. Increase hydration |
+| BMR | 2,104 kcal | Scale-based, replacing Mifflin-St Jeor estimate |
+| Waist-to-hip | 1.1 | |
+| Bone mineral | 4.3 kg | |
+
+**Target:** 91 kg at 20% body fat (~26 kg fat to lose). Phase 2 begins.
+
+### Phase 1 Summary
+
+| Week | Weight | Ramping? | Extra Sets? | Protein | Key Lesson |
+|------|--------|----------|-------------|---------|------------|
+| 1 | 122.3 → 122.3 | Yes | No | 2/7 | Found starting weights |
+| 2 | 122.3 → 121.8 | Yes | Yes | 7/7 | Protein locked in |
+| 3 | 122.5 → 122.2 | Yes | Yes | 7/7 | Too much volume, ignored OHP target |
+| 4 | 122.2 → 121.1 | **No** ✅ | **No** ✅ | 7/7 | Discipline clicked. 2,200 kcal works |
+
+→ **Continue to Phase 2: `phase2-program.md`**
+
+---
+
+*Phase 1 complete. Phase 2 starts Week 5. — Coach*
