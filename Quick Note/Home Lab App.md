@@ -21,17 +21,17 @@
 
 ## Home Lab Self-hosted App : 7000-8000
 
-| Name | Sub Domain | Port | Source | Status |
-|------|-----------|------|--------|--------|
-| AdGuard Home | adguard | 7000 | [adguard/adguardhome](https://hub.docker.com/r/adguard/adguardhome) | ✅ |
-| Portainer | container | 7001 | [portainer/portainer-ce](https://hub.docker.com/r/portainer/portainer-ce) | ✅ |
-| it-tools | it-tools | 7002 | [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | ❌ |
-| Homarr | overview | 7003 | [homarr.dev/docs](https://homarr.dev/docs/getting-started/installation/docker) | ❌ |
-| SearXNG | search | 7004 | [searxng/searxng](https://github.com/searxng/searxng) | ❌ |
-| Infisical | secret | 7005 | [Infisical/infisical](https://github.com/Infisical/infisical) | ❌ |
-| OTS | ots | 7006 | [Luzifer/ots](https://github.com/Luzifer/ots) | ❌ |
-| Stirling PDF | pdf-tools | 7007 | [stirlingpdf.com](https://docs.stirlingpdf.com/Installation/Docker%20Install) | ❌ |
-| Byte Stash | snippet | 7008 | [jordan-dalby/ByteStash](https://github.com/jordan-dalby/ByteStash) | ❌ |
+| Name         | Sub Domain | Port | Source                                                                         | Status |
+| ------------ | ---------- | ---- | ------------------------------------------------------------------------------ | ------ |
+| AdGuard Home | adguard    | 7000 | [adguard/adguardhome](https://hub.docker.com/r/adguard/adguardhome)            | ✅      |
+| Portainer    | container  | 7001 | [portainer/portainer-ce](https://hub.docker.com/r/portainer/portainer-ce)      | ✅      |
+| TBA          | TBA        | 7002 |                                                                                |        |
+| Homarr       | overview   | 7003 | [homarr.dev/docs](https://homarr.dev/docs/getting-started/installation/docker) | ✅      |
+| SearXNG      | search     | 7004 | [searxng/searxng](https://github.com/searxng/searxng)                          | ✅      |
+| Infisical    | secret     | 7005 | [Infisical/infisical](https://github.com/Infisical/infisical)                  | ✅      |
+| OTS          | ots        | 7006 | [Luzifer/ots](https://github.com/Luzifer/ots)                                  | ✅      |
+| Stirling PDF | pdf-tools  | 7007 | [stirlingpdf.com](https://docs.stirlingpdf.com/Installation/Docker%20Install)  | ✅      |
+| Byte Stash   | snippet    | 7008 | [jordan-dalby/ByteStash](https://github.com/jordan-dalby/ByteStash)            | ✅      |
 
 ## Home Lab Monitoring & Observability
 
