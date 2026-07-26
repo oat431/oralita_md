@@ -47,23 +47,23 @@ tags: [fitness, program, phase-2, barbell]
 
 ### Mon — Upper (Barbell Bench + OHP)
 
-| Exercise | Sets × Reps | Rest | W5 Weight | Notes |
-|----------|-------------|------|-----------|-------|
-| Barbell Bench Press | 3×5 | 2-3 min | **40 kg** | You did this in W2. Start here, add 2.5 kg if easy. Bar touches chest, no bounce |
-| Barbell OHP | 3×5 | 2 min | **30 kg** | Strict press. No leg drive. Bar starts at collarbone, lock out overhead |
-| Chest-Supported Row | 3×8 | 90 sec | **25 kg** | All 3 sets same weight |
-| Face Pulls | 3×12 | 60 sec | **17 kg** | Keep these — shoulder health |
-| Tricep Pushdown | 2×12 | 60 sec | **17 kg** | |
+| Exercise            | Sets × Reps | Rest    | W5 Weight | Notes                                                                            |
+| ------------------- | ----------- | ------- | --------- | -------------------------------------------------------------------------------- |
+| Barbell Bench Press | 3×5         | 2-3 min | **40 kg** | You did this in W2. Start here, add 2.5 kg if easy. Bar touches chest, no bounce |
+| Barbell OHP         | 3×5         | 2 min   | **30 kg** | Strict press. No leg drive. Bar starts at collarbone, lock out overhead          |
+| Chest-Supported Row | 3×8         | 90 sec  | **25 kg** | All 3 sets same weight                                                           |
+| Face Pulls          | 3×12        | 60 sec  | **17 kg** | Keep these — shoulder health                                                     |
+| Tricep Pushdown     | 2×12        | 60 sec  | **17 kg** |                                                                                  |
 
 ### Tue — Lower (Barbell Squat)
 
-| Exercise | Sets × Reps | Rest | W5 Weight | Notes |
-|----------|-------------|------|-----------|-------|
-| Barbell Back Squat | 3×5 | 2-3 min | **40 kg** | First time? Do 2 sets with just the bar (20 kg) for form, then load to 40. Depth: thighs parallel or below |
-| Leg Press | 3×8 | 90 sec | **50 kg** | Increase from 45 kg "Easy." 3×8 (lower reps, higher weight) |
-| Lying Leg Curl | 3×10 | 60 sec | **25 kg** | Increase from 22 kg |
-| Calf Raises | 3×15 | 60 sec | **35 kg** | Increase from 30 kg |
-| Plank | 3×30 sec | 30 sec | — | Add a set |
+| Exercise           | Sets × Reps | Rest    | W5 Weight | Notes                                                                                                      |
+| ------------------ | ----------- | ------- | --------- | ---------------------------------------------------------------------------------------------------------- |
+| Barbell Back Squat | 3×5         | 2-3 min | **40 kg** | First time? Do 2 sets with just the bar (20 kg) for form, then load to 40. Depth: thighs parallel or below |
+| Leg Press          | 3×8         | 90 sec  | **50 kg** | Increase from 45 kg "Easy." 3×8 (lower reps, higher weight)                                                |
+| Lying Leg Curl     | 3×10        | 60 sec  | **25 kg** | Increase from 22 kg                                                                                        |
+| Calf Raises        | 3×15        | 60 sec  | **35 kg** | Increase from 30 kg                                                                                        |
+| Plank              | 3×30 sec    | 30 sec  | —         | Add a set                                                                                                  |
 
 ### Wed — Run/Walk + Core
 
