@@ -62,13 +62,13 @@ Session length: see table above (45-60 min per lifting session, ~40 min Wed)
 
 ### Sat — Full Body (Deadlift Focus)
 
-| Exercise                | Sets × Reps | Rest   | W4 Weight | Notes                                                          |
-| ----------------------- | ----------- | ------ | --------- | -------------------------------------------------------------- |
-| Romanian Deadlift (RDL) | 3×8         | 2 min  | **40 kg** | All 3 sets at 40 kg. 3×8, not 4×12. Hinge, soft knees          |
-| Lat Pulldown            | 3×10        | 90 sec | **22 kg** | Wide grip. Drive elbows down                                    |
-| Incline Dumbbell Press  | 3×8         | 90 sec | **22 kg** | 30° incline. 3×8, not 4×12                                     |
-| Reverse Lunges          | 3×8/leg     | 90 sec | **12 kg** | Dumbbells in each hand. Back knee nearly touches floor          |
-| Seated Cable Row        | 3×10        | 60 sec | **27.5 kg**| Close grip. Squeeze 1 sec at chest                             |
+| Exercise                | Sets × Reps | Rest   | W4 Weight   | Notes                                                  |
+| ----------------------- | ----------- | ------ | ----------- | ------------------------------------------------------ |
+| Romanian Deadlift (RDL) | 3×8         | 2 min  | **40 kg**   | All 3 sets at 40 kg. 3×8, not 4×12. Hinge, soft knees  |
+| Lat Pulldown            | 3×10        | 90 sec | **22 kg**   | Wide grip. Drive elbows down                           |
+| Incline Dumbbell Press  | 3×8         | 90 sec | **22 kg**   | 30° incline. 3×8, not 4×12                             |
+| Reverse Lunges          | 3×8/leg     | 90 sec | **12 kg**   | Dumbbells in each hand. Back knee nearly touches floor |
+| Seated Cable Row        | 3×10        | 60 sec | **27.5 kg** | Close grip. Squeeze 1 sec at chest                     |
 
 ---
 

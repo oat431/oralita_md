@@ -180,30 +180,30 @@ Bring this log to your next check-in with Coach.
 | Tricep Pushdown      | 17,17       | 2×12        | Medium |
 
 ### Tue — Lower
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Goblet Squat | | 3×8 | |
-| Leg Press | | 3×10 | |
-| Lying Leg Curl | | 3×12 | |
-| Calf Raises | | 3×15 | |
-| Plank | — | 2×30 sec | |
+| Exercise       | Weight (kg) | Sets × Reps | Notes  |
+| -------------- | ----------- | ----------- | ------ |
+| Goblet Squat   | 22,22,22    | 3×8         | Easy   |
+| Leg Press      | 45,45,45    | 3×10        | Easy   |
+| Lying Leg Curl | 22,22,22    | 3×12        | Medium |
+| Calf Raises    | 30,30,30    | 3×15        | Medium |
+| Plank          | —           | 2×30 sec    | Easy   |
 
 ### Wed — Run/Walk + Accessories
-| Exercise | Weight (kg) | Sets × Reps / Time | Notes |
-|----------|-------------|---------------------|-------|
-| Run/Walk Intervals | — | min | Protocol used: __ |
-| Dumbbell Curls | | 2×10 | |
-| Dumbbell Lateral Raises | | 2×12 | |
-| Dead Bugs | — | 2×10/side | |
+| Exercise                | Weight (kg) | Sets × Reps / Time | Notes             |
+| ----------------------- | ----------- | ------------------ | ----------------- |
+| Run/Walk Intervals      | —           | 30 min             | Protocol used: __ |
+| Dumbbell Curls          | 15,15       | 2×10               | Easy              |
+| Dumbbell Lateral Raises | 15,15       | 2×12               | Easy              |
+| Dead Bugs               | —           | 2×10/side          | Easy              |
 
 ### Sat — Full Body
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Romanian Deadlift (RDL) | | 3×8 | |
-| Lat Pulldown | | 3×10 | |
-| Incline Dumbbell Press | | 3×8 | |
-| Bulgarian Split Squat | | 3×8/leg | |
-| Seated Cable Row | | 3×10 | |
+| Exercise                | Weight (kg) | Sets × Reps | Notes  |
+| ----------------------- | ----------- | ----------- | ------ |
+| Romanian Deadlift (RDL) | 40,40,40    | 3×8         | Medium |
+| Lat Pulldown            | 22,22,22    | 3×10        | Medium |
+| Incline Dumbbell Press  | 22,22,22    | 3×8         | Medium |
+| Reverse Lunges          | 15,15,15    | 3×8/leg     | Hard   |
+| Seated Cable Row        | 30,30,30    | 3×10        | Medium |
 
 ---
 ## Week 4 Daily Check-In
@@ -211,11 +211,11 @@ Bring this log to your next check-in with Coach.
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes                     |
 | --- | ----------- | ---------------- | ------------ | ------------------------- |
 | Mon | 8           | 121.5            | 160          | hey i lose lots of weight |
-| Tue |             |                  |              |                           |
-| Wed |             |                  |              |                           |
-| Thu |             |                  |              |                           |
-| Fri |             |                  |              |                           |
-| Sat |             |                  |              |                           |
-| Sun |             |                  |              |                           |
+| Tue | 7           | 121.5            | 160          |                           |
+| Wed | 6           | 121.3            | 160          |                           |
+| Thu | 8           | 121.3            | 160          |                           |
+| Fri | 8           | 121.2            | 160          |                           |
+| Sat | 6           | 121.1            | 160          |                           |
+| Sun | 8           | 121.1            | 160          | Ok not that fast, i guess |
 
 *Fill in after every set. Don't rely on memory — you'll forget by the time you get home. Phone notes app works too if that's faster.*
