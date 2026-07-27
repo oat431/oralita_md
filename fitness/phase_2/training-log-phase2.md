@@ -12,13 +12,13 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 5
 
 ### Mon — Upper (Barbell Bench + OHP)
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Bench Press | | 3×5 | |
-| Barbell OHP | | 3×5 | |
-| Chest-Supported Row | | 3×8 | |
-| Face Pulls | | 3×12 | |
-| Tricep Pushdown | | 2×12 | |
+| Exercise            | Weight (kg) | Sets × Reps | Notes  |
+| ------------------- | ----------- | ----------- | ------ |
+| Barbell Bench Press | 40,40,40    | 3×5         | Medium |
+| Barbell OHP         | 30,30,30    | 3×5         | Medium |
+| Chest-Supported Row | 25,25,25    | 3×8         | Easy   |
+| Face Pulls          | 17,17,17    | 3×12        | Medium |
+| Tricep Pushdown     | 17,17       | 2×12        | Medium |
 
 ### Tue — Lower (Barbell Squat)
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -53,14 +53,14 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 5 Daily Check-In
 
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
-|-----|-------------|-------------------|--------------|-------|
-| Mon | | | | |
-| Tue | | | | |
-| Wed | | | | |
-| Thu | | | | |
-| Fri | | | | |
-| Sat | | | | |
-| Sun | | | | |
+| --- | ----------- | ---------------- | ------------ | ----- |
+| Mon | 7           | 122.6            | 160          |       |
+| Tue |             |                  |              |       |
+| Wed |             |                  |              |       |
+| Thu |             |                  |              |       |
+| Fri |             |                  |              |       |
+| Sat |             |                  |              |       |
+| Sun |             |                  |              |       |
 
 ---
 
