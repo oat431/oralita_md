@@ -21,13 +21,13 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Tricep Pushdown     | 17,17       | 2×12        | Medium |
 
 ### Tue — Lower (Barbell Squat)
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Back Squat | | 3×5 | |
-| Leg Press | | 3×8 | |
-| Lying Leg Curl | | 3×10 | |
-| Calf Raises | | 3×15 | |
-| Plank | — | 3×30 sec | |
+| Exercise           | Weight (kg) | Sets × Reps | Notes  |
+| ------------------ | ----------- | ----------- | ------ |
+| Barbell Back Squat | 40,40,40    | 3×5         | Medium |
+| Leg Press          | 50,50,50    | 3×8         | Easy   |
+| Lying Leg Curl     | 25,25,25    | 3×10        | Medium |
+| Calf Raises        | 35,35,35    | 3×15        | Hard   |
+| Plank              | —           | 3×30 sec    | Medium |
 
 ### Wed — Run/Walk + Core
 | Exercise | Weight (kg) | Sets × Reps / Time | Notes |
@@ -55,7 +55,7 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
 | --- | ----------- | ---------------- | ------------ | ----- |
 | Mon | 7           | 122.6            | 160          |       |
-| Tue |             |                  |              |       |
+| Tue | 7           | 121.2            | 160          |       |
 | Wed |             |                  |              |       |
 | Thu |             |                  |              |       |
 | Fri |             |                  |              |       |
