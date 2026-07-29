@@ -1,0 +1,2 @@
+- add your friend to tailscale network
+- add open minecraftserver

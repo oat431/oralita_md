@@ -18,6 +18,7 @@
 | Blog | blog | Cute Gufo | 8005 | 3005 | ❌ |
 | Cook Book | recipe | Shy Ardilla | 8006 | 3006 | ❌ |
 | Hora | hora | White Jelen | 8007 | 3007 | ❌ |
+| Deerngo Bot | deerngo | Deerngo Bot | 8008 | 3008 | 🚧 |
 
 ## Home Lab Self-hosted App : 7000-8000
 
