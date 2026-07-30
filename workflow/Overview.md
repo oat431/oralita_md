@@ -4,7 +4,7 @@
 
 ---
 
-## Skills Map
+## Skills Map (17 Active)
 
 ### 📚 PDF & Book Summarization
 
@@ -42,19 +42,15 @@
 
 | Skill | Use when |
 |-------|---------|
-| **go-fiber-api** | Building Go REST APIs with Fiber v3 + sqlx. Clean architecture, PostgreSQL, spec-driven. |
-| **full-stack-monorepo** | Scaffolding full-stack monorepos — Go/Fiber API + React/Vite frontend + PostgreSQL + Playwright E2E. Three projects, one repo. |
+| **go-fiber-api** | Building Go REST APIs with Fiber v3 + sqlx. Clean architecture, PostgreSQL, spec-driven. Also handles full-stack monorepo scaffolding (absorbed `full-stack-monorepo`). |
 | **software-specification** | Writing detailed software specifications from user requirements — features, architecture, data models. |
 
 ### 🖥️ Homelab
 
 | Skill | Use when |
 |-------|---------|
-| **homelab-setup** | Initial homelab server setup — Docker, nginx, SSL, user accounts, firewall. |
-| **homelab-infra-setup** | Infrastructure provisioning — networks, volumes, DNS, reverse proxy. |
-| **homelab-infrastructure** | Infrastructure-as-code for homelab services — compose files, configs, monitoring. |
-| **homelab-management** | Day-to-day homelab management — updates, backups, health checks, log review. |
-| **homelab-server-setup** | Fresh server bootstrap — OS config, packages, SSH, base security hardening. |
+| **homelab-infra-setup** | Infrastructure provisioning — networks, volumes, DNS, reverse proxy. Absorbed `homelab-setup` + `homelab-server-setup`. |
+| **homelab-infrastructure** | Infrastructure-as-code for homelab services — compose files, configs, monitoring. Absorbed `homelab-management`. |
 
 ### ⚙️ Hermes Configuration
 
@@ -127,8 +123,23 @@ hermes -s <skill-name>
                                               [Backup to Obsidian vault]
                                                         ↓
                                               [Restore on new machine]
+                                                        ↓
+                                          [Consolidate] → [Archive in vault]
 ```
 
 ---
 
-*Last updated: 2026-07-21*
+## Archived Skills (4)
+
+These skills were consolidated into others. Full content preserved in `archived/`.
+
+| Archived Skill | Absorbed Into | Reason |
+|----------------|---------------|--------|
+| **full-stack-monorepo** | go-fiber-api | Monorepo scaffolding now part of go-fiber-api workflow |
+| **homelab-setup** | homelab-infra-setup | Merged — redundant with infra-setup's provisioning pipeline |
+| **homelab-server-setup** | homelab-infra-setup | Merged — server bootstrap is now part of infra-setup |
+| **homelab-management** | homelab-infrastructure | Merged — day-to-day mgmt now part of infrastructure skill |
+
+---
+
+*Last updated: 2026-07-30*
