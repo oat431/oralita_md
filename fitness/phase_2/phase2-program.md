@@ -43,48 +43,66 @@ tags: [fitness, program, phase-2, barbell]
 
 ---
 
-## Week 5 — Learn the Barbell Movements
+## Optional Morning Movement — 10 kg Kettlebell
+
+This is **not a fifth workout** and it will not selectively burn stomach fat. Abdominal fat decreases through the overall calorie deficit and consistent activity; the kettlebell builds hip, trunk, and work capacity.
+
+### Week 6 starting dose
+
+- **Daily priority:** 10-minute brisk walk in the morning. This supports the 5,000-step average without adding much fatigue.
+- **Kettlebell:** maximum **2 mornings/week**, 8-10 minutes, RPE 5/10 or easier. Keep 2-3 reps in reserve; never train to failure.
+- **Thursday session:** 2 rounds — kettlebell deadlift × 8, goblet squat × 8, suitcase carry 20-30 sec/side, dead bug × 6/side. Rest 60-90 sec between rounds.
+- **Sunday option:** repeat only if Saturday soreness is minimal. If hamstrings, lower back, or knees are sore, walk only.
+- **Monday/Tuesday/Wednesday/Saturday:** no kettlebell session. Walk only; protect the programmed lifting and run/walk work.
+
+**Do not add swings, cleans, snatches, or Turkish get-ups yet.** Your conventional deadlift is still in its first exposure phase; learn the hinge first. We can add swings after two weeks of clean, pain-free deadlift and kettlebell-deadlift technique.
+
+Stop for sharp pain, back pain, dizziness, chest pain, or unusual shortness of breath. This optional work must never reduce performance in the four programmed sessions.
+
+---
+
+## Week 5 Completed / Week 6 Current Targets
 
 ### Mon — Upper (Barbell Bench + OHP)
 
-| Exercise            | Sets × Reps | Rest    | W5 Weight | Notes                                                                            |
-| ------------------- | ----------- | ------- | --------- | -------------------------------------------------------------------------------- |
-| Barbell Bench Press | 3×5         | 2-3 min | **40 kg** | You did this in W2. Start here, add 2.5 kg if easy. Bar touches chest, no bounce |
-| Barbell OHP         | 3×5         | 2 min   | **30 kg** | Strict press. No leg drive. Bar starts at collarbone, lock out overhead          |
-| Chest-Supported Row | 3×8         | 90 sec  | **25 kg** | All 3 sets same weight                                                           |
-| Face Pulls          | 3×12        | 60 sec  | **17 kg** | Keep these — shoulder health                                                     |
-| Tricep Pushdown     | 2×12        | 60 sec  | **17 kg** |                                                                                  |
+| Exercise            | Sets × Reps | Rest    | W6 Target   | Notes                                                 |
+| ------------------- | ----------- | ------- | ----------- | ----------------------------------------------------- |
+| Barbell Bench Press | 3×5         | 2-3 min | **42.5 kg** | You completed 40 kg 3×5. Bar touches chest, no bounce |
+| Barbell OHP         | 3×5         | 2 min   | **32.5 kg** | Strict press. No leg drive. Full ROM                  |
+| Chest-Supported Row | 3×8         | 90 sec  | **27.5 kg** | W5 was Easy. Same weight across working sets          |
+| Face Pulls          | 3×12        | 60 sec  | **20 kg**   | W5 was Medium. Pull to forehead, external rotation    |
+| Tricep Pushdown     | 2×12        | 60 sec  | **20 kg**   | W5 was Medium. No torso swing                         |
 
 ### Tue — Lower (Barbell Squat)
 
-| Exercise           | Sets × Reps | Rest    | W5 Weight | Notes                                                                                                      |
-| ------------------ | ----------- | ------- | --------- | ---------------------------------------------------------------------------------------------------------- |
-| Barbell Back Squat | 3×5         | 2-3 min | **40 kg** | First time? Do 2 sets with just the bar (20 kg) for form, then load to 40. Depth: thighs parallel or below |
-| Leg Press          | 3×8         | 90 sec  | **50 kg** | Increase from 45 kg "Easy." 3×8 (lower reps, higher weight)                                                |
-| Lying Leg Curl     | 3×10        | 60 sec  | **25 kg** | Increase from 22 kg                                                                                        |
-| Calf Raises        | 3×15        | 60 sec  | **35 kg** | Increase from 30 kg                                                                                        |
-| Plank              | 3×30 sec    | 30 sec  | —         | Add a set                                                                                                  |
+| Exercise           | Sets × Reps | Rest    | W6 Target    | Notes                                                                               |
+| ------------------ | ----------- | ------- | ------------ | ----------------------------------------------------------------------------------- |
+| Barbell Back Squat | 3×5         | 2-3 min | **42.5 kg**  | W5 completed. Depth: thighs parallel or below; keep same weight across working sets |
+| Leg Press          | 3×8         | 90 sec  | **55 kg**    | W5 was Easy. Controlled depth, no knee lockout                                      |
+| Lying Leg Curl     | 3×10        | 60 sec  | **27.5 kg**  | W5 was Medium. 2-sec eccentric                                                      |
+| Calf Raises        | 3×15        | 60 sec  | **35 kg**    | W5 was Hard. Repeat; full stretch                                                   |
+| Plank              | 3×30 sec    | 30 sec  | **3×35 sec** | Progress time only if 3×30 sec was clean                                            |
 
 ### Wed — Run/Walk + Core
 
-| Exercise | Sets × Reps | Rest | W5 Target | Notes |
-|----------|-------------|------|-----------|-------|
-| Run/Walk Intervals | — | — | **32 min** | 3 min jog / 2 min walk × 6 + 2 min warm-up walk |
-| Dead Bugs | 2×10/side | 30 sec | — | Slow and controlled |
-| Pallof Press | 2×10/side | 30 sec | Cable, light | Anti-rotation core. If no cable, side planks 2×30 sec |
-| Dumbbell Curls (optional) | 2×10 | 60 sec | **15 kg** | Only if you have time |
-| Dumbbell Lateral Raises | 2×12 | 60 sec | **8 kg** | ⚠️ Try 8 kg with back against wall. Prove form before increasing |
+| Exercise                   | Weight (kg) | Sets × Reps / Time | W6 Target | Notes                                      |
+| -------------------------- | ----------- | ------------------ | --------- | ------------------------------------------ |
+| Run/Walk Intervals         | —           | 32 min             | **30 min** | W5 logged 45 min; return to planned dose   |
+| Dead Bugs                  | —           | 2×10/side          | —         | Easy; keep controlled                       |
+| Pallof Press / Side Planks | 15          | 2×10 / 2×30 sec    | **15 kg** | Easy; keep same                             |
+| Dumbbell Curls (opt)       | 15          | 2×10               | —         | Optional; skipped W5, no need to force      |
+| Dumbbell Lateral Raises    | 15          | 2×12               | **8 kg**  | Wall test logged; use strict form           |
 
 ### Sat — Full Body (Deadlift + Squat)
 
-| Exercise | Sets × Reps | Rest | W5 Weight | Notes |
-|----------|-------------|------|-----------|-------|
-| Barbell Deadlift (conventional) | 1×5 | — | **60 kg** | One working set after warm-ups. This is your first deadlift — focus on flat back, hips don't shoot up. Warm up: 40×5, 50×3, then 60×5 |
-| Barbell Front Squat | 3×5 | 2 min | **30 kg** | Lighter squat variant. Bar rests on front delts, elbows high. Teaches upright torso |
-| Lat Pulldown | 3×8 | 90 sec | **25 kg** | Increase from 22 kg. Lower reps, higher weight |
-| Incline Dumbbell Press | 3×8 | 90 sec | **25 kg** | Increase from 22 kg |
-| Reverse Lunges | 3×8/leg | 90 sec | **15 kg** | Stay at 15 kg (was "Hard"). Don't increase until it's "Medium" |
-| Seated Cable Row | 3×8 | 60 sec | **32.5 kg** | Increase from 30 kg. Lower reps, higher weight |
+| Exercise                        | Sets × Reps | Rest   | W6 Target   | Notes                                                                            |
+| ------------------------------- | ----------- | ------ | ----------- | -------------------------------------------------------------------------------- |
+| Barbell Deadlift (conventional) | 1×5         | —      | **60 kg**   | First exposure. Repeat 60 kg once more; increase only after clean flat-back reps |
+| Barbell Front Squat             | 3×5         | 2 min  | **32.5 kg** | Same weight across working sets; elbows high                                     |
+| Lat Pulldown                    | 3×8         | 90 sec | **27.5 kg** | W5 was Easy                                                                      |
+| Incline Dumbbell Press          | 3×8         | 90 sec | **27.5 kg** | W5 was Easy                                                                      |
+| Reverse Lunges                  | 3×8/leg     | 90 sec | **17.5 kg** | W5 was Easy; increase only if balance and knee tracking stay clean               |
+| Seated Cable Row                | 3×8         | 60 sec | **35 kg**   | W5 was Medium                                                                    |
 
 ---
 
@@ -97,8 +115,10 @@ tags: [fitness, program, phase-2, barbell]
 | Bench Press | 40 kg | 42.5 | 45 | 47.5 |
 | OHP | 30 kg | 32.5 | 35 | 37.5 |
 | Back Squat | 40 kg | 42.5 | 45 | 47.5 |
-| Deadlift | 60 kg | 65 | 70 | 75 |
+| Deadlift | 60 kg | **60** | 65 | 70 |
 | Front Squat | 30 kg | 32.5 | 35 | 37.5 |
+
+> Deadlift is held at 60 kg in W6 because W5 was your first exposure. Move to 65 kg in W7 only after clean, flat-back reps.
 
 Accessories: add 2.5 kg when the current weight feels "Medium" or "Easy."
 
@@ -159,4 +179,63 @@ Goal by end of Phase 2: continuous 20 min jog without walking. Marathon is still
 
 ---
 
-*Next review: Week 8. Bring your log + smart scale trend data. — Coach*
+## Week 5 Review (2026-07-27 → 2026-08-02)
+
+### 📊 Metrics
+
+| Metric | Week 5 result | Verdict |
+|--------|---------------|---------|
+| Training sessions | 4/4 completed | Good adherence ✅ |
+| Daily weight log | 122.6 → 121.0 kg; average 121.87 kg | Endpoint drop is mostly water; don't call it 1.6 kg fat loss |
+| Sunday smart scale | 121.1 → 121.0 kg | Essentially flat week-to-week; keep 2,200 kcal |
+| Smart-scale fat mass | 43.1 → 42.5 kg | Encouraging direction, but one BIA reading is noisy |
+| Smart-scale muscle mass | 76.0 → 75.8 kg | Within measurement noise; no action |
+| Visceral-fat rating | 23 → 22 | Encouraging, trend only |
+| Body water | 45.5% → 46.3% | Hydration direction improved |
+| Protein | 160g, 7/7 days | Locked ✅ |
+| Sleep | 7.3h average | Good ✅ |
+| Steps | 3,573/day average | Too low; gradual ramp required ⚠️ |
+| PAI | 50/week | Below the long-term 100 target; do not chase it with extra hard sessions |
+| Resting HR | 10.8 bpm logged | Invalid reading — verify in Mi Fitness; do not use it for decisions |
+
+### Week 5 Performance → Week 6 Targets
+
+| Exercise | W5 Actual / Feel | W6 Target | Note |
+|----------|-------------------|-----------|------|
+| Barbell Bench Press | 40 kg × 3×5, Medium | **42.5 kg × 3×5** | Increase only if all reps and bar path were clean |
+| Barbell OHP | 30 kg × 3×5, Medium | **32.5 kg × 3×5** | Strict press; no leg drive |
+| Chest-Supported Row | 25 kg × 3×8, Easy | **27.5 kg × 3×8** | Same weight across sets |
+| Face Pulls | 17 kg × 3×12, Medium | **20 kg × 3×12** | Reduce if you lose external rotation |
+| Tricep Pushdown | 17 kg × 2×12, Medium | **20 kg × 2×12** | No torso swing |
+| Barbell Back Squat | 40 kg × 3×5, Medium | **42.5 kg × 3×5** | Only if depth and bracing were clean |
+| Leg Press | 50 kg × 3×8, Easy | **55 kg × 3×8** | Controlled depth; no knee lockout |
+| Lying Leg Curl | 25 kg × 3×10, Medium | **27.5 kg × 3×10** | Two-second eccentric |
+| Calf Raises | 35 kg × 3×15, Hard | **35 kg × 3×15** | Repeat; Hard is the ceiling for now |
+| Plank | 3×30 sec, Medium | **3×35 sec** | Time progression only |
+| Run/Walk | 45 min logged; planned 32 min | **30 min exact** | 4 min jog / 2 min walk × 5; no bonus minutes |
+| Barbell Deadlift | 60 kg × 1×5, Medium | **60 kg × 1×5** | Repeat first exposure; flat back is the gate before 65 kg |
+| Barbell Front Squat | 30 kg × 3×5, Medium | **32.5 kg × 3×5** | Same weight; elbows high |
+| Lat Pulldown | 25 kg × 3×8, Easy | **27.5 kg × 3×8** | |
+| Incline Dumbbell Press | 25 kg × 3×8, Easy | **27.5 kg × 3×8** | |
+| Reverse Lunges | 15 kg × 3×8/leg, Easy | **17.5 kg × 3×8/leg** | Only if balance and knee tracking stay clean |
+| Seated Cable Row | 32.5 kg × 3×8, Medium | **35 kg × 3×8** | |
+
+### ⚠️ Flags and Corrections
+
+1. **Run/walk overshoot:** 45 minutes was ~13 minutes above the prescription. More is not automatically better at 121 kg and beginner running age. Return to 30 minutes in Week 6; use cycling or swimming if you want extra low-impact activity.
+2. **Steps are the real missing activity:** 3,573/day is well below the eventual 8,000 goal. Do not jump straight to 8,000. Set a **Week 6 average floor of 5,000/day**, using a 10-minute walk after two meals. Raise to 6,000 only after 5,000 is repeatable.
+3. **PAI 50:** Keep 100/week as a long-term health reference, but don't manufacture PAI with HIIT. Walking, the prescribed run/walk, and the lifting schedule are enough for now.
+4. **Resting HR 10.8:** impossible as a normal resting value. Check whether the app shows a different unit, a missing decimal, or a bad reading. Send the actual value next review.
+5. **Lateral raises:** 15 kg with “Wall test: yes” is not enough information to accept the load. Week 6 stays at **8 kg** until you confirm full ROM, no shrugging, and no torso movement.
+
+### Nutrition Decision
+
+Keep **2,200 kcal and 160g protein**. The Sunday scale moved only 0.1 kg, but fat mass and water moved in a favorable direction; one week is insufficient to cut calories again. We need two more standardized Sunday readings before changing intake.
+
+### Evidence Note
+
+WHO guidance places the eventual adult target at 150–300 minutes of moderate activity per week, but that is a destination, not permission to double running volume immediately. Evidence on novice runners with obesity supports controlling the initial running dose because injury risk rises with excessive starting distance. We will build activity through steps and low-impact work first.
+
+---
+
+*Next review: Week 6. Bring the training log, Sunday scale reading, average steps, PAI, and a corrected resting-HR value. — Coach*

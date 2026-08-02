@@ -12,12 +12,13 @@ All targets calculated from your body metrics: 121.1 kg, 25 years old, BMR 2,104
 
 ## Daily Goals
 
-| Metric | Target | Why This Number |
-|--------|--------|-----------------|
-| **Steps** | **8,000/day** | At your weight, 8,000 steps = ~400-450 kcal burned. Enough for fat loss without overdoing it. Increase to 10,000 after Week 8 if you're hitting 8,000 consistently |
-| **Active Calories** | **500 kcal/day** | This is on top of BMR. 500 active kcal = ~8,000 steps OR 1 gym session. On gym days you'll blow past this. On rest days (Thu/Fri/Sun), the steps get you there |
-| **Stand Hours** | **10 hours/day** | Stand and move at least 1 minute every hour for 10 hours. Set reminder interval: 60 minutes |
-| **Sleep** | **7 hours minimum** | You average 7.3h. Set 7h as floor. Watch tracks deep sleep + light sleep — useful for recovery monitoring |
+| Metric | Week 6 Target | Long-term Target | Why This Number |
+|--------|---------------|------------------|-----------------|
+| **Steps** | **5,000/day average** | **8,000/day** | Week 5 average was 3,573. Add activity gradually rather than jumping straight to 8,000 |
+| **Active Calories** | **Do not chase a fixed number** | Reassess after steps baseline | Watch calorie estimates are noisy; use steps + programmed training instead |
+| **Stand Hours** | **8 hours/day** | **10 hours/day** | Stand and move at least 1 minute each hour; build from actual baseline |
+| **Sleep** | **7 hours minimum** | **7+ hours** | You averaged 7.3h in Week 5; protect it |
+| **PAI** | **50-75/week** | **100/week** | Week 5 was 50. Build gradually; don't add HIIT just to hit a number |
 
 ### Gym Days vs Rest Days
 
