@@ -30,23 +30,23 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Plank              | —           | 3×30 sec    | Medium |
 
 ### Wed — Run/Walk + Core
-| Exercise | Weight (kg) | Sets × Reps / Time | Notes |
-|----------|-------------|---------------------|-------|
-| Run/Walk Intervals | — | min | Protocol used: __ |
-| Dead Bugs | — | 2×10/side | |
-| Pallof Press / Side Planks | | 2×10 / 2×30 sec | |
-| Dumbbell Curls (opt) | | 2×10 | |
-| Dumbbell Lateral Raises | | 2×12 | Wall test: yes/no |
+| Exercise                   | Weight (kg) | Sets × Reps / Time | Notes                    |
+| -------------------------- | ----------- | ------------------ | ------------------------ |
+| Run/Walk Intervals         | —           | min                | Protocol used: 45 minute |
+| Dead Bugs                  | —           | 2×10/side          | Easy                     |
+| Pallof Press / Side Planks | 15          | 2×10 / 2×30 sec    | Easy                     |
+| Dumbbell Curls (opt)       | 15          | 2×10               | skip                     |
+| Dumbbell Lateral Raises    | 15          | 2×12               | Wall test: yes           |
 
 ### Sat — Full Body (Deadlift + Front Squat)
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Deadlift | | 1×5 | |
-| Barbell Front Squat | | 3×5 | |
-| Lat Pulldown | | 3×8 | |
-| Incline Dumbbell Press | | 3×8 | |
-| Reverse Lunges | | 3×8/leg | |
-| Seated Cable Row | | 3×8 | |
+| Exercise               | Weight (kg)    | Sets × Reps | Notes  |
+| ---------------------- | -------------- | ----------- | ------ |
+| Barbell Deadlift       | 60             | 1×5         | Medium |
+| Barbell Front Squat    | 30,30,30       | 3×5         | Medium |
+| Lat Pulldown           | 25,25,25       | 3×8         | Easy   |
+| Incline Dumbbell Press | 25,25,25       | 3×8         | Easy   |
+| Reverse Lunges         | 15,15,15       | 3×8/leg     | Easy   |
+| Seated Cable Row       | 32.5,32.5,32.5 | 3×8         | Medium |
 
 ---
 
@@ -56,11 +56,11 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | --- | ----------- | ---------------- | ------------ | ----- |
 | Mon | 7           | 122.6            | 160          |       |
 | Tue | 7           | 121.2            | 160          |       |
-| Wed |             |                  |              |       |
-| Thu |             |                  |              |       |
-| Fri |             |                  |              |       |
-| Sat |             |                  |              |       |
-| Sun |             |                  |              |       |
+| Wed | 8           | 122.6            | 160          |       |
+| Thu | 7           | 122.2            | 160          |       |
+| Fri | 8           | 122.1            | 160          |       |
+| Sat | 7           | 121.4            | 160          |       |
+| Sun | 7           | 121.0            | 160          |       |
 
 ---
 

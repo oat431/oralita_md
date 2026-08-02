@@ -9,22 +9,22 @@ tags: [fitness, tracking, smart-scale, phase-2]
 
 ## Body Composition (Smart Scale)
 
-| Week | Date | Weight (kg) | Fat (kg) | Fat % | Muscle (kg) | Visceral Fat | Body Water % | Waist-to-Hip |
-|------|------|-------------|----------|-------|-------------|-------------|--------------|--------------|
-| Baseline | 07-27 | 121.1 | 43.1 | 35.6 | 76.0 | 23 | 45.5 | 1.1 |
-| 5 | | | | | | | | |
-| 6 | | | | | | | | |
-| 7 | | | | | | | | |
-| 8 | | | | | | | | |
+| Week     | Date  | Weight (kg) | Fat (kg) | Fat % | Muscle (kg) | Visceral Fat | Body Water % | Waist-to-Hip |
+| -------- | ----- | ----------- | -------- | ----- | ----------- | ------------ | ------------ | ------------ |
+| Baseline | 07-27 | 121.1       | 43.1     | 35.6  | 76.0        | 23           | 45.5         | 1.1          |
+| 5        | 08-02 | 121.0       | 42.5     | 35.1  | 75.8        | 22           | 46.3         | 1.1          |
+| 6        |       |             |          |       |             |              |              |              |
+| 7        |       |             |          |       |             |              |              |              |
+| 8        |       |             |          |       |             |              |              |              |
 
 ## Watch Metrics (7-Day Averages)
 
-| Week | Avg Steps/Day | Avg Resting HR | Avg Sleep | PAI Score (rolling) | Notes |
-|------|---------------|----------------|-----------|---------------------|-------|
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
+| Week | Avg Steps/Day | Avg Resting HR | Avg Sleep | PAI Score (rolling) | Notes                     |
+| ---- | ------------- | -------------- | --------- | ------------------- | ------------------------- |
+| 5    | 3573          | 10.8           | 7         | 50                  | i need to walk more often |
+| 6    |               |                |           |                     |                           |
+| 7    |               |                |           |                     |                           |
+| 8    |               |                |           |                     |                           |
 
 ## Targets (End of Phase 2 — Week 8)
 
