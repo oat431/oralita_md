@@ -4,7 +4,7 @@
 
 ---
 
-## Skills Map (17 Active)
+## Skills Map (20 Active)
 
 ### 📚 PDF & Book Summarization
 
@@ -49,6 +49,7 @@
 
 | Skill | Use when |
 |-------|---------|
+| **homelab-server-setup** | Setting up and managing a homelab server — SSH hardening, Docker, Cloudflare Tunnel, Tailscale, Nginx reverse proxy, database containers, deployment. Re-created as a standalone live skill (distinct from the archived pre-merge version). |
 | **homelab-infra-setup** | Infrastructure provisioning — networks, volumes, DNS, reverse proxy. Absorbed `homelab-setup` + `homelab-server-setup`. |
 | **homelab-infrastructure** | Infrastructure-as-code for homelab services — compose files, configs, monitoring. Absorbed `homelab-management`. |
 
@@ -57,6 +58,8 @@
 | Skill | Use when |
 |-------|---------|
 | **hermes-profile-setup** | Creating and configuring Hermes profiles for separate use cases. Profiles = isolated memory, skills, SOUL, tools per persona. |
+| **mcp-server-patterns** | Adding or troubleshooting MCP servers in Hermes Agent (filesystem, github, postgres, drawio, searxng). |
+| **skill-library-maintenance** | Reviewing or improving a Hermes skill library — consolidation, curation, health checks. |
 
 ---
 
@@ -142,4 +145,4 @@ These skills were consolidated into others. Full content preserved in `archived/
 
 ---
 
-*Last updated: 2026-07-30*
+*Last updated: 2026-08-03*

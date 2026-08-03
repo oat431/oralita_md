@@ -17,45 +17,24 @@ Maintenance operations that keep a multi-vault Obsidian setup healthy: wikilink 
 
 ## Post-Batch Verification (After Sub-Agent Batches)
 
-After delegating batch work where sub-agents write .md files (common in the `oralita-book-sum-obs` pipeline), run these checks on EVERY batch before proceeding to the next batch or claiming completion:
+After delegating batch work where sub-agents write .md files (common in the `oralita-book-sum-obs` pipeline), run these checks on EVERY batch before proceeding to the next batch or claiming completion. For the full scope, staging, resolver, and evidence checklist, see `references/post-batch-verification-gates.md`.
 
-### 1. Language Check (Mandatory)
+### 1. Language Check (Triage, Not Auto-Rewrite)
 
-Sub-agents can output non-English text (Chinese, Korean, Japanese). This has happened 15+ times across multiple sessions. Check every newly arrived file:
+Sub-agents can drift from the requested prose language. Unicode/script detection is only a signal: CJK, Cyrillic, or other characters may be valid in proper names, formulas, URLs, code, or short quotations. Inspect prose density and the requested output language rather than treating any non-Latin character as failure.
 
-```python
-c = open(path, encoding='utf-8').read()
-chinese = [ch for ch in c if '\\u4e00' <= ch <= '\\u9fff']
-korean = [ch for ch in c if '\\uac00' <= ch <= '\\ud7af' or '\\u3131' <= ch <= '\\u318e']
-print(f'{file}: Chinese={len(chinese)}, Korean={len(korean)}')
-```
+For each newly arrived file, record the language-review result. If a substantial prose section is in the wrong language, rewrite only the affected note after preserving source attribution, code, and valid quotations, then rerun all gates. Do not rewrite a file solely because a script-count check is non-zero.
 
-If >0 non-English characters found, **rewrite the ENTIRE file in English** using `write_file`. Do not patch individual lines — the file is fully non-English.
+### 2. Wikilink Check (Resolution, Not Presence)
 
-### 2. Wikilink Check (Mandatory)
+The absence of a wikilink is not automatically a defect: a short catalog, overview, or self-contained note may have no applicable related note. Check whether links that are present resolve, and compare required navigation links against the manifest or Overview—not against an arbitrary minimum count.
 
-Sub-agents skip `[[wikilinks]]` ~60% of the time. Verify every file has them:
+For each new or changed file:
 
-```python
-for f in files:
-    c = open(os.path.join(base, f), encoding='utf-8').read()
-    has_links = '[[' in c
-    status = '✅' if has_links else '⚠️'
-    print(f'[{status}] {f}')
-```
-
-If links are missing, add a `## Related` section at the end of each affected file with `[[wikilinks]]` to sibling notes and the overview. Batch all fixes in one `execute_code` call using a `related_sections` dict:
-
-```python
-related_sections = {
-    'file1.md': '\n\n## Related\n\n- [[Overview]] — Description\n- [[Other_File]] — Description\n',
-    'file2.md': '\n\n## Related\n\n- [[Overview]] — Description\n',
-}
-for fname, related in related_sections.items():
-    path = os.path.join(base, fname)
-    with open(path, 'a', encoding='utf-8') as f:
-        f.write(related)
-```
+1. Parse wikilinks with aliases, heading/block suffixes, nested paths, and optional `.md` suffixes.
+2. Resolve targets against the actual vault using the same case and basename rules Obsidian uses; flag ambiguous basenames instead of silently choosing one.
+3. Preserve aliases and anchors when repairing a target. Never invent sibling links merely to make a file pass.
+4. Apply only an explicit correction map with targeted edits, then re-scan and report the changed files.
 
 ### 3. Frontmatter Consistency Check
 
@@ -76,14 +55,14 @@ When the user notices broken backlinks, follow the workflow in `references/wikil
 5. Repeat until zero broken links remain (typically 2-3 passes)
 
 Key rules:
-- Obsidian resolves by filename, not path — `[[01 Law of Proximity]]` works across any folder
-- Handle aliases: `[[broken||alias]]` → `[[correct|alias]]`
-- Leave user's personal notes (daily notes, memory) alone — only fix knowledge vaults
-- **Concept-only links** (no file exists, e.g. `[[viruses]]`, `[[CRM]]`) → convert to **bold text**, don't delete
-- **Path-qualified links** (`[[BABOK/Note]]`, `[[../dir/Note]]`) → flatten to `[[Note]]` (Obsidian resolves by filename)
-- **Folder-style links** (`[[02-Creational/]]`) → remove entirely
-- **Placeholder text** (`[[wikilinks]]`, `[[Related Topic]]`) → remove entirely
-- **Backslash in links** (`[[Note\|alias]]`) → fix to `[[Note|alias]]` (single `\` is common, not just `\\`)
+- Obsidian can resolve by filename, but path-qualified links are valid and may be required to disambiguate duplicate basenames. Flatten `[[Folder/Note]]` or `[[../dir/Note]]` only when the destination basename is unique and the canonical vault style permits it.
+- Handle aliases without losing them: `[[broken|alias]]` → `[[correct|alias]]`.
+- Preserve heading/block suffixes while repairing targets; verify the target anchor when the workflow claims anchor-level correctness.
+- Leave user's personal notes (daily notes, memory) alone — only fix knowledge vaults.
+- **Concept-only links** (for example `[[viruses]]` or `[[CRM]]`) may be intentional knowledge links. Convert to bold only when they are proven placeholders or the user explicitly requests flattening.
+- **Folder-style links** (`[[02-Creational/]]`) are invalid navigation targets unless the vault intentionally uses folder links; remove only after checking the local convention.
+- **Placeholder text** (`[[wikilinks]]`, `[[Related Topic]]`) → remove entirely.
+- **Backslash in links** (`[[Note\|alias]]`) → fix to `[[Note|alias]]` (single `\` is common, not just `\\`).
 
 ### Multi-Pass Strategy
 
