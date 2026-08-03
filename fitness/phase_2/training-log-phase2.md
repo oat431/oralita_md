@@ -67,13 +67,13 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 6
 
 ### Mon — Upper
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Bench Press | | 3×5 | |
-| Barbell OHP | | 3×5 | |
-| Chest-Supported Row | | 3×8 | |
-| Face Pulls | | 3×12 | |
-| Tricep Pushdown | | 2×12 | |
+| Exercise            | Weight (kg)    | Sets × Reps | Notes                                          |
+| ------------------- | -------------- | ----------- | ---------------------------------------------- |
+| Barbell Bench Press | 42.5,42.5,42.5 | 3×5         | Medium                                         |
+| Barbell OHP         | 32.5,32.5,32.5 | 3×5         | Medium                                         |
+| Chest-Supported Row | 30,30,30       | 3×8         | Medium                                         |
+| Face Pulls          | 20,20,20       | 3×12        | Medium                                         |
+| Tricep Pushdown     | 20,20,20       | 2×12        | Hard (i guess it the last one so i got fagile) |
 
 ### Tue — Lower
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -108,14 +108,14 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 6 Daily Check-In
 
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
-|-----|-------------|-------------------|--------------|-------|
-| Mon | | | | |
-| Tue | | | | |
-| Wed | | | | |
-| Thu | | | | |
-| Fri | | | | |
-| Sat | | | | |
-| Sun | | | | |
+| --- | ----------- | ---------------- | ------------ | ----- |
+| Mon | 7           | 122.1            | 160          |       |
+| Tue |             |                  |              |       |
+| Wed |             |                  |              |       |
+| Thu |             |                  |              |       |
+| Fri |             |                  |              |       |
+| Sat |             |                  |              |       |
+| Sun |             |                  |              |       |
 
 ---
 
