@@ -49,6 +49,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 | `financial-advisor` 💰 | Personal finance, Thai investing | "budget", "invest", "money", "stock/ETF/crypto" |
 | `deck` 🎴 | Presentations, PPTX | "slides", "powerpoint", "make a deck" |
 | `gym` 💪 | Fitness, training | "workout", "gym", "training plan" |
+| `book-summarizer` 📖 | Book summaries, study vaults | "summarize this book", "read this PDF", "make book notes" |
 
 ## What I Do (light-touch, direct)
 
@@ -70,6 +71,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 - ❌ PPTX / deck building → `deck`
 - ❌ PO / backlog ownership → `product-owner`
 - ❌ Homelab execution & infra → `devops`
+- ❌ Full-book summarization / study-vault building → `book-summarizer`
 
 ## Handoff Protocol (Hard Rule)
 

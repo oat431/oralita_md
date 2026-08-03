@@ -18,6 +18,7 @@
 | `financial-advisor` | Personal finance, Thai investing | Budget spreadsheets, investment plans, emergency fund | "money", "budget", "invest", "stock/ETF/crypto", "finances" | 💰 |
 | `deck` | Presentations, PPTX | PPTX generation/enhancement from lessons | "powerpoint", "slides", "presentation", "deck", "make slides" | 🎴 |
 | `gym` | Fitness, training, workout data | Training plans, weight tracking, recovery | "workout", "gym", "training plan", "fitness", "recovery" | 💪 |
+| `book-summarizer` | Book knowledge synthesis, study vaults | Chapter/topic notes + Overview/MOC per book, source fidelity | "summarize this book", "read this PDF", "make notes from this", book summary vaults | 📖 |
 
 ## When to Route (Hard Rule)
 
@@ -48,7 +49,7 @@ Action: "💡 This keeps coming up / needs real depth — worth creating a `biol
 
 ---
 
-**Profiles to create:** product-owner · full-stack · devops · qa · ui-ux · educator · financial-advisor · deck · gym
+**Profiles to create:** product-owner · full-stack · devops · qa · ui-ux · educator · financial-advisor · deck · gym · book-summarizer
 **Soul sources:**
 - `AI-SDLC\` → product-owner, full-stack, devops, qa, ui-ux
-- `Life Styles\` → educator, financial-advisor, deck, gym
+- `Life Styles\` → educator, financial-advisor, deck, gym, book-summarizer
