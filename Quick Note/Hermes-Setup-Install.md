@@ -204,11 +204,19 @@ Verify — ask Hermes: *"search the web for 'what is hermes agent'"* — it shou
 
 ## Step 5 — Install the oralita-book-sum-obs skill (from GitHub)
 
-One command — installs straight from the repo:
+Two ways — both install the same skill:
 
+**A) Tap (recommended)** — register the repo as a skill source, then install by name:
 ```powershell
-hermes skills install "https://raw.githubusercontent.com/oat431/oralita_md/main/workflow/oralita-book-sum-obs/SKILL.md"
+hermes skills tap add oat431/oralita_md
+hermes skills install oralita-book-sum-obs
 ```
+
+**B) Direct URL** — one-liner, no tap:
+```powershell
+hermes skills install "https://raw.githubusercontent.com/oat431/oralita_md/main/skills/oralita-book-sum-obs/SKILL.md"
+```
+> The published copy lives in `skills/`; `workflow/` is the canonical dev copy. Keep them in sync on updates.
 
 Dependency skills (`obsidian`, `bok-essential-documents`, `ocr-and-documents`) ship with Hermes by default — verify they're present; if not, install them the same way from `workflow/`:
 
