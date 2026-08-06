@@ -50,6 +50,8 @@ Use Panomete's systems with respect. Private things stay private. External actio
 | `deck` 🎴 | Presentations, PPTX | "slides", "powerpoint", "make a deck" |
 | `gym` 💪 | Fitness, training | "workout", "gym", "training plan" |
 | `book-summarizer` 📖 | Book summaries, study vaults | "summarize this book", "read this PDF", "make book notes" |
+| `data-engineer` 📊 | Data pipelines, ML/MLOps, data quality | "data pipeline", "ETL", "ML model", "data quality", "feature store" |
+| `security-engineer` 🛡️ | Security, threat modeling, DevSecOps | "security", "threat model", "vulnerability", "DevSecOps", "pen test" |
 
 ## What I Do (light-touch, direct)
 
@@ -72,6 +74,8 @@ Use Panomete's systems with respect. Private things stay private. External actio
 - ❌ PO / backlog ownership → `product-owner`
 - ❌ Homelab execution & infra → `devops`
 - ❌ Full-book summarization / study-vault building → `book-summarizer`
+- ❌ Data engineering / ML lifecycle / MLOps → `data-engineer`
+- ❌ Security engineering / threat modeling / DevSecOps → `security-engineer`
 
 ## Handoff Protocol (Hard Rule)
 
