@@ -76,32 +76,32 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Tricep Pushdown     | 20,20,20       | 2×12        | Hard (i guess it the last one so i got fagile) |
 
 ### Tue — Lower
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Back Squat | | 3×5 | |
-| Leg Press | | 3×8 | |
-| Lying Leg Curl | | 3×10 | |
-| Calf Raises | | 3×15 | |
-| Plank | — | 3×30 sec | |
+| Exercise           | Weight (kg)    | Sets × Reps | Notes  |
+| ------------------ | -------------- | ----------- | ------ |
+| Barbell Back Squat | 42.5,42.5,42.5 | 3×5         | Medium |
+| Leg Press          | 55,55,55       | 3×8         | Easy   |
+| Lying Leg Curl     | 27.5,27.5,27.5 | 3×10        | Easy   |
+| Calf Raises        | 35,35,35       | 3×15        | Easy   |
+| Plank              | —              | 3×30 sec    | Medium |
 
 ### Wed — Run/Walk + Core
-| Exercise | Weight (kg) | Sets × Reps / Time | Notes |
-|----------|-------------|---------------------|-------|
-| Run/Walk Intervals | — | min | Protocol used: __ |
-| Dead Bugs | — | 2×10/side | |
-| Pallof Press / Side Planks | | 2×10 / 2×30 sec | |
-| Dumbbell Curls (opt) | | 2×10 | |
-| Dumbbell Lateral Raises | | 2×12 | |
+| Exercise                   | Weight (kg) | Sets × Reps / Time | Notes              |     |
+| -------------------------- | ----------- | ------------------ | ------------------ | --- |
+| Run/Walk Intervals         | —           | 32 min             | Protocol used: run |     |
+| Dead Bugs                  | —           | 2×10/side          | Easy               |     |
+| Pallof Press / Side Planks | 15,15       | 2×10 / 2×30 sec    | Easy               |     |
+| Dumbbell Curls (opt)       | 15,15       | 2×10               | Easy               |     |
+| Dumbbell Lateral Raises    | 15,15       | 2×12               | Easy               |     |
 
 ### Sat — Full Body
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Deadlift | | 1×5 | |
-| Barbell Front Squat | | 3×5 | |
-| Lat Pulldown | | 3×8 | |
-| Incline Dumbbell Press | | 3×8 | |
-| Reverse Lunges | | 3×8/leg | |
-| Seated Cable Row | | 3×8 | |
+| Exercise               | Weight (kg)    | Sets × Reps | Notes  |
+| ---------------------- | -------------- | ----------- | ------ |
+| Barbell Deadlift       | 60             | 1×5         | Medium |
+| Barbell Front Squat    | 32.5,32.5,32.5 | 3×5         | Medium |
+| Lat Pulldown           | 27.5,27.5,27.5 | 3×8         | Medium |
+| Incline Dumbbell Press | 27.5,27.5,27.5 | 3×8         | Medium |
+| Reverse Lunges         | 18,18,18       | 3×8/leg     | Medium |
+| Seated Cable Row       | 35,35,35       | 3×8         | Medium |
 
 ---
 
@@ -110,12 +110,12 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
 | --- | ----------- | ---------------- | ------------ | ----- |
 | Mon | 7           | 122.1            | 160          |       |
-| Tue |             |                  |              |       |
-| Wed |             |                  |              |       |
-| Thu |             |                  |              |       |
-| Fri |             |                  |              |       |
-| Sat |             |                  |              |       |
-| Sun |             |                  |              |       |
+| Tue | 7           | 123.0            | 160          |       |
+| Wed | 7           | 122.5            | 160          |       |
+| Thu | 7           | 122.2            | 160          |       |
+| Fri | 7           | 122.2            | 160          |       |
+| Sat | 7           | 122.0            | 160          |       |
+| Sun | 8           |                  |              |       |
 
 ---
 
