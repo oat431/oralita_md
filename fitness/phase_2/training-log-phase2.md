@@ -115,7 +115,7 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Thu | 7           | 122.2            | 160          |       |
 | Fri | 7           | 122.2            | 160          |       |
 | Sat | 7           | 122.0            | 160          |       |
-| Sun | 8           |                  |              |       |
+| Sun | 8           | 121.5            | 160          |       |
 
 ---
 
