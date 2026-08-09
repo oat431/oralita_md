@@ -12,13 +12,13 @@ All targets calculated from your body metrics: 121.1 kg, 25 years old, BMR 2,104
 
 ## Daily Goals
 
-| Metric | Week 6 Target | Long-term Target | Why This Number |
+| Metric | Week 7 Target | Long-term Target | Why This Number |
 |--------|---------------|------------------|-----------------|
-| **Steps** | **5,000/day average** | **8,000/day** | Week 5 average was 3,573. Add activity gradually rather than jumping straight to 8,000 |
+| **Steps** | **5,000/day average** | **8,000/day** | Week 6 reached 4,533. Repeat the floor before increasing again |
 | **Active Calories** | **Do not chase a fixed number** | Reassess after steps baseline | Watch calorie estimates are noisy; use steps + programmed training instead |
-| **Stand Hours** | **8 hours/day** | **10 hours/day** | Stand and move at least 1 minute each hour; build from actual baseline |
-| **Sleep** | **7 hours minimum** | **7+ hours** | You averaged 7.3h in Week 5; protect it |
-| **PAI** | **50-75/week** | **100/week** | Week 5 was 50. Build gradually; don't add HIIT just to hit a number |
+| **Stand Hours** | **8 hours/day** | **10 hours/day** | Stand and move at least 1 minute each hour |
+| **Sleep** | **7 hours minimum** | **7+ hours** | Week 6 averaged 7.14h; protect it |
+| **PAI** | **50-75/week** | **100/week** | Week 6 was 52. Build gradually; don't add HIIT just to hit a number |
 
 ### Gym Days vs Rest Days
 
