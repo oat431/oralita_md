@@ -122,13 +122,13 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 7
 
 ### Mon — Upper
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Bench Press | | 3×5 | |
-| Barbell OHP | | 3×5 | |
-| Chest-Supported Row | | 3×8 | |
-| Face Pulls | | 3×12 | |
-| Tricep Pushdown | | 2×12 | |
+| Exercise            | Weight (kg) | Sets × Reps | Notes  |
+| ------------------- | ----------- | ----------- | ------ |
+| Barbell Bench Press | 45,45,45    | 3×5         | Medium |
+| Barbell OHP         | 35,35,35    | 3×5         | Hard   |
+| Chest-Supported Row | 30,30,30    | 3×8         | Easy   |
+| Face Pulls          | 20,20,20    | 3×12        | Medium |
+| Tricep Pushdown     | 20,20,20    | 2×12        | Medium |
 
 ### Tue — Lower
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -163,14 +163,14 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 7 Daily Check-In
 
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
-|-----|-------------|-------------------|--------------|-------|
-| Mon | | | | |
-| Tue | | | | |
-| Wed | | | | |
-| Thu | | | | |
-| Fri | | | | |
-| Sat | | | | |
-| Sun | | | | |
+| --- | ----------- | ---------------- | ------------ | ----- |
+| Mon | 7           | 122.8            | 160          |       |
+| Tue |             |                  |              |       |
+| Wed |             |                  |              |       |
+| Thu |             |                  |              |       |
+| Fri |             |                  |              |       |
+| Sat |             |                  |              |       |
+| Sun |             |                  |              |       |
 
 ---
 

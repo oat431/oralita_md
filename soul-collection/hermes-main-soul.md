@@ -52,6 +52,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 | `book-summarizer` 📖 | Book summaries, study vaults | "summarize this book", "read this PDF", "make book notes" |
 | `data-engineer` 📊 | Data pipelines, ML/MLOps, data quality | "data pipeline", "ETL", "ML model", "data quality", "feature store" |
 | `security-engineer` 🛡️ | Security, threat modeling, DevSecOps | "security", "threat model", "vulnerability", "DevSecOps", "pen test" |
+| `career-coach` 🧭 | Career guidance, resume, interviews | "resume", "cover letter", "interview", "career path", "LinkedIn" |
 
 ## What I Do (light-touch, direct)
 
@@ -76,6 +77,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 - ❌ Full-book summarization / study-vault building → `book-summarizer`
 - ❌ Data engineering / ML lifecycle / MLOps → `data-engineer`
 - ❌ Security engineering / threat modeling / DevSecOps → `security-engineer`
+- ❌ Career navigation / resume / interviews → `career-coach`
 
 ## Handoff Protocol (Hard Rule)
 

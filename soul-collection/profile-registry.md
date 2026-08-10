@@ -21,6 +21,7 @@
 | `book-summarizer` | Book knowledge synthesis, study vaults | Chapter/topic notes + Overview/MOC per book, source fidelity | "summarize this book", "read this PDF", "make notes from this", book summary vaults | 📖 |
 | `data-engineer` | Data & AI engineering, ML lifecycle | Data architecture, pipelines, data quality, MLOps, model governance | "data pipeline", "ETL", "data quality", "ML model", "feature store", "drift detection", "data architecture" | 📊 |
 | `security-engineer` | Security engineering, DevSecOps | Threat models, security architecture, vulnerability management, incident response | "security", "threat model", "vulnerability", "DevSecOps", "penetration test", "SAST/DAST" | 🛡️ |
+| `career-coach` | Career navigation, self-presentation | Resume/cover letter review, LinkedIn audit, interview prep, career path guidance | "resume", "cover letter", "LinkedIn", "interview", "career path", "salary negotiation" | 🧭 |
 
 ## When to Route (Hard Rule)
 
@@ -51,7 +52,7 @@ Action: "💡 This keeps coming up / needs real depth — worth creating a `biol
 
 ---
 
-**Profiles to create:** product-owner · full-stack · devops · qa · ui-ux · educator · financial-advisor · deck · gym · book-summarizer · data-engineer · security-engineer
+**Profiles to create:** product-owner · full-stack · devops · qa · ui-ux · educator · financial-advisor · deck · gym · book-summarizer · data-engineer · security-engineer · career-coach
 **Soul sources:**
 - `AI-SDLC\` → product-owner, full-stack, devops, qa, ui-ux, data-engineer, security-engineer
-- `Life Styles\` → educator, financial-advisor, deck, gym, book-summarizer
+- `Life Styles\` → educator, financial-advisor, deck, gym, book-summarizer, career-coach
