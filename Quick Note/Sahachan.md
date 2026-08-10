@@ -10,35 +10,35 @@
 
 **Full Name:** Sahachan Tippimwong  
 **Preferred Name:** Sahachan  
-**Email:** saharan.tippimwong@gmail.com  
-**Phone:** +66 85 921 9936  
-**Location:** Bangkok, Thailand  
+**Email:** oat431@gmail.com
+**Phone:** +66 83 xxx xxxx
+**Location:** Thailand  
 **Languages:**
 - Thai: Native
-- English: Professional working proficiency (Codegoda B2)
+- English: Professional working proficiency (B2)
 
 **LinkedIn:** linkedin.com/in/sahachan-tippimwong  
-**GitHub:** (mentioned in resume but no URL provided yet)  
-**Portfolio/Skills Page:** notion.so/About-My-Skill-69af3d5a0d014447a53619e0ed445d2f (⚠️ currently broken/empty)
+**GitHub:** [oat431 (Oralita)](https://github.com/oat431)
+
 
 ---
 
 ## Block 2: Professional Narrative
 
 **Headline:**  
-Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | 2+ Years Building Scalable Systems for Thailand's Largest Enterprises
+Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | 3+ Years Building Scalable Systems for Thailand's Largest Enterprises
 
 **Professional Summary:**  
-Full-stack Software Engineer with 2+ years of experience building and modernizing enterprise-scale systems for Thailand's largest retail and travel companies. Led architectural migrations that reduced deployment time by 95% and improved system performance by 30%+. Mentored 4 university interns who went from beginners to independently delivering production features. Proven track record working on mission-critical systems serving thousands of daily users across retail, logistics, HR, and finance domains.
+Full-stack Software Engineer with 3+ years of experience building and modernizing enterprise-scale systems for Thailand's largest retail and travel companies. Led architectural migrations that reduced deployment time by 95% and improved system performance by 30%+. Mentored 4 university interns who went from beginners to independently delivering production features. Proven track record working on mission-critical systems serving thousands of daily users across retail, logistics, HR, and finance domains.
 
 **Elevator Pitch (30 seconds):**  
-"I'm a full-stack software engineer currently at Gosoft Thailand, where I've spent the last 2+ years building and modernizing enterprise systems. My biggest project was leading the backend team on a 50-person migration of CP All's warehouse management system — the system that runs 7-Eleven stores across Thailand. I took it from a 20-year-old Java Struts monolith with zero tests to Spring Boot 3 microservices with 90% test coverage, reducing deployment time from a full day to 3-5 minutes. I also did an internship at Agoda where I helped build an observability system that reduced incident detection time by 90%. I'm looking for my next challenge where I can continue building scalable systems and mentoring junior developers."
+"I'm a full-stack software engineer with over 3 years of experience, currently at Gosoft Thailand. My biggest project was leading the backend team on a 50-person migration of CP All's warehouse management system — the system that runs 7-Eleven stores across Thailand. I took it from a 20-year-old Java Struts monolith with zero tests to Spring Boot 3 microservices with 90% test coverage, reducing deployment time from a full day to 3-5 minutes. I also did an internship at Agoda where I helped build an observability system that reduced incident detection time by 90%. I'm looking for my next challenge where I can continue building scalable systems and mentoring junior developers."
 
 ---
 
 ## Block 3: Experience Database
 
-### Current Role: Gosoft Thailand (Jan 2023 - Present)
+### Current Role: Gosoft Thailand (Jul 2023 - Present)
 
 **Title:** Software Engineer  
 **Company Context:** Internal consulting/resource pool team for CP All (7-Eleven Thailand parent company)  
@@ -129,7 +129,7 @@ Full-stack Software Engineer with 2+ years of experience building and modernizin
 
 ---
 
-### Previous Role: Agoda (Aug 2022 - Dec 2022, Internship)
+### Previous Role: Agoda (Dec 2022 - Mar 2023, Internship)
 
 **Title:** Software Engineering Intern  
 **Company Context:** Major online travel platform (Thailand's largest tech company)  
@@ -159,11 +159,10 @@ Full-stack Software Engineer with 2+ years of experience building and modernizin
 
 ---
 
-### Previous Role: National Science and Technology Development Agency (May 2022 - Jun 2022, Internship)
+### Previous Role: National Science and Technology Development Agency (NSTDA) — Part-time Programmer
 
-**Title:** Software Engineering Intern  
-**Project:** Built web application for internal data management  
-**Tech Stack:** ReactJS, Node.js, MongoDB
+**Title:** Part-time Programmer  
+**Note:** This was a part-time role, not an internship or staff position. Details to be added in a future session.
 
 ---
 
@@ -171,30 +170,30 @@ Full-stack Software Engineer with 2+ years of experience building and modernizin
 
 ### Education
 
-**King Mongkut's University of Technology North Bangkok (KMUTNB)**  
-Bachelor of Engineering in Computer Engineering  
-Graduation: 2022  
+**Chiang Mai University (CMU) — College of Arts, Media and Technology (CAMT)**  
+Bachelor of Science in Software Engineering  
+Graduation: April 2023  
 GPA: 3.58 / 4.00  
 Honors: First-Class Honors  
-Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems, Operating Systems, Computer Networks, Web Development, Cloud Computing
+Relevant Coursework: Software Engineering, Database Systems, Web Development, Software Design, A.I. Agents, DevOps, Backend Development
 
 **Senior Project:** Transmatter  
-- Accessibility tool for visual impairment using OCR and text-to-speech
-- Won 2nd place in university project competition
+- Accessible content-reading platform for visually impaired users using OCR and text-to-speech
 - GitHub: github.com/sahachan/transmatter
 
-**Teaching Assistant:** Computer Programming Fundamentals (2 semesters)  
-- Assisted 60+ students per semester
-- Conducted weekly lab sessions
-- Graded assignments and provided feedback
+**Teaching Assistant:** Selected as undergraduate TA to mentor students in software engineering coursework
 
 ### Certifications
 
 1. **HackerRank SQL (Advanced)** - 2024
 2. **HackerRank SQL (Intermediate)** - 2024
 3. **HackerRank Java (Intermediate)** - 2024
-4. **Codegoda 2023** - B2 English Proficiency
+4. **Codegoda 2023** - Coding Competition Participant
 5. **Hackathon Participant** - Health Data Science Hackathon 2023
+
+### English Proficiency
+- **CMU TEGS:** B2 (Upper-Intermediate) — 2022 (Test of English for Graduate Students, CMU Language Institute)
+- **Future:** Planning to take TOEIC for additional certification
 
 ### Awards
 
@@ -382,7 +381,7 @@ Potential stories:
 
 | Metric | Value | Context |
 |--------|-------|---------|
-| Years of experience | 2+ years | Gosoft (Jan 2023 - present) |
+| Years of experience | 3+ years | Agoda intern (4 months) + Gosoft (Jul 2023 - present) |
 | Largest team size | 50+ people | CP All warehouse migration |
 | Interns mentored | 4 | Across 3 projects |
 | Deployment time reduction | 95% | 1 day → 3-5 minutes |

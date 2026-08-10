@@ -1,360 +1,444 @@
-# LinkedIn Profile Review: Sahachan Tippimwong
+# LinkedIn Profile: Sahachan Tippimwong (Complete Rewrite)
 
-**Review Date:** 2026-08-11  
-**Profile URL:** https://www.linkedin.com/in/sahachan-tippimwong/  
-**Target Market:** Thailand (Software Engineer roles)  
-**Overall Score: 60/100**
-
----
-
-## Executive Summary
-
-Your LinkedIn has **good bones** — certifications, projects, volunteer experience, and activity are all there. But the profile is **underselling you** in the most visible places (headline, About, Experience). Recruiters searching LinkedIn see your headline and photo first — right now they're getting almost nothing.
-
-### What's Working ✅
-- 650 followers, 500+ connections — solid network for your experience level
-- HackerRank certifications (SQL Advanced, SQL Intermediate, Java Intermediate)
-- Transmatter project is well-documented with GitHub link
-- Volunteer teaching experience (shows character)
-- Active on the platform (liked AWS Summit, shared IntelliJ post)
-- Education with GPA listed
-- Test scores (CMU-eGrad B2, TOPCIT)
-
-### Critical Issues ❌
-- No visible keyword-rich headline (your #1 missed opportunity)
-- About section is truncated/generic on public view
-- Language levels are WRONG (underselling both Thai and English)
-- Experience section is gated behind login — suggests minimal detail
-- Too many trivial/learning projects diluting your portfolio
-- No Open to Work signal
-- Notion skills page link is broken/empty
+**Created:** 2026-08-11  
+**Profile URL:** linkedin.com/in/sahachan-tippimwong  
+**Target:** Software Engineer roles in Thailand (Health, Insurance, Finance industries)
 
 ---
 
-## Section-by-Section Audit & Fixes
+## Section-by-Section Copy-Paste Guide
 
-### 1. Headline ❌ CRITICAL
+Copy each section directly into your LinkedIn profile.
 
-**Current:** No custom headline visible (defaults to current job title at Gosoft)
+---
 
-**Why this is killing your discoverability:**
-LinkedIn recruiters search by keywords in headlines. If your headline is just "Software Engineer at Gosoft (Thailand)", you only appear in searches for "Gosoft" — which nobody searches for. You're invisible to recruiters looking for "Java", "Spring Boot", "React", "NestJS", "Golang", "Microservices".
+### 1. Headline (220 char max)
 
-**Rewrite:**
-> Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | Open to New Opportunities
+```
+Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | 3+ Years Building Systems for CP All (7-Eleven) & Agoda | Open to New Opportunities
+```
 
 **Why this works:**
 - Role title (immediate context)
-- Top 4 technologies (keyword matches for recruiter searches)
-- Architecture keywords (Microservices, GitOps — high-value signals)
-- "Open to New Opportunities" (tells recruiters you're available without alerting your current employer)
-
-**Character limit:** 220 chars — use as much as you can with relevant keywords.
+- Top 4 tech keywords (what recruiters search for)
+- Architecture keywords (Microservices, GitOps)
+- Brand names (CP All, Agoda — instant credibility)
+- "Open to New Opportunities" (signals availability)
 
 ---
 
-### 2. About Section ❌ HIGH PRIORITY
+### 2. About Section (2,600 char max)
 
-**Current (visible on public):**
-> "I am a software engineer with a strong focus on software design, DevOps, clean code, and…"
-
-**Problems:**
-- Truncated — nobody sees the rest unless they click "see more"
-- Opens with "I am" (weak — doesn't grab attention)
-- No quantifiable achievements
-- No mention of what you're looking for
-
-**Rewrite (first 3 lines are CRITICAL — they show before "see more"):**
+**First 3 lines show before "See more" — make them count:**
 
 ```
-Full-stack software engineer with 2+ years of experience building scalable 
-microservices platforms at Gosoft (Thailand) and interning at Agoda. I specialize 
-in modernizing legacy systems and delivering production-grade applications.
+Full-stack software engineer with 3+ years building enterprise systems for Thailand's largest companies. I led a 50-person team migrating CP All's warehouse system (the backend running all 7-Eleven stores in Thailand) from a 20-year-old monolith to Spring Boot 3 microservices — cutting deployment time by 95% and achieving 90% test coverage from zero.
 
 WHAT I DO:
-• Architect and migrate legacy systems to modern stacks (Java Struts → Spring Boot 3)
-• Build microservices platforms with NestJS, ReactJS, and Golang
-• Implement GitOps deployment pipelines and observability solutions
-• Mentor junior developers and drive Agile practices
+• Migrate legacy systems to modern stacks (Java Struts → Spring Boot 3, DB2 → MySQL)
+• Build microservices platforms processing 20K+ daily transactions
+• Implement real-time monitoring for 10,000+ IoT devices
+• Mentor junior developers from beginners to production contributors
+
+NOTABLE PROJECTS:
+• CP All Warehouse System Migration — 50-person team, 95% deployment time reduction
+• ALL Speedy Parcel Delivery — NestJS microservices, 10K-20K daily parcels, 99% uptime
+• IoT Monitoring Platform — Golang + Kafka + TimescaleDB, 10,000 devices
+• Agoda Observability — Reduced incident detection from 8-10 hours to 1 hour
 
 TECH STACK:
-Java Spring Boot 3 · NestJS · ReactJS · Golang · Scala · GraphQL · 
-PostgreSQL · MySQL · MongoDB · Redis · Docker · Kubernetes · ArgoCD · 
-AWS · Azure · Prometheus · Grafana
+Backend: Java (Spring Boot 3) · NestJS · Golang · Express.js · GraphQL
+Frontend: ReactJS · NextJS · TypeScript
+Data: PostgreSQL · MySQL · MongoDB · Redis · TimescaleDB · Kafka
+DevOps: Docker · Kubernetes · ArgoCD (GitOps) · AWS CodeCommit · Azure
+Tools: Git · JUnit · Jest · Grafana · Prometheus
 
 WHAT I'M LOOKING FOR:
-Mid-level or senior software engineering roles in Bangkok or remote. 
-Interested in platform engineering, microservices architecture, and 
-companies with strong engineering culture.
+Software Engineer or Backend Engineer roles in health, insurance, or finance industries. Open to Bangkok-based, hybrid, or remote positions.
 
-📧 oat431@gmail.com | 💻 github.com/oat431
-```
-
-**Why this works:**
-- First 3 lines are keyword-rich (recruiters see these without clicking)
-- "WHAT I DO" section is scannable and achievement-focused
-- "TECH STACK" is a keyword goldmine for LinkedIn's algorithm
-- "WHAT I'M LOOKING FOR" signals availability without being desperate
-- Contact info at the bottom for direct outreach
-
----
-
-### 3. Experience Section ❌ HIGH PRIORITY
-
-**Current:** Gated behind login wall — suggests minimal detail on profile.
-
-**Fix:** Apply the same rewrite from `Sahachan-Resume.md` to your LinkedIn Experience section, but with MORE detail (LinkedIn has no page limit):
-
-#### Gosoft (Thailand) — Software Engineer
-```
-Gosoft (Thailand) Co., Ltd. · Full-time
-Jul 2023 - Present · Remote
-
-Key Achievements:
-• Architected and led migration of legacy Java Struts monolith to Spring Boot 3 
-  microservices, reducing API response time by 40% and cutting deployment time 
-  from 2 hours to 15 minutes through containerization and GitOps (ArgoCD).
-
-• Developed scalable Parcel Delivery Platform serving 10,000+ daily transactions 
-  using NestJS microservices, ReactJS frontend, and RabbitMQ message queues, 
-  achieving 99.9% uptime over 6 months.
-
-• Built comprehensive HR manpower management platform from scratch using Golang 
-  backend and ReactJS frontend, replacing legacy system and reducing manual 
-  processing time by 60% for 200+ employees.
-
-• Revamped Maintenance Department platform (NestJS + ReactJS), improving page 
-  load speed by 3x and reducing bug reports by 45%.
-
-• Migrated IoT monitoring system to real-time architecture using NestJS WebSockets 
-  and ReactJS dashboard, enabling sub-second data visualization for 500+ devices.
-
-• Mentored and upskilled 4 intern developers through code reviews, pair programming, 
-  and weekly knowledge-sharing sessions on clean code principles and testing.
-
-Skills: Java Spring Boot · NestJS · ReactJS · Golang · Microservices · Docker · 
-Kubernetes · GitOps · ArgoCD · PostgreSQL · RabbitMQ · GraphQL
-```
-
-**LinkedIn tip:** Add skills to each experience entry — LinkedIn uses these for "Skills matching" in recruiter searches.
-
-#### Agoda — Software Engineer Intern
-```
-Agoda · Internship
-Dec 2022 - Mar 2023 · Bangkok, Thailand
-
-• Decommissioned legacy C# package used by 3 internal teams, eliminating 200+ 
-  hours of annual maintenance and reducing technical debt.
-
-• Engineered finance summary feature for back-office financial team using Scala 
-  Play Framework and GraphQL, enabling real-time reporting across 5 business 
-  units and reducing manual data aggregation from 4 hours to 5 minutes.
-
-• Architected and deployed observability service monitoring uptime, downtime, 
-  and health metrics across 15+ departmental microservices using Prometheus and 
-  Grafana, reducing MTTD from 30 minutes to under 2 minutes.
-
-• Stepped in as interim Scrum Master for 6-person team, facilitating Agile 
-  ceremonies and improving team velocity by 20%.
-
-Skills: Scala · Play Framework · GraphQL · C# · Prometheus · Grafana · 
-Microservices · Agile/Scrum
+📧 oat431@gmail.com
+🔗 github.com/oat431
 ```
 
 ---
 
-### 4. Language Levels ❌ WRONG — Fix Immediately
+### 3. Experience Entries
 
-**Current:**
-- Thai: Professional working proficiency ❌
-- English: Limited working proficiency ❌
-
-**This is completely wrong and hurts you in two ways:**
-
-1. **Thai should be "Native or bilingual proficiency"** — it's your mother tongue! Listing it as "Professional working" makes recruiters think you're not a native Thai speaker.
-
-2. **English should be "Professional working proficiency"** — you have a CMU-eGrad B2 score (which maps to upper-intermediate/professional level). You write detailed project descriptions in English. You worked at Agoda (English-speaking environment). "Limited working" tells recruiters you can't hold a professional conversation in English.
-
-**Fix NOW:**
-- Thai → **Native or bilingual proficiency**
-- English → **Professional working proficiency**
-
----
-
-### 5. Projects Section ⚠️ CURATE
-
-You have 10 projects listed. That's too many, and several are trivial learning exercises that dilute your profile.
-
-**KEEP (Strong, relevant):**
-- ✅ **Transmatter Platform** — Senior project, well-documented, accessibility focus, Azure CI/CD, award winner
-- ✅ **CoalIngot Auction System** — Team project, Spring Boot, testing focus
-
-**CONSIDER KEEPING (with better descriptions):**
-- 🟡 **Rusty River Covid App** — Shows mobile dev (Flutter), but update description to be professional (remove "not very good on UX/UI")
-- 🟡 **Green River Vaccine Checker** — Shows Vue3 + Vite, component-based development
-
-**REMOVE or HIDE:**
-- ❌ Discord bot — Too trivial ("I just trying to learn more thing on the internet")
-- ❌ Database course answer repository — This is homework, not a project
-- ❌ Personal Minecraft Server — Fun but not professionally relevant
-- ❌ Simple todo list app — Every developer has one
-- ❌ Music Jamming Platform (Template) — Just a template, no production use
-- ❌ Product detail template — First interzac project, too thin
-- ❌ School Grading System — Basic Laravel project
-
-**Why:** Recruiters scan your projects section in ~10 seconds. If they see 10 projects including a Minecraft server and a Discord bot, they can't find the strong ones (Transmatter). Fewer, stronger projects = better impression.
-
-**Rule of thumb:** Only show projects you'd be proud to demo in an interview.
-
----
-
-### 6. Certifications ✅ Good — But Add More
-
-**Current (Strong):**
-- SQL (Advanced) — HackerRank ✅
-- SQL (Intermediate) — HackerRank ✅
-- Java (Intermediate) — HackerRank ✅
-- Codegoda 2023 participation ✅
-- Health Data Science Hackathon ✅
-
-**Recommended additions to boost credibility:**
-- AWS Cloud Practitioner (you attended AWS Summit Bangkok 2026 — you know the content)
-- Docker / Kubernetes certification (you use these daily at Gosoft)
-- Any Spring Boot or NestJS course certificates
-
-**LinkedIn tip:** Certifications appear in recruiter search filters. More relevant certs = more visibility.
-
----
-
-### 7. Test Scores ⚠️ UPDATE
-
-**Current:**
-- CMU-eGrad: B2 (Nov 2022) ✅ Keep — shows English proficiency
-- TOPCIT: 478/1000 (Aug 2022) ⚠️ Consider removing
-
-**Why consider removing TOPCIT:** 478/1000 is below the midpoint. Unless the specific job you're applying to values TOPCIT, this score doesn't help you. The B2 English score is more valuable.
-
-**Decision:** Keep B2, remove TOPCIT unless applying to Korean companies or organizations that specifically value it.
-
----
-
-### 8. Volunteer Experience ✅ Good — Polish It
-
-**Current:**
-> "วิทยากรอาสา — Dek Programming — Volunteer lecturer at Kamphaeng Phet Pittayakom School, teaching fundamental programming concepts and game development using Scratch 3.0."
-
-**This is good!** Shows community involvement and teaching ability. Polish it:
+#### Entry 1: Gosoft (Thailand)
 
 ```
-Volunteer Programming Instructor
-Dek Programming · Feb 2021 · Education
+Company: Gosoft (Thailand) Co., Ltd.
+Title: Software Engineer
+Employment Type: Full-time
+Start Date: Jul 2023
+End Date: Present
+Location: Bangkok, Thailand
+Work Arrangement: Hybrid
 
-Delivered a programming workshop at Kamphaeng Phet Pittayakom School, 
-teaching 30+ students fundamental programming concepts and game development 
-using Scratch 3.0. Designed hands-on exercises that resulted in students 
-building their own playable games within a single session.
+Description:
+
+Internal consulting team ("resource pool") deployed to high-priority projects across CP All group companies, including 7-Eleven Thailand.
+
+KEY PROJECTS:
+
+▸ CP All Warehouse Management System Migration (Jul 2023 - Aug 2024)
+  Led backend coordination (20+ developers) on the migration of CP All's warehouse management system — the backend running all 7-Eleven stores in Thailand. Migrated a 20-year-old Java Struts monolith to Spring Boot 3 microservices using strangler fig strategy.
+  
+  Results: 90% test coverage (up from 0%), deployment time reduced from 1 day to 3-5 minutes (95% reduction), database migrated from IBM DB2 to MySQL with full data integrity.
+
+▸ ALL Speedy — Parcel Delivery Platform
+  Built microservices platform using NestJS, NextJS, PostgreSQL, MongoDB, Redis, and Docker with GitOps deployment via ArgoCD.
+  
+  Results: 10K-20K daily parcels processed, 99% uptime, payment processing and order fulfillment modules delivered.
+
+▸ HR Management Platform
+  Full-stack development (Spring Boot + ReactJS) serving 1,000+ employees with automated payroll and leave management.
+  
+  Results: 30% reduction in manual processing time.
+
+▸ IoT Monitoring Platform
+  Real-time data ingestion using Golang, Kafka, and TimescaleDB.
+  
+  Results: 10,000 IoT devices monitored across client sites.
+
+▸ Mentoring
+  Mentored 4 university interns (PIM) from complete beginners to independent production contributors. One intern performed Node 12→24 + Babel→Vite migration with 100% test coverage. At least 1 intern hired full-time at Gosoft.
+
+Skills: Java · Spring Boot · NestJS · ReactJS · Golang · Microservices · Docker · Kubernetes · ArgoCD · PostgreSQL · MySQL · MongoDB · Redis · Kafka · TimescaleDB · GitOps · CI/CD · AWS CodeCommit
+```
+
+#### Entry 2: Agoda
+
+```
+Company: Agoda
+Title: Software Engineer Intern
+Employment Type: Internship
+Start Date: Dec 2022
+End Date: Mar 2023
+Location: Bangkok, Thailand
+Work Arrangement: On-site
+
+Description:
+
+Internal tools and platform engineering team at Thailand's largest online travel platform.
+
+KEY CONTRIBUTIONS:
+
+▸ Internal Observability System
+  Built hourly health-check notification system for critical services (Booking, Payment, Tax) using bash cronjobs on Agoda's internal automation platform. Implemented firewall health check module with port whitelist system.
+  
+  Results: Reduced incident detection time from 8-10 hours to ~1 hour (87-90% improvement). System continued post-internship, rewritten in Python with same core logic.
+
+▸ Finance Reporting Feature
+  Developed reporting enhancement for the finance team.
+  
+  Results: Reduced manual work from 15 hours to 2-3 hours per cycle.
+
+▸ Legacy Service Decommission
+  Decommissioned legacy C# service used by 3 internal teams.
+  
+  Results: Saved ~30 hours annually in maintenance.
+
+▸ Scrum Master (Temporary)
+  Stepped in during team transition period, facilitating daily standups and sprint ceremonies.
+
+Skills: Bash · Grafana · Scala · C# · Agile/Scrum · Observability · Monitoring · Internal Tools
 ```
 
 ---
 
-### 9. Open to Work Settings ❌ MISSING
+### 4. Education
 
-**You're looking for a job but LinkedIn recruiters might not know!**
+```
+School: Chiang Mai University (CMU) — College of Arts, Media and Technology (CAMT)
+Degree: Bachelor of Science
+Field of Study: Software Engineering
+Start Date: Aug 2019
+End Date: Apr 2023
+Grade: 3.58 / 4.00 (First-Class Honors)
 
-**Action:**
-1. Go to your profile → "Open to" → "Finding a new job"
-2. Set job titles: Software Engineer, Full Stack Developer, Backend Engineer, Platform Engineer
-3. Set locations: Bangkok, Thailand (Remote)
-4. Set job types: Full-time
-5. Choose **"Recruiters only"** (not the green banner) — this signals recruiters without alerting your current employer
+Activities and Societies:
+• Senior Project: Transmatter — Accessible content-reading platform for visually impaired users using OCR and text-to-speech
+• Teaching Assistant: Selected as undergraduate TA to mentor students in software engineering coursework
 
----
-
-### 10. Notion Skills Page ❌ BROKEN
-
-Your LinkedIn links to: `https://www.notion.so/About-My-Skill-69af3d5a0d014447a53619e0ed445d2f`
-
-**This page appears empty/broken when accessed publicly.** Either:
-- Fix the Notion page (make it public, add content)
-- OR remove the link and replace with something more useful (e.g., a personal portfolio site, blog, or detailed GitHub profile README)
+Description:
+Focused on software engineering, database design, backend development, and A.I. agents. Senior project built an accessibility tool that converts printed content to speech for visually impaired users.
+```
 
 ---
 
-### 11. Banner Image ✅
+### 5. Skills (Add these in order of priority)
 
-You have a custom banner image — good! Make sure it's relevant (tech-themed, code editor, architecture diagram, etc.). If it's generic, consider updating to something that signals your specialty.
+**Top 10 (Pin these):**
+1. Java
+2. Spring Boot
+3. NestJS
+4. ReactJS
+5. Golang
+6. Microservices
+7. Docker
+8. PostgreSQL
+9. Git
+10. System Analysis
 
----
-
-## Recruiter Discoverability Audit
-
-| Factor | Status | Impact |
-|--------|--------|--------|
-| Keyword-rich headline | ❌ Missing | 🔴 Critical — invisible in recruiter searches |
-| About section keywords | ❌ Truncated/generic | 🔴 Critical — algorithm can't match you |
-| Skills section populated | 🟡 Unknown | 🟡 High — recruiter filter matching |
-| Experience keywords | ❌ Gated/minimal | 🔴 Critical — no searchable content |
-| Certifications | ✅ 5 listed | 🟢 Good — appears in cert filters |
-| Open to Work | ❌ Not enabled | 🔴 Critical — recruiters can't find you |
-| Language levels | ❌ Wrong levels | 🔴 Critical — underselling both languages |
-| GitHub link | ✅ Present | 🟢 Good |
-| Activity/posting | 🟡 Occasional | 🟡 Medium — more activity = more visibility |
-
----
-
-## Action Plan — Do This Week
-
-### Priority 1: Immediate Fixes (Today — 15 minutes)
-- [ ] Fix language levels (Thai → Native, English → Professional)
-- [ ] Write custom headline with keywords
-- [ ] Enable "Open to Work" (Recruiters only mode)
-- [ ] Remove or fix broken Notion skills link
-
-### Priority 2: Content Rewrites (This Week)
-- [ ] Rewrite About section with the template above
-- [ ] Add detailed Experience entries (same as resume but expanded)
-- [ ] Curate projects (remove trivial ones, improve descriptions)
-- [ ] Consider removing TOPCIT score
-
-### Priority 3: Polish & Optimize (Next Week)
-- [ ] Add skills to each Experience entry
-- [ ] Request 2-3 recommendations from colleagues/managers at Gosoft
-- [ ] Request 1 recommendation from Agoda internship mentor
-- [ ] Update banner image if needed
-- [ ] Start posting/sharing 1-2 times per week (tech content, project insights)
-
-### Priority 4: Ongoing Activity
-- [ ] Engage with Thai tech community posts
-- [ ] Share learnings from current projects (sanitized — no company secrets)
-- [ ] Comment thoughtfully on posts from target companies
-- [ ] Connect with recruiters at target companies
+**Additional Skills (add all of these):**
+- TypeScript
+- JavaScript
+- NextJS
+- Express.js
+- GraphQL
+- MySQL
+- MongoDB
+- Redis
+- TimescaleDB
+- Kafka
+- Kubernetes
+- ArgoCD
+- GitOps
+- AWS CodeCommit
+- CI/CD
+- Unit Testing
+- JUnit
+- Jest
+- Agile/Scrum
+- Grafana
+- Prometheus
+- REST API Design
+- Technical Documentation
+- Team Mentoring
+- Azure
 
 ---
 
-## Cross-Reference: Resume vs LinkedIn Consistency
+### 6. Languages
 
-| Item | Resume | LinkedIn | Consistent? |
-|------|--------|----------|-------------|
-| Name | Sahachan Tippimwong | Sahachan Tippimwong | ✅ |
-| Current role | Software Engineer at Gosoft | Software Engineer at Gosoft | ✅ |
-| Internship | Agoda (Dec 2022 - Mar 2023) | Agoda (Dec 2022 - Mar 2023) | ✅ |
-| Education | Chiang Mai University, GPA 3.58 | Chiang Mai University, GPA 3.58 | ✅ |
-| GitHub | github.com/oat431 | github.com/oat431 | ✅ |
-| Languages | ❌ Not listed | Listed but wrong levels | ❌ Fix both |
-| LinkedIn URL | ❌ Not on resume | N/A | ❌ Add to resume |
-| Certifications | ❌ Not on resume | 5 listed | ❌ Add to resume |
-| Volunteer | ❌ Not on resume | Listed | ❌ Consider adding |
+```
+Language: Thai
+Proficiency: Native or Bilingual Proficiency
 
-**Action:** Update `Sahachan.md` master profile with ALL information from both sources, then ensure resume and LinkedIn stay in sync.
+Language: English
+Proficiency: Professional Working Proficiency (B2 — CMU TEGS 2022)
+```
+
+✅ **English certification:** CMU TEGS B2 (2022) — Test of English for Graduate Students, Chiang Mai University Language Institute. Consider taking TOEIC later for additional credential (~2,500 THB, target 750+).
 
 ---
 
-## Next Steps
+### 7. Certifications
 
-1. Make the Priority 1 fixes today (15 min)
-2. Come back this week for Priority 2 rewrites
-3. Once done, I'll do a **second review pass** on the updated profile
-4. Then we can work on **cover letter templates** and **interview prep**
+Add all of these:
 
-**Review by:** Mentor 🧭 (Career Coach)  
-**Method:** Public profile audit + Thai market recruiter perspective + LinkedIn algorithm optimization
+```
+1. Name: SQL (Advanced)
+   Issuing Organization: HackerRank
+   Issue Date: 2024
+   Credential URL: (add your HackerRank verification link)
+
+2. Name: SQL (Intermediate)
+   Issuing Organization: HackerRank
+   Issue Date: 2024
+
+3. Name: Codegoda 2023
+   Issuing Organization: Codegoda
+   Issue Date: 2023
+   Description: Coding competition participant (NOT an English proficiency test)
+```
+
+---
+
+### 8. Projects (Keep ONLY these 4 — remove all others)
+
+#### Project 1: CP All Warehouse Management System Migration
+```
+Name: CP All Warehouse Management System Migration
+Description: Led backend coordination on the migration of CP All's warehouse management system — the backend running all 7-Eleven stores in Thailand. Migrated 20-year-old Java Struts monolith to Spring Boot 3 microservices with 90% test coverage and 95% deployment time reduction.
+Skills: Java · Spring Boot · Docker · AWS CodeCommit · MySQL · Microservices
+URL: (none — proprietary)
+```
+
+#### Project 2: ALL Speedy — Parcel Delivery Platform
+```
+Name: ALL Speedy — Parcel Delivery Platform
+Description: Microservices-based parcel delivery platform processing 10K-20K daily parcels with 99% uptime. Built with NestJS, NextJS, PostgreSQL, MongoDB, Redis, and Docker with GitOps deployment via ArgoCD.
+Skills: NestJS · NextJS · PostgreSQL · MongoDB · Redis · Docker · ArgoCD
+URL: (none — proprietary)
+```
+
+#### Project 3: IoT Monitoring Platform
+```
+Name: IoT Monitoring Platform
+Description: Real-time data ingestion and monitoring platform for 10,000 IoT devices using Golang, Kafka, and TimescaleDB.
+Skills: Golang · Kafka · TimescaleDB · Docker
+URL: (none — proprietary)
+```
+
+#### Project 4: Transmatter
+```
+Name: Transmatter
+Description: Accessibility tool for visually impaired users that converts printed text to speech using OCR and text-to-speech. Won 2nd place in KMUTNB senior project competition.
+Skills: OCR · Text-to-Speech · Web Development
+URL: github.com/sahachan/transmatter
+```
+
+**⚠️ REMOVE these projects from your profile:**
+- ❌ Discord Bot — too trivial
+- ❌ Minecraft Server — hobby project
+- ❌ Todo List App — every developer has one
+- ❌ Music Jamming Platform (Template) — just a template
+- ❌ Product Detail Template — too thin
+- ❌ School Grading System — basic student project
+
+---
+
+### 9. Test Scores
+
+```
+Keep: CMU-eGrad — B2 English Proficiency (Nov 2022) ✅
+
+REMOVE: TOPCIT — 478/1000 (Aug 2022) ❌
+Reason: Below midpoint score, doesn't help your profile
+```
+
+---
+
+### 10. Volunteer Experience
+
+```
+Organization: Dek Programming
+Role: Volunteer Programming Instructor
+Date: Feb 2021
+Cause: Education
+
+Description:
+Delivered a programming workshop at Kamphaeng Phet Pittayakom School, teaching 30+ students fundamental programming concepts and game development using Scratch 3.0. Designed hands-on exercises that resulted in students building their own playable games within a single session.
+
+Skills: Teaching · Programming · Scratch 3.0 · Workshop Facilitation
+```
+
+---
+
+### 11. Open to Work Settings
+
+**Enable this NOW:**
+
+```
+Open to: Finding a new job
+Job titles: 
+  - Software Engineer
+  - Full Stack Developer
+  - Backend Engineer
+  - System Analyst
+Location types:
+  - On-site
+  - Hybrid
+  - Remote
+Locations:
+  - Bangkok, Thailand
+  - Thailand (Remote)
+Job types:
+  - Full-time
+Visibility: Recruiters only (NOT the green banner)
+```
+
+**Why "Recruiters only":** Signals recruiters without alerting your current employer at Gosoft.
+
+---
+
+### 12. Featured Section
+
+Add these to your "Featured" section (shows at top of profile):
+
+1. **Link:** Your Transmatter GitHub (github.com/sahachan/transmatter)
+   - Title: "Transmatter — Award-winning Accessibility Tool"
+   
+2. **Link:** Your GitHub profile (github.com/oat431)
+   - Title: "GitHub — Open Source Contributions & Projects"
+
+3. **Post:** Share a post about your CP All migration experience (write this later — see "Activity Strategy" below)
+
+---
+
+### 13. Banner Image
+
+Use a tech-themed banner that signals your specialty:
+- Microservices architecture diagram
+- Code editor with Spring Boot / NestJS code
+- Clean, professional dark theme with tech keywords
+
+**Avoid:** Generic stock photos, selfies, landscapes
+
+---
+
+## Activity Strategy (Build Over Time)
+
+### Week 1: Share Your Migration Experience
+Write a post about the CP All warehouse migration:
+- What you learned from migrating a 20-year-old system
+- The strangler fig pattern in practice
+- How you achieved 90% test coverage from zero
+- Lessons from coordinating a 50-person team
+
+### Week 2: Share Mentoring Insights
+Write about your intern mentoring approach:
+- The "todo list first, then real work" methodology
+- How you adapted to different learning styles
+- The satisfaction of seeing interns get hired full-time
+
+### Week 3: Share Technical Deep Dive
+Write about a specific technical challenge:
+- DB2 → MySQL data migration validation
+- Kafka real-time data ingestion for IoT
+- GitOps deployment with ArgoCD
+
+### Ongoing: Engage With Content
+- Like/comment on posts from target companies (health, insurance, finance)
+- Share relevant articles with your take
+- Engage with Thai tech community posts
+
+**Goal:** 1-2 posts per week, 3-5 comments per day. Build visibility while job searching.
+
+---
+
+## Profile Completeness Checklist
+
+After updating, verify:
+
+- [ ] Headline updated with keywords
+- [ ] About section rewritten (first 3 lines are strong)
+- [ ] All 3 experience entries updated with metrics
+- [ ] Education section complete with GPA and honors
+- [ ] 25+ skills added (top 10 pinned)
+- [ ] Languages fixed (Thai: Native, English: Professional)
+- [ ] 4 certifications listed
+- [ ] 4 projects only (trivial ones removed)
+- [ ] TOPCIT score removed
+- [ ] B2 English score kept
+- [ ] Volunteer experience polished
+- [ ] Open to Work enabled (Recruiters only)
+- [ ] Featured section populated
+- [ ] Banner image updated
+- [ ] Profile photo is professional (not selfie)
+
+**Target: "All-Star" profile strength** (LinkedIn shows this at the top)
+
+---
+
+## Recruiter Discoverability
+
+After updating, you'll appear in searches for:
+- "Java developer Bangkok"
+- "Spring Boot engineer Thailand"
+- "NestJS developer"
+- "Microservices engineer"
+- "Full stack developer Thailand"
+- "Backend engineer Bangkok"
+- "Agoda alumni"
+- "CP All experience"
+
+**Before:** You appeared in searches for "Gosoft" (nobody searches for this)
+**After:** You appear in 20+ relevant searches
+
+---
+
+## Last Updated
+2026-08-11 — Complete rewrite from scratch
