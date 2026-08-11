@@ -66,7 +66,7 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 - Test coverage: 0% → 90%
 - Deployment time: 1 day → 3-5 minutes (95% reduction)
 - API response time improvement: ~30%
-- Team size: 50+ total, 20+ backend
+- Team size: 50 total (verified — user confirmation 2026-08-11; earlier "20+ backend" breakdown was imprecise)
 - Stored procedures migrated: 10+
 
 #### Project 2: ALL Speedy (Parcel Delivery Platform)
@@ -80,7 +80,8 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 - Built microservices architecture for parcel delivery platform
 - Implemented payment processing and order fulfillment modules
 - Achieved 99% uptime serving 10K-20K daily transactions
-- Mentored 1 intern who built the full dashboard independently
+- Upgraded legacy Node.js 12→24 on all 3 API modules (zero tests → 90%+ coverage); guided intern through the same upgrade on the web module (Babel→Vite, 100% coverage)
+- Mentored 1 intern who built the full dashboard independently (Next.js)
 
 #### Project 3: HR Platform
 **Timeline:** 2023-2024  
@@ -107,14 +108,15 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 #### Project 5: IoT Monitoring Platform
 **Timeline:** 2023-2024  
 **Role:** Backend Developer  
-**Tech Stack:** Golang, Kafka, TimescaleDB, Docker  
+**Tech Stack:** Golang, WebSocket, Docker  
 **Scale:** 10,000 devices monitored
 
 **Key Achievements:**
-- Built real-time data ingestion pipeline using Kafka
-- Implemented time-series data storage with TimescaleDB
+- Built real-time monitoring with Golang backend and WebSocket dashboard
 - Monitored 10,000 IoT devices across client sites
-- Mentored 1 intern who independently upgraded Node 12→24, migrated Babel→Vite, achieved 100% test coverage on web module
+- Mentored 1 intern who built the full parcel delivery dashboard in Next.js
+
+> Note (2026-08-11): Kafka + TimescaleDB were removed — they were a learning plan, never used in production.
 
 #### Mentoring Responsibilities (Ongoing)
 **Total Interns Mentored:** 4 (PIM university students, part-time year-long internships)  
@@ -122,10 +124,12 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 **Teaching Methods:** Weekly standups, code reviews, practice projects, onboarding documentation  
 **Outcomes:**
 - All 4 interns went from beginners to independently delivering production features
-- 1 intern built full ALL Speedy dashboard independently
-- 1 intern did Node 12→24 + Babel→Vite migration with 100% test coverage
+- 1 intern built full ALL Speedy dashboard independently (Next.js)
+- 1 intern independently did Node 12→24 + Babel→Vite upgrade on the web module with 100% test coverage
 - Documentation interns' work adopted as official project documentation
 - At least 1 intern hired full-time as Software Engineer at Gosoft
+
+> Note (2026-08-11, user correction): The Node 12→24 upgrade spans a legacy project with 4 modules (3 API + 1 web), all starting from zero tests. Sahachan personally upgraded the 3 API modules (0 → 90%+ coverage); his intern independently upgraded the web module (Babel→Vite, 100% coverage). Both claims are true — they're different modules of the same project.
 
 ---
 
@@ -179,7 +183,7 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 
 **Senior Project:** Transmatter  
 - Accessible content-reading platform for visually impaired users using OCR and text-to-speech
-- GitHub: github.com/sahachan/transmatter
+- GitHub: github.com/Transmatter (org repo — 14 public repos, verified live)
 
 **Teaching Assistant:** Selected as undergraduate TA to mentor students in software engineering coursework
 
@@ -192,14 +196,17 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 5. **Hackathon Participant** - Health Data Science Hackathon 2023
 
 ### English Proficiency
-- **CMU TEGS:** B2 (Upper-Intermediate) — 2022 (Test of English for Graduate Students, CMU Language Institute)
+- **CMU-eGrad:** B2 (Upper-Intermediate) — 2022 (official English proficiency test, CMU Registrar: reg.cmu.ac.th/egrad-reserve)
 - **Future:** Planning to take TOEIC for additional certification
+- Note (2026-08-11): earlier drafts said "CMU TEGS" — wrong name, corrected to CMU-eGrad after checking the official CMU registrar site.
 
 ### Awards
 
-- 2nd Place, KMUTNB Senior Project Competition (Transmatter)
-- First-Class Honors, Computer Engineering (GPA 3.58)
+- **1st Place, SE Show Pro CAMT 14 senior project exhibition (Sep 2022)** — Transmatter Platform (team with Thitisan Chailuek). Verified via official CMU article: cmu.ac.th/th/article/b3fcb584-a65e-4fd8-b297-49756a4eb979
+- First-Class Honors, Software Engineering (GPA 3.58)
 - Health Data Science Hackathon Participant
+
+> Note (2026-08-11): Earlier drafts said "2nd place, KMUTNB competition" — wrong on both count and university. Verified correct version: 1st place at CMU CAMT's SE Show Pro CAMT 14 (Sep 28, 2022), confirmed by official CMU news article.
 
 ---
 
@@ -232,7 +239,7 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 | MongoDB | Proficient | Document storage |
 | Redis | Proficient | Caching layer |
 | IBM DB2 | Familiar | Legacy system (migrated away from) |
-| TimescaleDB | Proficient | IoT time-series data |
+| TimescaleDB | Learning plan | Not yet used in production — do not list on resume/LinkedIn |
 
 ### DevOps & Infrastructure
 | Skill | Proficiency | Notes |
@@ -240,7 +247,8 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 | Docker | Proficient | Containerization across all projects |
 | Kubernetes | Familiar | Exposure through GitOps |
 | GitOps (ArgoCD) | Familiar | Parcel delivery deployment |
-| AWS CodeCommit | Proficient | CI/CD for warehouse system |
+| AWS CodeCommit | Proficient | CI/CD for warehouse system (legacy project) |
+| Bitbucket | Proficient | Current repo hosting for all Gosoft projects |
 | Azure | Proficient | Some project exposure |
 | AWS | Familiar | General AWS services |
 
@@ -289,16 +297,16 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 ### Featured Project 3: IoT Monitoring Platform
 **Type:** Real-time data platform  
 **Scale:** 10,000 devices monitored  
-**Tech:** Golang, Kafka, TimescaleDB, Docker  
+**Tech:** Golang, WebSocket, Docker  
 **Role:** Backend developer  
 **Status:** Production
 
 ### Featured Project 4: Transmatter (Senior Project)
 **Type:** Accessibility tool  
-**Impact:** 2nd place in university competition  
-**Tech:** OCR, text-to-speech, web technologies  
-**Role:** Lead developer  
-**Status:** GitHub: github.com/sahachan/transmatter
+**Impact:** 🏆 1st Place, SE Show Pro CAMT 14 senior project exhibition (Sep 2022) — verified via official CMU article. Microservices architecture (Spring Boot, Vue, Python, C++, Docker), 14 public repos  
+**Tech:** OCR, text-to-speech, Spring Boot, Vue, microservices  
+**Role:** Co-lead developer (team of 2: Sahachan + Thitisan Chailuek)  
+**Status:** GitHub: github.com/Transmatter (org repo, verified live 2026-08-11)
 
 ### Other Projects:
 - HR Platform (1,000+ employees)

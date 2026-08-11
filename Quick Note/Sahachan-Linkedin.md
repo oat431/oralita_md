@@ -15,7 +15,7 @@ Copy each section directly into your LinkedIn profile.
 ### 1. Headline (220 char max)
 
 ```
-Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | 3+ Years Building Systems for CP All (7-Eleven) & Agoda | Open to New Opportunities
+Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang | Microservices & GitOps | 3+ Years Building Systems for CP All (7-Eleven) & Agoda
 ```
 
 **Why this works:**
@@ -23,7 +23,7 @@ Software Engineer (Full Stack) | Java Spring Boot · NestJS · ReactJS · Golang
 - Top 4 tech keywords (what recruiters search for)
 - Architecture keywords (Microservices, GitOps)
 - Brand names (CP All, Agoda — instant credibility)
-- "Open to New Opportunities" (signals availability)
+- Availability is already signaled by the **green Open to Work frame** (already active) — no need to spend headline characters on it
 
 ---
 
@@ -43,14 +43,14 @@ WHAT I DO:
 NOTABLE PROJECTS:
 • CP All Warehouse System Migration — 50-person team, 95% deployment time reduction
 • ALL Speedy Parcel Delivery — NestJS microservices, 10K-20K daily parcels, 99% uptime
-• IoT Monitoring Platform — Golang + Kafka + TimescaleDB, 10,000 devices
+• IoT Monitoring Platform — Golang + WebSocket, 10,000 devices
 • Agoda Observability — Reduced incident detection from 8-10 hours to 1 hour
 
 TECH STACK:
 Backend: Java (Spring Boot 3) · NestJS · Golang · Express.js · GraphQL
 Frontend: ReactJS · NextJS · TypeScript
-Data: PostgreSQL · MySQL · MongoDB · Redis · TimescaleDB · Kafka
-DevOps: Docker · Kubernetes · ArgoCD (GitOps) · AWS CodeCommit · Azure
+Data: PostgreSQL · MySQL · MongoDB · Redis
+DevOps: Docker · Kubernetes · ArgoCD (GitOps) · AWS CodeCommit · Bitbucket · Azure
 Tools: Git · JUnit · Jest · Grafana · Prometheus
 
 WHAT I'M LOOKING FOR:
@@ -82,7 +82,7 @@ Internal consulting team ("resource pool") deployed to high-priority projects ac
 KEY PROJECTS:
 
 ▸ CP All Warehouse Management System Migration (Jul 2023 - Aug 2024)
-  Led backend coordination (20+ developers) on the migration of CP All's warehouse management system — the backend running all 7-Eleven stores in Thailand. Migrated a 20-year-old Java Struts monolith to Spring Boot 3 microservices using strangler fig strategy.
+  Led backend coordination on a 50-person team for the migration of CP All's warehouse management system — the backend running all 7-Eleven stores in Thailand. Migrated a 20-year-old Java Struts monolith to Spring Boot 3 microservices using strangler fig strategy.
   
   Results: 90% test coverage (up from 0%), deployment time reduced from 1 day to 3-5 minutes (95% reduction), database migrated from IBM DB2 to MySQL with full data integrity.
 
@@ -96,21 +96,27 @@ KEY PROJECTS:
   
   Results: 30% reduction in manual processing time.
 
+▸ Node.js 12→24 Upgrade (Legacy Project, 4 Modules)
+  The project had 4 modules — 3 API modules and 1 web module — all on Node 12
+  with zero unit tests. I personally upgraded the 3 API modules to Node 24 and
+  built test coverage from zero to 90%+. My intern independently performed the
+  same upgrade on the web module (Babel→Vite, 100% test coverage).
+
 ▸ IoT Monitoring Platform
-  Real-time data ingestion using Golang, Kafka, and TimescaleDB.
+  Real-time monitoring of 10,000 IoT devices using Golang and WebSocket.
   
   Results: 10,000 IoT devices monitored across client sites.
 
 ▸ Mentoring
-  Mentored 4 university interns (PIM) from complete beginners to independent production contributors. One intern performed Node 12→24 + Babel→Vite migration with 100% test coverage. At least 1 intern hired full-time at Gosoft.
+  Mentored 4 university interns (PIM) from complete beginners to independent production contributors. One independently performed the Node 12→24 + Babel→Vite upgrade on the web module with 100% test coverage; one built the full parcel delivery dashboard in Next.js. At least 1 intern hired full-time at Gosoft.
 
-Skills: Java · Spring Boot · NestJS · ReactJS · Golang · Microservices · Docker · Kubernetes · ArgoCD · PostgreSQL · MySQL · MongoDB · Redis · Kafka · TimescaleDB · GitOps · CI/CD · AWS CodeCommit
+Skills: Java · Spring Boot · NestJS · ReactJS · Golang · Microservices · Docker · Kubernetes · ArgoCD · PostgreSQL · MySQL · MongoDB · Redis · GitOps · CI/CD · AWS CodeCommit · Bitbucket
 ```
 
 #### Entry 2: Agoda
 
 ```
-Company: Agoda
+Company: Agoda Services Co., Ltd.
 Title: Software Engineer Intern
 Employment Type: Internship
 Start Date: Dec 2022
@@ -139,8 +145,8 @@ KEY CONTRIBUTIONS:
   
   Results: Saved ~30 hours annually in maintenance.
 
-▸ Scrum Master (Temporary)
-  Stepped in during team transition period, facilitating daily standups and sprint ceremonies.
+▸ Scrum Master (Rotating Role)
+  Served as Scrum Master on a rotating sprint basis, facilitating daily standups and sprint ceremonies for the team.
 
 Skills: Bash · Grafana · Scala · C# · Agile/Scrum · Observability · Monitoring · Internal Tools
 ```
@@ -158,7 +164,7 @@ End Date: Apr 2023
 Grade: 3.58 / 4.00 (First-Class Honors)
 
 Activities and Societies:
-• Senior Project: Transmatter — Accessible content-reading platform for visually impaired users using OCR and text-to-speech
+• Senior Project: Transmatter — Accessible content-reading platform for visually impaired users using OCR and text-to-speech. 🏆 Won 1st Place at SE Show Pro CAMT 14 senior project exhibition (Sep 2022) — verified via official CMU news article.
 • Teaching Assistant: Selected as undergraduate TA to mentor students in software engineering coursework
 
 Description:
@@ -190,12 +196,11 @@ Focused on software engineering, database design, backend development, and A.I. 
 - MySQL
 - MongoDB
 - Redis
-- TimescaleDB
-- Kafka
 - Kubernetes
 - ArgoCD
 - GitOps
 - AWS CodeCommit
+- Bitbucket
 - CI/CD
 - Unit Testing
 - JUnit
@@ -217,10 +222,10 @@ Language: Thai
 Proficiency: Native or Bilingual Proficiency
 
 Language: English
-Proficiency: Professional Working Proficiency (B2 — CMU TEGS 2022)
+Proficiency: Professional Working Proficiency (B2 — CMU-eGrad 2022)
 ```
 
-✅ **English certification:** CMU TEGS B2 (2022) — Test of English for Graduate Students, Chiang Mai University Language Institute. Consider taking TOEIC later for additional credential (~2,500 THB, target 750+).
+✅ **English certification:** CMU-eGrad B2 (2022) — official English proficiency test from the Chiang Mai University Registrar (reg.cmu.ac.th). Consider taking TOEIC later for additional credential (~2,500 THB, target 750+).
 
 ---
 
@@ -238,7 +243,11 @@ Add all of these:
    Issuing Organization: HackerRank
    Issue Date: 2024
 
-3. Name: Codegoda 2023
+3. Name: Java (Intermediate)
+   Issuing Organization: HackerRank
+   Issue Date: 2024
+
+4. Name: Codegoda 2023
    Issuing Organization: Codegoda
    Issue Date: 2023
    Description: Coding competition participant (NOT an English proficiency test)
@@ -267,17 +276,17 @@ URL: (none — proprietary)
 #### Project 3: IoT Monitoring Platform
 ```
 Name: IoT Monitoring Platform
-Description: Real-time data ingestion and monitoring platform for 10,000 IoT devices using Golang, Kafka, and TimescaleDB.
-Skills: Golang · Kafka · TimescaleDB · Docker
+Description: Real-time monitoring platform for 10,000 IoT devices using Golang and WebSocket.
+Skills: Golang · WebSocket · Docker
 URL: (none — proprietary)
 ```
 
 #### Project 4: Transmatter
 ```
 Name: Transmatter
-Description: Accessibility tool for visually impaired users that converts printed text to speech using OCR and text-to-speech. Won 2nd place in KMUTNB senior project competition.
-Skills: OCR · Text-to-Speech · Web Development
-URL: github.com/sahachan/transmatter
+Description: 🏆 1st Place — SE Show Pro CAMT 14 senior project exhibition (Sep 2022). Accessibility platform for visually impaired users that converts printed text to speech using OCR and text-to-speech. Microservices architecture (Java Spring Boot backend, Vue frontend, Python content fetching, C++ hardware subsystem) deployed with Docker. Team of 2.
+Skills: OCR · Text-to-Speech · Spring Boot · Vue · Microservices · Docker
+URL: github.com/Transmatter
 ```
 
 **⚠️ REMOVE these projects from your profile:**
@@ -294,6 +303,7 @@ URL: github.com/sahachan/transmatter
 
 ```
 Keep: CMU-eGrad — B2 English Proficiency (Nov 2022) ✅
+       (Official test name confirmed via CMU Registrar: reg.cmu.ac.th/egrad-reserve)
 
 REMOVE: TOPCIT — 478/1000 (Aug 2022) ❌
 Reason: Below midpoint score, doesn't help your profile
@@ -319,7 +329,7 @@ Skills: Teaching · Programming · Scratch 3.0 · Workshop Facilitation
 
 ### 11. Open to Work Settings
 
-**Enable this NOW:**
+**Status: ALREADY ACTIVE — green Open to Work frame is on the profile photo (public).** Since the job search is already public, no discretion strategy needed. Just verify the settings below are correct:
 
 ```
 Open to: Finding a new job
@@ -337,10 +347,8 @@ Locations:
   - Thailand (Remote)
 Job types:
   - Full-time
-Visibility: Recruiters only (NOT the green banner)
+Visibility: Public (green frame on profile photo)
 ```
-
-**Why "Recruiters only":** Signals recruiters without alerting your current employer at Gosoft.
 
 ---
 
@@ -348,11 +356,11 @@ Visibility: Recruiters only (NOT the green banner)
 
 Add these to your "Featured" section (shows at top of profile):
 
-1. **Link:** Your Transmatter GitHub (github.com/sahachan/transmatter)
-   - Title: "Transmatter — Award-winning Accessibility Tool"
-   
+1. **Link:** Transmatter senior project (github.com/Transmatter)
+   - Title: "Transmatter — 1st Place, SE Show Pro CAMT 14 (CMU Senior Project)"
+
 2. **Link:** Your GitHub profile (github.com/oat431)
-   - Title: "GitHub — Open Source Contributions & Projects"
+   - Title: "GitHub — Projects & Contributions"
 
 3. **Post:** Share a post about your CP All migration experience (write this later — see "Activity Strategy" below)
 
@@ -387,7 +395,7 @@ Write about your intern mentoring approach:
 ### Week 3: Share Technical Deep Dive
 Write about a specific technical challenge:
 - DB2 → MySQL data migration validation
-- Kafka real-time data ingestion for IoT
+- WebSocket real-time monitoring for 10,000 IoT devices
 - GitOps deployment with ArgoCD
 
 ### Ongoing: Engage With Content
@@ -405,16 +413,16 @@ After updating, verify:
 
 - [ ] Headline updated with keywords
 - [ ] About section rewritten (first 3 lines are strong)
-- [ ] All 3 experience entries updated with metrics
+- [ ] All 2 experience entries updated with metrics (Gosoft, Agoda Services)
 - [ ] Education section complete with GPA and honors
 - [ ] 25+ skills added (top 10 pinned)
-- [ ] Languages fixed (Thai: Native, English: Professional)
-- [ ] 4 certifications listed
+- [ ] Languages fixed (Thai: Native, English: Professional Working — CMU-eGrad B2)
+- [ ] 4 certifications listed (SQL Adv, SQL Int, Java Int, Codegoda)
 - [ ] 4 projects only (trivial ones removed)
 - [ ] TOPCIT score removed
-- [ ] B2 English score kept
+- [ ] CMU-eGrad B2 score kept (correct official name)
 - [ ] Volunteer experience polished
-- [ ] Open to Work enabled (Recruiters only)
+- [x] Open to Work enabled (public green frame — already active)
 - [ ] Featured section populated
 - [ ] Banner image updated
 - [ ] Profile photo is professional (not selfie)
@@ -442,3 +450,21 @@ After updating, you'll appear in searches for:
 
 ## Last Updated
 2026-08-11 — Complete rewrite from scratch
+
+---
+
+## Review Notes (2026-08-11, second critique pass)
+
+User-verified corrections applied in this pass:
+
+1. **Kafka + TimescaleDB REMOVED** — was a learning plan, never used in a real project. IoT platform is Golang + WebSocket (matches resume).
+2. **GitLab CI/CD REMOVED** — warehouse project used AWS CodeCommit; all current projects use Bitbucket. Never used GitLab.
+3. **Node 12→24 upgrade — FULL PICTURE (user correction 2026-08-11):** The legacy project had 4 modules (3 API + 1 web), all on Node 12 with zero tests. Sahachan upgraded the 3 API modules himself (0 → 90%+ coverage). His intern independently did the same upgrade on the web module (Babel→Vite, 100% coverage). BOTH claims are true and now appear — his on the Node upgrade bullet, the intern's on the mentoring bullet.
+4. **Scrum Master at Agoda CONFIRMED real** — but it was a rotating sprint role, not a one-off fill-in. Reworded accordingly.
+5. **"CMU-eGrad" is the CORRECT official test name** (verified via CMU Registrar site reg.cmu.ac.th/egrad-reserve). Earlier drafts said "CMU TEGS" — that was wrong. All files unified to CMU-eGrad.
+6. **Award claim RESTORED with correct details (2026-08-11)** — user provided official CMU news article (cmu.ac.th/th/article/b3fcb584-a65e-4fd8-b297-49756a4eb979): Transmatter won **1st Place** at **SE Show Pro CAMT 14** (CMU CAMT senior project exhibition, Sep 28, 2022), team of 2 (Sahachan + Thitisan Chailuek). Old draft's "2nd place KMUTNB" was wrong on placement AND university.
+7. **Transmatter GitHub link RESTORED** — org repo github.com/Transmatter is live (verified 2026-08-11: 14 public repos, microservices architecture — Java/Spring Boot, Vue, Python, C++, Docker). Earlier 404s were because I checked personal accounts (oat431/sahachan), not the org.
+8. **Team size unified to 50** (matches resume + grill session).
+9. **Agoda renamed to "Agoda Services Co., Ltd."** for consistency with resume.
+10. **Headline discretion conflict RESOLVED** — user already has the public green Open to Work frame active, so discretion is moot. "Open to New Opportunities" phrase removed from the headline (redundant — the frame already signals availability), freeing headline space for keywords.
+11. **English fluency inconsistency RESOLVED** — resume downgraded from "Full Professional Proficiency" to "Professional Working Proficiency" (honest for a B2 cert), now matching LinkedIn. Resume rebuilt, still 1 page.
