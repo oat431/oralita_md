@@ -43,7 +43,7 @@ WHAT I DO:
 NOTABLE PROJECTS:
 • CP All Warehouse System Migration — 50-person team, 95% deployment time reduction
 • ALL Speedy Parcel Delivery — NestJS microservices, 10K-20K daily parcels, 99% uptime
-• IoT Monitoring Platform — Golang + WebSocket, 10,000 devices
+• IoT Monitoring Platform — Node.js, 10,000 devices (contributed Node 12→24 upgrade)
 • Agoda Observability — Reduced incident detection from 8-10 hours to 1 hour
 
 TECH STACK:
@@ -103,7 +103,7 @@ KEY PROJECTS:
   same upgrade on the web module (Babel→Vite, 100% test coverage).
 
 ▸ IoT Monitoring Platform
-  Real-time monitoring of 10,000 IoT devices using Golang and WebSocket.
+  Contributed Node.js 12→24 upgrade and test coverage to the platform.
   
   Results: 10,000 IoT devices monitored across client sites.
 
@@ -276,8 +276,8 @@ URL: (none — proprietary)
 #### Project 3: IoT Monitoring Platform
 ```
 Name: IoT Monitoring Platform
-Description: Real-time monitoring platform for 10,000 IoT devices using Golang and WebSocket.
-Skills: Golang · WebSocket · Docker
+Description: IoT monitoring platform for 10,000 connected devices. Contributed Node.js 12→24 upgrade and built test coverage from zero to 90%+.
+Skills: Node.js · Docker · Unit Testing
 URL: (none — proprietary)
 ```
 
@@ -395,7 +395,7 @@ Write about your intern mentoring approach:
 ### Week 3: Share Technical Deep Dive
 Write about a specific technical challenge:
 - DB2 → MySQL data migration validation
-- WebSocket real-time monitoring for 10,000 IoT devices
+- Node.js legacy upgrade story (Node 12→24, zero tests → 90%+ coverage)
 - GitOps deployment with ArgoCD
 
 ### Ongoing: Engage With Content
@@ -457,7 +457,7 @@ After updating, you'll appear in searches for:
 
 User-verified corrections applied in this pass:
 
-1. **Kafka + TimescaleDB REMOVED** — was a learning plan, never used in a real project. IoT platform is Golang + WebSocket (matches resume).
+1. **Kafka + TimescaleDB REMOVED** — was a learning plan, never used. IoT platform is Node.js (Sahachan only contributed Node 12→24 upgrade, did NOT build the platform). Earlier note said "Golang + WebSocket" — that was WRONG, corrected 2026-08-11.
 2. **GitLab CI/CD REMOVED** — warehouse project used AWS CodeCommit; all current projects use Bitbucket. Never used GitLab.
 3. **Node 12→24 upgrade — FULL PICTURE (user correction 2026-08-11):** The legacy project had 4 modules (3 API + 1 web), all on Node 12 with zero tests. Sahachan upgraded the 3 API modules himself (0 → 90%+ coverage). His intern independently did the same upgrade on the web module (Babel→Vite, 100% coverage). BOTH claims are true and now appear — his on the Node upgrade bullet, the intern's on the mentoring bullet.
 4. **Scrum Master at Agoda CONFIRMED real** — but it was a rotating sprint role, not a one-off fill-in. Reworded accordingly.

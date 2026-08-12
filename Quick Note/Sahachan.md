@@ -47,7 +47,8 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 #### Project 1: CP All Warehouse Management System Migration
 **Timeline:** July 2023 - August 2024 (my part), go-live 2025  
 **Role:** Temporary Team Lead + Project Coordinator + Backend Developer  
-**Team Size:** 50+ total, 20+ backend  
+**Team Size:** 50 total  
+**Role:** Backend Developer
 **Client:** CP All (7-Eleven Thailand)  
 **Tech Stack:** Java Spring Boot 3, MySQL, Docker, AWS CodeCommit CI/CD, JasperSoft  
 **Migration Strategy:** Strangler fig (module by module)
@@ -108,15 +109,15 @@ Full-stack Software Engineer with 3+ years of experience building and modernizin
 #### Project 5: IoT Monitoring Platform
 **Timeline:** 2023-2024  
 **Role:** Backend Developer  
-**Tech Stack:** Golang, WebSocket, Docker  
+**Tech Stack:** Node.js, Docker  
 **Scale:** 10,000 devices monitored
 
 **Key Achievements:**
-- Built real-time monitoring with Golang backend and WebSocket dashboard
+- Upgraded Node.js 12→24 on the platform, building test coverage from zero to 90%+
 - Monitored 10,000 IoT devices across client sites
 - Mentored 1 intern who built the full parcel delivery dashboard in Next.js
 
-> Note (2026-08-11): Kafka + TimescaleDB were removed — they were a learning plan, never used in production.
+> Note (2026-08-11, corrected again): IoT platform is Node.js, NOT Golang. Sahachan only contributed the Node 12→24 upgrade (his 3 API modules) + mentored an intern on the web module. He did NOT build the platform. Kafka + TimescaleDB were a learning plan, never used.
 
 #### Mentoring Responsibilities (Ongoing)
 **Total Interns Mentored:** 4 (PIM university students, part-time year-long internships)  
@@ -218,7 +219,7 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 | Java | Expert | Primary language, 2+ years production experience |
 | JavaScript | Proficient | Full-stack usage |
 | TypeScript | Proficient | NestJS, NextJS, ReactJS |
-| Golang | Proficient | IoT monitoring platform |
+| Golang | Proficient | HR management platform |
 | Scala | Familiar | Exposure through Agoda codebase |
 
 ### Frameworks & Libraries
@@ -297,7 +298,7 @@ Relevant Coursework: Software Engineering, Database Systems, Web Development, So
 ### Featured Project 3: IoT Monitoring Platform
 **Type:** Real-time data platform  
 **Scale:** 10,000 devices monitored  
-**Tech:** Golang, WebSocket, Docker  
+**Tech:** Node.js, Docker  
 **Role:** Backend developer  
 **Status:** Production
 

@@ -53,7 +53,7 @@
 | Client | CP All (7-Eleven Thailand) |
 | Legacy system | Java Struts (2004), IBM DB2, stored procedures |
 | Target system | Spring Boot 3, MySQL, Microservices, Docker, AWS CodeCommit CI/CD |
-| Team size | 50+ total, 20+ backend |
+| Team size | 50 total |
 | My role | Temporary team lead + project coordinator + backend developer |
 | Migration strategy | Strangler fig (module by module) |
 | Hero module | JasperSoft reporting system (10+ stored procedures converted) |
@@ -228,7 +228,6 @@
 | Before | 8-10 hour detection time (overnight/after-work incidents) |
 | After | ~1 hour detection time (morning email check) |
 | Improvement | 87-90% reduction in detection time |
-| Legacy | System continued post-internship, rewritten in Python with same logic |
 
 ---
 

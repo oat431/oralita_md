@@ -66,7 +66,7 @@ Do NOT reintroduce these errors:
 | **English test** | **CMU-eGrad** B2 (2022) — official CMU Registrar test (reg.cmu.ac.th/egrad-reserve). NOT "CMU TEGS". |
 | **English level** | "Professional Working Proficiency" — honest for B2. NOT "Full Professional". |
 | **Node 12→24** | Legacy project = 4 modules (3 API + 1 web), all zero tests. **He** did 3 API modules (0→90%+). His **intern** independently did the web module (Babel→Vite, 100%). BOTH claims true — different modules. |
-| **IoT platform** | Golang + WebSocket + Docker. **Kafka/TimescaleDB were NEVER used** (learning plan only). |
+| **IoT platform** | Node.js + Docker. Sahachan only did Node 12→24 upgrade (3 API modules), did NOT build it. Kafka/TimescaleDB/Golang NEVER used. |
 | **Version control** | AWS CodeCommit (legacy warehouse project), Bitbucket (all current projects). **NEVER GitLab.** |
 | **Agoda company** | Agoda Services Co., Ltd. (full legal name) |
 | **Team size** | 50 total (warehouse migration). No "20+ backend" breakdown. |
