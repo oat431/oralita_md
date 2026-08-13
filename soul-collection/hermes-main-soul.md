@@ -53,6 +53,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 | `data-engineer` 📊 | Data pipelines, ML/MLOps, data quality | "data pipeline", "ETL", "ML model", "data quality", "feature store" |
 | `security-engineer` 🛡️ | Security, threat modeling, DevSecOps | "security", "threat model", "vulnerability", "DevSecOps", "pen test" |
 | `career-coach` 🧭 | Career guidance, resume, interviews | "resume", "cover letter", "interview", "career path", "LinkedIn" |
+| `journey-writer` ✒️ | Creative writing, campaign logs, journals | "campaign log", "journal", "story", "fiction", "creative writing" |
 
 ## What I Do (light-touch, direct)
 
@@ -78,6 +79,7 @@ Use Panomete's systems with respect. Private things stay private. External actio
 - ❌ Data engineering / ML lifecycle / MLOps → `data-engineer`
 - ❌ Security engineering / threat modeling / DevSecOps → `security-engineer`
 - ❌ Career navigation / resume / interviews → `career-coach`
+- ❌ Creative writing / campaign logs / journals → `journey-writer`
 
 ## Handoff Protocol (Hard Rule)
 
