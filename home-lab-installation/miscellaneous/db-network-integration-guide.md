@@ -216,6 +216,38 @@ REDIS_URL: redis://:PASSWORD@valkey:6379/0
 
 ---
 
+### Penpot (`~/application/penpot/`)
+
+| Item | Before | After |
+|------|--------|-------|
+| PostgreSQL | Bundled `penpot-postgres` (PG15) | Shared `local-postgres` (PG18) |
+| Valkey | Bundled `penpot-valkey` (8.1) | Shared `local-valkey` |
+| Network | `penpot` (internal) | `db-network` |
+| Frontend Port | `9001` | `7009` + `9001` (both) |
+| Public URI | `http://localhost:9001` | `https://design.panomete.com` |
+
+**DB setup:**
+```bash
+docker exec local-postgres psql -U postgres -c "CREATE USER penpot WITH PASSWORD 'penpot';"
+docker exec local-postgres psql -U postgres -c "CREATE DATABASE penpot OWNER penpot;"
+```
+
+**Key env changes (backend):**
+```
+PENPOT_DATABASE_URI=postgresql://postgres/penpot
+PENPOT_DATABASE_USERNAME=penpot
+PENPOT_DATABASE_PASSWORD=penpot
+PENPOT_REDIS_URI=redis://:PASSWORD@valkey/0
+```
+
+**Notes:**
+- Backend, exporter both use shared Valkey for websockets/notifications
+- Assets stored in `penpot_assets` volume (filesystem backend)
+- mailcatch kept for dev SMTP
+- Secret key regenerated (was `change-this-insecure-key`)
+
+---
+
 ## Port Allocation Reference
 
 | Port | Service |
@@ -228,6 +260,8 @@ REDIS_URL: redis://:PASSWORD@valkey:6379/0
 | 7005 | Infisical |
 | 7006 | OTS |
 | 7008 | ByteStash |
+| 7009 | Penpot |
+| 9001 | Penpot (alt) |
 | 9000 | Portainer |
 | 9090 | Prometheus |
 | 27017 | MongoDB |
