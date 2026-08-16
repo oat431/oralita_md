@@ -26,6 +26,14 @@ tags: [fitness, tracking, smart-scale, phase-2]
 | 7    | 4800          | 78             | 8         | 50                  |                           |
 | 8    |               |                |           |                     |                           |
 
+## Tape Measurements (Sunday morning — before breakfast)
+
+Measure relaxed, tape parallel to the floor, same landmark every time. Waist = navel, end of a normal exhale. Hips = widest glute point. Chest = nipple line, arms relaxed.
+
+| Date  | Waist (cm) | Hip (cm) | Chest (cm) | Manual Waist-to-Hip | Notes                              |
+| ----- | ---------- | -------- | ---------- | ------------------- | ---------------------------------- |
+| 08-16 | 130        | 123      | 118        | **1.06**            | Baseline. Waist ÷ hip = 130 ÷ 123. Scale said 1.0 — tape wins, it's the ground truth |
+
 ## Targets (End of Phase 2 — Week 8)
 
 | Metric | Current (W7) | Phase 2 target | Δ |
@@ -35,7 +43,8 @@ tags: [fitness, tracking, smart-scale, phase-2]
 | Muscle mass | 75.3 kg | Preserve (≥75 kg) | -0.7 kg since baseline — watchlist |
 | Visceral fat | 21 | <18 long-term | -2 since baseline |
 | Body water | 47.5% | >48% | +2.0% since baseline |
-| Waist-to-hip | 1.0 | <1.05 | ✓ reached |
+| Waist-to-hip | 1.06 (manual tape) | <1.0 long-term | baseline; scale's 1.0 was optimistic |
+| Waist (tape) | 130 cm | <102 cm health threshold; waist-to-height <0.5 long-term | -28 cm to threshold |
 | Avg steps/day | 4,800 (W7) | 5,000/day average now; 8,000 long-term | -200/day to target |
 | Avg resting HR | 78 bpm (W7); 57–59 in W5–W6 | Return toward ~60 bpm | +19 bpm jump — recovery signal |
 | Avg sleep | 8 h (watch) | 7.0h+ | ✓ |

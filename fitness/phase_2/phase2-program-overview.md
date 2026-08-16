@@ -24,6 +24,8 @@ Build barbell technique and steady strength progression while losing fat, preser
 | Wed | Run/walk + core | 30-minute intervals | ~40 min |
 | Sat | Full body | Deadlift + front squat | ~60 min |
 
+> **The Time column is total gym time** — warm-up, working sets, and rest all included. It's a cap, not a target: if the session finishes early because everything went clean, go home. Do not add bonus work to fill the minutes, and do not skip the warm-up to save time — the warm-up is part of the session, not an extra.
+
 ## Week 8 — Daily Workouts
 
 | Day | Open this note | Focus |
