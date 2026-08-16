@@ -19,11 +19,16 @@ Focus: 30-minute intervals + core. Time: ~40 min.
 
 ## 2. Dead Bugs
 
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0276-iny3m5y.gif)
+
 - **Warm-up:** none — core is warm from running
 - **Working:** 2 × 10/side — rest 30 sec
 - **Standard:** slow and controlled
 
 ## 3. Pallof Press / Side Planks
+
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0979-9pa4H5m.gif)
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0705-RKjH6Lt.gif)
 
 - **Warm-up:** none — core already worked
 - **Working:** 2 × 10 @ 15 kg / 2 × 30 sec — rest 30 sec
@@ -31,11 +36,15 @@ Focus: 30-minute intervals + core. Time: ~40 min.
 
 ## 4. Dumbbell Curls (optional)
 
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0294-NbVPDMW.gif)
+
 - **Warm-up:** 1 light set — 7.5–10 kg × 10–12 (first arm work — the run does not warm the arms; rest ~60 sec after)
 - **Working:** 2 × 10 @ 15 kg — rest 60 sec
 - **Standard:** optional; skip if time or recovery is limited
 
 ## 5. Dumbbell Lateral Raises
+
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0334-DsgkuIt.gif)
 
 - **Warm-up:** 1 light set — 4–5 kg × 10–12 (first shoulder work; rest ~60 sec after)
 - **Working:** 2 × 12 @ **8 kg** — rest 60 sec
