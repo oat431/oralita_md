@@ -1,12 +1,12 @@
 ---
 date: 2026-07-27
-updated: 2026-08-16
-tags: [fitness, program, phase-2, barbell]
+updated: 2026-08-17
+tags: [fitness, program, phase-2, barbell, overview]
 ---
 
-# Phase 2 — Barbell Foundation (Weeks 5–8)
+# Phase 2 — Barbell Foundation (Weeks 5–8) — Overview
 
-> **Live plan:** Week 8 targets are shown below. This is the final week of Phase 2. Historical review data is stored in `weekly-review-summary.md`.
+> **Live plan:** Week 8 — final week of Phase 2. Day-by-day instructions are in `daily-workouts/`. Historical review data is stored in `weekly-review-summary.md`.
 
 ## Purpose
 
@@ -24,52 +24,16 @@ Build barbell technique and steady strength progression while losing fat, preser
 | Wed | Run/walk + core | 30-minute intervals | ~40 min |
 | Sat | Full body | Deadlift + front squat | ~60 min |
 
----
+## Week 8 — Daily Workouts
 
-## Current Targets — Week 8
+| Day | Open this note | Focus |
+|-----|----------------|-------|
+| Mon | `[[daily-workouts/1_Monday]]` | Upper |
+| Tue | `[[daily-workouts/2_Tuesday]]` | Lower |
+| Wed | `[[daily-workouts/3_Wednesday]]` | Run/Walk + Core |
+| Sat | `[[daily-workouts/4_Saturday]]` | Full Body |
 
-### Monday — Upper
-
-| Exercise | Sets × Reps | Rest | Target | Execution standard |
-|----------|-------------|------|--------|-------------------|
-| Barbell Bench Press | 3×5 | 2–3 min | **47.5 kg** | Bar touches chest; no bounce; same load across work sets |
-| Barbell OHP | 3×5 | 2 min | **35 kg** | Repeat: W7 was Hard. Strict press; no leg drive |
-| Chest-Supported Row | 3×8 | 90 sec | **32.5 kg** | W7 was Easy at 30; same load across work sets |
-| Face Pulls | 3×12 | 60 sec | **20 kg** | Pull toward forehead; finish with external rotation |
-| Tricep Pushdown | 2×12 | 60 sec | **20 kg** | Exactly 2 work sets; no torso swing |
-
-### Tuesday — Lower
-
-| Exercise | Sets × Reps | Rest | Target | Execution standard |
-|----------|-------------|------|--------|-------------------|
-| Barbell Back Squat | 3×5 | 2–3 min | **42.5 kg** | One load across ALL 3 sets — no mid-session drops. W7's 45→40→40 was invalid |
-| Leg Press | 3×8 | 90 sec | **62.5 kg** | Controlled depth; do not lock the knees |
-| Lying Leg Curl | 3×10 | 60 sec | **30 kg** | Repeat; two-second lowering phase |
-| Calf Raises | 3×15 | 60 sec | **35 kg** | One load across ALL 3 sets — W7's 37.5→35→30 was invalid. Full stretch |
-| Plank | 3×35 sec | 30 sec | **3×35 sec** | Time progression; record actual time accurately |
-
-### Wednesday — Run/Walk + Core
-
-| Exercise | Weight | Sets × Reps / Time | Rest | Target / standard |
-|----------|--------|--------------------|------|-------------------|
-| Run/Walk Intervals | — | 30 min | — | 4-min jog / 2-min walk × 5. **Write the actual minutes in the log.** No bonus running |
-| Dead Bugs | — | 2×10/side | 30 sec | Slow and controlled |
-| Pallof Press / Side Planks | 15 kg / bodyweight | 2×10 / 2×30 sec | 30 sec | Anti-rotation; keep ribs down |
-| Dumbbell Curls (optional) | 15 kg | 2×10 | 60 sec | Optional; skip if time or recovery is limited |
-| Dumbbell Lateral Raises | 8 kg | 2×12 | 60 sec | Repeat strict: full ROM, no shrug, no torso lean, 2-sec lowering |
-
-### Saturday — Full Body
-
-| Exercise | Sets × Reps | Rest | Target | Execution standard |
-|----------|-------------|------|--------|-------------------|
-| Barbell Deadlift (conventional) | 1×5 | — | **70 kg** | W7's 65 kg was Easy — flat-back gate passed. One work set after warm-ups |
-| Barbell Front Squat | 3×5 | 2 min | **37.5 kg** | Elbows high; same load across work sets |
-| Lat Pulldown | 3×8 | 90 sec | **27.5 kg** | Repeat; torso still, full controlled pull |
-| Incline Dumbbell Press | 3×8 | 90 sec | **27.5 kg** | Repeat; per hand; controlled touch and press |
-| Reverse Lunges | 3×8/leg | 90 sec | **18 kg** | Repeat; clean balance and knee tracking |
-| Seated Cable Row | 3×8 | 60 sec | **35 kg** | Repeat; full range, no jerking |
-
----
+Each day note lists the exercises in order, with the warm-up ladder (or "none — already warm") written **under each exercise**. At the gym, open that day's note and follow it top to bottom.
 
 ## Phase Progression Map
 
@@ -96,8 +60,6 @@ Deadlift progression is deliberately slower because it was a new movement in Wee
 
 The continuous 20-minute jog target was not reached in Phase 2. That is acceptable — the aerobic base builds slowly. It carries into Phase 3.
 
----
-
 ## Progression Rules
 
 1. Complete every prescribed rep with good form → add **2.5 kg** to the next barbell session.
@@ -116,21 +78,13 @@ The continuous 20-minute jog target was not reached in Phase 2. That is acceptab
 - Machine weight means the displayed stack/load value; do not assume it equals free-weight kilograms.
 - Record actual reps and any form limitation immediately after the session.
 
----
-
 ## Session Protocol
 
-1. **General warm-up:** 5–8 minutes of cycling or treadmill walking plus dynamic movement.
-2. **Barbell warm-up sets:** before each barbell lift:
-   - approximately 50% × 5
-   - approximately 70% × 3
-   - approximately 90% × 2
-   - then the prescribed working sets
+1. **General warm-up:** 5–8 minutes of cycling or treadmill walking plus dynamic movement → `[[warmup-protocol]]`.
+2. **Barbell warm-up sets:** before each barbell lift, run the ramp ladder written inline under the exercise in your day note (≈50% × 5, 70% × 3, 90% × 2), then the prescribed working sets.
 3. Warm-ups are for preparation and technique; do not log them as working sets.
 4. Rest 2–3 minutes for barbell compounds, 90 seconds for machine compounds, and 60 seconds for isolations.
 5. Stop adding work when the listed session is complete.
-
----
 
 ## Nutrition and Recovery Targets
 
@@ -148,8 +102,6 @@ Active-balance adjustments:
 - 7-day average falls <0.15 kg/week for 3 weeks → audit adherence or reduce 150 kcal/day.
 - Weekly sleep average <6 hours → remove one quality session.
 
----
-
 ## Optional Morning Movement — 10 kg Kettlebell
 
 This is supplementary movement, **not a fifth workout**, and it cannot selectively burn stomach fat. Fat loss comes from the overall calorie deficit; the kettlebell develops basic hinge, squat, carry, and trunk capacity.
@@ -163,11 +115,11 @@ This is supplementary movement, **not a fifth workout**, and it cannot selective
 
 The kettlebell must not reduce performance in the four scheduled sessions.
 
----
-
 ## File Links and Review Cadence
 
+- **Daily workouts:** `daily-workouts/` — Monday, Tuesday, Wednesday, Saturday
 - **Training log:** `training-log-phase2.md`
+- **Warm-up protocol:** `[[warmup-protocol]]`
 - **Smart-scale and watch tracking:** `smart-scale-tracking.md`
 - **Historical weekly reviews:** `weekly-review-summary.md`
 - **Watch settings:** `../00_gym_knowledge/smart-watch-settings.md`

@@ -5,7 +5,7 @@ tags: [fitness, weekly-review, phase-2, history]
 
 # Weekly Review Summary — Phase 2
 
-This file stores historical analysis. The live training instructions are in `phase2-program.md`.
+This file stores historical analysis. The live training instructions are in `phase2-program-overview.md` (day-by-day notes in `daily-workouts/`).
 
 ---
 
@@ -196,7 +196,7 @@ Next Sunday is the **Phase 2 completion review**: bring the full log, Sunday sma
 
 ## Current status after Week 7
 
-- Live training instructions: `phase2-program.md` — Week 8 (final week of Phase 2)
+- Live training instructions: `phase2-program-overview.md` + day notes in `daily-workouts/` — Week 8 (final week of Phase 2)
 - Training log: `training-log-phase2.md`
 - Smart scale/watch data: `smart-scale-tracking.md`
 - Calories: **2,050 kcal/day** (reduced from 2,200 after 3-week flat rolling average)
