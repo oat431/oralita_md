@@ -1,12 +1,12 @@
 ---
 date: 2026-07-27
-updated: 2026-08-09
+updated: 2026-08-16
 tags: [fitness, program, phase-2, barbell]
 ---
 
 # Phase 2 — Barbell Foundation (Weeks 5–8)
 
-> **Live plan:** Week 7 targets are shown below. Historical review data is stored in `weekly-review-summary.md`.
+> **Live plan:** Week 8 targets are shown below. This is the final week of Phase 2. Historical review data is stored in `weekly-review-summary.md`.
 
 ## Purpose
 
@@ -26,15 +26,15 @@ Build barbell technique and steady strength progression while losing fat, preser
 
 ---
 
-## Current Targets — Week 7
+## Current Targets — Week 8
 
 ### Monday — Upper
 
 | Exercise | Sets × Reps | Rest | Target | Execution standard |
 |----------|-------------|------|--------|-------------------|
-| Barbell Bench Press | 3×5 | 2–3 min | **45 kg** | Bar touches chest; no bounce; same load across work sets |
-| Barbell OHP | 3×5 | 2 min | **35 kg** | Strict press; no leg drive; full lockout |
-| Chest-Supported Row | 3×8 | 90 sec | **30 kg** | Full range; same load across work sets |
+| Barbell Bench Press | 3×5 | 2–3 min | **47.5 kg** | Bar touches chest; no bounce; same load across work sets |
+| Barbell OHP | 3×5 | 2 min | **35 kg** | Repeat: W7 was Hard. Strict press; no leg drive |
+| Chest-Supported Row | 3×8 | 90 sec | **32.5 kg** | W7 was Easy at 30; same load across work sets |
 | Face Pulls | 3×12 | 60 sec | **20 kg** | Pull toward forehead; finish with external rotation |
 | Tricep Pushdown | 2×12 | 60 sec | **20 kg** | Exactly 2 work sets; no torso swing |
 
@@ -42,32 +42,32 @@ Build barbell technique and steady strength progression while losing fat, preser
 
 | Exercise | Sets × Reps | Rest | Target | Execution standard |
 |----------|-------------|------|--------|-------------------|
-| Barbell Back Squat | 3×5 | 2–3 min | **45 kg** | Stable brace; thighs parallel or below if mobility allows |
-| Leg Press | 3×8 | 90 sec | **60 kg** | Controlled depth; do not lock the knees |
-| Lying Leg Curl | 3×10 | 60 sec | **30 kg** | Two-second lowering phase |
-| Calf Raises | 3×15 | 60 sec | **37.5 kg** | Full stretch and controlled peak contraction |
-| Plank | 3×30 sec | 30 sec | **3×30 sec** | Repeat the time accurately; no sagging |
+| Barbell Back Squat | 3×5 | 2–3 min | **42.5 kg** | One load across ALL 3 sets — no mid-session drops. W7's 45→40→40 was invalid |
+| Leg Press | 3×8 | 90 sec | **62.5 kg** | Controlled depth; do not lock the knees |
+| Lying Leg Curl | 3×10 | 60 sec | **30 kg** | Repeat; two-second lowering phase |
+| Calf Raises | 3×15 | 60 sec | **35 kg** | One load across ALL 3 sets — W7's 37.5→35→30 was invalid. Full stretch |
+| Plank | 3×35 sec | 30 sec | **3×35 sec** | Time progression; record actual time accurately |
 
 ### Wednesday — Run/Walk + Core
 
 | Exercise | Weight | Sets × Reps / Time | Rest | Target / standard |
 |----------|--------|--------------------|------|-------------------|
-| Run/Walk Intervals | — | 30 min | — | 4-min jog / 2-min walk × 5; no bonus running |
+| Run/Walk Intervals | — | 30 min | — | 4-min jog / 2-min walk × 5. **Write the actual minutes in the log.** No bonus running |
 | Dead Bugs | — | 2×10/side | 30 sec | Slow and controlled |
 | Pallof Press / Side Planks | 15 kg / bodyweight | 2×10 / 2×30 sec | 30 sec | Anti-rotation; keep ribs down |
 | Dumbbell Curls (optional) | 15 kg | 2×10 | 60 sec | Optional; skip if time or recovery is limited |
-| Dumbbell Lateral Raises | 8 kg | 2×12 | 60 sec | Strict form: full ROM, no shrug, no torso lean, 2-sec lowering |
+| Dumbbell Lateral Raises | 8 kg | 2×12 | 60 sec | Repeat strict: full ROM, no shrug, no torso lean, 2-sec lowering |
 
 ### Saturday — Full Body
 
 | Exercise | Sets × Reps | Rest | Target | Execution standard |
 |----------|-------------|------|--------|-------------------|
-| Barbell Deadlift (conventional) | 1×5 | — | **65 kg** | One work set after warm-ups; flat back is non-negotiable |
-| Barbell Front Squat | 3×5 | 2 min | **35 kg** | Elbows high; same load across work sets |
-| Lat Pulldown | 3×8 | 90 sec | **27.5 kg** | Torso still; full controlled pull |
-| Incline Dumbbell Press | 3×8 | 90 sec | **27.5 kg** | Dumbbell load is per hand; controlled touch and press |
-| Reverse Lunges | 3×8/leg | 90 sec | **18 kg** | Clean balance and knee tracking |
-| Seated Cable Row | 3×8 | 60 sec | **35 kg** | Full range; no jerking |
+| Barbell Deadlift (conventional) | 1×5 | — | **70 kg** | W7's 65 kg was Easy — flat-back gate passed. One work set after warm-ups |
+| Barbell Front Squat | 3×5 | 2 min | **37.5 kg** | Elbows high; same load across work sets |
+| Lat Pulldown | 3×8 | 90 sec | **27.5 kg** | Repeat; torso still, full controlled pull |
+| Incline Dumbbell Press | 3×8 | 90 sec | **27.5 kg** | Repeat; per hand; controlled touch and press |
+| Reverse Lunges | 3×8/leg | 90 sec | **18 kg** | Repeat; clean balance and knee tracking |
+| Seated Cable Row | 3×8 | 60 sec | **35 kg** | Repeat; full range, no jerking |
 
 ---
 
@@ -76,12 +76,14 @@ Build barbell technique and steady strength progression while losing fat, preser
 | Barbell lift | W5 | W6 | W7 | W8 |
 |-------------|----|----|----|----|
 | Bench Press | 40 kg | 42.5 kg | 45 kg | 47.5 kg |
-| OHP | 30 kg | 32.5 kg | 35 kg | 37.5 kg |
-| Back Squat | 40 kg | 42.5 kg | 45 kg | 47.5 kg |
+| OHP | 30 kg | 32.5 kg | 35 kg | **35 kg (repeat — Hard)** |
+| Back Squat | 40 kg | 42.5 kg | 45 kg* | **42.5 kg (repeat — ramping fix)** |
 | Deadlift | 60 kg | 60 kg | 65 kg | 70 kg |
 | Front Squat | 30 kg | 32.5 kg | 35 kg | 37.5 kg |
 
-Deadlift progression is deliberately slower because it was a new movement in Week 5. Only move to the next load when the back stays flat on every repetition.
+\* W7 squat was logged 45→40→40 — not a valid 3×5 at 45. Week 8 consolidates at 42.5 with one uniform load.
+
+Deadlift progression is deliberately slower because it was a new movement in Week 5. It now moves on schedule: clean 65 kg rated Easy in W7.
 
 ### Run/Walk Progression
 
@@ -89,10 +91,10 @@ Deadlift progression is deliberately slower because it was a new movement in Wee
 |------|----------|------------|
 | 5 | 3-min jog / 2-min walk × 6 | 32 min with warm-up |
 | 6 | 4-min jog / 2-min walk × 5 | 30 min |
-| 7 | 4-min jog / 2-min walk × 5 | **30 min — repeat** |
-| 8 | 5-min jog / 2-min walk × 4 | 28 min |
+| 7 | 4-min jog / 2-min walk × 5 | 30 min (duration not logged) |
+| 8 | 4-min jog / 2-min walk × 5 | **30 min — repeat; log the minutes** |
 
-The goal is not to force continuous running. Build repeatable aerobic work first. Use walking, cycling, or swimming for extra low-impact activity.
+The continuous 20-minute jog target was not reached in Phase 2. That is acceptable — the aerobic base builds slowly. It carries into Phase 3.
 
 ---
 
@@ -102,13 +104,14 @@ The goal is not to force continuous running. Build repeatable aerobic work first
 2. Barbell reps are missed or form is borderline → repeat the same load.
 3. The same lift misses twice in a row → reduce the load by **10%** and rebuild.
 4. Accessories marked **Hard** → repeat the load. Accessories marked **Easy** with clean form → add one small increment.
-5. **Three working sets means three.** Do not add bonus sets, exercises, or running.
+5. **Three working sets means three, all at the same load.** No mid-session ramping up or dropping down. A session logged as 45→40→40 is not a 3×5 at 45 — it is a failed attempt plus improvisation.
 6. Sharp pain, joint pain, back pain, dizziness, chest pain, or unusual shortness of breath → stop and report it. Muscle burn is not the same as sharp pain.
 
 ### Logging Convention
 
 - Log working sets only; warm-up sets do not count.
 - Use one working load across all prescribed sets unless the program explicitly says otherwise.
+- **Log cardio minutes.** The run/walk row must contain a real number, not "Easy."
 - Dumbbell weight means **per hand**.
 - Machine weight means the displayed stack/load value; do not assume it equals free-weight kilograms.
 - Record actual reps and any form limitation immediately after the session.
@@ -131,8 +134,8 @@ The goal is not to force continuous running. Build repeatable aerobic work first
 
 ## Nutrition and Recovery Targets
 
-- **Calories:** 2,200 kcal/day. Do not change calories because of one scale reading.
-- **Protein:** minimum 160 g/day.
+- **Calories:** **2,050 kcal/day** — reduced from 2,200 after the 3-week flat rolling average (121.87 → 122.21 → 122.16 kg). Revert to 2,200 if the 7-day average drops more than 0.6 kg/week for 2 consecutive weeks.
+- **Protein:** minimum 160 g/day. Protein priority rises when calories drop — protect the muscle.
 - **Water:** 3–4 L/day.
 - **Sleep:** 7 hours minimum.
 - **Weight:** morning weigh-in after bathroom, before food or water.
@@ -170,4 +173,4 @@ The kettlebell must not reduce performance in the four scheduled sessions.
 - **Watch settings:** `../00_gym_knowledge/smart-watch-settings.md`
 - **Review cadence:** every Sunday
 
-*Current live target: Week 7. Update the target tables after each Sunday review; keep historical analysis in `weekly-review-summary.md`.*
+*Current live target: Week 8 — final week of Phase 2. Next Sunday is the Phase 2 completion review.*

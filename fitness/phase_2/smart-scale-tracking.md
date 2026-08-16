@@ -14,33 +14,33 @@ tags: [fitness, tracking, smart-scale, phase-2]
 | Baseline | 07-27 | 121.1       | 43.1     | 35.6  | 76.0        | 23           | 45.5         | 1.1          |
 | 5        | 08-02 | 121.0       | 42.5     | 35.1  | 75.8        | 22           | 46.3         | 1.1          |
 | 6        | 08-09 | 121.5       | 42.1     | 34.5  | 75.6        | 21           | 47.2         | 1.1          |
-| 7        |       |             |          |       |             |              |              |              |
+| 7        | 08-16 | 121.2       | 41.6     | 34.3  | 75.3        | 21           | 47.5         | 1            |
 | 8        |       |             |          |       |             |              |              |              |
 
 ## Watch Metrics (7-Day Averages)
 
 | Week | Avg Steps/Day | Avg Resting HR | Avg Sleep | PAI Score (rolling) | Notes                     |
 | ---- | ------------- | -------------- | --------- | ------------------- | ------------------------- |
-| 5    | 3573          | 10.8           | 7         | 50                  | i need to walk more often |
-| 6    | 4533          | 10             | 7         | 52                  |                           |
-| 7    |               |                |           |                     |                           |
+| 5    | 3573          | 57             | 7         | 50                  | i need to walk more often |
+| 6    | 4533          | 59             | 7         | 52                  |                           |
+| 7    | 4800          | 78             | 8         | 50                  |                           |
 | 8    |               |                |           |                     |                           |
 
 ## Targets (End of Phase 2 — Week 8)
 
-| Metric | Current | Target | Δ |
+| Metric | Current (W7) | Phase 2 target | Δ |
 |--------|---------|--------|-----|
-| Weight | 121.1 kg | 118 kg | -3.1 kg |
-| Body fat | 43.1 kg (35.6%) | 39 kg (33%) | -4.1 kg fat |
-| Muscle mass | 76.0 kg | 75+ kg | Preserve |
-| Visceral fat | 23 | <18 | -5+ |
-| Body water | 45.5% | >48% | +2.5% |
-| Waist-to-hip | 1.1 | <1.05 | -0.05 |
-| Avg steps/day | — | 8,000+ | Establish baseline W5 |
-| Avg resting HR | — | -3 to -5 bpm | Establish baseline W5 |
-| Avg sleep | 7.3h | 7.0h+ | Maintain |
-| PAI score | — | 100/week | Every week |
+| Weight | 121.2 kg | 120.3–120.9 kg (judge the trend, not a hard endpoint) | — |
+| Body fat | 41.6 kg (34.3%) | Downward trend | -1.5 kg since baseline ✓ |
+| Muscle mass | 75.3 kg | Preserve (≥75 kg) | -0.7 kg since baseline — watchlist |
+| Visceral fat | 21 | <18 long-term | -2 since baseline |
+| Body water | 47.5% | >48% | +2.0% since baseline |
+| Waist-to-hip | 1.0 | <1.05 | ✓ reached |
+| Avg steps/day | 4,800 (W7) | 5,000/day average now; 8,000 long-term | -200/day to target |
+| Avg resting HR | 78 bpm (W7); 57–59 in W5–W6 | Return toward ~60 bpm | +19 bpm jump — recovery signal |
+| Avg sleep | 8 h (watch) | 7.0h+ | ✓ |
+| PAI score | 50 (W7) | 50–75 now; 100 long-term | ✓ in range |
 
 ---
 
-*Review with Coach at end of Week 8.*
+*Phase 2 completion review: Sunday after Week 8. Bring the full log, Sunday smart-scale reading, and all watch averages.*

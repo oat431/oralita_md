@@ -12,7 +12,7 @@ All targets calculated from your body metrics: 121.1 kg, 25 years old, BMR 2,104
 
 ## Daily Goals
 
-| Metric | Week 7 Target | Long-term Target | Why This Number |
+| Metric | Week 8 Target | Long-term Target | Why This Number |
 |--------|---------------|------------------|-----------------|
 | **Steps** | **5,000/day average** | **8,000/day** | Week 6 reached 4,533. Repeat the floor before increasing again |
 | **Active Calories** | **Do not chase a fixed number** | Reassess after steps baseline | Watch calorie estimates are noisy; use steps + programmed training instead |

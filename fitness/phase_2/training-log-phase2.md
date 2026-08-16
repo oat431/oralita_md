@@ -165,12 +165,12 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
 | --- | ----------- | ---------------- | ------------ | ----- |
 | Mon | 7           | 122.8            | 160          |       |
-| Tue |             |                  |              |       |
-| Wed |             |                  |              |       |
-| Thu |             |                  |              |       |
-| Fri |             |                  |              |       |
-| Sat |             |                  |              |       |
-| Sun |             |                  |              |       |
+| Tue | 8           | 123.0            | 160          |       |
+| Wed | 8           | 122.6            | 160          |       |
+| Thu | 8           | 122.3            | 160          |       |
+| Fri | 12          | 121.8            | 160          |       |
+| Sat | 8           | 121.4            | 160          |       |
+| Sun | 7           | 121.2            | 160          |       |
 
 ---
 
