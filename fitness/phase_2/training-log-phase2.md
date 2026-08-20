@@ -177,31 +177,31 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 8
 
 ### Mon — Upper
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Bench Press | | 3×5 | |
-| Barbell OHP | | 3×5 | |
-| Chest-Supported Row | | 3×8 | |
-| Face Pulls | | 3×12 | |
-| Tricep Pushdown | | 2×12 | |
+| Exercise            | Weight (kg)    | Sets × Reps | Notes            |
+| ------------------- | -------------- | ----------- | ---------------- |
+| Barbell Bench Press | 47.5,45,42.5   | 3×5         | hard             |
+| Barbell OHP         | 35,35,35       | 3×5         | hard, but doable |
+| Chest-Supported Row | 32.5,32.5,32.5 | 3×8         | Medium           |
+| Face Pulls          | 20,20,20       | 3×12        | Medium           |
+| Tricep Pushdown     | 20,20          | 2×12        | Medium           |
 
 ### Tue — Lower
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Back Squat | | 3×5 | |
-| Leg Press | | 3×8 | |
-| Lying Leg Curl | | 3×10 | |
-| Calf Raises | | 3×15 | |
-| Plank | — | 3×30 sec | |
-
+| Exercise             | Weight (kg)      | Sets × Reps | Notes  |
+| -------------------- | ---------------- | ----------- | ------ |
+| Barbell Back Squat   | 42.5, 42.5, 42.5 | 3×5         | Medium |
+| Leg Press            | 62.5, 62.5, 62.5 | 3×8         | Easy   |
+| Lying Leg Curl       | 30, 30, 30       | 3×10        | Easy   |
+| Calf Raises          | 35, 35, 35       | 3×15        | Easy   |
+| Pallof Press (cable) | —                | 3×30 sec    | Easy   |
+**I change from plank to pallof press(cable)**
 ### Wed — Run/Walk + Core
-| Exercise | Weight (kg) | Sets × Reps / Time | Notes |
-|----------|-------------|---------------------|-------|
-| Run/Walk Intervals | — | min | Protocol used: __ |
-| Dead Bugs | — | 2×10/side | |
-| Pallof Press / Side Planks | | 2×10 / 2×30 sec | |
-| Dumbbell Curls (opt) | | 2×10 | |
-| Dumbbell Lateral Raises | | 2×12 | |
+| Exercise                   | Weight (kg) | Sets × Reps / Time | Notes             |
+| -------------------------- | ----------- | ------------------ | ----------------- |
+| Run/Walk Intervals         | —           | min                | Protocol used: __ |
+| Dead Bugs                  | —           | 2×10/side          |                   |
+| Pallof Press / Side Planks |             | 2×10 / 2×30 sec    |                   |
+| Dumbbell Curls (opt)       |             | 2×10               |                   |
+| Dumbbell Lateral Raises    |             | 2×12               |                   |
 
 ### Sat — Full Body
 | Exercise | Weight (kg) | Sets × Reps | Notes |
@@ -218,14 +218,14 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 ## Week 8 Daily Check-In
 
 | Day | Sleep (hrs) | Body Weight (kg) | Protein hit? | Notes |
-|-----|-------------|-------------------|--------------|-------|
-| Mon | | | | |
-| Tue | | | | |
-| Wed | | | | |
-| Thu | | | | |
-| Fri | | | | |
-| Sat | | | | |
-| Sun | | | | |
+| --- | ----------- | ---------------- | ------------ | ----- |
+| Mon | 7           | 121.2            | 160          |       |
+| Tue | 8           | 121.0            | 160          |       |
+| Wed | 7           | 120.8            | 160          |       |
+| Thu | 8           | 120.7            | 160          |       |
+| Fri | 8           | 120.0            | 160          |       |
+| Sat |             |                  |              |       |
+| Sun |             |                  |              |       |
 
 ---
 
