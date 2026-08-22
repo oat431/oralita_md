@@ -320,7 +320,7 @@ Never give Dev these through a public GitHub issue or chat message:
 
 ## Related Project Documents
 
-- [[Deerngo Bot - YouTube API OAuth Setup]]
+- [[deerngo-bot-youtube-oauth|this note]]
 - `F:\projects\project_spec\external_spec\deerngo_bot\01_requirement\012_user_stories.md` — US-003
 - `F:\projects\project_spec\external_spec\deerngo_bot\01_requirement\013_acceptance_criteria.md` — AC-003a → AC-003g
 - `F:\projects\project_spec\external_spec\deerngo_bot\02_design\022_API_specification.md`
