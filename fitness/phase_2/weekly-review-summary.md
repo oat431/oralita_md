@@ -194,15 +194,71 @@ Next Sunday is the **Phase 2 completion review**: bring the full log, Sunday sma
 
 ---
 
-## Current status after Week 7
+## Week 8 Review — 2026-08-17 to 2026-08-23 (final week)
 
-- Live training instructions: `phase2-program-overview.md` + day notes in `daily-workouts/` — Week 8 (final week of Phase 2)
-- Training log: `training-log-phase2.md`
-- Smart scale/watch data: `smart-scale-tracking.md`
-- Calories: **2,050 kcal/day** (reduced from 2,200 after 3-week flat rolling average)
-- Protein: 160 g minimum/day
-- Week 8 step target: 5,000/day average — bring the actual number
-- Week 8 run/walk: 30 minutes exactly — log the minutes
-- Week 8 deadlift: 70 kg × 1×5
-- Week 8 squat: 42.5 kg × 3×5, one uniform load
-- Week 8 lateral raise: 8 kg strict
+### Metrics
+
+| Metric | Result | Verdict |
+|--------|--------|---------|
+| Training sessions | 4/4 | Phase 2 ends 16/16 |
+| Daily-weight average | **120.53 kg** vs 122.16 in W7 | -1.63 kg — first week of the 2,050 cut; part water/glycogen, part real |
+| Daily weight | 121.2 → 120.0 kg | -1.2 kg across the week |
+| Sunday smart scale | 121.2 → 120.0 kg | First clean week-to-week drop of the phase |
+| Fat mass | 41.6 → 41.0 kg | -0.6 kg this week; **-2.1 kg since baseline** ✓ |
+| Muscle mass | 75.3 → 75.3 kg | Held flat on the new cut — watchlist resolved for now |
+| Visceral-fat rating | 21 → 20 | **-3 since baseline (23 → 20)** — health headline of the phase |
+| Body water | 47.5 → 47.6% | Stable and hydrated |
+| Protein | 160 g, 7/7 | **8 consecutive weeks** |
+| Sleep | 7 h avg | Good |
+| Steps | **5,022/day** | 5,000 floor CLEARED — +40% since W5 |
+| PAI | 88 | Rising naturally with steps; do not chase with HIIT |
+| Resting HR | **59 bpm** | Back to the 57–59 baseline — W7's 78 was transient fatigue |
+
+### Performance → Phase 3 starting points
+
+| Exercise | Week 8 result | Phase 3 starting point |
+|----------|---------------|------------------------|
+| Bench Press | 47.5→45→42.5 (ramped — invalid) | **45 kg**, rebuild |
+| OHP | 35 × 3×5, "hard, but doable" | Hold 35 |
+| Back Squat | 42.5 × 3×5, Medium — **CLEAN** | 45 attempt earned |
+| Deadlift | 70 × 1×5, Easy | 75 |
+| Front Squat | 37.5 × 3×5, Medium | 40 |
+| Run/Walk | 30 min, exact protocol — **minutes logged, first time** | add distance + avg HR next |
+| Lateral Raises | 8 kg strict, Easy — 2 weeks compliant | form gate can relax carefully |
+| Plank → Pallof (cable) | approved swap | home gym: back to plank/dead-bug variants |
+
+### Flags
+
+1. **Bench ramping — 4th instance of the pattern.** 47.5→45→42.5 is not a 3×5 at 47.5 (W7 squat, W7 calves, W8 bench). The one-load rule survives into Phase 3: barbell lifts start below peak and rebuild.
+2. **Gym membership ended today** — Phase 3 is home-based. Machines (leg press, leg curl, lat pulldown, cable row, face pulls, pushdown, pallof) drop out; free-weight / kettlebell / bodyweight options replace them. Program to be designed with the user before starting.
+3. **Scale row dated 08-22** — Sunday was 08-23. Minor; noted, not rewritten.
+4. **No distance/HR yet on the run** — minutes landed for the first time; the new run/walk log (`phase_3/logs/daily/run-walk-log.md`) adds the rest in Phase 3.
+
+### Nutrition decision
+
+**Hold 2,050 kcal.** The -1.63 kg week is expected first-cut behavior (water + glycogen + fat), not a license to bounce calories on one data point. Trigger armed: if Phase 3 Week 1 also drops >0.6 kg on the 7-day average, revert to 2,200.
+
+### Phase 2 Completion Summary
+
+| Week | 7d avg weight | Protein | Protocol behavior | Key lesson |
+|------|---------------|---------|-------------------|------------|
+| 5 | 121.87 | 7/7 | Run 45 min (13 over) | Dose control beats enthusiasm |
+| 6 | 122.21 | 7/7 | Clean | Steps became the missing lever |
+| 7 | 122.16 | 7/7 | Squat + calf ramping | Flat 3 weeks → kcal cut fired |
+| 8 | 120.53 | 7/7 | Bench ramping; run finally logged | Kcal was the limiter, not training |
+
+**Phase 2 totals:** 16/16 sessions · weight 121.1 → 120.0 kg · fat 43.1 → 41.0 kg · muscle 76.0 → 75.3 kg · visceral 23 → 20 · water 45.5 → 47.6% · barbell: bench 40→45, OHP 30→35, squat 40→42.5, deadlift 60→70, front squat 30→37.5 · steps 3,573 → 5,022/day.
+
+Phase 2 was for barbell foundation and technique — it delivered exactly that, while fat fell 2.1 kg and visceral fat dropped 3 points. Weight loss stalled mid-phase because kcal compliance was the limiter, not training volume; the W8 cut unstuck it. The one pattern to kill in Phase 3: ramping under heavy loads.
+
+---
+
+## Current status after Week 8 — Phase 2 COMPLETE
+
+- Phase 2 done: 16/16 sessions; weight 121.1 → 120.0; fat 43.1 → 41.0; visceral 23 → 20
+- Calories: **2,050 kcal/day — HOLD**; revert to 2,200 if the 7d average drops >0.6 kg in Phase 3 Week 1
+- Protein: 160 g minimum — 8 consecutive weeks locked
+- Steps: 5,000 floor cleared → Phase 3 floor: 6,000/day
+- Resting HR: 59 — recovered; 57–59 is the healthy baseline
+- **Phase 3 = HOME GYM** (membership ended 08-23). Equipment inventory + program designed together in the next session
+- Tracking templates live in the global Obsidian templates folder (`templates/fitness/`) — Phase 3 live files were created from them

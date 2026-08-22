@@ -12,13 +12,13 @@ All targets calculated from your body metrics: 121.1 kg, 25 years old, BMR 2,104
 
 ## Daily Goals
 
-| Metric | Week 8 Target | Long-term Target | Why This Number |
+| Metric | Phase 3 Target | Long-term Target | Why This Number |
 |--------|---------------|------------------|-----------------|
-| **Steps** | **5,000/day average** | **8,000/day** | Week 6 reached 4,533. Repeat the floor before increasing again |
+| **Steps** | **6,000/day average** | **8,000/day** | W8 cleared 5,000 (5,022). Raise the floor, don't rest on it |
 | **Active Calories** | **Do not chase a fixed number** | Reassess after steps baseline | Watch calorie estimates are noisy; use steps + programmed training instead |
 | **Stand Hours** | **8 hours/day** | **10 hours/day** | Stand and move at least 1 minute each hour |
-| **Sleep** | **7 hours minimum** | **7+ hours** | Week 6 averaged 7.14h; protect it |
-| **PAI** | **50-75/week** | **100/week** | Week 6 was 52. Build gradually; don't add HIIT just to hit a number |
+| **Sleep** | **7 hours minimum** | **7+ hours** | W8 averaged 7h; protect it |
+| **PAI** | **50-100/week** | **100/week** | W8 was 88, rising naturally with steps; don't add HIIT to force it |
 
 ### Gym Days vs Rest Days
 
@@ -30,7 +30,7 @@ All targets calculated from your body metrics: 121.1 kg, 25 years old, BMR 2,104
 | Thu (Rest) | 8,000 | 500 | Walk to hit both. 45-60 min walk |
 | Fri (Rest) | 8,000 | 500 | Same as Thursday |
 | Sat (Full Body) | 6,000+ | 500+ | Gym covers active cals |
-| Sun (Rest) | 6,000 | 400 | Active recovery day. Light walk |
+| Sun (Easy Cardio) | 6,000+ | 500+ | Treadmill 30–40 min + core; steps after |
 
 ---
 

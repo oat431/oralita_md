@@ -45,6 +45,6 @@ The program file, day notes, and review cadence are in good shape. The gap is be
 1. Daily check-in table gains a **kcal** column (target 2,050).
 2. Wed day note gains **distance + avg HR** log fields next to minutes.
 3. `[[smart-scale-tracking]]` tape table gains a monthly schedule row.
-4. Tape + photo reminder added to the Sunday review checklist in `[[weekly-review-summary]]`.
+4. Tape + photo reminder added to the Sunday review checklist in `[[phase_2/weekly-review-summary]]`.
 
 *Handoff: implementation to be folded into the Phase 3 completion review (Sunday). This audit is the data-side input.*

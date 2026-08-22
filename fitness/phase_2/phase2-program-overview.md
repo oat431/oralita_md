@@ -6,7 +6,7 @@ tags: [fitness, program, phase-2, barbell, overview]
 
 # Phase 2 — Barbell Foundation (Weeks 5–8) — Overview
 
-> **Live plan:** Week 8 — final week of Phase 2. Day-by-day instructions are in `daily-workouts/`. Historical review data is stored in `weekly-review-summary.md`.
+> **Phase 2 complete — 2026-08-23.** Final review, phase summary, and Phase 3 starting points are in `weekly-review-summary.md`. Phase 3 (home gym) will be designed in the next session.
 
 ## Purpose
 
@@ -41,13 +41,14 @@ Each day note lists the exercises in order, with the warm-up ladder (or "none �
 
 | Barbell lift | W5 | W6 | W7 | W8 |
 |-------------|----|----|----|----|
-| Bench Press | 40 kg | 42.5 kg | 45 kg | 47.5 kg |
+| Bench Press | 40 kg | 42.5 kg | 45 kg | 47.5 kg* |
 | OHP | 30 kg | 32.5 kg | 35 kg | **35 kg (repeat — Hard)** |
 | Back Squat | 40 kg | 42.5 kg | 45 kg* | **42.5 kg (repeat — ramping fix)** |
 | Deadlift | 60 kg | 60 kg | 65 kg | 70 kg |
 | Front Squat | 30 kg | 32.5 kg | 35 kg | 37.5 kg |
 
 \* W7 squat was logged 45→40→40 — not a valid 3×5 at 45. Week 8 consolidates at 42.5 with one uniform load.
+\* W8 bench was logged 47.5→45→42.5 — not a valid 3×5 at 47.5. Phase 2 final: 45 kg valid; rebuild toward 47.5 in Phase 3.
 
 Deadlift progression is deliberately slower because it was a new movement in Week 5. It now moves on schedule: clean 65 kg rated Easy in W7.
 
@@ -58,7 +59,7 @@ Deadlift progression is deliberately slower because it was a new movement in Wee
 | 5 | 3-min jog / 2-min walk × 6 | 32 min with warm-up |
 | 6 | 4-min jog / 2-min walk × 5 | 30 min |
 | 7 | 4-min jog / 2-min walk × 5 | 30 min (duration not logged) |
-| 8 | 4-min jog / 2-min walk × 5 | **30 min — repeat; log the minutes** |
+| 8 | 4-min jog / 2-min walk × 5 | **30 min ✓ — logged for the first time** |
 
 The continuous 20-minute jog target was not reached in Phase 2. That is acceptable — the aerobic base builds slowly. It carries into Phase 3.
 
@@ -127,4 +128,4 @@ The kettlebell must not reduce performance in the four scheduled sessions.
 - **Watch settings:** `../00_gym_knowledge/smart-watch-settings.md`
 - **Review cadence:** every Sunday
 
-*Current live target: Week 8 — final week of Phase 2. Next Sunday is the Phase 2 completion review.*
+*Phase 2 complete (2026-08-23). Next: Phase 3 — home gym, designed together in the next session.*

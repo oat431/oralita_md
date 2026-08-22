@@ -195,23 +195,23 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Pallof Press (cable) | —                | 3×30 sec    | Easy   |
 **I change from plank to pallof press(cable)**
 ### Wed — Run/Walk + Core
-| Exercise                   | Weight (kg) | Sets × Reps / Time | Notes             |
-| -------------------------- | ----------- | ------------------ | ----------------- |
-| Run/Walk Intervals         | —           | min                | Protocol used: __ |
-| Dead Bugs                  | —           | 2×10/side          |                   |
-| Pallof Press / Side Planks |             | 2×10 / 2×30 sec    |                   |
-| Dumbbell Curls (opt)       |             | 2×10               |                   |
-| Dumbbell Lateral Raises    |             | 2×12               |                   |
+| Exercise                   | Weight (kg) | Sets × Reps / Time | Notes                                     |
+| -------------------------- | ----------- | ------------------ | ----------------------------------------- |
+| Run/Walk Intervals         | —           | 30 min             | Protocol used: 4 min jog / 2 min walk × 5 |
+| Dead Bugs                  | —           | 2×10/side          | Easy                                      |
+| Pallof Press / Side Planks | 15,15       | 2×10 / 2×30 sec    | Easy                                      |
+| Dumbbell Curls (opt)       | 15,15       | 2×10               | Easy                                      |
+| Dumbbell Lateral Raises    | 8,8         | 2×12               | Easy                                      |
 
 ### Sat — Full Body
-| Exercise | Weight (kg) | Sets × Reps | Notes |
-|----------|-------------|-------------|-------|
-| Barbell Deadlift | | 1×5 | |
-| Barbell Front Squat | | 3×5 | |
-| Lat Pulldown | | 3×8 | |
-| Incline Dumbbell Press | | 3×8 | |
-| Reverse Lunges | | 3×8/leg | |
-| Seated Cable Row | | 3×8 | |
+| Exercise               | Weight (kg)      | Sets × Reps | Notes  |
+| ---------------------- | ---------------- | ----------- | ------ |
+| Barbell Deadlift       | 70               | 1×5         | Easy   |
+| Barbell Front Squat    | 37.5, 37.5, 37.5 | 3×5         | Medium |
+| Lat Pulldown           | 27.5, 27.5, 27.5 | 3×8         | Medium |
+| Incline Dumbbell Press | 27.5, 27.5, 27.5 | 3×8         | Medium |
+| Reverse Lunges         | 18, 18, 18       | 3×8/leg     | Medium |
+| Seated Cable Row       | 35, 35, 35       | 3×8         | Medium |
 
 ---
 
@@ -224,8 +224,8 @@ Fill in **Weight** and **Reps** after every set. Log working sets only (not warm
 | Wed | 7           | 120.8            | 160          |       |
 | Thu | 8           | 120.7            | 160          |       |
 | Fri | 8           | 120.0            | 160          |       |
-| Sat |             |                  |              |       |
-| Sun |             |                  |              |       |
+| Sat | 8           | 120.0            | 160          |       |
+| Sun | 7           | 120.0            | 160          |       |
 
 ---
 

@@ -10,19 +10,19 @@ tags: [fitness, baseline]
 | Metric | Value | Source |
 |--------|-------|--------|
 | Age | 25 | |
-| Weight | 121.1 kg (as of W4 end) | Smart scale |
+| Weight | 120.0 kg (as of W8 end) | Smart scale |
 | Height | 178 cm | |
-| BMI | 38.2 (was 38.6) | |
+| BMI | 37.9 (was 38.6) | |
 | BMR | 2,104 kcal | Xiaomi S400 (replaces MSJ estimate) |
 
-## Smart Scale Data (Xiaomi S400 — 2026-07-27)
+## Smart Scale Data (Xiaomi S400 — 2026-08-23)
 | Metric | Value | Target |
 |--------|-------|--------|
-| Body fat | 43.1 kg (35.6%) | <30% |
-| Muscle mass | 76.0 kg | Preserve (75+ kg) |
-| Visceral fat | 23 | <10 (long-term), <15 (Phase 2) |
-| Body water | 45.5% | >48% |
-| Waist-to-hip | 1.1 | <0.95 |
+| Body fat | 41.0 kg (34.1%) | <30% |
+| Muscle mass | 75.3 kg | Preserve (75+ kg) |
+| Visceral fat | 20 | <10 (long-term), <15 (Phase 3) |
+| Body water | 47.6% | >48% |
+| Waist-to-hip | 1.0 | <0.95 |
 | Bone mineral | 4.3 kg | — |
 | Body age | 25 years | — |
 
@@ -40,11 +40,12 @@ tags: [fitness, baseline]
 
 ## Current Program
 - **Phase 1:** Complete (W1-4, 122.3 → 121.1 kg, -1.2 kg)
-- **Phase 2:** `phase2-program.md` — Barbell foundation (W5-8)
-- Calories: 2,200 kcal/day
+- **Phase 2:** Complete (W5-8, 121.1 → 120.0 kg; fat -2.1 kg, visceral 23 → 20)
+- **Phase 3:** Home gym — pending design (membership ended 2026-08-23)
+- Calories: 2,050 kcal/day
 - Protein: 160g/day
-- Schedule: Mon / Tue / Wed / Sat
+- Schedule: Mon / Tue / Wed / Sat (Phase 3 TBD)
 
 ---
 
-*Last updated: 2026-07-27 — Coach (Hermes gym profile)*
+*Last updated: 2026-08-23 — Coach (Hermes gym profile)*
