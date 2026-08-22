@@ -1,7 +1,0 @@
-# Educator profile handoff config — SANITIZED.
-# Model block only. MCP servers (github token, local postgres, etc.) are
-# machine-local and were removed — never commit live credentials here.
-model:
-  provider: openrouter
-  default: z-ai/glm-5.2
-_config_version: 33
