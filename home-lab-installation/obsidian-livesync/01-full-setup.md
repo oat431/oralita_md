@@ -357,5 +357,5 @@ Uptime Kuma can monitor `https://obsync.panomete.com/` — expect HTTP 200 (or 4
 
 ## Related Notes
 
-- [[CouchDB User Management]] — creating/removing users, permissions
-- [[Obsidian LiveSync Connection]] — end-user connection guide + troubleshooting
+- [[03-couchdb-user-management]] — creating/removing users, permissions
+- [[02-connection-guide]] — end-user connection guide + troubleshooting

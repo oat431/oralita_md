@@ -211,4 +211,4 @@ Password:  <your-password>
 Database:  obsidian-livesync
 ```
 
-For admins, see: [[CouchDB User Management]]
+For admins, see: [[03-couchdb-user-management]]

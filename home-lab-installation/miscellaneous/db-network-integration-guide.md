@@ -278,3 +278,7 @@ cp docker-compose.yml.bak docker-compose.yml
 cp .env.bak .env  # if exists
 docker compose up -d
 ```
+
+## Deployment History
+
+- [[2026-07-27-db-network-migration-and-fixes]] — SearXNG + Infisical migration log (first use of this guide)

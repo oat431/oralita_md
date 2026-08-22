@@ -1,7 +1,7 @@
 # Home Lab Installation
 
 > Complete guide for setting up a homelab server from scratch.
-> Last updated: 2026-07-19
+> Last updated: 2026-08-22
 
 ---
 
@@ -34,3 +34,19 @@ After completing all steps, verify:
 - [ ] `tailscale status` shows your server
 - [ ] `cloudflared` tunnel is running
 - [ ] Nginx proxies to your services
+
+## Components
+
+- [[home-lab-apps]] — app / subdomain / port registry
+- [[db-network-integration-guide]] — shared database network
+- [[docker-network]] · [[port-convention]] · [[public-vs-private]]
+
+## Obsidian LiveSync (self-hosted)
+
+1. [[01-full-setup]] — server side: CouchDB → Nginx → CORS
+2. [[02-connection-guide]] — client side: connect a vault
+3. [[03-couchdb-user-management]] — add users
+
+## Audit Trail
+
+- [[Homelab-Infra-Checklist]] — index of all infrastructure audits
