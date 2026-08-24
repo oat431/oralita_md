@@ -102,9 +102,36 @@ Best for: writing, naming, design exploration — anything where you want drafts
 
 Your own agent profiles (`soul-collection/*.md`) are prompts. The best way to practice prompt writing is to audit your SOUL files against the checklist above — role stated, task scope, format, constraints, iteration history. Every guide in this vault was produced through this exact craft.
 
+## Miscellaneous — the rest of the prompt frameworks
+
+RTF, CO-STAR, and CRISPE above cover the everyday/high-stakes/creative cases. These six are the other widely-used ones — same underlying job (WHO/WHAT/HOW), different emphasis. None is required reading; reach for one when its "best for" matches the task in front of you.
+
+| Framework | Components | Best for | What it adds over RTF |
+|-----------|-----------|----------|------------------------|
+| **RACE** | Role → Action → Context → Expect | Quick structured prompts, daily default when RTF feels too thin | An explicit "what does good look like" (Expect) field |
+| **APE** | Action → Purpose → Expectation | Fastest possible structure — brainstorming, one-off asks | The **Purpose** field — forces a "why," which prevents aimless output |
+| **RISEN** | Role → Instructions → Steps → End Goal → Narrowing | Multi-step technical tasks (audits, migrations, code review) | An explicit **Steps** field — stops the model from skipping or reordering a process |
+| **RICE** | Role → Instructions → Context → Examples | Anything where output must match a specific style | Built-in **Examples** slot — few-shot beats description (see Techniques above) |
+| **CREATE** | Character → Request → Examples → Adjustments → Type → Extras | Detailed creative/brand work, docs that must match a style guide | Examples *and* a dedicated Adjustments pass for edge cases |
+| **STOKE** | Situation → Task → Objective → Knowledge → Examples | Domain-expert / analytical tasks where the model needs specialized facts it wasn't trained deeply on | A **Knowledge** field — where you inject the domain context CO-STAR has no slot for |
+
+**Picking one, fast:**
+```
+Need tone/audience control, nothing fancy?      → CO-STAR (above)
+Need a defined process, in order?               → RISEN
+Need the model to match a reference style?      → RICE or CREATE
+Need domain expertise the model won't have?     → STOKE
+Just need speed?                                → APE or RACE
+Not sure?                                       → RTF (above) — upgrade only if output isn't specific enough
+```
+
+Frameworks compose — borrowing one component into another (e.g. RACE + an explicit Steps list, or CO-STAR + an Examples section) is normal and often better than switching frameworks wholesale. The frameworks are a checklist for "did I give the model everything it needs," not a contract you're locked into.
+
 ## Related
 
 - Map: [[00-Writing-Types]]
 - Prompts that write human-facing text borrow everything here: [[01-Review-Writing-Guide]], [[02-Storytelling-Guide]], [[03-Media-Script-Guide]], [[04-Wishing-Note-Guide]]
 
 *Written 2026-08-24 from established prompt-engineering knowledge. Note: live search (SearXNG instance up, engines returned empty; fallback backend also empty) was unavailable at write time — frameworks listed are stable, widely documented constructs (RTF, CO-STAR, CRISPE), not invented or recalled from a single source.*
+
+*Miscellaneous section added 2026-08-24 — SearXNG confirmed working after the DNS fix (see [[2026-08-24-searxng-dns-outage-fix]] in home-lab), cross-checked live against gptprompts.ai's prompt-frameworks guide and promplify.ai's framework comparison.*
