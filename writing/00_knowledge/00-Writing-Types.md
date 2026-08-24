@@ -78,6 +78,17 @@ A script is writing whose final home is **time and performance**, not the page. 
 
 → All five formats live in [[03-Media-Script-Guide]].
 
+### 6. To instruct a machine — Prompt family
+
+| Type | What it looks like |
+|------|--------------------|
+| Everyday prompt | RTF: role → task → format |
+| High-stakes prompt | CO-STAR: context, objective, style, tone, audience, response format |
+| Creative prompt | CRISPE: capacity, insight, statement, personality, experiment |
+| Agent profile / SOUL | The ultimate long-form prompt — persona + scope + constraints |
+
+→ Frameworks, techniques and failure modes live in [[05-Prompt-Writing-Guide]].
+
 ## Which Type Do I Need? (decision path)
 
 ```
@@ -110,6 +121,7 @@ Learn the modes once, and every new format is just a new container.
 | `02-Storytelling-Guide.md` | 8 story structures + when to use each |
 | `03-Media-Script-Guide.md` | Screenplay/TV/AV/YouTube/podcast formats |
 | `04-Wishing-Note-Guide.md` | Social wishes — birthdays, farewells, condolences + TH↔EN register map |
+| `05-Prompt-Writing-Guide.md` | Prompts for AI — RTF / CO-STAR / CRISPE, techniques, failure modes |
 
 ## Sources
 
