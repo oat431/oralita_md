@@ -31,6 +31,8 @@ Key insight: **real pieces are blends.** A movie review is expository (plot fact
 | Explainer / blog post | Question → answer, analogies, examples | Dev blogs, tutorials |
 | Academic writing | Thesis → literature → method → findings | Papers, whitepapers |
 
+→ Method and templates live in [[06-Expository-Writing-Guide]].
+
 ### 2. To tell — Narrative family
 
 | Type | What it looks like |
@@ -51,6 +53,8 @@ Key insight: **real pieces are blends.** A movie review is expository (plot fact
 | Copywriting / ads | Attention → interest → desire → action |
 | Reviews | Evaluation against criteria → recommendation |
 | Proposals / pitches | Problem → solution → why us |
+
+→ Method and templates live in [[07-Persuasive-Writing-Guide]].
 
 ### 4. To evaluate — Review family *(your focus)*
 
@@ -93,11 +97,12 @@ A script is writing whose final home is **time and performance**, not the page. 
 
 ```
 What is the piece's main JOB?
-├─ Explain something        → expository family
+├─ Explain something        → expository family   → [[06-Expository-Writing-Guide]]
 ├─ Recount an experience    → narrative family    → [[02-Storytelling-Guide]]
 │   └─ Is it true?          → memoir/log/case study lane
 ├─ Judge something          → review family       → [[01-Review-Writing-Guide]]
-├─ Sell or convince         → persuasive/copy lane
+├─ Sell or convince         → persuasive/copy lane → [[07-Persuasive-Writing-Guide]]
+├─ Instruct a machine       → prompt family        → [[05-Prompt-Writing-Guide]]
 └─ Be performed/produced    → script family       → [[03-Media-Script-Guide]]
     └─ Screen? Audio? Both? → pick format by medium
 ```
@@ -122,6 +127,8 @@ Learn the modes once, and every new format is just a new container.
 | `03-Media-Script-Guide.md` | Screenplay/TV/AV/YouTube/podcast formats |
 | `04-Wishing-Note-Guide.md` | Social wishes — birthdays, farewells, condolences + TH↔EN register map |
 | `05-Prompt-Writing-Guide.md` | Prompts for AI — RTF / CO-STAR / CRISPE, techniques, failure modes |
+| `06-Expository-Writing-Guide.md` | Explaining — tech docs, journalism, explainer/blog, academic writing |
+| `07-Persuasive-Writing-Guide.md` | Convincing — argumentative essays, AIDA copywriting, proposals/pitches |
 
 ## Sources
 

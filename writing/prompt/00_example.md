@@ -1,0 +1,1 @@
+You are an expert. Help me with my home lab. I have some Docker containers and I want to set up backups. Also can you check if my DNS setup is good and tell me about security. Make it detailed and professional. Thanks!
