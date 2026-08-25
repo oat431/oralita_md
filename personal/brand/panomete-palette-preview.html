@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="forest">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panomete — Forest Palette Preview</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1B1717;
+    color: #CAC9C9;
+    font-family: 'Sarabun', system-ui, -apple-system, sans-serif;
+    padding: 2.5rem;
+    max-width: 920px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .mono { font-family: 'JetBrains Mono', 'SF Mono', monospace; }
+  .type-scale { margin-bottom: 1rem; }
+  .type-row { display: flex; align-items: baseline; gap: 1rem; padding: .5rem 0; border-bottom: 1px solid #110D0D; }
+  .type-row:last-child { border-bottom: none; }
+  .type-label { width: 100px; font-family: 'JetBrains Mono', monospace; font-size: .7rem; opacity: .5; flex-shrink: 0; text-transform: uppercase; letter-spacing: .05em; }
+  .type-spec { font-family: 'JetBrains Mono', monospace; font-size: .65rem; opacity: .4; margin-left: auto; white-space: nowrap; }
+  .h1-demo { font-size: 1.75rem; font-weight: 700; line-height: 1.2; color: #1FB854; }
+  .h2-demo { font-size: 1.3rem; font-weight: 600; line-height: 1.3; color: #CAC9C9; }
+  .h3-demo { font-size: 1.05rem; font-weight: 600; line-height: 1.4; color: #CAC9C9; }
+  .body-demo { font-size: 0.9rem; font-weight: 400; line-height: 1.6; color: #CAC9C9; }
+  .caption-demo { font-size: 0.75rem; font-weight: 400; line-height: 1.5; color: #CDD3D1; opacity: .7; }
+  .mono-demo { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 500; line-height: 1.5; color: #1EB88E; }
+  h1 { font-size: 1.6rem; margin-bottom: .3rem; color: #1FB854; font-weight: 700; }
+  .subtitle { color: #CDD3D1; opacity: .7; font-size: .9rem; margin-bottom: 2rem; }
+  .section { margin-bottom: 2.5rem; }
+  .section-title {
+    font-size: .75rem; text-transform: uppercase; letter-spacing: .12em;
+    color: #CDD3D1; opacity: .5; margin-bottom: 1rem; border-bottom: 1px solid #110D0D;
+    padding-bottom: .5rem;
+  }
+  .swatch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+  .swatch {
+    border-radius: .5rem; overflow: hidden; border: 1px solid #110D0D;
+  }
+  .swatch-color { height: 80px; display: flex; align-items: flex-end; padding: .5rem; }
+  .swatch-color .hex { font-family: 'SF Mono', 'Fira Code', monospace; font-size: .8rem; font-weight: 600; }
+  .swatch-info { padding: .6rem .7rem; background: #161212; font-size: .75rem; }
+  .swatch-info .name { font-weight: 600; color: #CAC9C9; }
+  .swatch-info .role { color: #CDD3D1; opacity: .5; }
+  .swatch-info .vals { color: #CDD3D1; opacity: .6; font-family: monospace; margin-top: .2rem; }
+
+  .tier-row { display: flex; align-items: center; gap: 1rem; margin-bottom: .8rem; }
+  .tier-row .tier-label {
+    width: 90px; font-size: .75rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .08em; opacity: .6;
+  }
+  .tier-bar { flex: 1; height: 36px; border-radius: .25rem; display: flex; align-items: center; padding: 0 .8rem; font-family: monospace; font-size: .8rem; }
+
+  .demo {
+    background: #1B1717; border: 1px solid #161212; border-radius: .5rem;
+    padding: 1.2rem; margin-top: 1rem;
+  }
+  .demo h2 { font-size: 1.1rem; margin-bottom: .8rem; color: #1FB854; }
+  .demo-row { display: flex; gap: .6rem; align-items: center; margin-bottom: .5rem; flex-wrap: wrap; }
+  .badge {
+    display: inline-block; padding: .15rem .6rem; border-radius: .25rem;
+    font-size: .75rem; font-weight: 600;
+  }
+  .btn-demo {
+    padding: .4rem .9rem; border-radius: .25rem; font-size: .85rem; font-weight: 600; border: none; cursor: default;
+  }
+  .ratio { font-family: monospace; font-size: .7rem; opacity: .5; }
+  .pass { color: #00A96E; } .fail { color: #FF5861; }
+</style>
+</head>
+<body>
+
+<h1>Panomete — Forest Design System</h1>
+<p class="subtitle">daisyUI forest theme · dark primary · OKLCH source → HEX/RGB/CMYK · WCAG-verified</p>
+
+<div class="section">
+  <div class="section-title">Brand Colors (3 tiers)</div>
+  <div class="tier-row">
+    <span class="tier-label">Primary</span>
+    <div class="tier-bar" style="background:#1FB854; color:#000;">
+      #1FB854 &nbsp; rgb(31,184,84) &nbsp; <span class="ratio">● brand carrier</span>
+    </div>
+  </div>
+  <div class="tier-row">
+    <span class="tier-label">Secondary</span>
+    <div class="tier-bar" style="background:#1EB88E; color:#000C07;">
+      #1EB88E &nbsp; rgb(30,184,142) &nbsp; <span class="ratio">● accent 1</span>
+    </div>
+  </div>
+  <div class="tier-row">
+    <span class="tier-label">Accent</span>
+    <div class="tier-bar" style="background:#1FB8AB; color:#010C0B;">
+      #1FB8AB &nbsp; rgb(31,184,171) &nbsp; <span class="ratio">● accent 2</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Neutral / Surface (backgrounds + text)</div>
+  <div class="swatch-grid">
+    <div class="swatch"><div class="swatch-color" style="background:#1B1717;"><span class="hex" style="color:#CAC9C9;">#1B1717</span></div><div class="swatch-info"><div class="name">base-100</div><div class="role">page background</div><div class="vals">rgb(27,23,23)</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#161212;"><span class="hex" style="color:#CAC9C9;">#161212</span></div><div class="swatch-info"><div class="name">base-200</div><div class="role">elevated surface</div><div class="vals">rgb(22,18,18)</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#110D0D;"><span class="hex" style="color:#CAC9C9;">#110D0D</span></div><div class="swatch-info"><div class="name">base-300</div><div class="role">borders / depth</div><div class="vals">rgb(17,13,13)</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#CAC9C9;"><span class="hex" style="color:#1B1717;">#CAC9C9</span></div><div class="swatch-info"><div class="name">base-content</div><div class="role">body text</div><div class="vals">rgb(202,201,201)</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#19362D;"><span class="hex" style="color:#CDD3D1;">#19362D</span></div><div class="swatch-info"><div class="name">neutral</div><div class="role">unsaturated UI</div><div class="vals">rgb(25,54,45)</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#CDD3D1;"><span class="hex" style="color:#19362D;">#CDD3D1</span></div><div class="swatch-info"><div class="name">neutral-content</div><div class="role">text on neutral</div><div class="vals">rgb(205,211,209)</div></div></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Status / Semantic Colors</div>
+  <div class="swatch-grid">
+    <div class="swatch"><div class="swatch-color" style="background:#00B5FF;"><span class="hex" style="color:#000;">#00B5FF</span></div><div class="swatch-info"><div class="name">info</div><div class="role">informative</div><div class="vals">9.05:1 ✓ AAA</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#00A96E;"><span class="hex" style="color:#000;">#00A96E</span></div><div class="swatch-info"><div class="name">success</div><div class="role">healthy / pass</div><div class="vals">6.90:1 ✓ AA</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#FFBE00;"><span class="hex" style="color:#000;">#FFBE00</span></div><div class="swatch-info"><div class="name">warning</div><div class="role">caution</div><div class="vals">12.62:1 ✓ AAA</div></div></div>
+    <div class="swatch"><div class="swatch-color" style="background:#FF5861;"><span class="hex" style="color:#000;">#FF5861</span></div><div class="swatch-info"><div class="name">error</div><div class="role">fail / destructive</div><div class="vals">6.82:1 ✓ AA</div></div></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Typography System</div>
+  <div class="type-scale">
+    <div class="type-row">
+      <span class="type-label">H1</span>
+      <span class="h1-demo">Panomete Platform</span>
+      <span class="type-spec">Sarabun 700 · 28px / 1.2 · -0.02em</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">H2</span>
+      <span class="h2-demo">Service Catalog</span>
+      <span class="type-spec">Sarabun 600 · 21px / 1.3</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">H3</span>
+      <span class="h3-demo">Foundation Services</span>
+      <span class="type-spec">Sarabun 600 · 17px / 1.4</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Body</span>
+      <span class="body-demo">Flowero Discover is the service registry. Its job: know which services are running, where they are, and whether they're healthy.</span>
+      <span class="type-spec">Sarabun 400 · 14px / 1.6</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Caption</span>
+      <span class="caption-demo">Production-grade microservice platform for a personal homelab.</span>
+      <span class="type-spec">Sarabun 400 · 12px / 1.5 · 70%</span>
+    </div>
+    <div class="type-row">
+      <span class="type-label">Mono</span>
+      <span class="mono-demo">discovery.panomete.com :8999 → UP</span>
+      <span class="type-spec">JetBrains Mono 500 · 14px / 1.5</span>
+    </div>
+  </div>
+  <p style="font-size:.75rem; opacity:.5; margin-top:.8rem;">Web fallback stack: <span class="mono">'Sarabun', system-ui, -apple-system, sans-serif</span> · Mono: <span class="mono">'JetBrains Mono', 'SF Mono', monospace</span></p>
+</div>
+
+<div class="section">
+  <div class="section-title">Supporting Elements</div>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
+    <div style="background:#161212; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem;">
+      <div style="font-weight:600; font-size:.85rem; color:#1FB854; margin-bottom:.3rem;">Iconography</div>
+      <div style="font-size:.75rem; opacity:.7; line-height:1.5;">
+        Outline style · 1.5px stroke · 24×24 grid<br>
+        Corner radius: 2px (matches field radius)<br>
+        No filled icons — outline = technical/precise<br>
+        Source: Lucide or Phosphor (open-source, consistent)
+      </div>
+    </div>
+    <div style="background:#161212; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem;">
+      <div style="font-weight:600; font-size:.85rem; color:#1FB854; margin-bottom:.3rem;">Layout Grid</div>
+      <div style="font-size:.75rem; opacity:.7; line-height:1.5;">
+        8pt spacing system (4/8/16/24/32/48/64)<br>
+        12-column grid, 24px gutter (desktop)<br>
+        4-column grid, 16px gutter (mobile)<br>
+        Max content width: 1200px
+      </div>
+    </div>
+    <div style="background:#161212; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem;">
+      <div style="font-weight:600; font-size:.85rem; color:#1FB854; margin-bottom:.3rem;">Imagery</div>
+      <div style="font-size:.75rem; opacity:.7; line-height:1.5;">
+        <strong>None.</strong> No stock photography, no decorative imagery.<br>
+        Visual content = data viz + architecture diagrams + code.<br>
+        Charts use forest palette tier colors.
+      </div>
+    </div>
+    <div style="background:#161212; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem;">
+      <div style="font-weight:600; font-size:.85rem; color:#1FB854; margin-bottom:.3rem;">Pattern / Texture</div>
+      <div style="font-size:.75rem; opacity:.7; line-height:1.5;">
+        Subtle dot grid on base-100, 4% opacity<br>
+        For section separation only, never decoration<br>
+        <div style="margin-top:.4rem; height:24px; background-image:radial-gradient(circle, #CAC9C9 1px, transparent 1px); background-size:8px 8px; opacity:.04; border-radius:2px;"></div>
+      </div>
+    </div>
+  </div>
+  <div style="font-size:.72rem; opacity:.5; padding:.6rem .8rem; background:#161212; border-radius:.25rem; border-left:3px solid #FFBE00;">
+    <strong>Radii system (from daisyUI forest):</strong> selector 1rem · field 2rem · box 1rem · border 1px · depth 0 (flat, no shadows)
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Logo System</div>
+
+  <h3 style="font-size:.95rem; color:#1FB854; margin-bottom:.5rem;">Primary — Wordmark</h3>
+  <div style="background:#1B1717; border:1px solid #161212; border-radius:.5rem; padding:2rem 1.5rem; margin-bottom:1rem; text-align:center;">
+    <span style="font-family:'Sarabun',sans-serif; font-weight:700; font-size:2.2rem; letter-spacing:-0.02em; color:#CAC9C9;">Pano<span style="color:#1FB854;">mete</span></span>
+  </div>
+  <div style="font-family:'JetBrains Mono',monospace; font-size:.72rem; opacity:.5; margin-bottom:1rem;">
+    Sarabun 700 · letter-spacing -0.02em · "Pano" in base-content, "mete" in primary green<br>
+    Clearspace = height of "P" on all sides · Min size: 120px digital / 30mm print
+  </div>
+  <div style="font-size:.75rem; opacity:.6; margin-bottom:1.5rem; padding:.6rem .8rem; background:#161212; border-radius:.25rem; border-left:3px solid #FF5861;">
+    <strong>Don'ts:</strong> no stretch, no rotate, no drop shadow, no recolor outside palette, no outline/stroke, no rebuilding the two-tone split differently.
+  </div>
+
+  <h3 style="font-size:.95rem; color:#1FB854; margin-bottom:.5rem;">Secondary — Animal Submarks</h3>
+  <p style="font-size:.8rem; opacity:.7; margin-bottom:.8rem;">Each Panomete service carries an animal code name. The submark system gives each project a recognizable avatar while sharing one visual language.</p>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(110px,1fr)); gap:.6rem; margin-bottom:1rem;">
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🦉</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">Cute Gufo</div>
+      <div style="font-size:.6rem; opacity:.5;">blog</div>
+    </div>
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🐑</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">Fluffy Mouton</div>
+      <div style="font-size:.6rem; opacity:.5;">url short</div>
+    </div>
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🐜</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">Tiny Mchwa</div>
+      <div style="font-size:.6rem; opacity:.5;">todo</div>
+    </div>
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🐷</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">Big Schwein</div>
+      <div style="font-size:.6rem; opacity:.5;">ledger</div>
+    </div>
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🐿️</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">Shy Ardilla</div>
+      <div style="font-size:.6rem; opacity:.5;">cookbook</div>
+    </div>
+    <div style="background:#19362D; border:1px solid #110D0D; border-radius:.5rem; padding:.8rem; text-align:center;">
+      <div style="font-size:1.8rem;">🦌</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:.65rem; color:#CDD3D1; margin-top:.3rem;">White Jelen</div>
+      <div style="font-size:.6rem; opacity:.5;">hora</div>
+    </div>
+  </div>
+  <div style="font-size:.72rem; opacity:.5; padding:.6rem .8rem; background:#161212; border-radius:.25rem; border-left:3px solid #00B5FF;">
+    <strong>Submark spec:</strong> single-color on neutral (#19362D) tile, 8rem rounded box, 1px border. Emoji shown as placeholders — production submarks should be vector SVG icons on a 24×24 grid, consistent stroke weight, drawn in Penpot.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Component Demo</div>
+  <div class="demo">
+    <h2>Flowero Discover — status dashboard</h2>
+    <p style="margin-bottom:.8rem; color:#CAC9C9;">Service registry · <span style="font-family:monospace; color:#1EB88E;">discovery.panomete.com</span></p>
+    <div class="demo-row">
+      <button class="btn-demo" style="background:#1FB854; color:#000;">Register Service</button>
+      <button class="btn-demo" style="background:#161212; color:#CAC9C9; border:1px solid #110D0D;">View Registry</button>
+      <span class="badge" style="background:#00A96E; color:#000;">3 UP</span>
+      <span class="badge" style="background:#FFBE00; color:#000;">1 DEGRADED</span>
+      <span class="badge" style="background:#FF5861; color:#000;">0 DOWN</span>
+    </div>
+    <div style="font-family:monospace; font-size:.8rem; margin-top:.8rem; color:#CDD3D1; opacity:.6;">
+      flowero-discover · UP 2h · 127.0.0.1:8999 · 3 instances
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">WCAG Contrast Verification</div>
+  <table style="width:100%; font-size:.8rem; border-collapse:collapse;">
+    <tr style="opacity:.5;"><th style="text-align:left; padding:.3rem; border-bottom:1px solid #110D0D;">Text / Background pair</th><th style="text-align:right; padding:.3rem; border-bottom:1px solid #110D0D;">Ratio</th><th style="text-align:right; padding:.3rem; border-bottom:1px solid #110D0D;">Result</th></tr>
+    <tr><td style="padding:.3rem;">base-content / base-100</td><td style="text-align:right; font-family:monospace;">10.76</td><td style="text-align:right;" class="pass">AAA ✓</td></tr>
+    <tr><td style="padding:.3rem;">base-content / base-200</td><td style="text-align:right; font-family:monospace;">11.25</td><td style="text-align:right;" class="pass">AAA ✓</td></tr>
+    <tr><td style="padding:.3rem;">primary-content / primary</td><td style="text-align:right; font-family:monospace;">8.04</td><td style="text-align:right;" class="pass">AAA ✓</td></tr>
+    <tr><td style="padding:.3rem;">neutral-content / neutral</td><td style="text-align:right; font-family:monospace;">8.61</td><td style="text-align:right;" class="pass">AAA ✓</td></tr>
+    <tr><td style="padding:.3rem;">base-content / primary ⚠</td><td style="text-align:right; font-family:monospace;">1.58</td><td style="text-align:right;" class="fail">FAIL — use primary-content</td></tr>
+  </table>
+  <p style="font-size:.75rem; opacity:.5; margin-top:.8rem;">All content-on-color pairs pass AA. Only base-content directly on primary fails — the theme already pairs primary with primary-content (black), so this is handled.</p>
+</div>
+
+</body>
+</html>
