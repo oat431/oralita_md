@@ -213,13 +213,15 @@ font-family: 'JetBrains Mono', 'SF Mono', monospace;
 
 ## 9. Digital Applications
 
-| Touchpoint | Spec |
-| --- | --- |
-| **Web/product UI** | daisyUI components with forest theme tokens. Buttons = primary/secondary/accent. States use status colors. |
-| **Social** | Animal submark as avatar. Forest palette. |
-| **Email** | Dark background (#1B1717) not recommended for email — use reversed wordmark on white. |
-| **Presentations** | Dark slides (#1B1717), Sarabun headings, JetBrains Mono for code/diagrams. Chart colors = primary/secondary/accent/status. |
-| **API docs** | daisyUI forest theme. Code blocks in JetBrains Mono. Status indicators use info/success/warning/error tokens. |
+> **Authority split:** Design decisions (colors, type, spacing, personality) live in this document. Implementation (HTML/CSS class names, component structure, theme config) lives in the **daisyUI skill** (`skill_view name='daisyui'`). When building any Panomete web surface, load the daisyUI skill first — it contains the exact component syntax and rules for all 68 components. The skill version (5.7.x) matches the forest theme source (daisyUI v5.7.22).
+
+| Touchpoint         | Spec                                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **Web/product UI** | daisyUI components with forest theme tokens. Buttons = primary/secondary/accent. States use status colors.                 |
+| **Social**         | Animal submark as avatar. Forest palette.                                                                                  |
+| **Email**          | Dark background (#1B1717) not recommended for email — use reversed wordmark on white.                                      |
+| **Presentations**  | Dark slides (#1B1717), Sarabun headings, JetBrains Mono for code/diagrams. Chart colors = primary/secondary/accent/status. |
+| **API docs**       | daisyUI forest theme. Code blocks in JetBrains Mono. Status indicators use info/success/warning/error tokens.              |
 
 ### Presentation (PowerPoint) Spec
 
