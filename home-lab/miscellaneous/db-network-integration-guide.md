@@ -225,6 +225,7 @@ REDIS_URL: redis://:PASSWORD@valkey:6379/0
 | Network | `penpot` (internal) | `db-network` |
 | Frontend Port | `9001` | `7009` + `9001` (both) |
 | Public URI | `http://localhost:9001` | `https://design.panomete.com` |
+| Version | 2.16 (compose default) | 2.17.1 (via `.env`: `PENPOT_VERSION=2.17.1`) |
 
 **DB setup:**
 ```bash
@@ -245,6 +246,7 @@ PENPOT_REDIS_URI=redis://:PASSWORD@valkey/0
 - Assets stored in `penpot_assets` volume (filesystem backend)
 - mailcatch kept for dev SMTP
 - Secret key regenerated (was `change-this-insecure-key`)
+- Version pinning: compose uses `${PENPOT_VERSION:-2.16}`; `.env` in the project dir pins the version. Upgrade = edit `.env` → `docker compose pull && docker compose up -d` (migrations run automatically at backend startup). Upgraded 2.16 → 2.17.1 on 2026-08-26.
 
 ---
 
