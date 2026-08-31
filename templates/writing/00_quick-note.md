@@ -107,4 +107,4 @@ For each quick note older than 7 days:
 ## Related
 
 - Practice areas: `writing/review/` `writing/short_story/` `writing/wishing/` — promoted notes land there
-- Knowledge layer: [[00-Writing-Types]]
+- Knowledge layer: [[writing/00_knowledge/fundamental/00-Writing-Types]]

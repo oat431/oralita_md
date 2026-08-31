@@ -133,5 +133,5 @@ Iterative beats one-shot-perfect — same law as prompts: run, read the output a
 ## Related
 
 - Prompt craft (SOUL is a long-form prompt): [[05-Prompt-Writing-Guide]]
-- Map: [[00-Writing-Types]] — section 6, "Agent profile / SOUL"
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]] — section 6, "Agent profile / SOUL"
 - Official docs: [Use SOUL.md with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes) · [Personality & SOUL.md](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality)

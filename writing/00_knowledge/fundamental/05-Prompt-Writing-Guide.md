@@ -5,7 +5,7 @@ tags: [writing, prompt, ai, template]
 
 # Prompt Writing Guide (AI)
 
-> The most *executed* form of writing there is: the reader is a language model, and the text is acted on the moment it's read. A prompt is code for a probabilistic machine — precision beats elegance. Up to parent map [[00-Writing-Types]].
+> The most *executed* form of writing there is: the reader is a language model, and the text is acted on the moment it's read. A prompt is code for a probabilistic machine — precision beats elegance. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## What Makes Prompt Writing Different
 
@@ -129,7 +129,7 @@ Frameworks compose — borrowing one component into another (e.g. RACE + an expl
 
 ## Related
 
-- Map: [[00-Writing-Types]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]]
 - Prompts that write human-facing text borrow everything here: [[01-Review-Writing-Guide]], [[02-Storytelling-Guide]], [[03-Media-Script-Guide]], [[04-Wishing-Note-Guide]]
 
 *Written 2026-08-24 from established prompt-engineering knowledge. Note: live search (SearXNG instance up, engines returned empty; fallback backend also empty) was unavailable at write time — frameworks listed are stable, widely documented constructs (RTF, CO-STAR, CRISPE), not invented or recalled from a single source.*

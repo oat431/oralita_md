@@ -5,7 +5,7 @@ tags: [writing, script, screenplay, video-script, template]
 
 # Media Script Guide
 
-> Scripts are writing whose final home is **time and performance**, not the page — every format below encodes who speaks, when, and what the audience sees. Up to parent map [[00-Writing-Types]].
+> Scripts are writing whose final home is **time and performance**, not the page — every format below encodes who speaks, when, and what the audience sees. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## The Core Skill (shared by all formats)
 
@@ -66,7 +66,7 @@ BODY        SECTIONS  — each = claim → evidence → payoff; re-hook between 
 ENDING      PAYOFF    — deliver the promised insight, then ONE call to action
 ```
 
-Write as two layers: **spoken-word script** (what you say, conversational) + **shot notes** (B-roll, on-screen text, graphics per section). Retention beats matter more than prose beauty — viewers leave at boring moments, not bad ones. For explainers/reviews, borrow the expository spine from [[00-Writing-Types]]; verdict-first works well (see [[01-Review-Writing-Guide]]).
+Write as two layers: **spoken-word script** (what you say, conversational) + **shot notes** (B-roll, on-screen text, graphics per section). Retention beats matter more than prose beauty — viewers leave at boring moments, not bad ones. For explainers/reviews, borrow the expository spine from [[writing/00_knowledge/fundamental/00-Writing-Types]]; verdict-first works well (see [[01-Review-Writing-Guide]]).
 
 ## Format 5 — Podcast / Audio Drama
 
@@ -107,6 +107,6 @@ Ears-only storytelling?                      → Podcast/audio-drama cue script
 
 ## Related
 
-- Map: [[00-Writing-Types]] · Structures to pour into these formats: [[02-Storytelling-Guide]] · Review-style video scripts: [[01-Review-Writing-Guide]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]] · Structures to pour into these formats: [[02-Storytelling-Guide]] · Review-style video scripts: [[01-Review-Writing-Guide]]
 
 *Format specs cross-checked against StudioBinder's screenplay-format guide, 2026-08-23.*

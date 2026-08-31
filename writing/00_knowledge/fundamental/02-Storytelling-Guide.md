@@ -5,7 +5,7 @@ tags: [writing, storytelling, narrative-structure, template]
 
 # Storytelling Guide
 
-> Story structures are a vocabulary for diagnosing stories, not formulas that make every story identical — the way knowing chord progressions doesn't make every song sound the same. Up to parent map [[00-Writing-Types]].
+> Story structures are a vocabulary for diagnosing stories, not formulas that make every story identical — the way knowing chord progressions doesn't make every song sound the same. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## What Makes a Story (before any structure)
 
@@ -103,7 +103,7 @@ Diagnosis trick: when a draft feels wrong, map it against two structures. Saggin
 
 ## Related
 
-- Map: [[00-Writing-Types]] · Review writing borrows stakes/emotion tools: [[01-Review-Writing-Guide]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]] · Review writing borrows stakes/emotion tools: [[01-Review-Writing-Guide]]
 - Scripts pour these structures into production formats: [[03-Media-Script-Guide]]
 
 *Structures summarized from Scyn's "Story Structure Templates" roundup (scyn.app/blog/story-structure-templates), cross-checked 2026-08-23.*

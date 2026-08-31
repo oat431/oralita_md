@@ -5,7 +5,7 @@ tags: [writing, review, criticism, template]
 
 # Review Writing Guide
 
-> How to write a review that is *useful*, not just an opinion. A review is an argument: **criteria → evidence → verdict**. Up to parent map [[00-Writing-Types]].
+> How to write a review that is *useful*, not just an opinion. A review is an argument: **criteria → evidence → verdict**. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## What a Review Actually Is
 
@@ -102,5 +102,5 @@ Pick one primary format and be consistent across your reviews so your readers ca
 
 ## Related
 
-- Map: [[00-Writing-Types]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]]
 - Persuasion techniques overlap heavily — see [[02-Storytelling-Guide]] for stakes/emotion tools used inside reviews.

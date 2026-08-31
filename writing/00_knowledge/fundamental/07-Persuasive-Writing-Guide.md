@@ -5,7 +5,7 @@ tags: [writing, persuasive, argument, copywriting, template]
 
 # Persuasive Writing Guide
 
-> Persuasive writing convinces — the reader asks **"Why should I care/agree?"** Claim, evidence, reasoning — and the counterargument taken seriously, not strawmanned. Up to parent map [[00-Writing-Types]].
+> Persuasive writing convinces — the reader asks **"Why should I care/agree?"** Claim, evidence, reasoning — and the counterargument taken seriously, not strawmanned. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 >
 > [[01-Review-Writing-Guide]] is this family's evaluation lane (criteria → evidence → verdict). This guide covers the rest: essays, copywriting, proposals.
 
@@ -90,7 +90,7 @@ Per-type fill-in masters (essay, AIDA copy, proposal) live in `templates/writing
 
 ## Related
 
-- Map: [[00-Writing-Types]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]]
 - Expository spine underneath most persuasive pieces: [[06-Expository-Writing-Guide]]
 - Review = persuasive verdict + evaluation criteria: [[01-Review-Writing-Guide]]
 - Wishing notes persuade through intimacy, not logic — a different lane entirely: [[04-Wishing-Note-Guide]]

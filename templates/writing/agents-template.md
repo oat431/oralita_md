@@ -106,5 +106,5 @@ The test is behavioral: the file is good when an agent asked "what's the archite
 
 - Identity counterpart: [[soul-template]]
 - Prompt craft: [[05-Prompt-Writing-Guide]]
-- Map: [[00-Writing-Types]] — section 6
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]] — section 6
 - Official docs: [Context Files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files) · [Which File Does What](https://hermes-agent.nousresearch.com/docs/user-guide/which-file-does-what)

@@ -5,7 +5,7 @@ tags: [writing, expository, technical-writing, template]
 
 # Expository Writing Guide
 
-> Expository writing explains — the reader asks **"What does this mean?"** and leaves informed, not moved or convinced. Four forms share that job with different containers. Up to parent map [[00-Writing-Types]].
+> Expository writing explains — the reader asks **"What does this mean?"** and leaves informed, not moved or convinced. Four forms share that job with different containers. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## What Expository Writing Actually Is
 
@@ -89,7 +89,7 @@ Per-format fill-in masters (technical doc, journalism, blog, academic) live in `
 
 ## Related
 
-- Map: [[00-Writing-Types]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]]
 - Persuasive writing usually builds an expository spine underneath its argument: [[07-Persuasive-Writing-Guide]]
 - Reviews open with an expository "what it is" section before the verdict: [[01-Review-Writing-Guide]]
 

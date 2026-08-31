@@ -5,7 +5,7 @@ tags: [writing, wishing, social-writing, template]
 
 # Wishing Note Guide
 
-> Small words, high stakes: a wish is writing measured by how it is *received*, not how it reads. Up to parent map [[00-Writing-Types]].
+> Small words, high stakes: a wish is writing measured by how it is *received*, not how it reads. Up to parent map [[writing/00_knowledge/fundamental/00-Writing-Types]].
 
 ## What Makes a Wish Work
 
@@ -88,5 +88,5 @@ Same content, different delivery — this is where bilingual writers win or slip
 
 ## Related
 
-- Map: [[00-Writing-Types]]
+- Map: [[writing/00_knowledge/fundamental/00-Writing-Types]]
 - Emotion/register tools overlap with narrative work: [[02-Storytelling-Guide]]
