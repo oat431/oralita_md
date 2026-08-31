@@ -9,10 +9,11 @@ tags: [fitness, run, cardio, marathon, phase-3]
 
 ## Frequency (important)
 
-- **Wednesday:** 30 min intervals — 4 min jog / 2 min walk × 5.
+- **Wednesday:** 30 min. **W10 = post-flu walk-first** (walk, add light jog only if breathing 100% AND HR ≤137). W11+ = 4 min jog / 2 min walk × 5, if W10 was clean.
 - **Sunday:** 30–40 min easy Zone 2 (HR 117–137).
 - Daily walking is separate — it goes in the steps column of the check-in table, not here.
 - No bonus running. At 120 kg, dose control beats enthusiasm.
+- **W9 (08-24→08-30): skipped — flu-A. No cardio, no data.**
 
 ## Session Log
 

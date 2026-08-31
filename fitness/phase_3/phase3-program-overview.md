@@ -1,93 +1,84 @@
 ---
-date: 2026-08-23
-tags: [fitness, program, phase-3, home-gym, overview]
+date: 2026-08-31
+tags: [fitness, program, phase-3, gym, overview]
 ---
 
-# Phase 3 — Home Base (Weeks 9–12) — Overview
+# Phase 3 — Back on the Barbell (Weeks 10–12) — Overview
 
-> **Live plan.** Phase 2 complete: 120.0 kg, fat -2.1 kg, visceral 23 → 20, barbell foundation built. Phase 3 moves training home. Day-by-day instructions are in `daily-workouts/home/`. If you ever train at a day-pass gym, open `daily-workouts/gym/` instead.
+> **Live plan.** Week 9 was lost to flu-A — zero training, zero data. That is not a failure, it's a sick week. Week 10 (this week, from Mon 2026-08-31) is a **re-entry week** on the monthly gym membership. Home notes remain as storm/gym-closed backup only.
 
 ## Purpose
 
-Keep strength while training with home equipment, build the aerobic base (2 cardio days — marathon goal), and keep the fat-loss trend alive. Phase 3 is adaptation: the gym's barbell and machines are gone, so loading comes from bodyweight (you weigh 120 kg — that IS the load), the kettlebell, and dumbbell handles.
+Re-enter training safely after flu-A, return to barbell progression, keep the fat-loss trend alive, and build the aerobic base. The rule this week: **no revenge training.** You do not catch up a sick week — you rebuild toward it.
 
 **Training days:** Monday, Tuesday, Wednesday, Saturday, Sunday
 **Rest days:** Thursday, Friday
 
-## Schedule
+## Schedule (gym-first)
 
 | Day | Focus | Key work | Time |
 |-----|-------|----------|------|
-| Mon | Upper | Push-ups + DB floor press + OHP + rows | ~60 min |
-| Tue | Lower | Bulgarian split squat + goblet squat + single-leg RDL | ~60 min |
-| Wed | Run/walk + core | 30-minute intervals + core | ~45 min |
-| Thu | Rest | — | — |
-| Fri | Rest | — | — |
-| Sat | Full body | KB swings + RDL + push + rows + carries | ~60 min |
-| Sun | Easy cardio + core | Treadmill 30–40 min Zone 2 + core | ~40 min |
+| Mon | Upper | Bench + OHP + rows | ~60 min |
+| Tue | Lower | Back squat + leg accessories | ~55 min |
+| Wed | Run/Walk + core | **Walk-first** 30 min + core | ~45 min |
+| Sat | Full body | Deadlift + front squat | ~60 min |
+| Sun | Easy cardio + core | Treadmill 30 min Zone 2 | ~40 min |
 
-> **The Time column is a cap, not a target.** Finish early → go home. Never add bonus work, never skip the warm-up to save time.
+**Backup rule:** gym closed / storm → open the same day's note in `daily-workouts/home/` and train there. One backup day is fine; if you're forced home 2+ days in a row, message me so we adjust.
 
-## Week 9 — Daily Workouts
+## Week 10 — Daily Workouts (re-entry weights)
 
-| Day | Open this note | Focus |
-|-----|----------------|-------|
-| Mon | `[[daily-workouts/home/1_Monday]]` | Upper |
-| Tue | `[[daily-workouts/home/2_Tuesday]]` | Lower |
-| Wed | `[[daily-workouts/home/3_Wednesday]]` | Run/Walk + Core |
-| Sat | `[[daily-workouts/home/4_Saturday]]` | Full Body |
-| Sun | `[[daily-workouts/home/5_Sunday]]` | Easy Cardio + Core |
-| **Any day at a day-pass gym** | `[[daily-workouts/gym/gym-day-barbell-session]]` | Barbell maintenance |
+| Day | Open this note | Gym note | Backup (home) note |
+|-----|----------------|----------|--------------------|
+| Mon | `[[daily-workouts/gym/1_Monday]]` | Bench 42.5, OHP 32.5 | `[[daily-workouts/home/1_Monday]]` |
+| Tue | `[[daily-workouts/gym/2_Tuesday]]` | Squat 40, leg press 60 | `[[daily-workouts/home/2_Tuesday]]` |
+| Wed | `[[daily-workouts/gym/3_Wednesday]]` | Walk-first protocol | `[[daily-workouts/home/3_Wednesday]]` |
+| Sat | `[[daily-workouts/gym/4_Saturday]]` | DL 65, front squat 35 | `[[daily-workouts/home/4_Saturday]]` |
+| Sun | `[[daily-workouts/home/5_Sunday]]` | Treadmill 30 min Z2 | (same note — works anywhere) |
 
-Each home note lists exercises in order with the warm-up inline. At the gym, open the day note and follow it top to bottom.
+## Re-Entry Barbell Map (flu + 2 weeks off → −5%, then rebuild)
 
-## Barbell Maintenance Rule (important)
+| Lift | W8 final (earned) | **W10 re-entry** | W11 | W12 |
+|------|-------------------|------------------|-----|-----|
+| Bench Press | 45 kg valid | **42.5** | 45 | 47.5 attempt (only if W11 clean) |
+| OHP | 35 kg | **32.5** | 35 | 35 |
+| Back Squat | 42.5 clean (45 earned, untested) | **40** | 42.5 | 45 |
+| Deadlift | 70 Easy (75 earned, untested) | **65** | 70 | 75 |
+| Front Squat | 37.5 | **35** | 37.5 | 40 |
 
-Home equipment cannot load your barbell lifts (squat 42.5, bench 45, DL 70). Barbell skill must not rot.
+**Re-entry rules:**
 
-- **Whenever you're at a day-pass gym** → run the gym note's session for that day instead of the home version. Log it with a "(gym)" tag.
-- **If 3 weeks pass without a single gym visit → book one.** Pattern maintenance is non-negotiable.
-- Gym-day starting weights (from the W8 review): bench **45** (47.5 was unearned — W8 ramped), OHP **35**, squat **45 attempt** (clean 42.5 earned), deadlift **75**, front squat **40**.
+1. **RPE gate:** every working set this week is Medium or easier. Anything rated Hard = data, not a problem — repeat that load next week.
+2. **Breathing gate:** flu-A hit your lungs. Chest tightness, cough fits, or shortness of breath beyond normal → stop the set, walk it off, report it. The lungs decide this week's pace.
+3. **No make-up volume:** no extra sets, no bonus exercises, no double sessions. The missed week is gone; the recovery is not.
+4. **One load across all working sets** — the Phase 2 rule stands, re-entry week included.
+5. If energy crashes mid-week or sleep average dips below 6h → drop Sunday cardio first, then Saturday's last accessory. Report it.
 
-## Home Progression Rules
+## Cardio — Post-Flu Protocol
 
-1. **Rep-range progression:** start at the bottom of the range (e.g., 8 reps), add 1–2 reps per session until the top (12), then add load — dumbbell plates (+1.25 to +2.5 kg/hand), a harder push-up progression, or holding the kettlebell — and return to the bottom of the range.
-2. **One load across all working sets.** No mid-session ramping. This is the rule that got violated four times in Phase 2 (W7 squat, W7 calves, W8 bench). Phase 3 enforces it from day one.
-3. **Tempo is the home-gym load multiplier:** 2-second lowering phase on every kettlebell and dumbbell rep. Slow > sloppy.
-4. **Push-up progression ladder:** wall → incline (hands elevated) → knee → full → diamond. Move up only when every rep is clean.
-5. **Form gates:** KB swings only with a flat-back hinge (your DL 70 Easy says the hinge is earned). Lateral raises stay strict at 2 kg — the light weight is on purpose: slow, full ROM, no shrug. Sharp pain → stop and report.
-
-## Run/Walk Progression (both cardio days are logged)
-
-| Week | Wednesday (intervals) | Sunday (easy) |
-|------|----------------------|---------------|
-| 9 | 4-min jog / 2-min walk × 5 — 30 min | Treadmill 30 min, HR 117–137 |
-| 10–12 | Progress only from logged data | 30 → 40 min as tolerated |
-
-- Treadmill or outdoor, your choice. Treadmill: distance comes from the console, HR from the watch (don't hold the handles — grip kills wrist-HR accuracy).
-- **Log minutes + distance + avg HR every session** in `logs/daily/run-walk-log.md`. "Easy" is not data — Phase 2 proved it.
-- NO bonus running. Extra movement = walking (steps target below).
+- **Wednesday (W10):** 30 min **walk-first**. Add light jog only if breathing is 100% AND HR ≤137. The 4-min jog / 2-min walk intervals return in W11 if this session is clean.
+- **Sunday:** 30 min easy Zone 2 (HR 117–137), treadmill — this was already easy, it stays easy.
+- **Log all three numbers every session** (minutes, distance, avg HR) in `logs/daily/run-walk-log.md`.
+- RHR after flu normally runs elevated for 1–2 weeks — if the watch shows 65–75, that's recovery, not danger. It settles.
 
 ## Logging Convention
 
-- Log working sets only. One load across all prescribed sets.
+- Working sets only. One load across all prescribed sets. Warm-ups never logged.
 - Log cardio with real numbers: minutes, distance, avg HR.
-- Dumbbell weight = **per hand**. Kettlebell = the kettlebell's weight.
-- Push-ups: log the progression used (wall/incline/knee/full/diamond) + reps.
-- **Food kcal column is live from Week 9:** ✓ / ▲ / ⚠ per `food-log.md`. Thursday is the weekly audit day (it's a rest day — perfect).
+- **Kcal column starts this week** (✓ / ▲ / ⚠ per `food-log.md`; Thursday = audit day). W9 has no data — the food system's first honest week is W10.
+- Gym sessions need no tag (gym is default now); home backup sessions get a **(home)** note.
 
 ## Nutrition and Recovery Targets
 
-- **Calories: 2,050 kcal/day — HOLD.** W8 dropped 1.63 kg (7d avg) — expected first-week-of-cut behavior. Trigger armed: if W9 also drops >0.6 kg/week, revert to 2,200.
-- **Protein:** 160 g minimum — 8 straight weeks locked, keep it locked.
-- **Water:** 3–4 L/day.
-- **Sleep:** 7 hours minimum.
-- **Steps:** 6,000/day average (5,000 floor cleared in W8 — raise it, don't rest on it).
-- **Weight:** morning weigh-in after bathroom, before food or water.
-- **Smart scale:** Sunday morning → `logs/weekly/smart-scale-weekly.md`.
-- **Blood pressure:** Week 9 = baseline week (daily, 2 readings, protocol in `logs/weekly/blood-pressure-log.md`), then Sunday + Thursday.
-- **Blood panel:** book the clinic draw this week or next — fasted morning. Log results in `../blood-panel-baseline.md` and bring the paper to the Sunday review.
-- **Tape + photos:** monthly — 1st Sunday of the month (next: 09-06) → `../body-measurements-monthly.md`.
+- **Calories: 2,050 kcal/day — HOLD.** No W9 data means the drop-watch trigger is still armed: if the W10 7d average drops >0.6 kg → revert to 2,200.
+- **Protein: 160 g minimum — the priority during recovery.** Appetite may still be suppressed after flu; if kcal lands under target on a day, protein still gets hit. 160 g is the non-negotiable floor.
+- **Water:** 3–4 L/day — extra important after a respiratory illness.
+- **Sleep:** 7 hours minimum. This is a rebuild week; sleep is the rebuild.
+- **Steps:** 6,000/day floor resumes.
+- **Smart scale:** Sunday morning → `logs/weekly/smart-scale-weekly.md` (W9 row can be backfilled if you weighed that Sunday).
+- **Blood pressure:** **W10 = baseline week** (daily, 2 readings, protocol in `logs/weekly/blood-pressure-log.md`), then Sunday + Thursday.
+- **Blood panel:** still pending — book the clinic draw this week or next, fasted morning. Results → `../blood-panel-baseline.md`.
+- **Tape + photos:** monthly — 1st Sunday (next: 09-06) → `../body-measurements-monthly.md`.
 
 Active-balance adjustments (unchanged):
 
@@ -97,29 +88,23 @@ Active-balance adjustments (unchanged):
 
 ## Equipment
 
-**In hand:** electric treadmill, 10 kg kettlebell, 2 kg dumbbells ×2, push-up machine, sit-up machine, yoga mat.
-
-**To buy (small additions):** resistance bands + adjustable dumbbell handles + doorway pull-up bar → see `../00_gym_knowledge/home-gym-shopping-list.md`. Until the handles arrive, swap DB exercises to their kettlebell versions written in the day notes.
-
-## Optional Morning Movement — 10 kg Kettlebell
-
-- **Thursday mornings only** (Sunday is now a cardio day): 8–10 min, RPE 5/10 — KB deadlift ×8, goblet squat ×8, suitcase carry 20–30 sec/side, dead bug ×6/side. 1–2 rounds.
-- Never on training days. If Saturday or Monday performance drops, cut it.
+- **Gym:** the membership covers everything — barbell, machines, cables.
+- **Home (backup):** treadmill, 10 kg KB, 2 kg DBs, push-up/sit-up machines, mat. The tier-1 shopping list (`../00_gym_knowledge/home-gym-shopping-list.md`) is now **optional** — only worth buying if you want real backup capability for storm days.
 
 ## File Links and Review Cadence
 
-- **Daily workouts:** `daily-workouts/home/` — 5 notes, numbered in session order
-- **Gym swap:** `daily-workouts/gym/gym-day-barbell-session.md`
-- **Warm-up:** `[[warmup-protocol]]`
+- **Daily workouts (gym):** `daily-workouts/gym/` — 1_Monday … 4_Saturday
+- **Daily workouts (home backup):** `daily-workouts/home/` — 1_Monday … 5_Sunday
+- **Warm-up:** `[[warmup-protocol]]` (gym: barbell ladders; home: KB/DB rules)
 - **Training log:** `logs/daily/training-log-phase3.md`
 - **Run/walk log:** `logs/daily/run-walk-log.md`
-- **Smart scale (weekly):** `logs/weekly/smart-scale-weekly.md`
+- **Smart scale:** `logs/weekly/smart-scale-weekly.md`
 - **Blood pressure:** `logs/weekly/blood-pressure-log.md`
-- **Blood panel (vault root):** `../blood-panel-baseline.md`
-- **Monthly tape + photos (vault root):** `../body-measurements-monthly.md`
+- **Blood panel:** `../blood-panel-baseline.md`
+- **Monthly tape + photos:** `../body-measurements-monthly.md`
 - **Food system:** `food-log.md`
 - **Weekly reviews:** `logs/weekly/phase3-weekly-review-summary.md`
 - **Watch settings:** `../00_gym_knowledge/smart-watch-settings.md`
 - **Review cadence:** every Sunday, after the morning weigh-in
 
-*Phase 3 runs Weeks 9–12. The W12 Sunday review decides the next step.*
+*Re-entry is not a punishment and not a shortcut. One clean week, then the bar climbs again.*

@@ -5,6 +5,8 @@ tags: [fitness, phase-3, daily-workout, monday, home]
 
 # Monday — Upper (Home)
 
+> ⚠️ **Backup note.** Gym is primary again — use this only when the gym is closed / storm / can't leave. Gym version: `[[daily-workouts/gym/1_Monday]]`
+
 Focus: Push + press + rows. Time: ~60 min.
 
 **Before anything:** general warm-up 5–8 min (treadmill walk + dynamic moves) → `[[warmup-protocol]]`

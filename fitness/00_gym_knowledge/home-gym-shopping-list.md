@@ -9,6 +9,8 @@ tags: [fitness, equipment, shopping-list, home-gym]
 
 ## Tier 1 — buy now (~500–2,000 ฿ total)
 
+> **Status 2026-08-31:** monthly gym membership reinstated — this list is now **backup-only**. Buy tier 1 only if you want real home backup capability for storm/gym-closed days. Not urgent.
+
 | Item | Why | ~Price | Look for |
 |------|-----|--------|----------|
 | **Spinlock dumbbell handles + plates** (2 handles, plates: 4×5 kg + 4×2.5 kg + 4×1.25 kg) | The single most important purchase. Unlocks DB floor press, OHP, rows, RDL, curls at real loads. Pairs build from ~2 kg to ~18 kg per hand | 1,000–1,600 ฿ | 25–28 mm bar diameter, cast-iron plates, spinlock collars with rubber grip |

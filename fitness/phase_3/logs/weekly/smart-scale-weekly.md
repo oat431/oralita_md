@@ -11,6 +11,8 @@ tags: [fitness, smart-scale, weekly, phase-3]
 
 Weight 120.0 kg · fat 41.0 kg (34.1%) · muscle 75.3 kg · visceral 20 · water 47.6% · WHR 1.0.
 
+*W9 (08-30): no reading — flu-A. If you happened to weigh that Sunday, backfill the Week 9 row and tell me.*
+
 ## Body Composition (smart scale — every Sunday)
 
 | Week | Date | Weight (kg) | Fat (kg) | Fat % | Muscle (kg) | Visceral Fat | Body Water % | Waist-to-Hip |

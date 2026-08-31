@@ -5,11 +5,11 @@ tags: [fitness, phase-3, daily-workout, saturday, home]
 
 # Saturday — Full Body (Home)
 
+> ⚠️ **Backup note.** Gym is primary again — use this only when the gym is closed / storm / can't leave. Gym version: `[[daily-workouts/gym/4_Saturday]]`
+
 Focus: Hinge power + push + rows + carries. Time: ~60 min.
 
 **Before anything:** general warm-up 5–8 min (treadmill walk + dynamic moves) → `[[warmup-protocol]]`
-
-> **At a day-pass gym instead?** Close this note and open `[[daily-workouts/gym/gym-day-barbell-session]]` — run the Saturday barbell block there.
 
 ---
 

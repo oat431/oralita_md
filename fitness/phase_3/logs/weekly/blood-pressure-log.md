@@ -21,8 +21,8 @@ tags: [fitness, health, blood-pressure, phase-3]
 
 | Period | When |
 | ------ | ---- |
-| **Week 9 = baseline week** | Every morning, both readings |
-| Week 10+ (maintenance) | Sunday + Thursday morning |
+| **Week 10 (from 08-31) = baseline week** | Every morning, both readings |
+| Week 11+ (maintenance) | Sunday + Thursday morning |
 
 ## Log
 

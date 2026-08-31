@@ -3,7 +3,9 @@ date: 2026-08-23
 tags: [fitness, phase-3, daily-workout, sunday, home]
 ---
 
-# Sunday — Easy Cardio + Core (Home)
+# Sunday — Easy Cardio + Core (Home or Gym)
+
+> Works anywhere — treadmill at home or at the gym. Same protocol either way.
 
 Focus: Zone 2 treadmill + core + recovery. Time: ~40 min. This is the marathon-base day.
 

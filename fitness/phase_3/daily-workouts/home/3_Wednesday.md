@@ -5,6 +5,8 @@ tags: [fitness, phase-3, daily-workout, wednesday, home]
 
 # Wednesday — Run/Walk + Core (Home)
 
+> ⚠️ **Backup note.** Gym is primary again — use this only when the gym is closed / storm / can't leave. Gym version: `[[daily-workouts/gym/3_Wednesday]]`
+
 Focus: 30-minute intervals + core. Time: ~45 min. Treadmill or outdoor — your call.
 
 **Before anything:** general warm-up 5–8 min (treadmill walk + dynamic moves) → `[[warmup-protocol]]`
