@@ -31,4 +31,4 @@ A technical report and a memoir both need structure, evidence, and clarity. Only
 
 ## Status
 
-Leaves are written one at a time. Unresolved `[[…]]` entries above are the roadmap: they resolve as each note lands.
+All 8 leaves are written. Each note carries: the question it answers, key principles or frameworks, a Mermaid diagram, pitfalls, a quality criterion, a template, related links, and sources.

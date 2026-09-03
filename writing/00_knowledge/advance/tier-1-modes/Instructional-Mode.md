@@ -85,7 +85,7 @@ Tell the reader what success looks like, so they can confirm they did it right r
 - [[06-Expository-Writing-Guide]]: technical documentation patterns
 - [[03-Media-Script-Guide]]: scripts as time-based instruction
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

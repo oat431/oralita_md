@@ -92,7 +92,7 @@ Conflict is what the protagonist wants versus what obstructs it. Without a centr
 - [[02-Storytelling-Guide]]: eight story structures
 - [[03-Media-Script-Guide]]: narrative poured into production formats
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

@@ -12,7 +12,7 @@ tags:
 
 > Advanced reference tier. For the practical map and the how-to guides, start with [[00-Writing-Types]] and the numbered guides in the fundamental tier.
 >
-> **Structure:** this reference expands into three tiers — [[tier-1-modes/overview|Tier 1 · Rhetorical Modes]], [[tier-2-domains/overview|Tier 2 · Writing Domains]], [[tier-3-craft/overview|Tier 3 · Craft and Process]].
+> **Structure:** this reference expands into three tiers — [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 · Rhetorical Modes]], [[writing/00_knowledge/advance/tier-2-domains/00_overview|Tier 2 · Writing Domains]], [[writing/00_knowledge/advance/tier-3-craft/00_overview|Tier 3 · Craft and Process]].
 
 ## Overview
 

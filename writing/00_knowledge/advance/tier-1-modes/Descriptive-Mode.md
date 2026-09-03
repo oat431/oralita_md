@@ -99,7 +99,7 @@ Metaphor, simile, and personification clarify by analogy but should *explain*, n
 - [[01-Review-Writing-Guide]]: sensory criteria in reviews
 - [[02-Storytelling-Guide]]: setting and scene
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

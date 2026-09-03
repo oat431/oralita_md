@@ -98,7 +98,7 @@ Ethical persuasion should:
 - [[Narrative-Mode]]: stories persuade through stakes and empathy
 - [[07-Persuasive-Writing-Guide]]: argumentative essays, AIDA copywriting, proposals
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

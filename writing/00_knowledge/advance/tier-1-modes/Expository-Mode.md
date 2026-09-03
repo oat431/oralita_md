@@ -86,7 +86,7 @@ Lead with what the audience already understands, then move toward the new. Jumpi
 - [[Descriptive-Mode]]: concrete detail that supports explanation
 - [[06-Expository-Writing-Guide]]: tech docs, journalism, explainers, academic writing
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

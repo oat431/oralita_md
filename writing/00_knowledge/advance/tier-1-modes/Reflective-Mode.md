@@ -85,7 +85,7 @@ A reflection that produces no changed behavior is incomplete. The closing move i
 - [[Analytical-Mode]]: the analysis stage of reflection
 - [[01-Review-Writing-Guide]]: post-hoc evaluation
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

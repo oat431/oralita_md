@@ -30,4 +30,4 @@ A domain is not a mode. **Argumentation** is a *mode* that appears in academic a
 
 ## Status
 
-Leaves are written one at a time. Unresolved `[[…]]` entries above are the roadmap: they resolve as each note lands.
+All 6 leaves are written. Each note carries: purpose, when-to-use, characteristics, a Mermaid diagram, key conventions, an example, pitfalls, a quality criterion, a template (with a pointer to the form master), related links, and sources.

@@ -94,7 +94,7 @@ Make visible which of your premises are *supported* and which are *assumed*. Hid
 - [[Analytical-Mode]]: analysis supplies the evidence
 - [[07-Persuasive-Writing-Guide]]: argumentative essays and proposals
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 

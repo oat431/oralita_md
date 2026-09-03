@@ -89,7 +89,7 @@ Strong analysis tests its own conclusion against at least one rival explanation 
 - [[Argumentative-Mode]]: analysis supplies the evidence argument needs
 - [[01-Review-Writing-Guide]]: evaluation against criteria
 - [[00-Writing-Types-Reference]]: the multidimensional model
-- [[tier-1-modes/overview|Tier 1 overview]]
+- [[writing/00_knowledge/advance/tier-1-modes/00_overview|Tier 1 overview]]
 
 ## Template
 
