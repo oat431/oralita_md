@@ -6,6 +6,8 @@ tags: [writing, template, overview, index]
 # Writing Types — Overview & Index
 
 > Map of every major writing type, organized by **purpose first, form second**. The three folders this vault serves first: reviews ([[01-Review-Writing-Guide]]), storytelling ([[02-Storytelling-Guide]]), and media scripts ([[03-Media-Script-Guide]]).
+>
+> 🔎 For the full multidimensional model (8 rhetorical modes, document and paragraph structure, evidence, clarity, the writing process, and an evaluation rubric), see the advanced reference: [[00-Writing-Types-Reference]].
 
 ## The Foundation: Four Classical Modes
 
@@ -19,6 +21,8 @@ Every piece of writing ever published sits on top of one or more of these four m
 | **Persuasive** | Convince | "Why should I care/agree?" | Claim, evidence, reasoning, acknowledgment of counterarguments |
 
 Key insight: **real pieces are blends.** A movie review is expository (plot facts) + descriptive (the look of it) + persuasive (the verdict). A campaign log is narrative carried by description. Knowing the modes lets you name which job each paragraph is doing — and cut paragraphs doing no job.
+
+> The advanced reference treats **analytical, instructional, and reflective** as distinct modes (8 total). See [[00-Writing-Types-Reference]].
 
 ## The Full Map by Purpose
 

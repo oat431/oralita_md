@@ -1,7 +1,7 @@
 # Start Menu Crash Loop Fix — 2026-09-03
 
 > **Machine:** SAHACHAN-LAPTOP (Acer Nitro ANV15-41) — Windows 11 Home Insider Preview Dev, build 26340
-> **Status:** 🔴 Diagnosed — **fix pending reboot** (user reboots manually)
+> **Status:** ✅ **Resolved** — reboot at 16:52:52; 0 crashes & 0 WSearch timeouts since boot (verified 17:00)
 > **Related:** [[personal-computer-audit-2026-09-03]] (F1/R1), [[Personal-Computer-Checklist]]
 
 ---

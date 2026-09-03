@@ -12,7 +12,7 @@ tags: [personal-computer, moc, checklist]
 | Date | Note | Focus |
 |------|------|-------|
 | 2026-09-03 | [[personal-computer-audit-2026-09-03]] | First full audit — hardware, storage, network, security, toolchain, events |
-| 2026-09-03 | [[2026-09-03-startmenu-crash-loop-fix]] | Start menu crash loop (StartDocked.dll 0xc000027b) — AppX pipeline wedged, reboot pending |
+| 2026-09-03 | [[2026-09-03-startmenu-crash-loop-fix]] | Start menu crash loop (StartDocked.dll 0xc000027b) — AppX pipeline wedged → **resolved by reboot** |
 
 ## Standing Checklist (verified sections per audit)
 

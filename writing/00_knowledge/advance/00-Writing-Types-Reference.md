@@ -1,5 +1,5 @@
 ---
-title: Writing Types
+title: Writing Types — Reference
 description: A practical framework for understanding, selecting, combining, and evaluating different types of writing.
 tags:
   - writing
@@ -8,7 +8,11 @@ tags:
   - knowledge
 ---
 
-# Writing Types
+# Writing Types — Reference
+
+> Advanced reference tier. For the practical map and the how-to guides, start with [[00-Writing-Types]] and the numbered guides in the fundamental tier.
+>
+> **Structure:** this reference expands into three tiers — [[tier-1-modes/overview|Tier 1 · Rhetorical Modes]], [[tier-2-domains/overview|Tier 2 · Writing Domains]], [[tier-3-craft/overview|Tier 3 · Craft and Process]].
 
 ## Overview
 
@@ -152,6 +156,8 @@ Narrative writing connects events through time, causality, conflict, and change.
 
 **Quality criterion:** Events should form a meaningful causal sequence, not merely a chronological list.
 
+**Related guide:** [[02-Storytelling-Guide]]
+
 ---
 
 ### 3.3 Expository Writing
@@ -198,6 +204,8 @@ Expository writing emphasizes accuracy, organization, and comprehension. It gene
 > Version control is a system for recording changes to files over time. It allows contributors to examine previous versions, compare modifications, and coordinate work without manually maintaining multiple copies.
 
 **Quality criterion:** Readers should understand the subject more accurately after reading than they did before.
+
+**Related guide:** [[06-Expository-Writing-Guide]]
 
 ---
 
@@ -276,6 +284,8 @@ An argument is not simply a disagreement. It is a structured relationship among 
 
 **Quality criterion:** The strength of an argument depends on the quality of its evidence and reasoning, not the confidence of its language.
 
+**Related guide:** [[07-Persuasive-Writing-Guide]]
+
 ---
 
 ### 3.6 Persuasive Writing
@@ -319,6 +329,8 @@ Classical rhetoric identifies three major persuasive appeals:
 - Make the requested action explicit
 
 **Quality criterion:** Persuasion should influence readers without misleading or manipulating them.
+
+**Related guide:** [[07-Persuasive-Writing-Guide]]
 
 ---
 
@@ -516,6 +528,8 @@ News reports often use the **inverted pyramid**:
 3. Context and background
 4. Secondary information
 
+**Related guide:** [[06-Expository-Writing-Guide]]
+
 ---
 
 ### 4.5 Creative Writing
@@ -542,6 +556,8 @@ News reports often use the **inverted pyramid**:
 
 Creative writing may use any rhetorical mode. Its distinction lies primarily in artistic intention and execution.
 
+**Related guides:** [[02-Storytelling-Guide]], [[03-Media-Script-Guide]]
+
 ---
 
 ### 4.6 Personal and Social Writing
@@ -558,6 +574,8 @@ Creative writing may use any rhetorical mode. Its distinction lies primarily in 
 - Biographical notes
 
 The appropriate tone depends strongly on the relationship between writer and reader. Personal writing may be informal, but it should still consider privacy, permanence, and the risk of misinterpretation.
+
+**Related guide:** [[04-Wishing-Note-Guide]]
 
 ---
 
