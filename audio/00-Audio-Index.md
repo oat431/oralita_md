@@ -22,3 +22,8 @@ tags:
 
 - [[knowledge/00-Audio-Knowledge-Index]] — terminology and learning map
 - [[knowledge/12-Audio-Decision-Matrix]] — what matters, what is optional, and what is mostly marketing
+
+## Phone live telemetry
+
+- [[home-lab/audit/mobile/ADB-Audio-Audit-Findings-2026-09-04]] — live ADB audit: vendor DSP map, aptX Lossless flag, pending USB/BT tests
+- [[home-lab/audit/mobile/ADB-Audio-Telemetry-Cheatsheet]] — read-only ADB commands for audio checks
