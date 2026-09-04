@@ -26,6 +26,7 @@ A practical, measurement-first guide for understanding personal audio without bu
 - [[10-Audio-Measurements-Reading-Guide]] — how to read graphs and avoid marketing traps
 - [[11-Listening-and-A-B-Testing]] — how to decide what sounds better reliably
 - [[12-Audio-Decision-Matrix]] — what matters, what is optional, and what is mostly marketing
+- [[13-Cables-and-Connectors]] — what a cable physically can and cannot do, with the numbers
 
 ## Personal lab
 
@@ -33,3 +34,6 @@ A practical, measurement-first guide for understanding personal audio without bu
 - Phone/UAPP setup: [[../setup/04-Redmi-UAPP-MX1-Setup]]
 - UAPP settings: [[../setup/05-UAPP-Settings-Reference]]
 - HyperOS effects: [[../setup/06-HyperOS-Audio-Effects]]
+- Sony WH-1000XM5: [[../setup/07-Sony-WH1000XM5-Setup]]
+- MX1 output compatibility: [[../setup/08-MX1-Output-Compatibility]]
+- Xiaomi Buds 5 Pro: [[../setup/09-Xiaomi-Buds-5-Pro-Setup]]
