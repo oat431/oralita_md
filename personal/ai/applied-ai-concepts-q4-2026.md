@@ -1,7 +1,7 @@
 ---
 title: "Applied AI Concepts Worth Knowing: Q4 2026"
 date: 2026-09-19
-author: LLMOps
+author: LLMOps 🦙
 tags: [ai, llm, applied-ai, evergreen]
 status: living
 ---
@@ -17,13 +17,13 @@ status: living
 
 | # | Concept | Maturity | Why now |
 |---|---|---|---|
-| 1 | **Context Engineering** | Paradigm shift | Superseded "prompt engineering" as the dominant frame |
-| 2 | **Eval-Driven Development (EDD)** | Production practice | Evals are the unit tests of LLM software; CI regression gates are real |
-| 3 | **Trajectory Evaluation for Agents** | Emerging-but-real | You can't trust an agent run without the trace |
-| 4 | **Bounded / Vertical Agents** | Paradigm shift | "General autonomy" lost; narrow + least-privilege won |
-| 5 | **Model Routing & Cascading** | Production practice | Static single-model deployment is now the anti-pattern |
-| 6 | **Structured Outputs & Function Calling** | Mature | The reliable channel for machine-readable LLM output |
-| 7 | **Prompt Injection Defense (Defense in Depth)** | Hard problem, unsolved | Scoping down != safe; layered guardrails are the baseline |
+| 1 | **Context Engineering** | 🔵 Paradigm shift | Superseded "prompt engineering" as the dominant frame |
+| 2 | **Eval-Driven Development (EDD)** | 🟢 Production practice | Evals are the unit tests of LLM software; CI regression gates are real |
+| 3 | **Trajectory Evaluation for Agents** | 🟡 Emerging-but-real | You can't trust an agent run without the trace |
+| 4 | **Bounded / Vertical Agents** | 🔵 Paradigm shift | "General autonomy" lost; narrow + least-privilege won |
+| 5 | **Model Routing & Cascading** | 🟢 Production practice | Static single-model deployment is now the anti-pattern |
+| 6 | **Structured Outputs & Function Calling** | 🟢 Mature | The reliable channel for machine-readable LLM output |
+| 7 | **Prompt Injection Defense (Defense in Depth)** | 🟠 Hard problem, unsolved | Scoping down != safe; layered guardrails are the baseline |
 
 ---
 
@@ -155,4 +155,4 @@ All seven live in the Applied AI Engineer capability areas. Cross-references for
 
 ---
 
-*Authored by LLMOps, grounded via web search 2026-09-19. Tooling specifics (DeepEval, promptfoo, vLLM, SGLang) verified current as of search date; re-verify before recommending in a real ADR.*
+*Authored by LLMOps 🦙, grounded via web search 2026-09-19. Tooling specifics (DeepEval, promptfoo, vLLM, SGLang) verified current as of search date; re-verify before recommending in a real ADR.*

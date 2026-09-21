@@ -4,13 +4,13 @@ tags: [ai, claude, setup, tools]
 created: 2026-08-24
 ---
 
-# Claude Code: First-Time Setup Guide
+# 🤖 Claude Code: First-Time Setup Guide
 
 > Claude Code is Anthropic's official AI coding assistant that runs directly in your terminal, IDE, or as a desktop app. It can read, write, and reason about your codebase - including this Obsidian vault.
 
 ---
 
-## Where Claude Code Runs
+## 🚀 Where Claude Code Runs
 
 | Surface | How to Open |
 |---|---|
@@ -22,7 +22,7 @@ created: 2026-08-24
 
 ---
 
-## First-Time Setup Checklist
+## ⚙️ First-Time Setup Checklist
 
 ### 1. Model Selection
 - Open **Settings -> Model** in the app (or use `/config` in a terminal session)
@@ -58,7 +58,7 @@ created: 2026-08-24
 
 ---
 
-## Useful Slash Commands
+## 🛠️ Useful Slash Commands
 
 | Command | What It Does |
 |---|---|
@@ -71,7 +71,7 @@ created: 2026-08-24
 
 ---
 
-## Things Claude Code Can Do With Your Vault
+## 💡 Things Claude Code Can Do With Your Vault
 
 - **Search** across all your notes (`"find all notes tagged #fitness"`)
 - **Create** new notes in Obsidian markdown format
@@ -83,7 +83,7 @@ created: 2026-08-24
 
 ---
 
-## Privacy Tips
+## 🔒 Privacy Tips
 
 - Claude Code processes files locally; it sends content to Anthropic's API only when you ask it a question.
 - Sensitive notes (credentials, personal IDs) - keep them in a subfolder and exclude via `.gitignore` or tell Claude Code *"never read files in `personal/private`"*.
@@ -91,7 +91,7 @@ created: 2026-08-24
 
 ---
 
-## This Vault's Structure (Detected)
+## 📁 This Vault's Structure (Detected)
 
 ```
 oralita_md/
@@ -107,7 +107,7 @@ oralita_md/
 
 ---
 
-## Useful Links
+## 🔗 Useful Links
 
 - [Claude Code Docs](https://docs.anthropic.com/claude-code)
 - [Claude API Reference](https://docs.anthropic.com/api)

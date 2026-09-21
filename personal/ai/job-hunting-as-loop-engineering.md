@@ -5,7 +5,7 @@ created: 2026-09-17
 updated: 2026-09-17
 ---
 
-# Job-Hunting Loop: A Cloneable Loop-Engineering Template
+# 🔄 Job-Hunting Loop: A Cloneable Loop-Engineering Template
 
 > **The concept:** a scheduled agent loop that searches job boards, screens postings against *your* positioning, tailors *your* resume per job description, and drops application-ready PDFs into a review folder - with a human gate before anything leaves the loop.
 > **The product:** not a resume generator. A **loop-engineering reference implementation** anyone can clone, bring their own story, configure, and start. The resume tailoring is the workload; the machinery around it - bounds, verified state, maker/checker, human gates, frozen anchors - is the point.
@@ -47,7 +47,7 @@ Decisions 3 + 4 are what make this a **template**: everything personal is user-s
 
 ```mermaid
 flowchart TD
-    CRON["Trigger: scheduler, every 2h (config)"] --> FETCH["Source adapter: web search JobsDB<br/>(pluggable: RSS, career pages, alert emails)"]
+    CRON["⏰ Trigger: scheduler, every 2h (config)"] --> FETCH["Source adapter: web search JobsDB<br/>(pluggable: RSS, career pages, alert emails)"]
     FETCH --> DEDUP{"New posting?<br/>vs state/jobs.jsonl"}
     DEDUP -->|seen| SKIP["Skip - 0 model calls"]
     DEDUP -->|new| PRE["Deterministic pre-filter<br/>(location, seniority, excludes - from config)"]
@@ -56,12 +56,12 @@ flowchart TD
     SCREEN -->|"< low"| LOG2["Log: not-a-fit"]
     SCREEN -->|"mid band"| QUEUE["human-review.md (approvals queue)"]
     SCREEN -->|">= threshold"| TAILOR["Tailor: master resume + fact vault<br/>-> {company}_resume.yml (subset only)"]
-    TAILOR --> CHECK["Honesty checker:<br/>every claim traceable to the fact vault?"]
+    TAILOR --> CHECK["🚨 Honesty checker:<br/>every claim traceable to the fact vault?"]
     CHECK -->|fail| QUEUE
     CHECK -->|pass| BUILD["Resume build chain<br/>(yamlresume: yml -> tex -> pdf)"]
     BUILD --> VERIFY["Verify: PDF exists, validate passed,<br/><= max pages"]
     VERIFY -->|fail| RETRY["Retry once w/ backoff -> escalate"]
-    VERIFY -->|pass| OUT["targets/{company-name}_resume/<br/>pdf + yml + match-report.md"]
+    VERIFY -->|pass| OUT["📁 targets/{company-name}_resume/<br/>pdf + yml + match-report.md"]
     OUT --> NOTIFY["Run summary notification"]
 ```
 
@@ -85,14 +85,14 @@ job-hunting-loop/
   config.yml                    # cadence, sources, thresholds, caps, budgets
   AGENTS.md                     # engine instructions + red lines (honesty rules live here)
 
-  profile/                      # USER-SUPPLIED - created at onboarding, loop never writes here
+  profile/                      # 👤 USER-SUPPLIED - created at onboarding, loop never writes here
     _template/                #   blank templates + one filled example profile
     <firstname>.md            #   master fact vault: identity, roles, projects, metrics
     <firstname>-Positioning.md#   what "fit" means: target roles, market, must/have/nice
     <firstname>-Stories.md    #   STAR stories backing each claim (honesty cross-ref)
     resume.yml                #   master resume (yamlresume schema) - the tailoring source
 
-  engine/                       # THE LOOP - deterministic code + prompts (TypeScript, Bun runtime)
+  engine/                       # ⚙️ THE LOOP - deterministic code + prompts (TypeScript, Bun runtime)
     run.ts                    #   one run: fetch -> dedup -> filter -> screen -> tailor -> build -> verify
     sources/jobsdb.ts         #   source adapter (web search); interface for new adapters
     llm.ts                    #   model-call wrapper (screen/tailor/check), budget accounting
@@ -101,12 +101,12 @@ job-hunting-loop/
     prompts/check.md          #   honesty checker: claim -> vault trace or fail
     build.sh                  #   resume build chain (yamlresume -> tex -> pdf, reused from reference instance)
 
-  loop/state/                   # EXTERNAL STATE - survives every run
+  loop/state/                   # 📊 EXTERNAL STATE - survives every run
     jobs.jsonl                #   every posting seen: hash, status, score, timestamps
     runs.jsonl                #   every run: trigger, counts, cost, outcome
     human-review.md           #   the approvals queue (mid-band scores, checker failures)
 
-  targets/                      # OUTPUT - one folder per tailored job
+  targets/                      # 📁 OUTPUT - one folder per tailored job
       {company-name}_resume/
           {company}_resume.yml  #   the tailored subset
           {company}_resume.pdf  #   the deliverable

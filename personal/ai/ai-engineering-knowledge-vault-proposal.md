@@ -1,7 +1,7 @@
 ---
 title: "AI Engineering Knowledge Vault: Proposed Structure"
 date: 2026-09-19
-author: LLMOps
+author: LLMOps 🦙
 tags: [ai, vault, proposal, architecture, evergreen]
 status: draft
 ---
@@ -124,12 +124,12 @@ flowchart LR
 
 | Layer | Churn rate | Sourcing strategy | Re-verify cadence |
 |---|---|---|---|
-| 01 Foundations | Slow (years) | Textbooks - stable | Rarely |
-| 02 Core ML | Slow (years) | Textbooks + canonical papers | Yearly |
-| 03 Foundation Models | Medium (6-12 mo) | Papers + technical reports + docs | Quarterly |
-| 04 Applied AI Engineering | Fast (1-3 mo) | Books + **web search before citing** | Per-use |
-| 05 AI Ops | Medium | Docs + benchmarks | Quarterly |
-| 06 Governance | Medium (regulatory) | Official frameworks (NIST, ISO, EU) | On amendment |
+| 01 Foundations | 🔵 Slow (years) | Textbooks - stable | Rarely |
+| 02 Core ML | 🔵 Slow (years) | Textbooks + canonical papers | Yearly |
+| 03 Foundation Models | 🟡 Medium (6-12 mo) | Papers + technical reports + docs | Quarterly |
+| 04 Applied AI Engineering | 🟠 Fast (1-3 mo) | Books + **web search before citing** | Per-use |
+| 05 AI Ops | 🟡 Medium | Docs + benchmarks | Quarterly |
+| 06 Governance | 🟡 Medium (regulatory) | Official frameworks (NIST, ISO, EU) | On amendment |
 | 07 Specialized | Variable | Domain-specific | Per-domain |
 | 08 Practitioner | N/A - your work | First-hand | N/A |
 
@@ -172,7 +172,7 @@ Don't build all 8 pillars at once. Build in this order, matching your reading:
 
 ## Decision Points (things you should decide)
 
-> These are real architectural decisions - pick before building, like an ADR.
+> ⚠️ These are real architectural decisions - pick before building, like an ADR.
 
 1. **Sibling vault vs. sub-folder?**
  - Sibling vault (`F:\obsidian_note\ai-knowledge\`) -> isolation, clean git history, easy to share independently. **(my recommendation)**
@@ -207,7 +207,7 @@ Every note in this vault should have:
 - **Sources**: with verification date for fast-churn topics
 - **Where to go deeper**: the next note(s) to read
 
-> **Thai Speaker Traps:** where relevant, flag English AI terms that Thai speakers commonly misuse (e.g., "alignment" != การจัดตำแหน่ง in this context = การทำให้โมเดลเชื่อฟัง; "inference" != การอนุมานเชิงตรรกะ = การรันโมเดล). Same convention as your teaching vaults.
+> ⚠️ **Thai Speaker Traps:** where relevant, flag English AI terms that Thai speakers commonly misuse (e.g., "alignment" != การจัดตำแหน่ง in this context = การทำให้โมเดลเชื่อฟัง; "inference" != การอนุมานเชิงตรรกะ = การรันโมเดล). Same convention as your teaching vaults.
 
 ---
 
@@ -223,4 +223,4 @@ The reading list - the actual books/papers/courses to source from - is in `[[AI-
 
 ---
 
-*Drafted by LLMOps, 2026-09-19. Structure grounded in your existing `swe-knowledge/` conventions. Sources web-verified 2026-09-19.*
+*Drafted by LLMOps 🦙, 2026-09-19. Structure grounded in your existing `swe-knowledge/` conventions. Sources web-verified 2026-09-19.*

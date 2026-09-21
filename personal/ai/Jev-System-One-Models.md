@@ -6,7 +6,7 @@ updated: 2026-09-19
 sources: 4 (see bottom)
 ---
 
-# Jev & System One Models: What All the Buzz Is About
+# ⚡ Jev & System One Models: What All the Buzz Is About
 
 > **TL;DR:** "TypeSafe Jev" = **Jev**, the first public model from **TypeSafe AI** - a new model class they call **System One Models**. It is *not* an LLM: it generates **no text at all**. You send it program state + a set of typed questions, and it returns **type-safe, probabilistic decisions with calibrated confidence** in a single parallel pass. Claimed: 40-200x faster, ~400x cheaper than frontier LLMs on decision tasks, and **structurally incapable of hallucinating or making type errors**. Announced Sep 15, 2026, early access behind a waitlist.
 
@@ -94,7 +94,7 @@ Fun demos: Jev playing **Doom** at ~10 decisions/sec (~$7/hr), and **wikiracing*
 
 ---
 
-## 4. Skeptic's corner (read this before building on it)
+## 4. Skeptic's corner ⚠️ (read this before building on it)
 
 TypeSafe is unusually upfront about their own biases - and DataCamp adds more:
 
@@ -109,7 +109,7 @@ TypeSafe is unusually upfront about their own biases - and DataCamp adds more:
 
 ---
 
-## 5. Where it fits in an AI stack (the LLMOps read)
+## 5. Where it fits in an AI stack (the LLMOps read) 🎯
 
 This is the important part - Jev is **not an LLM replacement**. It's a **decision layer**, and it slots into patterns we already know:
 
@@ -146,7 +146,7 @@ The two **compose**: Jev as the fast, cheap, type-safe *if-statement layer*; the
 
 ---
 
-## 6. My take
+## 6. My take 💭
 
 The strategic bet is sharp: *"a lot of what people ask LLMs to do is structured decision-making dressed up as chat."* If that's right, the unit economics reset the automation question entirely - a $0.0004/decision with calibrated confidence is a **primitive**, not a feature. The ideas that will outlive the hype regardless of whether Jev itself wins: **typed probabilistic outputs as the software interface for AI**, **RLCD/calibration as a first-class training objective**, and **safety classification cheap enough to put in front of every tool call**.
 
@@ -156,10 +156,10 @@ Watch for: independent evals, price stability after early access, multimodal sta
 
 ## Sources
 
-- TypeSafe AI - *Introducing System One Models & Jev* (Diogo Almeida, Sep 15, 2026): https://typesafe.ai/blog/introducing-system-one-models-and-jev
-- LangChain - *Building a Harness with Jev* (Sep 17, 2026): https://www.langchain.com/blog/building-a-harness-with-jev
-- DataCamp - *Jev: TypeSafe's System One Model That Never Hallucinates* (Sep 16, 2026 - independent analysis + caveats): https://www.datacamp.com/blog/system-one-models-jev
-- TechCrunch - *A new kind of AI model from a ChatGPT inventor is thrilling developers* (Sep 18, 2026, Tim Fernholz): https://techcrunch.com/2026-09-18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
+- 🏠 TypeSafe AI - *Introducing System One Models & Jev* (Diogo Almeida, Sep 15, 2026): https://typesafe.ai/blog/introducing-system-one-models-and-jev
+- 🔗 LangChain - *Building a Harness with Jev* (Sep 17, 2026): https://www.langchain.com/blog/building-a-harness-with-jev
+- 🔍 DataCamp - *Jev: TypeSafe's System One Model That Never Hallucinates* (Sep 16, 2026 - independent analysis + caveats): https://www.datacamp.com/blog/system-one-models-jev
+- 📰 TechCrunch - *A new kind of AI model from a ChatGPT inventor is thrilling developers* (Sep 18, 2026, Tim Fernholz): https://techcrunch.com/2026-09-18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/
 
 ## Related in vault
 

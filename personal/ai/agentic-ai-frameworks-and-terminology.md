@@ -1,7 +1,7 @@
 ---
 title: "Agentic AI: Frameworks, Terminology, and Concepts (Q4 2026)"
 date: 2026-09-21
-author: LLMOps
+author: LLMOps 🦙
 tags: [ai, agents, agentic, frameworks, terminology, reference, harness-engineering, loop-engineering]
 status: living
 ---
@@ -133,7 +133,7 @@ Plus the operational patterns:
 | **Plan-and-execute** | Separate planner from executor agents |
 | **Evaluator-optimizer** | One agent generates, another critiques in a loop |
 
-> **The over-engineering trap:** most "multi-agent systems" in production are one agent + tools, or a simple pipeline. Add agents when a single agent's context/tools genuinely can't handle the scope - not because it sounds impressive.
+> ⚠️ **The over-engineering trap:** most "multi-agent systems" in production are one agent + tools, or a simple pipeline. Add agents when a single agent's context/tools genuinely can't handle the scope - not because it sounds impressive.
 
 ---
 
@@ -216,11 +216,11 @@ flowchart TD
 
 | Term | Question it answers | Status | Verdict |
 |---|---|---|---|
-| **Prompt engineering** | How do I phrase the instruction? | Established (2022-) | Real, but the *smallest* layer - now often treated as a subset of context engineering. Don't build a career on wording alone. |
-| **Context engineering** | What goes in the context window, and how is it curated? | Established (2025-) | The consensus successor frame (Karpathy). The actual daily work of an applied AI engineer. |
-| **Harness engineering** | What scaffolding surrounds the model - tools, permissions, context assembly, UX? | Emerging, trending hard (2026) | Genuinely useful. "The harness matters more than the model" is the 2026 insight. Systems engineering applied to agents. |
-| **Loop engineering** | How is the agent's cycle designed - trigger, action, check, exit, budget? | Emerging, trending (2026) | Genuinely useful. "Stop prompting the agent; design the loop that prompts it." The verifier/check step is the bottleneck. |
-| **Graph engineering** | How are states, nodes, and transitions wired? | Contested / rebrand | The weakest term. State machines are decades-old CS - "the name is new, the machinery is old." Fine as shorthand; don't pay for the rebrand. |
+| **Prompt engineering** | How do I phrase the instruction? | ✅ Established (2022-) | Real, but the *smallest* layer - now often treated as a subset of context engineering. Don't build a career on wording alone. |
+| **Context engineering** | What goes in the context window, and how is it curated? | ✅ Established (2025-) | The consensus successor frame (Karpathy). The actual daily work of an applied AI engineer. |
+| **Harness engineering** | What scaffolding surrounds the model - tools, permissions, context assembly, UX? | 🟢 Emerging, trending hard (2026) | Genuinely useful. "The harness matters more than the model" is the 2026 insight. Systems engineering applied to agents. |
+| **Loop engineering** | How is the agent's cycle designed - trigger, action, check, exit, budget? | 🟢 Emerging, trending (2026) | Genuinely useful. "Stop prompting the agent; design the loop that prompts it." The verifier/check step is the bottleneck. |
+| **Graph engineering** | How are states, nodes, and transitions wired? | 🟡 Contested / rebrand | The weakest term. State machines are decades-old CS - "the name is new, the machinery is old." Fine as shorthand; don't pay for the rebrand. |
 
 ### Failure modes by layer (the diagnostic that makes these words useful)
 
@@ -245,13 +245,13 @@ flowchart TD
 
 ## Part 9: Thai Speaker Traps (agentic edition)
 
-**"Agent"** != ตัวแทน/นายหน้า (business agent) = ระบบ AI ที่ตัดสินใจและลงมือทำเองในลูป
-**"Harness"** != สายรัด/บังเหียน (literal) = โครงสร้างที่ห่อโมเดลให้เป็นเอเจนต์ (tools + loop + context)
-**"Handoff"** != การส่งมอบงานแบบ manual = การส่งต่อการควบคุมระหว่างเอเจนต์อัตโนมัติ
-**"Trajectory"** != วิถีกระสุน (physics) = บันทึกทุก step ของการรันเอเจนต์
-**"Checkpoint"** != จุดตรวจ (security) = การบันทึก state ของเอเจนต์เพื่อ pause/resume
-**"Harness engineering"** != การทำสายรัด = การออกแบบโครงสร้างที่ห่อโมเดล (tools + loop + context)
-**"Loop engineering"** != การเขียนลูป for/while = การออกแบบวงจรเอเจนต์ (trigger -> action -> check -> exit -> budget)
+⚠️ **"Agent"** != ตัวแทน/นายหน้า (business agent) = ระบบ AI ที่ตัดสินใจและลงมือทำเองในลูป
+⚠️ **"Harness"** != สายรัด/บังเหียน (literal) = โครงสร้างที่ห่อโมเดลให้เป็นเอเจนต์ (tools + loop + context)
+⚠️ **"Handoff"** != การส่งมอบงานแบบ manual = การส่งต่อการควบคุมระหว่างเอเจนต์อัตโนมัติ
+⚠️ **"Trajectory"** != วิถีกระสุน (physics) = บันทึกทุก step ของการรันเอเจนต์
+⚠️ **"Checkpoint"** != จุดตรวจ (security) = การบันทึก state ของเอเจนต์เพื่อ pause/resume
+⚠️ **"Harness engineering"** != การทำสายรัด = การออกแบบโครงสร้างที่ห่อโมเดล (tools + loop + context)
+⚠️ **"Loop engineering"** != การเขียนลูป for/while = การออกแบบวงจรเอเจนต์ (trigger -> action -> check -> exit -> budget)
 
 ---
 
@@ -285,4 +285,4 @@ flowchart TD
 
 ---
 
-*Authored by LLMOps, 2026-09-21. Framework landscape web-verified on date shown. Re-verify versions before citing in any ADR - this layer churns monthly.*
+*Authored by LLMOps 🦙, 2026-09-21. Framework landscape web-verified on date shown. Re-verify versions before citing in any ADR - this layer churns monthly.*

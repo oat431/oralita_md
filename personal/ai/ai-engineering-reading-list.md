@@ -1,7 +1,7 @@
 ---
 title: "AI Engineering Vault: Curated Reading List"
 date: 2026-09-19
-author: LLMOps
+author: LLMOps 🦙
 tags: [ai, vault, reading-list, sources, evergreen]
 status: draft
 ---
@@ -195,4 +195,4 @@ Tier 0: AI Engineering (Huyen) -> Hands-On LLMs (Alammar)
 
 ---
 
-*Curated by LLMOps, 2026-09-19. Sources web-verified on date shown. This list is a living document - add sources as you read, re-verify before citing in production work.*
+*Curated by LLMOps 🦙, 2026-09-19. Sources web-verified on date shown. This list is a living document - add sources as you read, re-verify before citing in production work.*
