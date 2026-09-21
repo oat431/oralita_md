@@ -1,16 +1,16 @@
 ---
-title: Claude Code — First-Time Setup Guide
+title: "Claude Code: First-Time Setup Guide"
 tags: [ai, claude, setup, tools]
 created: 2026-08-24
 ---
 
-# 🤖 Claude Code — First-Time Setup Guide
+# Claude Code: First-Time Setup Guide
 
-> Claude Code is Anthropic's official AI coding assistant that runs directly in your terminal, IDE, or as a desktop app. It can read, write, and reason about your codebase — including this Obsidian vault.
+> Claude Code is Anthropic's official AI coding assistant that runs directly in your terminal, IDE, or as a desktop app. It can read, write, and reason about your codebase - including this Obsidian vault.
 
 ---
 
-## 🚀 Where Claude Code Runs
+## Where Claude Code Runs
 
 | Surface | How to Open |
 |---|---|
@@ -22,10 +22,10 @@ created: 2026-08-24
 
 ---
 
-## ⚙️ First-Time Setup Checklist
+## First-Time Setup Checklist
 
 ### 1. Model Selection
-- Open **Settings → Model** in the app (or use `/config` in a terminal session)
+- Open **Settings -> Model** in the app (or use `/config` in a terminal session)
 - Default is **Sonnet** (fast + capable). Upgrade to **Opus** for harder tasks.
 
 ### 2. Set Your Working Directory
@@ -40,7 +40,7 @@ created: 2026-08-24
 ### 4. Memory (Persistent Facts)
 - Claude Code has file-based memory at `~/.claude/projects/<vault-path>/memory/`
 - It saves things you tell it to remember between sessions.
-- Start a session and say *"Remember that I prefer Thai for casual notes and English for technical ones"* — it will save it.
+- Start a session and say *"Remember that I prefer Thai for casual notes and English for technical ones"* - it will save it.
 
 ### 5. CLAUDE.md (Project-Level Instructions)
 - Create a file called `CLAUDE.md` at the root of any project.
@@ -48,7 +48,7 @@ created: 2026-08-24
 - Use it to give standing instructions:
 
 ```markdown
-# CLAUDE.md — oralita_md vault
+# CLAUDE.md: oralita_md vault
 
 - Prefer Obsidian-flavoured markdown (use [[wikilinks]])
 - Thai language is fine for personal notes; use English for technical content
@@ -58,7 +58,7 @@ created: 2026-08-24
 
 ---
 
-## 🛠️ Useful Slash Commands
+## Useful Slash Commands
 
 | Command | What It Does |
 |---|---|
@@ -71,7 +71,7 @@ created: 2026-08-24
 
 ---
 
-## 💡 Things Claude Code Can Do With Your Vault
+## Things Claude Code Can Do With Your Vault
 
 - **Search** across all your notes (`"find all notes tagged #fitness"`)
 - **Create** new notes in Obsidian markdown format
@@ -79,35 +79,35 @@ created: 2026-08-24
 - **Refactor** your folder structure
 - **Generate** templates following your existing style
 - **Automate** repetitive writing tasks (e.g. creating overview files)
-- **Run Git** — your vault uses `obsidian-git`, so Claude can commit and push
+- **Run Git**: your vault uses `obsidian-git`, so Claude can commit and push
 
 ---
 
-## 🔒 Privacy Tips
+## Privacy Tips
 
 - Claude Code processes files locally; it sends content to Anthropic's API only when you ask it a question.
-- Sensitive notes (credentials, personal IDs) — keep them in a subfolder and exclude via `.gitignore` or tell Claude Code *"never read files in `personal/private`"*.
+- Sensitive notes (credentials, personal IDs) - keep them in a subfolder and exclude via `.gitignore` or tell Claude Code *"never read files in `personal/private`"*.
 - You can revoke permissions at any time.
 
 ---
 
-## 📁 This Vault's Structure (Detected)
+## This Vault's Structure (Detected)
 
 ```
 oralita_md/
-├── personal/
-│   ├── ai/          ← you are here
-│   ├── musical/     ← song lyrics & musical notes
-│   └── note/        ← personal notes (TH + EN)
-├── fitness/         ← gym knowledge, meal templates
-├── home-lab/        ← infrastructure / DNS notes
-├── templates/       ← finance, writing templates
-└── .obsidian/       ← Obsidian config (git plugin active)
+  personal/
+    ai/          <- you are here
+    musical/     <- song lyrics & musical notes
+    note/        <- personal notes (TH + EN)
+  fitness/         <- gym knowledge, meal templates
+  home-lab/        <- infrastructure / DNS notes
+  templates/       <- finance, writing templates
+  .obsidian/       <- Obsidian config (git plugin active)
 ```
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 - [Claude Code Docs](https://docs.anthropic.com/claude-code)
 - [Claude API Reference](https://docs.anthropic.com/api)
