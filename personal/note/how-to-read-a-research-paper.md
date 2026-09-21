@@ -492,6 +492,8 @@ The chain rarely goes on forever. Most topics in computing trace back to somewhe
 - [[Test-Driven Development]]: the paradigm this workflow builds on
 - [[LiveCodeBench]]: the benchmark dataset used
 - [[empirical-software-engineering]]: the methodological tradition (ACM SIGSOFT standards)
+- [[root-of-all-knowledge]]: the philosophical continuation of this note (what lies past the end of every citation chain)
+- [[knowledge-communication]]: the professions that turn knowledge into easy words (science communicators, technical writers, and more).
 
 ## Key takeaways
 
