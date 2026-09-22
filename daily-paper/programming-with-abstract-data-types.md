@@ -127,7 +127,6 @@ The MIT structured programming language described here grew into CLU (Liskov et 
 
 - Source PDF: `F:/papers/Programming with Abgstract Data Types.pdf`
 - DOI: https://doi.org/10.1145/942572.807045
-- More paper summaries in this folder: [[examining-brain-activity-while-playing-computer-games]], [[deepseek-llm-scaling-with-longtermism]], [[spec-driven-development-from-code-to-contract]], [[understanding-specification-driven-code-generation-with-llms]], [[qwen-technical-report/00_Overview]]
 
 ---
 

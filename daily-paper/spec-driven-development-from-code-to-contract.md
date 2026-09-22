@@ -142,9 +142,8 @@ Three things SDD adds (p. 7): executable specifications (BDD scenarios, contract
 
 - Source PDF: `F:/papers/Spec-Driven Development From Code to Contract in the Age of AI Conding Assistants.pdf`
 - arXiv: https://arxiv.org/abs/2602.00180
-- Sibling summary: [[understanding-specification-driven-code-generation-with-llms]] (Rosa et al., SANER 2026), the empirical companion to this practitioner guide.
+- Companion paper: [[understanding-specification-driven-code-generation-with-llms]] (Rosa et al., SANER 2026), the empirical companion to this practitioner guide.
 - Cross-vault: agent-driven development checklist at `F:/obsidian_note/swe-knowledge/checklist/ai-checklist/general-agents-driven.md` (contracts such as openapi.yaml feeding generated types).
-- More paper summaries in this folder: [[deepseek-llm-scaling-with-longtermism]], [[qwen-technical-report/00_Overview]]
 
 ---
 

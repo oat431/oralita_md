@@ -92,7 +92,6 @@ A required third-year course in the Software Engineering (International) Program
 ## Related
 
 - Source PDF: `F:/papers/Software Requirement Workshops and Outcomes Experienced from software requirement analysis course for undergraduate.pdf`
-- More paper summaries in this folder: [[programming-with-abstract-data-types]], [[examining-brain-activity-while-playing-computer-games]], [[deepseek-llm-scaling-with-longtermism]], [[spec-driven-development-from-code-to-contract]], [[understanding-specification-driven-code-generation-with-llms]], [[qwen-technical-report/00_Overview]]
 
 ---
 

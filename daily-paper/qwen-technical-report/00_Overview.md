@@ -74,7 +74,6 @@ Reading paths:
 ## Related
 
 - Set files: [[01_Pretraining]], [[02_Alignment_and_Agents]], [[03_Specialized_Models]], [[04_Evaluation]]
-- Sibling summary: [[deepseek-llm-scaling-with-longtermism]] (DeepSeek LLM scaling-laws paper)
 - Source PDF: `F:/papers/Qwen Technical Report.pdf`; official code and weights: `https://github.com/QwenLM/Qwen` (released with the report, p. 4)
 
 ---

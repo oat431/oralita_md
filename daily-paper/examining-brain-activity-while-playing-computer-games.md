@@ -109,7 +109,6 @@ The authors acknowledge: only three games and a modest, male-dominated sample (2
 
 - Source PDF: `F:/papers/examining-brain-activity-while-playing-computer-games-2016.pdf`
 - DOI: https://doi.org/10.1007/s12193-015-0205-4
-- More paper summaries in this folder: [[deepseek-llm-scaling-with-longtermism]], [[spec-driven-development-from-code-to-contract]], [[understanding-specification-driven-code-generation-with-llms]], [[qwen-technical-report/00_Overview]]
 
 ---
 

@@ -103,7 +103,7 @@ Three contributions (p. 6): a reproducible task protocol on LiveCodeBench, a fin
 
 ## Related
 
-- [[spec-driven-development-from-code-to-contract]]: the practitioner guide this study empirically tests (sibling summary in this folder).
+- Companion paper: [[spec-driven-development-from-code-to-contract]], the practitioner guide this study empirically tests.
 - [[how-to-read-a-research-paper]]: reading-method note that uses this paper as its running example.
 - Source PDF: `F:/papers/Understanding Specification-Driven Code Generation with LLMs An Empirical Study Design.pdf`
 - arXiv: https://arxiv.org/abs/2601.03878

@@ -91,7 +91,6 @@ Reading the table:
 - [[02_Alignment_and_Agents]]: how these base models became chat models
 - [[03_Specialized_Models]]: Code-Qwen and Math-Qwen build on this base
 - [[04_Evaluation]]: full benchmark tables and the appendix deep-dive
-- Sibling summary in this folder's parent: [[deepseek-llm-scaling-with-longtermism]]
 
 ---
 
