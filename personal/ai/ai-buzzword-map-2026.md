@@ -18,14 +18,14 @@ status: living
 
 Before the list - the single most useful observation: **AI terminology doesn't appear one word at a time. It emerges in recognizable families/waves.** Once you see the pattern, you can predict and evaluate new words on sight.
 
-| Wave | Family | Examples | Era |
-|---|---|---|---|
-| **Engineering stack** | "-X engineering" | prompt -> context -> harness -> loop -> graph engineering | 2023-2026 |
-| **Agentic wave** | "agent-*" | agents, subagents, agent skills, ambient agents, agentic RAG, agentic commerce, AX | 2024-2026 |
-| **Slop family** | "slop*" | AI slop, slopaganda, slopsquatting | 2024-2026 |
-| **Washing family** | "-washing" | AI washing, agent washing | 2024-2026 |
-| **Maxxing family** | "-maxxing" | tokenmaxxing | 2025-2026 |
-| **Frontier/econ** | "AI + noun" | AI capex, neoclouds, inference economics, physical AI | 2025-2026 |
+| Wave                  | Family           | Examples                                                                           | Era       |
+| --------------------- | ---------------- | ---------------------------------------------------------------------------------- | --------- |
+| **Engineering stack** | "-X engineering" | prompt -> context -> harness -> loop -> graph engineering                          | 2023-2026 |
+| **Agentic wave**      | "agent-*"        | agents, subagents, agent skills, ambient agents, agentic RAG, agentic commerce, AX | 2024-2026 |
+| **Slop family**       | "slop*"          | AI slop, slopaganda, slopsquatting                                                 | 2024-2026 |
+| **Washing family**    | "-washing"       | AI washing, agent washing                                                          | 2024-2026 |
+| **Maxxing family**    | "-maxxing"       | tokenmaxxing                                                                       | 2025-2026 |
+| **Frontier/econ**     | "AI + noun"      | AI capex, neoclouds, inference economics, physical AI                              | 2025-2026 |
 
 > **Why this matters:** when a new word appears, ask "which family is it in?" A new "-washing" term is a criticism of marketing. A new "-engineering" term claims a discipline. A new "agent-*" term claims a capability. The family tells you the intent before the definition.
 
