@@ -12,6 +12,7 @@ status: living
 > **Short answer:** Yes - LangChain/LangGraph are **agent orchestration frameworks**. But they're one category in a larger ecosystem: frameworks, protocols, memory layers, harnesses, and eval tools. This note maps the whole thing.
 > **Verification:** All facts web-checked 2026-09-21. Frameworks churn fast - re-verify versions before citing in an ADR.
 > **Update:** Added **Part 8** - the "-X engineering" family (prompt -> context -> harness -> loop -> graph), with honest status labels: established vs emerging vs rebrand.
+> **Companion:** The tool landscape around this (routers vs harnesses vs assistant platforms) is mapped in [[ai-tools-landscape-2026]].
 
 ---
 
