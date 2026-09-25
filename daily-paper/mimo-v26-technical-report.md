@@ -179,6 +179,7 @@ The systems half of the report, compressed to its names and ideas:
 
 ## Related
 
+- Benchmark paper: [[deepswe-measuring-frontier-coding-agents]] (Huang et al., Datacurve, 2026), the original DeepSWE report; MiMo-V2.6's headline coding metric (DeepSWE v1.1) is its refreshed corpus from the same team.
 - Source PDF: `F:/papers/MiMo_V2_6_technical_report.pdf`
 - Training log: https://mimo.xiaomi.com/rl/mimo-v26 | Distilled model: `https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B`
 - Related vault material: `F:/obsidian_note/ai-knowledge/03_Foundation_Models_and_LLMs/`
