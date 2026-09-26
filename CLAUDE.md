@@ -75,7 +75,7 @@ This vault holds personal notes, health data, financial plans, and private writi
 | Software engineering | `F:\obsidian_note\swe-knowledge\` |
 | SWE career path (Senior SWE) | `F:\obsidian_note\swe-knowledge\career-path\02_Senior_Software_Engineer\` |
 | SWEBOK / SEBoK / BABOK / PMBOK / CyBOK | `F:\obsidian_note\swe-knowledge\body-of-knowledge\` |
-| Document templates | `F:\obsidian_note\swe-knowledge\document-template\` |
+| Document templates | `F:\obsidian_note\document_template\` |
 | Software engineering notes | `F:\obsidian_note\swe-knowledge\software-engineering-note\` |
 
 ---
