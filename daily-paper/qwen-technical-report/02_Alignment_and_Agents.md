@@ -68,7 +68,7 @@ Three evaluation areas:
 - [[01_Pretraining]]: the base models this alignment starts from
 - [[04_Evaluation]]: human-eval gallery and benchmark deep-dive
 - [[03_Specialized_Models]]: the code and math specialists
-- [[00_Overview]]: the set map
+- [[daily-paper/qwen-technical-report/00_Overview]]: the set map
 
 ---
 

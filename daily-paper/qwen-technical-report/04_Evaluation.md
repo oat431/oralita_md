@@ -83,7 +83,7 @@ The closing figure compares QWEN-CHAT with CodeLlama on a plotting task over a C
 ## Related
 
 - [[01_Pretraining]] / [[02_Alignment_and_Agents]] / [[03_Specialized_Models]]: headline numbers for each family
-- [[00_Overview]]: the set map and reading paths
+- [[daily-paper/qwen-technical-report/00_Overview]]: the set map and reading paths
 
 ---
 

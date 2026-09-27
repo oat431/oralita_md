@@ -61,9 +61,9 @@ Those figures do not mean the XM5 needs the larger output. The XM5 is a powered 
 
 ## Related notes
 
-- [[knowledge/08-4.4mm-Balanced-Audio]]
-- [[knowledge/02-DAC-Amplifier-and-Output-Power]]
-- [[setup/07-Sony-WH1000XM5-Setup]]
+- [[08-4.4mm-Balanced-Audio]]
+- [[02-DAC-Amplifier-and-Output-Power]]
+- [[07-Sony-WH1000XM5-Setup]]
 
 ## Sources
 

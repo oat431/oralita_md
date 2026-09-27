@@ -30,10 +30,10 @@ A practical, measurement-first guide for understanding personal audio without bu
 
 ## Personal lab
 
-- Current owned gear: [[../setup/01-Windows-IEM-Listening-Setup]]
-- Phone/UAPP setup: [[../setup/04-Redmi-UAPP-MX1-Setup]]
-- UAPP settings: [[../setup/05-UAPP-Settings-Reference]]
-- HyperOS effects: [[../setup/06-HyperOS-Audio-Effects]]
-- Sony WH-1000XM5: [[../setup/07-Sony-WH1000XM5-Setup]]
-- MX1 output compatibility: [[../setup/08-MX1-Output-Compatibility]]
-- Xiaomi Buds 5 Pro: [[../setup/09-Xiaomi-Buds-5-Pro-Setup]]
+- Current owned gear: [[01-Windows-IEM-Listening-Setup]]
+- Phone/UAPP setup: [[04-Redmi-UAPP-MX1-Setup]]
+- UAPP settings: [[05-UAPP-Settings-Reference]]
+- HyperOS effects: [[06-HyperOS-Audio-Effects]]
+- Sony WH-1000XM5: [[07-Sony-WH1000XM5-Setup]]
+- MX1 output compatibility: [[08-MX1-Output-Compatibility]]
+- Xiaomi Buds 5 Pro: [[09-Xiaomi-Buds-5-Pro-Setup]]

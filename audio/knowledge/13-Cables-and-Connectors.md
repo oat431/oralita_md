@@ -144,8 +144,8 @@ A cable is a mechanical part you touch every day, so quality matters — for dur
 
 ## Related notes
 
-- [[knowledge/08-4.4mm-Balanced-Audio]]
-- [[knowledge/12-Audio-Decision-Matrix]]
-- [[knowledge/01-Audio-Signal-Chain]]
-- [[knowledge/11-Listening-and-A-B-Testing]]
-- [[setup/08-MX1-Output-Compatibility]]
+- [[08-4.4mm-Balanced-Audio]]
+- [[12-Audio-Decision-Matrix]]
+- [[01-Audio-Signal-Chain]]
+- [[11-Listening-and-A-B-Testing]]
+- [[08-MX1-Output-Compatibility]]

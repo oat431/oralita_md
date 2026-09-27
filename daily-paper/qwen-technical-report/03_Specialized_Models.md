@@ -64,7 +64,7 @@ The report's reading: the 7B beats Minerva-8B on MATH (17.2 versus 14.1); the 14
 - [[01_Pretraining]]: the base models these lines continue from
 - [[02_Alignment_and_Agents]]: alignment techniques reused for the specialists
 - [[04_Evaluation]]: full evaluation material
-- [[00_Overview]]: the set map
+- [[daily-paper/qwen-technical-report/00_Overview]]: the set map
 
 ---
 

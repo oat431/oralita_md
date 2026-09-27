@@ -87,7 +87,7 @@ Reading the table:
 
 ## Related
 
-- [[00_Overview]]: the set map and reading paths
+- [[daily-paper/qwen-technical-report/00_Overview]]: the set map and reading paths
 - [[02_Alignment_and_Agents]]: how these base models became chat models
 - [[03_Specialized_Models]]: Code-Qwen and Math-Qwen build on this base
 - [[04_Evaluation]]: full benchmark tables and the appendix deep-dive
