@@ -53,9 +53,9 @@ From Wikipedia's *Wish* and charm traditions — each is a potential **format** 
 ## Roadmap (numbered per vault convention)
 
 - [x] `00_overview.md` — this file
-- [ ] `01-Luck-Wishes.md` — the gacha branch; runes, omikuji, charms, lucky-posture rituals
-- [ ] `02-Love-Wishes.md`
-- [ ] `03-Health-Wishes.md`
+- [x] `01-Luck-Wishes.md` — the gacha branch; runes, omikuji, charms, lucky-posture rituals
+- [x] `02-Love-Wishes.md`
+- [x] `03-Health-Wishes.md`
 - [ ] `04-Prosperity-Wishes.md`
 - [ ] `05-Protection-Wishes.md`
 - [ ] `06-New-Beginnings-Wishes.md`
