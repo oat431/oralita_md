@@ -2,12 +2,45 @@
 title: "Programming with Abstract Data Types"
 tags: [paper, programming-languages, abstract-data-types, encapsulation, classics]
 created: 2026-09-21
+revised: 2026-09-23
 source: "Liskov, Zilles; ACM SIGPLAN Notices 9(4), April 1974, pp. 50–59; DOI 10.1145/942572.807045; PDF: F:/papers/Programming with Abgstract Data Types.pdf"
 ---
 
 # Programming with Abstract Data Types
 
 > *Paper: Barbara Liskov (MIT Project MAC) and Stephen Zilles (IBM Cambridge Systems Group). "Programming with abstract data types." ACM SIGPLAN Notices 9(4), April 1974 (Proceedings of the ACM SIGPLAN Symposium on Very High Level Languages), pp. 50–59, DOI 10.1145/942572.807045. Page numbers below are the journal's printed pages (50–59); PDF page = printed page − 49. The source PDF is an old scan with an imperfect OCR text layer; quotes were verified modulo OCR artifacts.*
+
+## What Is This Paper, In Plain Words
+
+In 1974, two researchers wrote the paper that gave the programming world the phrase "abstract data type." Before this, hiding the messy internals of your code was good advice. After this, it became a language feature. That is a big claim for a ten-page paper, but it holds up: every interface, every class with private fields, every module that says "talk to me only through these functions" is a descendant of what Liskov and Zilles described here.
+
+So what is an abstract data type? Think of a coffee machine. You do not need to know how the boiler is wired, what pressure the pump runs at, or how the grinder is calibrated. You need to know the buttons: brew, steam, off. Press a button, get predictable coffee. If the manufacturer redesigns the pump next year, your routine at the machine does not change one bit, because you only ever touched the buttons.
+
+That is exactly the idea. An abstract data type is a kind of thing, like a stack or a file or a token, that you define entirely by its buttons (its operations) and never by its wiring (its internal representation). The paper's definition: an abstract data type "defines a class of abstract objects which is completely characterized by the operations available on those objects" (p. 51). In other words, a type is what it does, full stop. How it does it is nobody else's business.
+
+The crucial twist, and the part that separates this paper from earlier information-hiding work, is enforcement. Liskov and Zilles did not just recommend hiding your wiring; they designed a language construct, the operation cluster, that makes the wiring physically unreachable from outside. It is not "please do not touch the pump," it is "there is no panel to remove." As the paper puts it, "the way in which the abstraction is implemented is irrelevant" (p. 51), and the language makes that irrelevance a fact instead of a promise.
+
+Their second big observation is about language design itself. The authors point out a trap every language designer falls into: no matter how many built-in types you ship (integers, arrays, files), somebody will need an abstraction you never imagined. "It is unlikely that any language, no matter how high-level, contains all the abstractions which any person working in it would require" (p. 59). So instead of a bigger fixed vocabulary, the language should hand programmers the tool for inventing their own vocabulary. The cluster is that tool.
+
+There is also a surprise buried in the running example. The paper builds a stack that works for any kind of element: you declare `s : stack(token)` and get a stack of tokens. The stack is defined once, with `element_type` as a parameter. That is generics, that is parametric polymorphism, in 1974, decades before most programmers had ever used a templated collection.
+
+The whole thing is anchored by one worked example: Polish_gen, a small program that translates ordinary math expressions (infix) into Polish postfix notation. It is built entirely out of custom types (input file, output file, grammar, stack, token) plus one plain function. The example does double duty: it shows how to use abstract types as a programmer, then flips around and shows how to define them with a cluster, including the stack's representation, creation code, and operations.
+
+## Why You Should Care
+
+You already write code this way, probably without knowing whose idea it was.
+
+- **Every interface you implement, every private field, every module boundary you respect is a cluster descendant.** When you program against an interface and never peek at the implementation, you are living inside the rule this paper formalized: the type is its operations, nothing more (p. 51).
+- **It moved hiding from etiquette to enforcement.** Earlier work (Parnas's information distribution, which the paper cites) said hiding is wise. This paper said the language should make leakage impossible. That is the design philosophy behind `private`, behind sealed modules, behind "program to an interface, not an implementation."
+- **Generics are older than you think.** The stack-of-anything example, with its rule that you can only push a T onto a stack of T (pp. 54, 57), is the original form of the type-consistency checks your compiler runs on every generic collection today.
+- **The performance story is the modern one.** The authors argue you should design for clear logical structure and let the compiler map it onto fast physical structure, including inlining operations away entirely: "We believe it is the business of the compiler to map good logical structure into good physical structure" (p. 57). That is the zero-cost abstraction argument, 50 years early.
+- **It is the seed of CLU, and CLU shaped everything after.** The simplified language described here grew into MIT's CLU, whose clusters, iterators, and exceptions flowed into Java, Python, C#, and the rest of the modern family tree.
+
+Fifty-two years later, the paper reads less like history and more like a job description you have been quietly following your whole career. The dense details, including the full Polish_gen walkthrough, the cluster anatomy, and the verbatim quotes, are all in the appendix below.
+
+---
+
+# Appendix: The Dense Details
 
 ## TL;DR
 
@@ -56,7 +89,7 @@ flowchart TD
 Three language points worth noting:
 
 - **Declaration syntax separates naming from creation**: `t : token` names a variable with no object created, while `s : stack(token)` creates a stack whose element type is the parameter token, in the same spirit as an array declaration (pp. 52–53).
-- **Operation calls are compound names**: `grammar$eof(g)`, `stack$push(s, t)`, `token$is_op(t)`. The type name comes first, and an operation call always has at least one parameter of the type to which the operation belongs. The paper gives three reasons for the prefix: disambiguation when several parameters have different abstract types, freedom for different types to reuse operation names without clashes, and readability (pp. 53–54).
+- **Operation calls are compound names**: `grammar$eof(g)`, `stack$push(s, t)`, `token$is_op(t)`. The type name comes first, and an operation call always has at least one parameter of the type to which the operation belongs. The paper gives three reasons for the prefix: disambiguation when several parameters have different abstract types, freedom for different types to reuse operation names without clashes, and readability (pp. 53–54). (The scan's OCR renders some of these compound names imperfectly, e.g. `token$is__op` and `grammar$prec_rel` appear with OCR noise; identifiers above are the repaired forms.)
 - **The power of the abstractions**: Polish_gen knows nothing about input or output devices, when I/O happens, or how characters are represented. For output it knows only outfile$out_str and outfile$close; for input, infile$get, infile$peek, and infile$eof (p. 54).
 
 ## Defining Abstract Data Types: the Cluster
@@ -71,7 +104,7 @@ The body has three parts (pp. 54–55):
 2. **The create code**: runs when an object of the type is created. The cluster is viewed as a procedure whose body is the create code; cluster parameters are its parameters, so any parameter information to be retained must be explicitly stored in the rep.
 3. **The operation definitions**: like ordinary procedures, but with access to the rep so they can decompose objects. Operations are not modules themselves: the translator accepts them only inside a cluster. Each operation has at least one parameter of type rep, which identifies the object being operated on; across the boundary, that parameter's type changes between the abstract type and rep (p. 55).
 
-Strong typing does real work here: the type of a value pushed onto a stack must match the stack's e_type, and the translator can generate code to verify the match at run time and raise an error if it fails (p. 55).
+Strong typing does real work here: the type of a value pushed onto a stack must match the stack's e_type, and the translator can generate code to verify the match at run time and raise an error if it fails (p. 55). The paper states push's consistency rule: "if the type of the stack is "stack of T," the value pushed must be of type T" (p. 57).
 
 ## Controlling the Use of Information
 
@@ -92,7 +125,7 @@ The paper positions clusters against three strands (pp. 56–57):
 ## Implementation Considerations
 
 - **Description units**: each module's interface, parameter types, and list of users are recorded in a description unit, addressable through a directory of module names. This supports top-down design (a unit can exist before its module), recursion, delayed definitions, consistency checking at definition time, and even stub simulation for debugging; the directory and file system sit in a MULTICS-like tree-structured file system (pp. 56–57).
-- **Type checking**: strong checking is enforced across separately compiled modules. When an object of the cluster's abstract type is passed to one of its operations, its type changes to rep for that cluster: the type checker controls exactly where the representation is visible. User-defined type generators such as stack make some operations polymorphic, with consistency rules like "if the stack is stack of T, the pushed value must be of type T". The design relies on run-time type checking, augmented by as much compile-time checking as possible, and cites Morris's protection technique (from operating-systems work) and the anticipation of Reynolds's complete compile-time checking (pp. 57–58).
+- **Type checking**: strong checking is enforced across separately compiled modules. When an object of the cluster's abstract type is passed to one of its operations, its type changes to rep for that cluster: the type checker controls exactly where the representation is visible. User-defined type generators such as stack make some operations polymorphic, with consistency rules like the push rule quoted above (if the stack is a stack of T, the value pushed must be of type T). The design relies on run-time type checking, augmented by as much compile-time checking as possible, and cites Morris's protection technique (from operating-systems work) and the anticipation of Reynolds's complete compile-time checking (pp. 57–58).
 - **Retention and efficiency**: activations use a stack discipline; objects live in a heap; all retained or shared information is stored in a rep. Efficiency follows from the separation of logical and physical structure: the compiler's business is to map the good logical structure into a good physical one, replacing operation calls with inline code where profitable. Inline expansion enables standard optimizations (compile-time evaluation, common subexpression elimination) and can eliminate checks such as the stack's empty-check when the surrounding program makes them redundant; the description unit's list of uses enables automatic recompilation when a module changes (pp. 57–58).
 
 ## Conclusions
@@ -130,4 +163,4 @@ The MIT structured programming language described here grew into CLU (Liskov et 
 
 ---
 
-*Summary written 2026-09-21. Page numbers are the journal's printed pages (50–59), footer-verified against the scan. Venue, year, and DOI verified against the ACM Digital Library record. Quotes are verbatim modulo the scan's OCR artifacts (spacing and hyphenation); everything else is own-words paraphrase. The "Context (external)" section is supplemental, not source-derived.*
+*Summary written 2026-09-21; restructured into plain-language body plus dense appendix 2026-09-23. Page numbers are the journal's printed pages (50–59), footer-verified against the scan. Venue, year, and DOI verified against the ACM Digital Library record. Quotes are verbatim modulo the scan's OCR artifacts (spacing and hyphenation); everything else is own-words paraphrase. The "Context (external)" section is supplemental, not source-derived.*

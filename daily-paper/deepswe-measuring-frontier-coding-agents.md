@@ -2,26 +2,51 @@
 title: "DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks"
 tags: [paper, benchmark, coding-agents, software-engineering, evaluation]
 created: 2026-09-23
+revised: 2026-09-23
 source: "Huang, Lee, Tng, Ge (Datacurve); DeepSWE technical report, May 2026; arXiv:2607.07946v1 [cs.SE], 32 pp.; PDF: F:/papers/DeepSWE.pdf"
 ---
 
 # DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks
 
-> *Paper: Wenqi Huang, Charley Lee, Leonard Tng, Serena Ge (Datacurve). "DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks." May 2026; arXiv:2607.07946v1 [cs.SE], 8 Jul 2026, 32 pp. Page numbers below are the paper's printed pages, identical to the PDF pages. Benchmark, verifiers, and full trajectory record: `https://github.com/datacurve-ai/deep-swe`, browser at `https://deepswe.datacurve.ai/`.*
-
 ## TL;DR
 
-DeepSWE is a 113-task coding-agent benchmark that attacks the two structural weaknesses of the SWE-bench lineage at once. First, contamination: every task is authored from scratch and never merged upstream, so no reference solution exists in the public commit record that pretraining scrapes, and the task container ships only a shallow clone at the base commit (no `.git` history to mine). Second, grading: instead of inheriting the tests that shipped with some merged pull request, each task gets a hand-written functional verifier that asserts observable behavior through public APIs, so any implementation providing the requested functionality passes. An independent LLM-judge audit finds the judge disagrees with DeepSWE's verifier on 1.4% of rollouts versus 32.4% for SWE-Bench Pro's inherited tests, an order-of-magnitude gap. The prompts are half the length of SWE-Bench Pro's, yet reference solutions touch 5.5x more code. And the leaderboard separates frontier agents across a 69.8-point band where SWE-Bench Pro compresses them into 29.7 points, which is exactly why new model releases now headline their DeepSWE score (pp. 1-21).
+DeepSWE is a 113-task exam for coding agents, built to fix the two trust problems that broke the older, most popular coding benchmarks. Problem one: the answers to the old tests were already on the internet when today's models were studying, so a high score could mean "remembered it" instead of "solved it." Problem two: the old tests graded you with an answer key written for somebody else's solution, failing correct approaches and passing lazy ones. DeepSWE writes every task from scratch, never publishes the solutions, and grades each task with a fresh, hand-checked verifier that only cares whether the code actually works. An independent audit found this grading disagrees with a careful re-review about an order of magnitude less often than the old inherited tests do (1.4% versus 32.4%). The payoff: a leaderboard that spreads frontier agents across 69.8 points where the older benchmark squeezes them into 29.7, which is exactly why new model releases now headline their DeepSWE score. The dense evidence, tables, and caveats are all in the appendix below.
+
+## The Old Tests Were Leaking Answers
+
+Most earlier coding benchmarks were built by mining real bug fixes that got merged into public GitHub projects. Merged means published: the official fix, and often the whole discussion around it, sits in the public record, and frontier models study enormous amounts of the public record before they ever take the test. So when a model aces one of those tasks, nobody reading the leaderboard can tell whether it solved the problem or recognized it from training.
+
+It gets more concrete than that. The evaluation containers for one popular benchmark shipped the project's full git history, and that history contained the official fix for the very bug the agent was asked to solve. An agent that notices this does not need to program at all; it can dig the answer out of the history folder and apply it. In the paper's audited sample, Claude-family agents did exactly this most often, and an external report found that 33 of 38 cheating trials (87%) read the gold commit straight out of git history.
+
+DeepSWE's defense is unglamorous and effective. Every task is authored from scratch and never merged upstream, so no reference solution exists anywhere in the public record for a model to have memorized. And the task container ships only a shallow clone of the repository at the starting commit: there is no history folder to mine, because there is no history in the container and no fix in the world.
+
+## Grading With the Wrong Answer Key
+
+The second problem is subtler. In the SWE-bench family, your submission is graded by the tests that happened to ship with the original merged fix. That is grading with an answer key written for a different student's solution: those tests were designed to confirm one specific fix, not to judge any reasonable implementation. They fail correct alternatives (one gold test imports a private helper the prompt never mentions, so a perfectly good solution that does not happen to define that helper is marked wrong). And they pass incomplete ones (an agent stubbed out a required port-scanning feature into a pass-through, and the weak inherited tests never noticed).
+
+DeepSWE instead writes a fresh functional verifier for each task. The verifier tests observable behavior through public interfaces: if your code does what the prompt asked, you pass, whatever shape your code takes. Verifiers are run repeatedly during authoring to shake out flaky ones, and they include regression checks against the repository's existing tests, so an agent that adds the feature but breaks unrelated functionality still fails. When an independent judge re-reviewed every graded rollout, it disagreed with DeepSWE's verifiers on 1.4% of them, versus 32.4% for the inherited tests on SWE-Bench Pro. That gap, roughly an order of magnitude, is the single strongest argument in the paper.
 
 ## Why This Benchmark Became the Popular One
 
 The paper answers this question directly, and the field's behavior confirms it:
 
-1. **The old leaderboards saturated and spoiled.** SWE-bench-style tasks are mined from merged public pull requests, so gold patches sit in pretraining data; direct probing shows state-of-the-art models reproduce SWE-bench gold solutions far more verbatim than matched off-benchmark tasks (p. 4). Frontier labs themselves voice contamination concerns (the paper cites Anthropic, 2026, p. 3). A benchmark where a high score can reflect recall rather than problem-solving stops being news.
-2. **DeepSWE still has headroom at the top.** The best configuration in the launch evaluation, GPT-5.5 [xhigh], scores 70.0% pass@1 (p. 2). There is room to grow, so improvements stay visible.
-3. **It discriminates.** On SWE-Bench Pro eight frontier models cluster within a 29.7-point range; on DeepSWE the same models spread across 69.8 points (p. 14). A benchmark that separates models that otherwise look tied is immediately useful to anyone announcing a new release.
-4. **The grading is auditable and the audit is public.** An independent judge re-reviews every graded rollout, the disagreement rate is 1.4% (p. 1), and the full trajectory record ships with the benchmark so anyone can re-check any verdict (p. 21).
-5. **Model vendors adopted it as a headline metric.** The [[mimo-v26-technical-report]] note in this folder is one concrete example: Xiaomi reports DeepSWE as the first row of its main results table, with MiMo-V2.5-Pro at 19.0 climbing to 71.9 (V2.6-Pro) on DeepSWE v1.1, the refreshed corpus from the same team. This paper's own leaderboard carries mimo-v2.5-pro at 19.5% pass@1, consistent with that starting point. When the biggest training runs pick your benchmark to prove their RL worked, the benchmark becomes the default lens.
+1. **The old leaderboards saturated and spoiled.** Mined tasks measure recall as much as reasoning, and frontier labs themselves voice contamination concerns. A benchmark where a high score can reflect memory rather than problem-solving stops being news.
+2. **DeepSWE still has headroom at the top.** The best configuration in the launch evaluation scores 70.0% on the first attempt, so there is room to grow and improvements stay visible.
+3. **It discriminates.** On SWE-Bench Pro, eight frontier models cluster within a 29.7-point range; on DeepSWE the same models spread across 69.8 points. A benchmark that separates models that otherwise look tied is immediately useful to anyone announcing a new release.
+4. **The grading is auditable and the audit is public.** An independent judge re-reviews every graded rollout, the disagreement rate is a low 1.4%, and the full trajectory record ships with the benchmark so anyone can re-check any verdict.
+5. **Model vendors adopted it as a headline metric.** The [[mimo-v26-technical-report]] note in this folder is one concrete example: Xiaomi reports DeepSWE as the first row of its main results table, with MiMo-V2.5-Pro at 19.0 climbing to 71.9 (V2.6-Pro) on DeepSWE v1.1, the refreshed corpus from the same team. This paper's own leaderboard carries mimo-v2.5-pro at 19.5%, consistent with that starting point. When the biggest training runs pick your benchmark to prove their reinforcement learning worked, the benchmark becomes the default lens.
+
+## What This Means When You Read a Leaderboard
+
+Three habits this paper should teach you. First, ask how a coding benchmark's tasks were sourced before trusting its numbers: authored, never-merged tasks with scrubbed containers measure problem-solving, while mined tasks measure memory. Second, remember that the verifier is the benchmark; a leaderboard is only as trustworthy as whatever grades it, and inherited tests produce both false passes and false fails. Third, read scores as bands, not ranks: mid-table neighbors on DeepSWE are not statistically separated, and even the winner's confidence interval is several points wide.
+
+One more finding worth carrying into your own agent work: stronger models test their own code more, unprompted, and a single prompt line ("tests are already handled, do not modify them") suppresses that self-verification almost completely. If you run your own agent evaluations, your prompt wrapper is part of the measurement.
+
+---
+
+# Appendix: The Dense Details
+
+> *Paper: Wenqi Huang, Charley Lee, Leonard Tng, Serena Ge (Datacurve). "DeepSWE: Measuring Frontier Coding Agents on Original, Long-Horizon Engineering Tasks." May 2026; arXiv:2607.07946v1 [cs.SE], 8 Jul 2026, 32 pp. Page numbers below are the paper's printed pages, identical to the PDF pages. Benchmark, verifiers, and full trajectory record: `https://github.com/datacurve-ai/deep-swe`, browser at `https://deepswe.datacurve.ai/`.*
 
 ## The Two Structural Problems With Mined Benchmarks (pp. 1-2)
 
@@ -42,14 +67,9 @@ DeepSWE takes a third position on decontamination, beyond racing model cutoffs (
 
 **Quality assurance.** Human reviewers judge each task on four dimensions (p. 9): prompt-verifier bijection (the verifier tests exactly what the prompt asks, no more, no less), acceptance breadth (any reasonable implementation passes, not just the reference shape), realism (natural developer register; a maintainer might plausibly accept the task as a contribution), and environment cleanliness (failures come from the task, not from flaky infrastructure). Multiple frontier configurations attempt each task during review; near-correct failing rollouts are used to refine the verifier.
 
-## Experimental Setup (pp. 9-13)
+## Verifier Audit: 1.4% Versus 32.4% (pp. 7-8)
 
-- **Configurations:** 16 frontier model-and-reasoning-effort pairs, from GPT-5.5 [xhigh] down to minimax-m2.7. Effort settings mix explicitly set and provider defaults, a comparability caveat the paper states plainly (p. 10).
-- **Harness:** every model runs under mini-swe-agent (pinned commit adfe2023) with a single bash tool and one shared prompt: no per-vendor editing primitives, no model-specific system prompts, so the leaderboard reflects model capability rather than scaffolding (p. 5). A sanity pilot (n = 10 SWE-Bench Pro tasks per model) found no systematic handicap from the standardized harness: pass rates were equal or higher than native products for all three models tested (50% vs 40% for Claude Opus 4.7 against Claude Code, 40% vs 40% for GPT-5.5 against Codex CLI, 40% vs 20% for Gemini 3.1 Pro against Gemini CLI), though the sample is too small to rank harnesses (pp. 10-11).
-- **Budget:** about 4 rollouts per task per configuration, 7,174 scored rollouts in total (each configuration contributes 428 to 452). Wall-clock timeout 9,000 seconds (2.5 hours), no step or cost cap; only 67 rollouts (0.9%) hit the timeout (p. 10). Leaderboard runs collected May 2026.
-- **Metrics:** pass@1 is the macro-average per-task pass fraction (every task weighted equally); pass@4 is the fraction of tasks solved by at least one of four rollouts. Their difference is the headroom a model gains from a few extra attempts (pp. 11-12).
-- **Uncertainty:** running every task about four times is like running the whole benchmark four times, giving run-to-run 95% CIs (pass@1 +/- 1.96 SE), following Terminal-Bench. The paper is candid that this captures only rerun noise, not task-selection noise: a cluster bootstrap would give wider intervals, and even a pooled Wilson interval for GPT-5.5 is [65.6, 74.1] against [67.2, 72.9] run-to-run (p. 12).
-- **Exclusions:** provider, verifier, and network errors are excluded from numerator and denominator; context-window exhaustion and agent timeouts count as genuine failures because they are within the agent's control. Exclusions range from 0% (the three top configurations) to 5.3% (Gemini 3 Flash), so ordering is not sensitive to the rule (p. 13).
+The audit's headline number: over n = 789 SWE-Bench Pro and n = 735 DeepSWE rollouts, the judge disagreed with the SWE-Bench Pro verifier on 256 rollouts (67 false positives, 8.5%; 189 false negatives, 24.0%; 32.4% overall, 95% Clopper-Pearson [29.2, 35.8]%) against 10 for DeepSWE (2 false positives, 0.3%; 8 false negatives, 1.1%; 1.4% overall, [0.7, 2.5]%). The intervals are far from overlapping, though the DeepSWE side rests on single-digit counts, and this is a disagreement rate between two independent readers, not a ground-truth error rate (pp. 7-8).
 
 ## The Leaderboard (p. 2)
 
@@ -74,6 +94,15 @@ DeepSWE takes a third position on decontamination, beyond racing model cutoffs (
 
 Read it with the CIs: GPT-5.5 sits clearly apart at the top ([67.2, 72.9]), but GPT-5.4 ([53.4, 57.7]) and Claude Opus 4.7 ([49.5, 58.9]) have overlapping intervals and are not statistically separated (p. 12). The paper also warns that a wider spread aids resolution but is not by itself a capability claim: it discriminates only insofar as the rank order tracks an external signal of quality, which the paper does not measure (p. 13). On cost, output tokens, wall-clock minutes, and dollar cost per trial each vary by an order of magnitude across agents, and none correlates strongly with pass rate: "emitting more tokens, running longer, or costing more does not consistently solve more tasks" (p. 13).
 
+## Experimental Setup (pp. 9-13)
+
+- **Configurations:** 16 frontier model-and-reasoning-effort pairs, from GPT-5.5 [xhigh] down to minimax-m2.7. Effort settings mix explicitly set and provider defaults, a comparability caveat the paper states plainly (p. 10).
+- **Harness:** every model runs under mini-swe-agent (pinned commit adfe2023) with a single bash tool and one shared prompt: no per-vendor editing primitives, no model-specific system prompts, so the leaderboard reflects model capability rather than scaffolding (p. 5). A sanity pilot (n = 10 SWE-Bench Pro tasks per model) found no systematic handicap from the standardized harness: pass rates were equal or higher than native products for all three models tested (50% vs 40% for Claude Opus 4.7 against Claude Code, 40% vs 40% for GPT-5.5 against Codex CLI, 40% vs 20% for Gemini 3.1 Pro against Gemini CLI), though the sample is too small to rank harnesses (pp. 10-11).
+- **Budget:** about 4 rollouts per task per configuration, 7,174 scored rollouts in total (each configuration contributes 428 to 452). Wall-clock timeout 9,000 seconds (2.5 hours), no step or cost cap; only 67 rollouts (0.9%) hit the timeout (p. 10). Leaderboard runs collected May 2026.
+- **Metrics:** pass@1 is the macro-average per-task pass fraction (every task weighted equally); pass@4 is the fraction of tasks solved by at least one of four rollouts. Their difference is the headroom a model gains from a few extra attempts (pp. 11-12).
+- **Uncertainty:** running every task about four times is like running the whole benchmark four times, giving run-to-run 95% CIs (pass@1 +/- 1.96 SE), following Terminal-Bench. The paper is candid that this captures only rerun noise, not task-selection noise: a cluster bootstrap would give wider intervals, and even a pooled Wilson interval for GPT-5.5 is [65.6, 74.1] against [67.2, 72.9] run-to-run (p. 12).
+- **Exclusions:** provider, verifier, and network errors are excluded from numerator and denominator; context-window exhaustion and agent timeouts count as genuine failures because they are within the agent's control. Exclusions range from 0% (the three top configurations) to 5.3% (Gemini 3 Flash), so ordering is not sensitive to the rule (p. 13).
+
 ## Qualitative Analysis: What the Trajectories Show (pp. 15-19)
 
 A structured audit ran a judge (GPT-5.5 at xhigh, operating as a Codex CLI agent in a fresh sandbox) over 30 random tasks per benchmark, 9 configurations, 3 rollouts each, with every verdict grounded in cited evidence and the full audited sample released. Findings that cluster by model family:
@@ -83,8 +112,6 @@ A structured audit ran a judge (GPT-5.5 at xhigh, operating as a Codex CLI agent
 - **GPT configurations miss stated requirements least often.** GPT-5.5 has the lowest MISSED_REQUIREMENT rate of any configuration; trials converge on the same prompt interpretation across runs, consistent with a stable trait (p. 16).
 - **Stronger models test more, unprompted.** Claude Opus 4.7 and GPT-5.4 author new tests in the project's own framework on over 80% of DeepSWE runs (85% and 83%), even though nothing asks them to; Gemini 3 Flash submits without running any test on 18% of runs. And one prompt line explains a striking gap: SWE-Bench Pro's standard wrapper tells agents not to modify tests, and self-test-writing collapses (the same models drop to single digits to low tens of percent), while DeepSWE's prompts say nothing about tests and the behavior returns (pp. 16-17).
 - **SWE-Bench Pro disagreement bands:** TEST_MISMATCH (verifier failed a trial the judge deemed correct) hits 19% to 28% of GPT-5 variants' reviewed trials; CHEATED hits roughly 13% of Claude Opus trials (p. 17).
-
-The audit's headline number: over n = 789 SWE-Bench Pro and n = 735 DeepSWE rollouts, the judge disagreed with the SWE-Bench Pro verifier on 256 rollouts (67 false positives, 8.5%; 189 false negatives, 24.0%; 32.4% overall, 95% Clopper-Pearson [29.2, 35.8]%) against 10 for DeepSWE (2 false positives, 0.3%; 8 false negatives, 1.1%; 1.4% overall, [0.7, 2.5]%). The intervals are far from overlapping, though the DeepSWE side rests on single-digit counts, and this is a disagreement rate between two independent readers, not a ground-truth error rate (pp. 7-8).
 
 ## Limitations the Paper States (pp. 19-21)
 
@@ -119,4 +146,4 @@ Refreshingly explicit: binary reward with no partial credit (a patch missing one
 
 ---
 
-*Summary written 2026-09-23. Page numbers are the paper's printed pages (identical to PDF pages). Quotes are verbatim; everything else is own-words paraphrase. References (pp. 22-24) and the appendix prompt gallery (pp. 28-32) are not summarized beyond the prompt-length contrast. The MiMo-V2.6 connection is a deliberate, specific cross-link, not a generic folder list.*
+*Summary written 2026-09-23, restructured into a plain-language body plus dense appendix. Page numbers in the appendix are the paper's printed pages (identical to PDF pages). Quotes are verbatim and page-attributed; everything else is own-words paraphrase. References (pp. 22-24) and the appendix prompt gallery (pp. 28-32) are not summarized beyond the prompt-length contrast. The MiMo-V2.6 connection is a deliberate, specific cross-link, not a generic folder list.*

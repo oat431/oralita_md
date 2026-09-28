@@ -2,18 +2,53 @@
 title: "GLM: General Language Model Pretraining with Autoregressive Blank Infilling"
 tags: [paper, pretraining, language-model, architecture, nlp]
 created: 2026-09-23
+revised: 2026-09-23
 source: "Du, Qian, Liu, Ding, Qiu, Yang, Tang (Tsinghua, BAAI, MIT CSAIL); GLM: General Language Model Pretraining with Autoregressive Blank Infilling; ACL 2022 (Long Papers), Dublin, pp. 320-335; arXiv:2103.10360v2 [cs.CL], 16 pp.; PDF: F:/papers/GLM General Language Model.pdf"
 ---
 
 # GLM: General Language Model Pretraining with Autoregressive Blank Infilling
 
-> *Paper: Zhengxiao Du, Yujie Qian, Xiao Liu, Ming Ding, Jiezhong Qiu, Zhilin Yang, Jie Tang (Tsinghua University, BAAI, MIT CSAIL, Shanghai Qi Zhi Institute). "GLM: General Language Model Pretraining with Autoregressive Blank Infilling." ACL 2022 (60th Annual Meeting, Dublin), Long Papers, pp. 320-335; the PDF here is arXiv:2103.10360v2 [cs.CL], 17 Mar 2022. Page numbers below are the arXiv version's printed pages 1-16, identical to the PDF pages (the ACL pagination was confirmed externally via the ACL Anthology). Code: `https://github.com/THUDM/GLM`.*
+> *Paper: Zhengxiao Du, Yujie Qian, Xiao Liu, Ming Ding, Jiezhong Qiu, Zhilin Yang, Jie Tang (Tsinghua University, BAAI, MIT CSAIL, Shanghai Qi Zhi Institute). "GLM: General Language Model Pretraining with Autoregressive Blank Infilling." ACL 2022 (60th Annual Meeting, Dublin), Long Papers, pp. 320-335; the PDF here is arXiv:2103.10360v2 [cs.CL], 17 Mar 2022. Page numbers in the appendix are the arXiv version's printed pages 1-16, identical to the PDF pages (the ACL pagination was confirmed externally via the ACL Anthology). Code: `https://github.com/THUDM/GLM`.*
 
-## TL;DR
+## What This Paper Is, In Plain Words
 
-GLM is the pretraining framework that resolved the 2021 three-way split in NLP: autoencoders (BERT) understood text but could not generate, autoregressive models (GPT) generated but attended only left-to-right, and encoder-decoder models (T5) handled conditional generation but needed more parameters to match encoders on understanding tasks. GLM's move is elegant: blank out random spans of the input (the autoencoding idea) and then reconstruct those spans token by token in a randomly permuted order (the autoregressive idea), inside one Transformer with a mixed attention mask. Two additions make it work: span shuffling and 2D positional encodings, which together let a single model excel at natural language understanding, conditional generation, and unconditional generation at once. With the same parameters and data, GLM beats BERT on SuperGLUE by 4.6% (Base) and 5.0% (Large), and a multi-task pretrained GLM with 1.25x BERT-Large's parameters achieves the best single-model performance across all three task categories (pp. 1-8).
+Back in 2021, the language-model world was split into three camps, and each camp had a specialist who could not do the other camps' jobs.
 
-This is the founding paper of the GLM family from Zhipu AI / Tsinghua (the lineage behind ChatGLM, GLM-4, and today's GLM-5 series), so it explains where the name on every Z.ai model card comes from.
+Picture three kinds of language experts. The first is a brilliant editor: that is the BERT-style "autoencoder." The editor reads a whole sentence at once, forwards and backwards, so they know exactly what each word means in context. But ask the editor to write an essay and they freeze; they were only ever trained to restore deleted words, one slot at a time, and they treat every deleted word as if it were independent of the others. The second expert is a natural storyteller: the GPT-style "autoregressive" model. The storyteller writes fluently, one word at a time, but can only ever look backwards over their shoulder. With no way to see what is coming, they are weaker at the careful whole-sentence reading where the editor shines. The third is a translation booth with two rooms: the T5-style "encoder-decoder," a reader and a writer joined by a pipe. It handles "read this, produce that" jobs like summarization nicely, but the two-room setup is expensive, needing many more parameters to match the lone editor on reading tasks.
+
+The authors' diagnosis is blunt: no single one of these frameworks performs competitively across all the tasks people care about. Earlier attempts to combine them (UniLM and friends) mostly stacked the two training objectives side by side, and because the objectives differ by nature, a simple unification cannot fully inherit the advantages of both.
+
+GLM's answer is disarmingly simple: make everyone play the same game, a fill-in-the-blanks exercise that secretly teaches writing.
+
+## The Core Idea: Fill-in-the-Blanks That Teaches Writing
+
+Here is the game. Take a passage of text and blank out a few random chunks. Every chunk, no matter how long, is replaced by a single blank marker, like one underline instead of one per missing word. The blanks are collected onto an answer sheet in shuffled, random order. The model's job is to fill in each blank, word by word, like the storyteller, while being allowed to look at the whole passage and at the answers it has already written, but never at the answers still to come.
+
+That one exercise fuses the three camps. Blank-filling is the editor's training. Writing each answer word by word is the storyteller's skill. And because an answer can be a whole chunk, even a whole sentence or half a document, rather than a single word, the model learns genuine open-ended generation on the way. The shuffling matters too: if answers always came left to right, the model could lean on lazy habits, and the paper's own ablations show the shuffle is one of the most load-bearing parts of the design.
+
+## One Model, Two Ways of Seeing
+
+How can a single network do both the whole-passage reading and the word-by-word writing? The trick is a rule about who is allowed to see whom. The input is split into two parts. Part A is the passage with its blanks, and inside Part A every word can see every other word in both directions: editor mode. Part B is the answer sheet, and inside Part B each answer can see all of Part A plus the answers already written, but never the ones that come later: storyteller mode. One model, two ways of seeing, selected purely by the visibility rules. The model is never told which mode to use; the setup makes it grow an encoder for Part A and a decoder for Part B all by itself.
+
+## Hiding the Length of the Blank
+
+One more piece of design makes open-ended writing possible: the model is deliberately kept in the dark about how much text is missing. A ten-word chunk and a one-word chunk both become the same single blank marker, and the position numbers restart inside each answer instead of remembering where the answer sat in the original passage. Why care? Because at generation time you do not know how long the output should be. Rival approaches leak the answer length (XLNet keeps original positions, SpanBERT uses one mask per missing token), and that quietly constrains what the model can do downstream. GLM's encoding hides the blank's length, so the model keeps writing until it decides to stop.
+
+## Turning Every Task Into a Cloze Question
+
+To make this blank-filler do ordinary jobs like sentiment classification, the authors borrow an idea called PET: rewrite every task as a fill-in-the-blanks question in plain language. Sentiment becomes "This review was glowing. It's really ____," where the word "good" stands for positive and "bad" stands for negative; the model fills the blank and the probability of those label words is the prediction. Because GLM writes answers word by word, it handles multi-word answers naturally, something BERT-style cloze cannot do without enumerating lengths. The same interface covers classification, summarization, and free generation.
+
+## Did It Work?
+
+Yes, convincingly. At the same size and on the same training data, GLM beat BERT on the SuperGLUE understanding suite by roughly five points, matched or beat the translation-booth models on summarization and question generation, and in a slightly larger multi-task form did all three job families from a single checkpoint, competing with the best specialist in each family. The lesson the paper leaves behind: a better-chosen training game can beat brute-force scaling. The gains come from how the blanks are made, shuffled, and filled, not from more parameters.
+
+## Why It Still Matters
+
+This is the founding paper of the GLM family from Zhipu AI and Tsinghua, the lineage behind ChatGLM, GLM-4, and today's GLM-5 series, so it explains the name on every Z.ai model card. And its central claim, that one well-designed objective can unify understanding and generation, has since become the field's default assumption.
+
+---
+
+# Appendix: The Dense Details
 
 ## Why This Paper Matters
 
@@ -43,7 +78,7 @@ The attention mask is the heart of the design (Figure 2d):
 - **Part A tokens** attend to each other (bidirectional) but never to Part B.
 - **Part B tokens** attend to Part A and their antecedents in Part B, never to subsequent tokens.
 
-So the model "automatically learns a bidirectional encoder (for Part A) and a unidirectional decoder (for Part B) in a unified model" (p. 3). Spans are wrapped in [START] and [END] special tokens. Span lengths are drawn from a Poisson distribution with lambda = 3, resampled until at least 15% of tokens are masked; the 15% ratio proved critical for downstream NLU performance (p. 3).
+So the model "automatically learns a bidirectional encoder (for Part A) and a unidirectional decoder (for Part B) in a unified model" (p. 3). Spans are wrapped in [START] and [END] special tokens. Span lengths are drawn from a Poisson distribution with λ = 3, resampled until at least 15% of tokens are masked; the paper notes "the 15% ratio is critical for good performance on downstream NLU tasks" (p. 3).
 
 ### 2D Positional Encoding (pp. 3-4)
 
@@ -102,7 +137,7 @@ Following PET, each NLU example (x, y) becomes a cloze question c(x) written in 
 
 > "our model automatically learns a bidirectional encoder (for Part A) and a unidirectional decoder (for Part B) in a unified model" (p. 3)
 
-> "Our encoding method ensures that the model is not aware of the length of the masked span when reconstructing them." (p. 3)
+> "Our encoding method ensures that the model is not aware of the length of the masked span when reconstructing them." (pp. 3-4)
 
 > "we conclude that GLM effectively shares model parameters across natural language understanding and generation tasks, achieving better performance than a standalone BERT, encoder-decoder, or GPT model." (p. 8)
 
@@ -114,4 +149,4 @@ Following PET, each NLU example (x, y) becomes a cloze question c(x) written in 
 
 ---
 
-*Summary written 2026-09-23. Page numbers are the arXiv v2 printed pages 1-16 (identical to PDF pages); the ACL 2022 venue and pp. 320-335 come from the ACL Anthology (external, labeled where used). Quotes are verbatim; everything else is own-words paraphrase. References (pp. 9-11), hyperparameter tables (Appendix A), cloze-question templates (Appendix B.1), and generation samples (Appendix D) are not summarized. The Zhipu/GLM-5 family context line is external background, not from the paper.*
+*Summary written 2026-09-23; restructured into plain-language body + dense appendix on the same date. Page numbers are the arXiv v2 printed pages 1-16 (identical to PDF pages); the ACL 2022 venue and pp. 320-335 come from the ACL Anthology (external, labeled where used). Quotes are verbatim; everything else is own-words paraphrase. References (pp. 9-11), hyperparameter tables (Appendix A), cloze-question templates (Appendix B.1), and generation samples (Appendix D) are not summarized. The Zhipu/GLM-5 family context line is external background, not from the paper.*

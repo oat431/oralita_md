@@ -16,26 +16,26 @@ status: living
 
 ## 1. Your list, classified 🧭
 
-| Tool | Layer | One-liner |
-|---|---|---|
-| Codex | Harness | OpenAI coding agent: local CLI + cloud agent in ChatGPT |
-| Claude Code | Harness | Anthropic terminal coding agent (see [[claude-code-setup]]) |
-| Antigravity | Harness platform | Google agentic dev platform: IDE + CLI + SDK + command center |
-| OpenRouter | Router (cloud) | One API key, 500+ models, pay per token |
-| 9Router | Router (local) | Between your coding tools and 60+ providers, 3-tier fallback |
+| Tool         | Layer              | One-liner                                                       |
+| ------------ | ------------------ | --------------------------------------------------------------- |
+| Codex        | Harness            | OpenAI coding agent: local CLI + cloud agent in ChatGPT         |
+| Claude Code  | Harness            | Anthropic terminal coding agent (see [[claude-code-setup]])     |
+| Antigravity  | Harness platform   | Google agentic dev platform: IDE + CLI + SDK + command center   |
+| OpenRouter   | Router (cloud)     | One API key, 500+ models, pay per token                         |
+| 9Router      | Router (local)     | Between your coding tools and 60+ providers, 3-tier fallback    |
 | Hermes Agent | Assistant platform | The tool we are using right now: memory, skills, cron, channels |
-| OpenClaw | Assistant platform | Open-source personal assistant on your machine, messaging-first |
+| OpenClaw     | Assistant platform | Open-source personal assistant on your machine, messaging-first |
 
 **Short answer for the routers:** OpenRouter and 9Router are **not harnesses**. They never run an agent loop and they never "think". A harness decides *what* to send; a router decides *where* it goes - with which key, which fallback, and which budget.
 
 ## 2. The one-picture map 🗺️
 
-| Layer | Job | Examples | Analogy |
-|---|---|---|---|
-| Model | Generate tokens | GPT, Claude, Gemini, Qwen, DeepSeek, GLM | Engine |
-| Router / gateway | Move requests to models and providers | OpenRouter, 9Router, LiteLLM, Portkey, ClawRouter | Fuel line + adapter |
-| Harness | Run the agent loop: tools, context, permissions | Claude Code, Codex, Antigravity, Cursor, Cline | The car |
-| Assistant platform | Persistent agent: memory, skills, schedules, channels | Hermes Agent, OpenClaw | Garage + butler |
+| Layer              | Job                                                   | Examples                                          | Analogy             |
+| ------------------ | ----------------------------------------------------- | ------------------------------------------------- | ------------------- |
+| Model              | Generate tokens                                       | GPT, Claude, Gemini, Qwen, DeepSeek, GLM          | Engine              |
+| Router / gateway   | Move requests to models and providers                 | OpenRouter, 9Router, LiteLLM, Portkey, ClawRouter | Fuel line + adapter |
+| Harness            | Run the agent loop: tools, context, permissions       | Claude Code, Codex, Antigravity, Cursor, Cline    | The car             |
+| Assistant platform | Persistent agent: memory, skills, schedules, channels | Hermes Agent, OpenClaw                            | Garage + butler     |
 
 **The layer test (3 questions):**
 

@@ -2,6 +2,7 @@
 title: "A benchmark of expert-level academic questions to assess AI capabilities (Humanity's Last Exam)"
 tags: [paper, benchmarks, llm-evaluation, ai-safety, datasets]
 created: 2026-09-22
+revised: 2026-09-23
 source: "Center for AI Safety, Scale AI & HLE Contributors Consortium; Nature Vol 649, 29 January 2026, pp. 1139–1146; DOI 10.1038/s41586-025-09962-4; PDF: F:/papers/A Benchmark of expert level academic questions to assess AI capabilities.pdf"
 ---
 
@@ -9,17 +10,37 @@ source: "Center for AI Safety, Scale AI & HLE Contributors Consortium; Nature Vo
 
 > *Paper: Center for AI Safety, Scale AI & HLE Contributors Consortium (first author Long Phan; corresponding authors Long Phan and Dan Hendrycks). "A benchmark of expert-level academic questions to assess AI capabilities." Nature, Vol 649, 29 January 2026, pp. 1139–1146 (open access; received 7 May 2025, accepted 25 November 2025, published online 28 January 2026). DOI: 10.1038/s41586-025-09962-4. This is the official publication of Humanity's Last Exam (HLE). Article-body pages are footer-verified; the Methods and Extended Data pages carry no printed folio in this PDF and are cited by section name.*
 
-## TL;DR
+## What Is This Paper, In Plain Words
 
-Humanity's Last Exam (HLE) is the response to a measurement crisis: state-of-the-art LLMs now score above 90% on popular benchmarks like MMLU, which once marked the frontier, so those benchmarks can no longer distinguish model capabilities. HLE is a multi-modal benchmark of 2,500 expert-level, closed-ended academic questions across over a hundred subjects, written and reviewed globally by nearly 1,000 subject-matter experts from more than 500 institutions. Every question is pre-tested against frontier LLMs and rejected if models can solve it. The result: at release, frontier models scored between 2.7% (GPT-4o) and 8.5% (DeepSeek R1) with RMS calibration errors of 73–89%; later post-release models reached 21.6% (Gemini 2.5 Pro) and 25.3% (GPT-5). The paper is also a benchmark-design treatise: it documents the review pipeline, a private held-out set against gaming, an LLM judge, an estimated 15.4% expert disagreement rate, and a rolling fork (HLE-Rolling) planned for when models saturate this benchmark too.
+Imagine you want to know how smart an AI really is, but every test you have is too easy. That was the situation by 2025. The best models were scoring above 90% on the standard exams the field used to rank them, tests like MMLU that had been genuinely challenging just a few years earlier. When everyone aces the test, the test tells you nothing: you cannot say which model is better, and you cannot say how much room is left before machines match human experts.
 
-## Why This Paper Matters
+Humanity's Last Exam is the answer to that problem, and the name says it all: the deliberately "last exam" for AI. Nearly 1,000 subject-matter experts from more than 500 institutions in 50 countries, mostly professors, researchers, and graduate degree holders, each contributed questions from their own field. In the end, 2,500 questions survived review, spread across over a hundred academic subjects: mathematics, physics, chemistry, biology, medicine, computer science, engineering, the humanities, the social sciences. Every question is closed-ended with a short, checkable answer, and every one was pre-tested against the strongest AI models available and thrown out if a model could solve it. The design goal was brutal simplicity: keep only the questions that stump the best machines but that human experts in their own fields can still answer.
 
-- **It is the current gold standard for measuring expert-level LLM capability**, and the numbers are the ones everyone quotes when arguing about how far models are from human expertise.
-- **It solves the saturation problem explicitly.** The benchmark is built adversarially: questions are filtered against frontier models before inclusion, so the dataset measures a moving frontier rather than a fixed one.
-- **It is careful about what high scores would mean.** The authors state plainly that high HLE accuracy would show expert-level closed-ended question answering, not autonomous research or AGI.
-- **It is a worked example of benchmark engineering**: crowdsourced expert contributions, multi-stage review, private test set, LLM judge with structured output, calibration measurement, and contamination auditing. The pipeline is directly reusable for anyone building evals.
-- **It updates your existing notes.** Your `deepseek-llm-scaling-with-longtermism` summary covers DeepSeek's training philosophy; DeepSeek R1's 8.5% on HLE here is the measurement side of that story.
+Why build such an exam? Because it gives you a clean measuring stick for the gap between today's AI and real human expertise, and that gap turned out to be enormous. At release, GPT-4o scored 2.7%. The strongest models of early 2025 hovered in single digits; DeepSeek R1 reached 8.5% on the text-only subset. The best machines were answering roughly one question in twelve correctly on problems written specifically so that experts, not machines, could solve them.
+
+Three findings from the paper are worth carrying around:
+
+**First, the scores are climbing fast, but from a tiny base.** The paper tracked models released after the benchmark: Claude 4 Sonnet at 7.8%, Gemini 2.5 Pro at 21.6%, and GPT-5 at 25.3%. That is nearly a tenfold jump from GPT-4o in about a year, yet three quarters of the exam still defeats the best model tested. Progress is real and rapid, and the finish line is still far away. Good measurement lets you say both things at once.
+
+**Second, more thinking is not always better.** Accuracy rises steadily as reasoning models are allowed to produce more tokens, but the trend reverses past a threshold around 2^14 tokens: beyond that, longer chains of thought actually hurt. A bigger reasoning budget is not automatically a better one, which is a genuine surprise and a design constraint for future models. They will need raw accuracy and computational efficiency together.
+
+**Third, the models do not know what they do not know.** Every model on HLE is badly miscalibrated: they attach high confidence to wrong answers instead of recognizing when a question exceeds their capabilities. The paper reports RMS calibration errors of 50% to 89% alongside accuracy, and the pairing is the point. A model that is wrong and confidently so is a different kind of risk than one that is wrong and admits it. Relatedly, even the human experts who reviewed the questions disagreed with each other about 15.4% of the time, a candid admission that puts a floor on how precisely any single score can be interpreted.
+
+The authors are also scrupulous about what the exam does not prove. Their framing is explicitly no-AGI: high accuracy on HLE would demonstrate expert-level performance on closed-ended, verifiable questions, but it "would not alone suggest autonomous research capabilities or artificial general intelligence." HLE measures a real and important capability, and the paper refuses to oversell it.
+
+There is a quieter contribution here too, one practitioners should notice: this is a full worked example of benchmark engineering. It documents the $500,000 prize pool that recruited contributors, the model-based difficulty filter (more than 70,000 logged attempts whittled to about 13,000 submissions that stumped the models, then 6,000 candidates, then the final 2,500), two rounds of human review, a private held-out question set kept back to detect overfitting and gaming, an LLM judge with structured output for automated grading, and a bug bounty for label errors. It even plans for its own obsolescence: a rolling fork called HLE-Rolling will refresh the questions once frontier models saturate this version too. If you ever build an eval, this pipeline is the template to copy.
+
+## Why You Should Care
+
+- **These are the numbers everyone quotes.** When people argue about how close AI is to human expertise, "25.3% on Humanity's Last Exam" is the measurement they are fighting over. Now you know what is behind it: 2,500 expert-written questions that frontier models provably could not solve at submission time, with calibration reported alongside accuracy.
+- **It fixes benchmark saturation by construction.** Because every question was filtered against the best models before inclusion, HLE measures a moving frontier rather than a fixed one. That single design choice is why it stayed informative while MMLU became a participation trophy.
+- **It models intellectual honesty about what scores mean.** The authors refuse the AGI framing, quantify their own reviewer disagreement (15.4%), and warn that tiny score changes near zero accuracy are mostly noise. That is how capability claims should be made, and how you should read them.
+- **It updates the story in your other notes.** Your `deepseek-llm-scaling-with-longtermism` summary covers DeepSeek's training philosophy; DeepSeek R1's 8.5% here is the measurement side of that same story, and R1's 73% calibration error was the best of any model at release.
+- **The design lessons transfer.** Pre-filter against the thing you measure, keep a private set, measure calibration not just accuracy, structure your LLM judge, report disagreement, and plan for obsolescence. Those six lessons apply to any eval you will ever build, in any domain.
+
+---
+
+# Appendix: The Dense Details
 
 ## What HLE Is
 
@@ -121,4 +142,4 @@ Three things matter here beyond the low scores:
 
 ---
 
-*Summary written 2026-09-22. Article-body page numbers (1139–1146) are footer-verified against the PDF; Methods and Extended Data are cited by section name because those pages carry no printed folio in this PDF. Quotes are verbatim; everything else is own-words paraphrase. Note: the official journal title is "A benchmark of expert-level academic questions to assess AI capabilities"; the benchmark is commonly known as Humanity's Last Exam (HLE).*
+*Summary written 2026-09-22; restructured into plain-language body plus dense appendix on 2026-09-23. Article-body page numbers (1139–1146) are footer-verified against the PDF; Methods and Extended Data are cited by section name because those pages carry no printed folio in this PDF. Quotes are verbatim; everything else is own-words paraphrase. Note: the official journal title is "A benchmark of expert-level academic questions to assess AI capabilities"; the benchmark is commonly known as Humanity's Last Exam (HLE).*
