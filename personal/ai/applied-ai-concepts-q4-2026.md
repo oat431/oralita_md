@@ -145,7 +145,7 @@ All seven live in the Applied AI Engineer capability areas. Cross-references for
 
 - **Fine-tuning**: still rarely worth it. RAG + prompting + routing beats it for ~90% of product needs in 2026. Learn it *after* the seven above.
 - **Multimodal / SLMs / on-device**: important and evolving, but not "the concept that changed how you ship." Track, don't prioritize.
-- **AGI / reasoning-model hype**: not an engineering concept. Ignore until it has evals.
+- **AGI / reasoning-model hype**: not an engineering concept. Ignore until it has evals. For the "should we fear any of this?" question, see [[should-we-fear-ai-2026]].
 
 ---
 
