@@ -118,7 +118,11 @@ A fire needs three things — remove any one of them and the fire dies (the **fi
 
 ---
 
-## Fire Prevention Basics
+## Fire Prevention — Full Picture
+
+Fire prevention works at three levels: **engineering/design**, **management/inspection**, and **daily behavior**. The course focused on the last one — here's the rest.
+
+### Daily Behavior (Home & Office)
 
 - **Electrical:** don't overload outlets or daisy-chain power strips; replace frayed cables; turn off irons/heaters when leaving.
 - **Cooking:** never leave hot oil unattended; keep a pot lid nearby (slide it over the pan to smother a grease fire — never water).
@@ -126,6 +130,48 @@ A fire needs three things — remove any one of them and the fire dies (the **fi
 - **Gas (LPG):** check hoses/regulators for cracks; smell gas → open windows, don't switch anything on/off, shut the valve, evacuate.
 - **Detection:** smoke alarms on every floor; test monthly, replace batteries yearly.
 - **Plan:** know two ways out of every room; agree on a meeting point outside; practice it.
+
+### Special Hazards (the ones actually causing fires today)
+
+- 🔋 **Lithium batteries — power banks, phones, e-bikes, EVs:** don't charge on beds/sofas, don't charge overnight unattended, use original chargers, retire swollen or damaged batteries. Battery fires self-supply oxygen and resist water — **prevention is the only reliable defense**.
+- 🕯️ **Candles, incense, mosquito coils:** a leading cause of Thai house fires, especially at night. Extinguish completely before sleeping; keep away from curtains, bedding, and paper.
+- 🔥 **Hot work (welding, grinding, cutting):** use a permit system, keep combustibles cleared within ~10 m, and post a **fire watch for at least 30 minutes after work ends** (embers reignite).
+- 🧪 **Flammable chemicals:** approved storage cabinets, SDS/MSDS on hand, never stored near exits or heat sources.
+- 🚭 **Smoking:** designated areas only, deep ashtrays — careless smoking is a top cause of fatal night fires.
+
+### Building & Engineering Controls
+
+- **Compartmentation:** fire doors and fire-rated walls hold a fire in one room — keep fire doors **closed** (never wedged open).
+- **Automatic systems:** sprinklers, smoke/heat detectors, kitchen hood suppression, gas suppression in server rooms.
+- **Exits & signage:** fire escapes, emergency lighting, green exit signs; corridors and stairwells must stay clear of storage — a blocked exit is both illegal and deadly.
+- **Smoke control:** pressurized stairwells and smoke exhaust vents; know where the refuge floor/area is in your building.
+
+### Inspection & Maintenance Schedule
+
+| Item | Frequency |
+|---|---|
+| Extinguisher visual check (pin, gauge, seal, hose) | Monthly |
+| Extinguisher professional service | Annually |
+| Smoke alarm test | Monthly |
+| Smoke alarm battery | Replace yearly |
+| Fire hose reel check | Monthly |
+| Sprinkler valves / fire pump test | Quarterly–annually per building schedule |
+| Fire drill | **At least once a year** (Thai law) |
+| Fire door & exit path check | Weekly housekeeping |
+
+### Organization & People
+
+- **Fire warden/marshal per floor:** sweep assigned areas, head count at the assembly point, lead evacuation.
+- **Fire prevention plan** (OSHA 1910.39 is a good model): list all major fire hazards, safe handling/storage of hazardous materials, ignition sources and their controls, fire protection equipment, and **who is responsible for maintaining it**.
+- **Drills:** the Thai Ministerial Regulation on workplace fire safety (Clause 30, published in Ratchakitcha 2013) requires employers with **10+ employees** to run combined firefighting + evacuation drills for all employees **at least once a year** — and all employers share the duty when multiple companies occupy one building.
+- **Vulnerable occupants** (children, elderly, people with disabilities): assign a buddy and a personal evacuation plan — they need extra time.
+- **Most fatal fires happen at night.** Sleep with bedroom doors closed: a closed door holds back smoke and heat for precious minutes.
+
+### Thai Legal Framework
+
+- **พ.ร.บ. การป้องกันและระงับอัคคีภัย พ.ศ. 2542** (Fire Prevention and Suppression Act B.E. 1999) — the parent law this training is named after.
+- **Ministerial regulations on workplace fire safety** (Ratchakitcha, 2013) — drills, training, fire wardens, hazard controls.
+- **Building Control Act regulations** — fire equipment placement (fire department connection points spaced ≤ 64 m apart), exits, and fire protection systems.
 
 ## What NOT to Do
 
@@ -153,4 +199,5 @@ A fire needs three things — remove any one of them and the fire dies (the **fi
 - "Hose rag" = **fire hose reel** (course pronunciation).
 - The original listed "Class B — Gas Fuel" and "Class C — Electronic Flame" in one breath — this mixes **ISO 3941** and **NFPA 10**; the table above separates them (ISO: C = gases; NFPA: B includes gases, C = energized electrical).
 - The original said Class K fires use "oil to extinguish" — that's a mishearing: cooking-oil fires are extinguished with **wet chemical (Class K) agents**, never oil and never water.
-- "Combustion uses 16% air / 21% chemical" clarified as: air is ~21% oxygen, and combustion stops below ~16% oxygen.
+- "Combustion 16% air / 21% chemical" clarified as: air is ~21% oxygen, combustion stops below ~16% oxygen.
+- The course said fire cabinets are spaced **67 m** apart — current Thai building regulations specify fire department connection points at intervals **not exceeding 64 m**; treat "roughly 60-ish meters" as the practical takeaway.

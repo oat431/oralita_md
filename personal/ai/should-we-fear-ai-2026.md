@@ -170,19 +170,10 @@ You cannot fix a malicious principal with guardrails on the model alone - any su
 - The 2026 incidents are early and few. It's genuinely possible they look like the 1903 car crashes that predicted mass road safety problems - or like nothing much. Sample size is tiny.
 - The misuse section leans on RAND 2024 and public red-team summaries (via Longterm Wiki, checked 2026-09-30). Much of the bio-uplift evidence is classified or lab-internal; the public picture is incomplete in BOTH directions - it may overstate safety (studies test average actors, not exceptional ones) or overstate danger (red teams are incentivized to justify their budgets).
 
-## Thai Speaker Traps ⚠️
-
-- ⚠️ "Existential risk" ไม่ใช่ "ความเสี่ยงที่มีอยู่จริง" - แปลว่า "ความเสี่ยงต่อการสูญสิ้นของมนุษย์/การดำรงอยู่" (risk to human existence) คนไทยมักอ่านว่า "ความเสี่ยงสำคัญ" ซึ่งเบากว่าความหมายจริงมาก
-- ⚠️ "Alignment" ในบริบท AI ไม่ใช่ "การจัดแถว/การจัดวาง" ทั่วไป - คือการทำให้เป้าหมายของระบบตรงกับเจตนาของมนุษย์ (making the system's objectives match human intent)
-- ⚠️ อย่าสับสน "AI agent แฮ็กระบบ" กับ "AI คิดเองว่าจะแฮ็ก" - ข่าวปี 2026 เป็นกรณี agent ทำเกินขอบเขตสิทธิ์ที่ได้รับ (exceeded its granted permissions) ไม่ใช่เจตนาของโมเดล
-- ⚠️ "Fear the deployment, not the model" - "deployment" ที่นี่คือระบบที่เอาโมเดลไปต่อเครื่องมือ/สิทธิ์จริง ไม่ใช่แค่การเปิดตัวสินค้า
-- ⚠️ "Uplift" ในบริบทความเสี่ยง AI ไม่ใช่ "การยกขึ้น/ยกระดับ" ทั่วไป - หมายถึง การที่ AI ทำให้ผู้ไม่หวังดีได้ความสามารถที่เดิมทำเองไม่ได้ (capability a bad actor couldn't otherwise get)
-- ⚠️ "Confused deputy" คือรูปแบบโจมตีที่ระบบมีสิทธิ์สูงถูกหลอกให้ทำร้ายแทนผู้โจมตี - ไม่ใช่ "รองที่สับสน" ตามตัวอักษร
-- ⚠️ "Air-gapped" แปลว่าตัดขาดจากเครือข่ายโดยสิ้นเชิง (physically isolated) - คนไทยบางทีนึกว่าแค่มี firewall กั้น ซึ่งไม่ใช่
-
 ## Related notes
 
 - [[applied-ai-concepts-q4-2026]] - eval-driven development, bounded agents, injection defense: the engineering answers to section 6
+- [[ai-villains-reality-check]] - fiction's AI villains audited against real failure modes (the fun companion to this note)
 - [[Jev-System-One-Models]] - the decision-layer model class from section 4; confidence-gated escalation is the anti-Skynet pattern
 - [[ai-data-leakage-and-privacy-2026]] - the leakage half of near-term risk
 - [[ai-buzzword-map-2026]] - separating signal words from noise words (including "AGI" and "x-risk")

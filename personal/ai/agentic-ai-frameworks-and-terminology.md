@@ -244,18 +244,6 @@ flowchart TD
 
 ---
 
-## Part 9: Thai Speaker Traps (agentic edition)
-
-⚠️ **"Agent"** != ตัวแทน/นายหน้า (business agent) = ระบบ AI ที่ตัดสินใจและลงมือทำเองในลูป
-⚠️ **"Harness"** != สายรัด/บังเหียน (literal) = โครงสร้างที่ห่อโมเดลให้เป็นเอเจนต์ (tools + loop + context)
-⚠️ **"Handoff"** != การส่งมอบงานแบบ manual = การส่งต่อการควบคุมระหว่างเอเจนต์อัตโนมัติ
-⚠️ **"Trajectory"** != วิถีกระสุน (physics) = บันทึกทุก step ของการรันเอเจนต์
-⚠️ **"Checkpoint"** != จุดตรวจ (security) = การบันทึก state ของเอเจนต์เพื่อ pause/resume
-⚠️ **"Harness engineering"** != การทำสายรัด = การออกแบบโครงสร้างที่ห่อโมเดล (tools + loop + context)
-⚠️ **"Loop engineering"** != การเขียนลูป for/while = การออกแบบวงจรเอเจนต์ (trigger -> action -> check -> exit -> budget)
-
----
-
 ## Related Notes
 
 - [[applied-ai-concepts-q4-2026]] - the 7 applied concepts (context engineering, EDD, trajectory eval, bounded agents, routing, structured outputs, injection defense)

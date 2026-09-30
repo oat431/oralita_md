@@ -177,13 +177,6 @@ If the secret is never in the context window, no model - cloud or local - can le
 - [ ] If a key leaked today, would I know within a day - and could I rotate it in minutes?
 - [ ] When did I last rotate the keys that AI tools can reach?
 
-## 8. Thai Speaker Traps (security edition)
-
-⚠️ **"Leak"** != รั่ว (น้ำรั่ว) = ข้อมูลรั่วไหล ใช้คำว่า data leak หรือ ข้อมูลรั่วไหล เวลาพูดเรื่อง security
-⚠️ **"Training on your data"** vs **"Retention"** = คนละเรื่อง! การเอาไปฝึกโมเดล (training) กับ การเก็บ log ไว้ (retention) กับ การมีคนมาอ่าน (human review) เป็นสามความเสี่ยงแยกกัน ถามให้ครบทั้งสาม
-⚠️ **"Local AI"** != ปลอดภัยอัตโนมัติ = รันบนเครื่องตัวเองก็จริง แต่ถ้าเปิดพอร์ตออกอินเทอร์เน็ตหรือไม่มี auth ก็โดนแฮกได้ (ดูเคส OpenClaw)
-⚠️ **"Exfiltration"** = การขนข้อมูลออกอย่างลับๆ ต่างจาก leak ที่อาจเกิดจากอุบัติเหตุ - ตัวอันตรายที่สุดคือ exfiltration ที่เกิดจาก prompt injection
-
 ## Related notes
 
 - [[ai-tools-landscape-2026]] - the tool map this note secures

@@ -148,15 +148,7 @@ These are not just coding tools. They are always-on personal agents.
 - **MITM interception is a gray zone.** Using IDE subscriptions through interception may violate vendor terms. "Works technically" is not "allowed".
 - **Names churn.** Clawdbot -> Moltbot -> OpenClaw in months; 9Router is not OpenRouter. Verify the actual project before installing anything.
 
-## 9. Thai Speaker Traps (tooling edition)
-
-⚠️ **"Router"** != เราเตอร์บ้าน (home WiFi router) = ตัวกลางที่ส่ง request ไปยังโมเดลและผู้ให้บริการหลายเจ้า พร้อมจัดการ fallback และค่าใช้จ่าย
-⚠️ **"Harness"** != สายรัด (literal strap) = โครงที่ห่อโมเดลให้เป็นเอเจนต์ (tools + loop + context) ตัวที่เรานั่งทำงานด้วย
-⚠️ **"Gateway"** != ประตูบ้าน = ชั้น proxy ระหว่างแอปกับ API โมเดล (จัดการ key, budget, cache, guardrail)
-⚠️ **"Provider"** != ผู้ให้บริการอินเทอร์เน็ต (ISP) = เจ้าของ API ของโมเดล เช่น OpenAI, Anthropic, Google
-⚠️ **"OpenRouter" vs "9Router"** = คนละเจ้า: OpenRouter คือบริการบนคลาวด์ ส่วน 9Router คือโปรเซสที่รันบนเครื่องเรา อย่าสับสนเพราะชื่อคล้ายกัน
-
-## 10. What I would do with this 🎯
+## 9. What I would do with this 🎯
 
 - You already run all four layers: Hermes (platform) + OpenRouter / QwenCloud (routers and providers) + Claude Code (harness) + models. That is a complete stack.
 - If Claude Code quota pain becomes real, 9Router is the pragmatic fix: stretch the subscription, fall back to cheap and free tiers. Respect the terms of service on the MITM features.

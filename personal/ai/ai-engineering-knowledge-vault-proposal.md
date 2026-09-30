@@ -207,8 +207,6 @@ Every note in this vault should have:
 - **Sources**: with verification date for fast-churn topics
 - **Where to go deeper**: the next note(s) to read
 
-> ⚠️ **Thai Speaker Traps:** where relevant, flag English AI terms that Thai speakers commonly misuse (e.g., "alignment" != การจัดตำแหน่ง in this context = การทำให้โมเดลเชื่อฟัง; "inference" != การอนุมานเชิงตรรกะ = การรันโมเดล). Same convention as your teaching vaults.
-
 ---
 
 ## Next Step

@@ -136,16 +136,6 @@ And the lifecycle to expect: **coin -> hype -> overuse -> cool -> either standar
 
 ---
 
-## Thai Speaker Traps (buzzword edition)
-
-⚠️ **"Agentic"** != มีตัวแทน = ลักษณะของระบบที่ตัดสินใจและลงมือทำเองในลูป
-⚠️ **"Slop"** = ขยะคอนเทนต์ที่ AI สร้าง (ไม่มีคำไทยตรงตัว - ใช้ทับศัพท์ได้)
-⚠️ **"Vibe coding"** != การเขียนโค้ดแบบมีสไตล์ = การให้ AI เขียนโค้ดตามคำอธิบายโดยไม่ตรวจละเอียด
-⚠️ **"Washing"** (AI washing / agent washing) != การล้าง = การแปะป้าย AI โดยไม่มีของจริง
-⚠️ **"Tokenmaxxing"** != การสะสมโทเคน = การใช้โทเคนให้เปลืองเพื่อให้ดูเป็น AI-first
-
----
-
 ## Quick Index (A-Z for lookup)
 
 - Agent Skills 🟢, Agent washing 🟢, Agentic AI ✅/🔴, Agentic commerce 🟢, Agentic RAG 🟢, Agent Experience (AX) 🟢, AI capex 🟢, AI slop ✅, AI washing ✅, Ambient agents 🟢
