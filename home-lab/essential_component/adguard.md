@@ -29,6 +29,8 @@ Set router's **Primary DNS** to `192.168.1.121` (LAN IP). All devices on the net
 
 Location: **Basic Setup → LAN → DHCP Server Configuration → Primary DNS Server**
 
+⚠️ **Also handle the IPv6 DNS leak** (RDNSS still points at AIS DNS → v6-capable devices bypass AdGuard). Full step-by-step: [[router-dns-setup]]
+
 ## Upstream DNS
 
 ```
