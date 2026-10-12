@@ -3,7 +3,7 @@ Title: Prosperity Wishes
 created: 2026-10-11
 tags: [wishes, prosperity, wealth, folklore, snippets]
 ---
-# 💰 04 — Prosperity Wishes
+		# 💰 04 — Prosperity Wishes
 
 > Companion to [[01-Luck-Wishes]], [[02-Love-Wishes]], [[03-Health-Wishes]]. Every snippet is **source-verified** unless marked `[craft]`, and **code blocks contain ONLY the copy-paste wish** — glosses, context, and sources sit below each block.
 
