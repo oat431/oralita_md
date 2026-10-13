@@ -34,6 +34,7 @@ Philosophers have not managed to remove the wall. But they have mapped exactly w
 
 Follow any chain of "how do you know?" far enough and it can only end in one of three ways:
 
+```mermaid
 flowchart TD
     A["How do you know X?"] --> B["Because of Y"]
     B --> C["How do you know Y?"]
@@ -42,7 +43,7 @@ flowchart TD
     E --> F["1 INFINITE REGRESS<br/>every reason needs another reason"]
     E --> G["2 CIRCULARITY<br/>X because Y, Y because X"]
     E --> H["3 DOGMATIC STOP<br/>declares a claim unquestionable"]
-
+```
 
 Each exit looks like a failure:
 
@@ -76,12 +77,13 @@ This is the move the vault has already met twice: in the parent note (peer revie
 
 If there is no bedrock, where does knowledge actually come from? The 20th century's best answer: it **evolved**, and it evolved long before humans.
 
+```mermaid
 flowchart LR
     P1["P1: a problem"] --> TS["TT: tentative solution<br/>a bold guess"]
     TS --> EE["EE: error elimination<br/>tests, criticism"]
     EE --> P2["P2: new problems"]
     P2 -->|"repeat forever"| TS
-
+```
 
 This loop is Popper's schema (P1 -> TT -> EE -> P2), and it runs at every scale of life:
 

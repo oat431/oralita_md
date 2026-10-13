@@ -75,7 +75,7 @@ The format tells you how much review a paper survived. The type tells you what P
 ## 2. The anatomy of a research paper
 
 The generic skeleton of a results paper:
-
+```mermaid
 flowchart TD
     A["Title + Abstract<br/>= the promise"] --> B["Introduction<br/>= the problem, gap, contributions"]
     B --> C["Background / Related Work<br/>= what others did"]
@@ -85,7 +85,7 @@ flowchart TD
     F --> G["Discussion<br/>= what it means, how it compares"]
     G --> H["Threats / Limitations<br/>= what could be wrong"]
     H --> I["Conclusion<br/>= what we get out"]
-
+```
 
 Section names and order vary by field, but the jobs stay the same. ML papers often put Related Work near the end, and LLM tech reports split the method into pre-training, post-training, and evaluation. A registered report like the running example stops after the plan: no Results or Discussion until Stage 2.
 
@@ -201,13 +201,13 @@ The running example has no results, but almost every other paper you'll read doe
 ---
 
 ## 4. The CURRANTE workflow in detail (Pass 2 depth)
-
+```mermaid
 flowchart LR
     A["1 Specification<br/>TOML file<br/>problem + signature + constraints"] --> B["2 Tests<br/>LLM generates suite<br/>human refines: explain / regenerate / delete"]
     B --> C["3 Function<br/>LLM generates code<br/>runs tests, reports pass/fail + advice"]
     C -->|refine the tests| B
     C -->|regenerate with advice| C
-
+```
 
 The loop ends when the function passes all tests or the time budget (about 30-45 minutes) runs out.
 
@@ -377,7 +377,7 @@ This is what goes on *before* you see the paper. Knowing how authors build each 
 Should you trust a paper because it went through a long process? **Trust, but verify.** The process is messier than it looks.
 
 ### The actual lifecycle
-
+```mermaid
 flowchart TD
     A["1 Idea / proposal<br/>authors identify a gap"] --> B["2 Conduct study<br/>build tool, run experiment, collect data"]
     B --> C["3 Write the paper<br/>draft all sections"]
@@ -389,7 +389,7 @@ flowchart TD
     F --> G["6 Camera-ready<br/>final formatting, copyright"]
     G --> H["7 Published<br/>proceedings or journal issue"]
     H --> I["8 Post-publication<br/>citations, replications, critiques"]
-
+```
 
 In CS, most papers also go up on arXiv around step 4, before review finishes. That's why you'll often meet a paper as a preprint first.
 
@@ -478,7 +478,7 @@ For any paper, before citing or building on it:
 `mcpservers.org` and `computer.org` both "handle" computing knowledge, in completely different ways. There is no single place where a topic lives. A topic is held by an **ecosystem of organizations**, each at a different stage of the knowledge lifecycle.
 
 ### How a topic moves through the layers
-
+```mermaid
 flowchart LR
     A["Primary source<br/>spec, standard, or seminal paper<br/>Type 1"] --> B["Research papers<br/>preprints, then peer review<br/>Type 3, via Type 2 venues"]
     B --> C["Surveys / reviews<br/>Type 4"]
@@ -486,6 +486,8 @@ flowchart LR
     A --> E["Community aggregators<br/>Type 6"]
     E --> F["Blogs / social<br/>Type 7"]
     F -.->|surface new problems| B
+```
+
 
 
 This is one common path, not a law:
@@ -578,13 +580,15 @@ If you only read one layer, you get a distorted picture: only specs = too abstra
 ## 13. Tracing the citation chain back to the root
 
 A research paper's reference list is a thread you can pull. Follow it backward, paper to paper, and you can trace a topic back to where it began. The technique has a name: **backward citation tracing** (or backward reference searching). The opposite direction, finding newer papers that cite an older one, is **forward citation tracing**.
-
+```mermaid
 flowchart LR
     A["Current paper<br/>2026"] -->|backward tracing<br/>read its references| B["Older paper<br/>2021"]
     B -->|backward tracing| C["Even older paper<br/>2017"]
     C -.->|the root| D["Seminal work<br/>original concept"]
     D -.->|forward tracing<br/>who cited this?| E["all later work"]
 
+
+```
 
 ### The word for the origin: "seminal"
 

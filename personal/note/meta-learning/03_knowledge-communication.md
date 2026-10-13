@@ -47,10 +47,11 @@ Science communication, technical communication, and health communication are the
 
 How the field itself thinks about doing this well:
 
+```mermaid
 flowchart LR
     A["1 DEFICIT<br/>the public is empty;<br/>just pour facts in"] --> B["2 DIALOGUE<br/>two-way conversation;<br/>listen first"]
     B --> C["3 PARTICIPATION<br/>co-create knowledge<br/>together"]
-
+```
 
 - **Deficit model** (old): experts know, the public does not. Communication = simplify and pour. Also called "dumbing down".
 - **Dialogue model** (modern): the public is not empty. It has its own knowledge, questions, and values. Communication = conversation, and listening is half the job.
