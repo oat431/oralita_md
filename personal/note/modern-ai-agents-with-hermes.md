@@ -340,7 +340,7 @@ flowchart TD
 - [ ] Confirm room AV: screen share works, font size readable, terminal available for `hermes cron list`.
 - [ ] Decide what the cron segment shows: live command vs output folder vs both. Check the chosen output file for private content.
 - [ ] Optional: add a 3-line "why Hermes specifically" honesty note if the room reads it as a product pitch.
-- [ ] After delivery: capture the questions asked, add them to Section 4, and decide whether to turn this into a vault note series (per [[knowledge-communication]]).
+- [ ] After delivery: capture the questions asked, add them to Section 4, and decide whether to turn this into a vault note series (per [[03_knowledge-communication]]).
 
 ---
 

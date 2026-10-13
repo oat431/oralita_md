@@ -5,7 +5,7 @@ tags: [philosophy, epistemology, knowledge, meta-learning, regress-problem]
 # The Root of All Knowledge
 
 > **Created:** 2026-09-21
-> **Grew out of:** [[how-to-read-a-research-paper]], Section 13 (tracing citation chains back to the root).
+> **Grew out of:** [[01_how-to-read-a-research-paper]], Section 13 (tracing citation chains back to the root).
 > **The question:** If every paper rests on earlier papers, and every claim on earlier claims, where does it all end? Is there a single root of all knowledge, a thing at the bottom? Or does knowledge float in the air, complete, just waiting for a human to grasp it?
 
 ## TL;DR
@@ -34,16 +34,15 @@ Philosophers have not managed to remove the wall. But they have mapped exactly w
 
 Follow any chain of "how do you know?" far enough and it can only end in one of three ways:
 
-```mermaid
 flowchart TD
     A["How do you know X?"] --> B["Because of Y"]
     B --> C["How do you know Y?"]
     C --> D["Because of Z..."]
     D --> E{"Follow it far enough:<br/>where does it end?"}
-    E --> F["1. INFINITE REGRESS<br/>every reason needs another reason"]
-    E --> G["2. CIRCULARITY<br/>X because Y, Y because X"]
-    E --> H["3. DOGMATIC STOP<br/>declares a claim unquestionable"]
-```
+    E --> F["1 INFINITE REGRESS<br/>every reason needs another reason"]
+    E --> G["2 CIRCULARITY<br/>X because Y, Y because X"]
+    E --> H["3 DOGMATIC STOP<br/>declares a claim unquestionable"]
+
 
 Each exit looks like a failure:
 
@@ -77,13 +76,12 @@ This is the move the vault has already met twice: in the parent note (peer revie
 
 If there is no bedrock, where does knowledge actually come from? The 20th century's best answer: it **evolved**, and it evolved long before humans.
 
-```mermaid
 flowchart LR
-    P1["P1: a problem"] --> TS["TT: tentative solution<br/>(a bold guess)"]
-    TS --> EE["EE: error elimination<br/>(tests, criticism)"]
+    P1["P1: a problem"] --> TS["TT: tentative solution<br/>a bold guess"]
+    TS --> EE["EE: error elimination<br/>tests, criticism"]
     EE --> P2["P2: new problems"]
     P2 -->|"repeat forever"| TS
-```
+
 
 This loop is Popper's schema (P1 -> TT -> EE -> P2), and it runs at every scale of life:
 
@@ -160,9 +158,11 @@ These notes, in `general-knowledge/Philosophy` and synced to GitHub, are the adj
 
 ## Knowledge connections
 
-- [[how-to-read-a-research-paper]]: this note is its philosophical continuation; Section 13 (citation tracing) is the regress problem in miniature.
+- [[01_how-to-read-a-research-paper]]: this note is its philosophical continuation; Section 13 (citation tracing) is the regress problem in miniature.
 - [[CURRANTE]]: the example paper whose chain of "why does this measure matter?" stops at "tests are the specification."
-- [[knowledge-communication]]: the third note in the series: the professions that turn hard knowledge into easy words (science communicators, technical writers, knowledge brokers).
+- [[03_knowledge-communication]]: the third note in the series: the professions that turn hard knowledge into easy words (science communicators, technical writers, knowledge brokers).
+- [[04_logical-fallacies]]: the named failure patterns of criticism; error-correction needs them, and needs them aimed at ideas, not at people.
+- [[05_dunning-kruger-effect]]: how well we can know what we know: the calibration science, and its own error-correction story.
 
 ## Key takeaways
 

@@ -99,6 +99,7 @@ oralita_md/
     ai/          <- you are here
     musical/     <- song lyrics & musical notes
     note/        <- personal notes (TH + EN)
+      meta-learning/  <- how-to-learn & argue series
   fitness/         <- gym knowledge, meal templates
   home-lab/        <- infrastructure / DNS notes
   templates/       <- finance, writing templates

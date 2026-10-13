@@ -76,7 +76,6 @@ The format tells you how much review a paper survived. The type tells you what P
 
 The generic skeleton of a results paper:
 
-```mermaid
 flowchart TD
     A["Title + Abstract<br/>= the promise"] --> B["Introduction<br/>= the problem, gap, contributions"]
     B --> C["Background / Related Work<br/>= what others did"]
@@ -86,7 +85,7 @@ flowchart TD
     F --> G["Discussion<br/>= what it means, how it compares"]
     G --> H["Threats / Limitations<br/>= what could be wrong"]
     H --> I["Conclusion<br/>= what we get out"]
-```
+
 
 Section names and order vary by field, but the jobs stay the same. ML papers often put Related Work near the end, and LLM tech reports split the method into pre-training, post-training, and evaluation. A registered report like the running example stops after the plan: no Results or Discussion until Stage 2.
 
@@ -203,13 +202,12 @@ The running example has no results, but almost every other paper you'll read doe
 
 ## 4. The CURRANTE workflow in detail (Pass 2 depth)
 
-```mermaid
 flowchart LR
-    A["1. Specification<br/>TOML file<br/>problem + signature + constraints"] --> B["2. Tests<br/>LLM generates suite<br/>human refines: explain / regenerate / delete"]
-    B --> C["3. Function<br/>LLM generates code<br/>runs tests, reports pass/fail + advice"]
+    A["1 Specification<br/>TOML file<br/>problem + signature + constraints"] --> B["2 Tests<br/>LLM generates suite<br/>human refines: explain / regenerate / delete"]
+    B --> C["3 Function<br/>LLM generates code<br/>runs tests, reports pass/fail + advice"]
     C -->|refine the tests| B
     C -->|regenerate with advice| C
-```
+
 
 The loop ends when the function passes all tests or the time budget (about 30-45 minutes) runs out.
 
@@ -380,19 +378,18 @@ Should you trust a paper because it went through a long process? **Trust, but ve
 
 ### The actual lifecycle
 
-```mermaid
 flowchart TD
-    A["1. Idea / proposal<br/>authors identify a gap"] --> B["2. Conduct study<br/>build tool, run experiment, collect data"]
-    B --> C["3. Write the paper<br/>draft all sections"]
-    C --> D["4. Submit to venue<br/>conference or journal"]
-    D --> E["5. Peer review<br/>2-4 anonymous referees"]
+    A["1 Idea / proposal<br/>authors identify a gap"] --> B["2 Conduct study<br/>build tool, run experiment, collect data"]
+    B --> C["3 Write the paper<br/>draft all sections"]
+    C --> D["4 Submit to venue<br/>conference or journal"]
+    D --> E["5 Peer review<br/>2-4 anonymous referees"]
     E -->|reject| R["Revise -> resubmit elsewhere"]
     R -.-> D
     E -->|minor or major revisions| F["Revise + rebuttal"]
-    F --> G["6. Camera-ready<br/>final formatting, copyright"]
-    G --> H["7. Published<br/>proceedings or journal issue"]
-    H --> I["8. Post-publication<br/>citations, replications, critiques"]
-```
+    F --> G["6 Camera-ready<br/>final formatting, copyright"]
+    G --> H["7 Published<br/>proceedings or journal issue"]
+    H --> I["8 Post-publication<br/>citations, replications, critiques"]
+
 
 In CS, most papers also go up on arXiv around step 4, before review finishes. That's why you'll often meet a paper as a preprint first.
 
@@ -438,7 +435,7 @@ Each maps to one validity type (Section 10):
 1. **Construct validity: "correct" means "passes the participant's own tests."**
    - The paper labels PassAll and PassRate as "Correctness", and frames RQ1 around "generating correct code solutions for a given problem."
    - But Table I defines PassAll as whether the function "passes all tests in the suite", and the suite is the one the participant curated. Nothing in the protocol scores the function against LiveCodeBench's own reference tests.
-   - So a participant who deletes the hard tests gets PassAll = 1. RQ1 measures agreement with the user's tests, not correctness. This is the test-oracle problem that [[root-of-all-knowledge]] flags in its Section 7.
+   - So a participant who deletes the hard tests gets PassAll = 1. RQ1 measures agreement with the user's tests, not correctness. This is the test-oracle problem that [[02_root-of-all-knowledge]] flags in its Section 7.
    - The fix would be to also score every final function against LiveCodeBench's hidden tests.
 2. **Internal validity: causal language, no comparison condition.**
    - The abstract promises to analyze how human intervention "influences" code quality, and the introduction promises to analyze its "real impact".
@@ -482,15 +479,14 @@ For any paper, before citing or building on it:
 
 ### How a topic moves through the layers
 
-```mermaid
 flowchart LR
-    A["Primary source<br/>spec, standard, or seminal paper<br/>(Type 1)"] --> B["Research papers<br/>preprints, then peer review<br/>(Type 3, via Type 2 venues)"]
-    B --> C["Surveys / reviews<br/>(Type 4)"]
-    C --> D["Textbooks / tutorials<br/>(Type 5)"]
-    A --> E["Community aggregators<br/>(Type 6)"]
-    E --> F["Blogs / social<br/>(Type 7)"]
+    A["Primary source<br/>spec, standard, or seminal paper<br/>Type 1"] --> B["Research papers<br/>preprints, then peer review<br/>Type 3, via Type 2 venues"]
+    B --> C["Surveys / reviews<br/>Type 4"]
+    C --> D["Textbooks / tutorials<br/>Type 5"]
+    A --> E["Community aggregators<br/>Type 6"]
+    E --> F["Blogs / social<br/>Type 7"]
     F -.->|surface new problems| B
-```
+
 
 This is one common path, not a law:
 - Many topics start as a research paper (the Transformer, Raft) and get standardized later, or never.
@@ -583,13 +579,12 @@ If you only read one layer, you get a distorted picture: only specs = too abstra
 
 A research paper's reference list is a thread you can pull. Follow it backward, paper to paper, and you can trace a topic back to where it began. The technique has a name: **backward citation tracing** (or backward reference searching). The opposite direction, finding newer papers that cite an older one, is **forward citation tracing**.
 
-```mermaid
 flowchart LR
-    A["Current paper<br/>(2026)"] -->|backward tracing<br/>read its references| B["Older paper<br/>(2021)"]
-    B -->|backward tracing| C["Even older paper<br/>(2017)"]
-    C -.->|the root| D["Seminal work<br/>(original concept)"]
+    A["Current paper<br/>2026"] -->|backward tracing<br/>read its references| B["Older paper<br/>2021"]
+    B -->|backward tracing| C["Even older paper<br/>2017"]
+    C -.->|the root| D["Seminal work<br/>original concept"]
     D -.->|forward tracing<br/>who cited this?| E["all later work"]
-```
+
 
 ### The word for the origin: "seminal"
 
@@ -615,7 +610,7 @@ Further back: the concept's lineage, not CURRANTE's citations
 
 Two lessons:
 - **The chain can have gaps.** A paper may cite nothing for the concept it rests on. To keep tracing, step sideways: into its references' references, or into a survey.
-- **The root keeps receding.** Beck's book is where TDD got its *name*, not where the *practice* began. When you hit a book, a spec, or a standards document, you've usually found where a concept was named or formalized, and that is often deep enough. This matches Section 12: the root of a topic may sit in a *different layer* than where you started. [[root-of-all-knowledge]] asks what happens if you never stop.
+- **The root keeps receding.** Beck's book is where TDD got its *name*, not where the *practice* began. When you hit a book, a spec, or a standards document, you've usually found where a concept was named or formalized, and that is often deep enough. This matches Section 12: the root of a topic may sit in a *different layer* than where you started. [[02_root-of-all-knowledge]] asks what happens if you never stop.
 
 ### Not every reference is a root
 
@@ -744,8 +739,11 @@ Trust the quotes and numbers more than the prose that connects them.
 - [[empirical-software-engineering]]: the methodological tradition behind the ACM SIGSOFT standards (no note yet)
 - [[paper-note]]: the template for writing up each paper (Section 14)
 - [[understanding-specification-driven-code-generation-with-llms]]: the AI summary of the running example (one summary per paper in `F:\papers\` lives in `daily-paper/`)
-- [[root-of-all-knowledge]]: the philosophical continuation of this note (what lies past the end of every citation chain). Its Section 7 names the test-oracle problem behind this paper's metrics.
-- [[knowledge-communication]]: the professions that turn knowledge into easy words (science communicators, technical writers, and more).
+- [[02_root-of-all-knowledge]]: the philosophical continuation of this note (what lies past the end of every citation chain). Its Section 7 names the test-oracle problem behind this paper's metrics.
+- [[03_knowledge-communication]]: the professions that turn knowledge into easy words (science communicators, technical writers, and more).
+- [[04_logical-fallacies]]: the conversation-side twin of Sections 10-11: the catalog of reasoning failures, and how to use it without turning a discussion into a fight.
+- [[05_dunning-kruger-effect]]: a live case study for Section 11 (trust, but verify): a famous finding, its meme, and its statistical critiques.
+- [[06_disagreeing-without-rage]]: the practitioner's companion for when a disagreement about papers (or anything) stops being about the papers.
 
 ## Key takeaways
 

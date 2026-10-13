@@ -143,8 +143,8 @@ Rules of thumb:
 ## Knowledge Connections
 
 - [[why-100-before-you-die-lists-exist]]: the parent note; this is its taxonomy extended to sibling artifacts.
-- [[root-of-all-knowledge]]: bounded enumeration is one of the deep answers to "what is worth knowing/doing", the same move as canon-formation.
-- [[knowledge-communication]]: every list is a compression protocol for expert judgment; Branch C is that protocol weaponized.
+- [[02_root-of-all-knowledge]]: bounded enumeration is one of the deep answers to "what is worth knowing/doing", the same move as canon-formation.
+- [[03_knowledge-communication]]: every list is a compression protocol for expert judgment; Branch C is that protocol weaponized.
 
 ## Key Takeaways
 

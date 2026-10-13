@@ -5,7 +5,7 @@ tags: [knowledge, communication, professions, science-communication, meta-learni
 # Knowledge Communication: The Professions That Turn Hard Knowledge into Easy Words
 
 > **Created:** 2026-09-21
-> **Grew out of:** [[how-to-read-a-research-paper]] (how to consume knowledge) and [[root-of-all-knowledge]] (what knowledge is). This note closes the loop: who moves knowledge from the people who make it to the people who need it.
+> **Grew out of:** [[01_how-to-read-a-research-paper]] (how to consume knowledge) and [[02_root-of-all-knowledge]] (what knowledge is). This note closes the loop: who moves knowledge from the people who make it to the people who need it.
 > **The question:** "Science communication" is one thing I have heard of. Are there other kinds of knowledge communication? What is this process called?
 
 ## TL;DR
@@ -47,11 +47,10 @@ Science communication, technical communication, and health communication are the
 
 How the field itself thinks about doing this well:
 
-```mermaid
 flowchart LR
-    A["1. DEFICIT<br/>the public is empty;<br/>just pour facts in"] --> B["2. DIALOGUE<br/>two-way conversation;<br/>listen first"]
-    B --> C["3. PARTICIPATION<br/>co-create knowledge<br/>together"]
-```
+    A["1 DEFICIT<br/>the public is empty;<br/>just pour facts in"] --> B["2 DIALOGUE<br/>two-way conversation;<br/>listen first"]
+    B --> C["3 PARTICIPATION<br/>co-create knowledge<br/>together"]
+
 
 - **Deficit model** (old): experts know, the public does not. Communication = simplify and pour. Also called "dumbing down".
 - **Dialogue model** (modern): the public is not empty. It has its own knowledge, questions, and values. Communication = conversation, and listening is half the job.
@@ -86,8 +85,8 @@ For a software engineer, the most reachable doors: technical writing and documen
 
 ## 7. Where this fits the series
 
-- [[how-to-read-a-research-paper]]: how to CONSUME knowledge (three-pass reading, trust checks).
-- [[root-of-all-knowledge]]: what knowledge IS (a process kept alive by sharing and error-correction).
+- [[01_how-to-read-a-research-paper]]: how to CONSUME knowledge (three-pass reading, trust checks).
+- [[02_root-of-all-knowledge]]: what knowledge IS (a process kept alive by sharing and error-correction).
 - This note: who MOVES knowledge. In the reading note's Section 12 we mapped seven kinds of knowledge holders. Every step between those layers (paper -> textbook, research -> policy, technology -> user) is a translation, and each translation has a profession.
 
 ## Sources and further reading
@@ -100,8 +99,10 @@ For a software engineer, the most reachable doors: technical writing and documen
 
 ## Knowledge connections
 
-- [[how-to-read-a-research-paper]]: the consuming side of the same topic
-- [[root-of-all-knowledge]]: the philosophical base (knowledge as a process kept alive by sharing)
+- [[01_how-to-read-a-research-paper]]: the consuming side of the same topic
+- [[02_root-of-all-knowledge]]: the philosophical base (knowledge as a process kept alive by sharing)
+- [[06_disagreeing-without-rage]]: communication's stress test: what to do when knowledge meets identity and disagreement.
+- [[04_logical-fallacies]] and [[05_dunning-kruger-effect]]: why disagreements derail: broken arguments and miscalibrated confidence.
 
 ## Key takeaways
 

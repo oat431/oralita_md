@@ -6,7 +6,7 @@ created: 2026-10-04
 
 # Paper Note Template
 
-> These are your notes on a paper, not a summary of it. Hermes writes an AI summary of each paper to `daily-paper/<slug>.md`: that's what the paper *says*. This note records what *you* think after reading it. Copy the block into `daily-paper/reading-notes/` for every paper that gets past Pass 1. Papers that stop at Pass 1 get one line in the reading log instead. The method behind every field is in [[how-to-read-a-research-paper]].
+> These are your notes on a paper, not a summary of it. Hermes writes an AI summary of each paper to `daily-paper/<slug>.md`: that's what the paper *says*. This note records what *you* think after reading it. Copy the block into `daily-paper/reading-notes/` for every paper that gets past Pass 1. Papers that stop at Pass 1 get one line in the reading log instead. The method behind every field is in [[01_how-to-read-a-research-paper]].
 
 ## Rules That Keep Paper Notes Useful
 

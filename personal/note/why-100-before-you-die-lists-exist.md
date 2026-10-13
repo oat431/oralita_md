@@ -124,7 +124,7 @@ That is the mature resolution of the paradox:
 
 1. **Treat them as maps, not checklists.** Sample 5-10 entries across eras and genres; let curiosity route the rest.
 2. **Read the accompanying essays** (the 1001 series's best feature): the *why* transfers even when the pick is not yours.
-3. **Triangulate canons.** Cross a Western list with Thai, Japanese, Nigerian lists; omission maps are as instructive as inclusion maps (see [[root-of-all-knowledge]]).
+3. **Triangulate canons.** Cross a Western list with Thai, Japanese, Nigerian lists; omission maps are as instructive as inclusion maps (see [[02_root-of-all-knowledge]]).
 4. **Build your own list.** Producing your "100 that shaped me" (generation effect) teaches more than consuming theirs; the title should be "before you die" only if you accept it will keep changing (Eco's point).
 5. **Watch the emotional readout.** If a list produces anxiety (FOMO, score-chasing), it is being consumed as a product. If it produces curiosity, it is being consumed as a map.
 
@@ -132,8 +132,8 @@ That is the mature resolution of the paradox:
 
 ## Knowledge Connections
 
-- [[root-of-all-knowledge]]: canon lists are one answer to "what is worth knowing", and every answer encodes a worldview.
-- [[knowledge-communication]]: the list is a compression format for expert judgment: gains reach, loses nuance; the essays win nuance back.
+- [[02_root-of-all-knowledge]]: canon lists are one answer to "what is worth knowing", and every answer encodes a worldview.
+- [[03_knowledge-communication]]: the list is a compression format for expert judgment: gains reach, loses nuance; the essays win nuance back.
 - Related theories: [[../philosophy/|philosophy vault]] (aesthetics of taste), Terror Management Theory (mortality salience), Bourdieu's cultural capital.
 
 ## Key Takeaways

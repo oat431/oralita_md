@@ -61,6 +61,7 @@ This vault holds personal notes, health data, financial plans, and private writi
 | Area | Path | Content |
 |------|------|---------|
 | Personal notes | `personal/note/` | Mixed TH/EN personal notes |
+| Meta-learning series | `personal/note/meta-learning/` | How to learn and argue series: 00_overview + notes 01-06 |
 | Musical lyrics | `personal/musical/` | Song lyrics & musical overviews |
 | AI setup | `personal/ai/` | Claude Code config and guides |
 | Fitness | `fitness/00_gym_knowledge/` | Workout knowledge, meal templates |
