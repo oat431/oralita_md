@@ -5,7 +5,7 @@ tags: [wishes, health, healing, folklore, snippets]
 ---
 # 🍵 03 — Health Wishes
 
-> Companion to [[01-Luck-Wishes]] and [[02-Love-Wishes]]. Every snippet is **source-verified** unless marked `[craft]`, and **code blocks contain ONLY the copy-paste wish** — glosses, context, and sources sit below each block.
+> Companion to [[01-Luck-Wishes]] and [[02-Love-Wishes]]. Parent map: [[wishes/00_overview]]. Every snippet is **source-verified** unless marked `[craft]`, and **code blocks contain ONLY the copy-paste wish** — glosses, context, and sources sit below each block.
 
 **Occasion tags:** 🤒 get-well · 🏥 surgery/treatment · 😮💨 rest/burnout · 💪 everyday vitality · 🎂 longevity
 

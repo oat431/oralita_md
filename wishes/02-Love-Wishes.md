@@ -5,7 +5,7 @@ tags: [wishes, love, romance, folklore, snippets]
 ---
 # ❤️ 02 — Love Wishes
 
-> Companion to [[01-Luck-Wishes]]. Every snippet is **source-verified** unless marked `[craft]` (original, written for this library), and **code blocks contain ONLY the copy-paste wish** — transliteration, translation, and sources sit below each block.
+> Companion to [[01-Luck-Wishes]]. Parent map: [[wishes/00_overview]]. Every snippet is **source-verified** unless marked `[craft]` (original, written for this library), and **code blocks contain ONLY the copy-paste wish** — transliteration, translation, and sources sit below each block.
 
 **Occasion tags:** 💘 confession/crush · 💌 singles hoping · 💍 anniversary/couples · ❤️ everyday love
 
