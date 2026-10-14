@@ -325,4 +325,4 @@ Welcome back — the road kept its word.
 - Verification: two research subagents cross-checked every attested item against primary texts; 9 traps flagged, 4 items left honestly `[UNVERIFIED]` and excluded (2026-10-12)
 
 ---
-*Roadmap: [[00_overview]] — next: 06 New Beginnings → 07 Peace → 08 Dreams → 09 Family → 10 Journey → 11 Format Library*
+*Roadmap: [[wishes/00_overview]] — next: 06 New Beginnings → 07 Peace → 08 Dreams → 09 Family → 10 Journey → 11 Format Library*

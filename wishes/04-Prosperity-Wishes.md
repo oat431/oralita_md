@@ -340,4 +340,4 @@ And for the deal-closing toast, raise the cup:
 - Verification: two research subagents cross-checked every attested item against primary texts; traps flagged: non-verbatim *pecunia non olet*, Icelandic≠Norwegian poem, Hávamál = no blessings, Zeus Soter sequencing, "Aristotle" misattribution (2026-10-11)
 
 ---
-*Roadmap: [[00_overview]] — next: 05 Protection → 06 New Beginnings → 07 Peace → 08 Dreams → 09 Family → 10 Journey → 11 Format Library*
+*Roadmap: [[wishes/00_overview]] — next: 05 Protection → 06 New Beginnings → 07 Peace → 08 Dreams → 09 Family → 10 Journey → 11 Format Library*

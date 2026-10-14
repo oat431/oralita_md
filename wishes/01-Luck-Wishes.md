@@ -5,7 +5,7 @@ tags: [wishes, luck, gacha, folklore, snippets, runes]
 ---
 # 🍀 01 — Luck Wishes
 
-> The branch that started it all: a Viking Rune Wish pulled a friend her rare item. Parent map: [[00_overview]]
+> The branch that started it all: a Viking Rune Wish pulled a friend her rare item. Parent map: [[wishes/00_overview]]
 > Every snippet below is **source-verified** unless marked `[craft]` (original, written for this library). **Code blocks contain ONLY the copy-paste wish** — transliteration, translation, and sources sit below each block.
 
 **Occasion tags:** 🎰 gacha pull · 📝 exam/test · 💼 interview · 🍀 everyday luck · 🎟 lottery/big risk
