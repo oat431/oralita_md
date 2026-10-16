@@ -1,0 +1,34 @@
+/* panomete · dark */
+:root {
+  --color-primary: #1FB854;
+  --color-primary-content: #000000;
+  --color-secondary: #1EB88E;
+  --color-secondary-content: #000C07;
+  --color-accent: #1FB8AB;
+  --color-accent-content: #010C0B;
+  --color-neutral: #19362D;
+  --color-neutral-content: #CDD3D1;
+  --color-base-100: #1B1717;
+  --color-base-200: #161212;
+  --color-base-300: #110D0D;
+  --color-base-content: #CAC9C9;
+  --color-info: #00B5FF;
+  --color-info-content: #000000;
+  --color-success: #00A96E;
+  --color-success-content: #000000;
+  --color-warning: #FFBE00;
+  --color-warning-content: #000000;
+  --color-error: #FF5861;
+  --color-error-content: #000000;
+  --radius-selector: 16;
+  --radius-field: 32;
+  --radius-box: 16;
+  --border-width: 1;
+  --spacing-1: 4;
+  --spacing-2: 8;
+  --spacing-3: 16;
+  --spacing-4: 24;
+  --spacing-5: 32;
+  --spacing-6: 48;
+  --spacing-7: 64;
+}
