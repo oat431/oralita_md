@@ -59,7 +59,7 @@ From Wikipedia's *Wish* and charm traditions, each is a potential **format** for
 - [x] `04-Prosperity-Wishes.md`
 - [x] `05-Protection-Wishes.md`
 - [x] `06-New-Beginnings-Wishes.md`
-- [ ] `07-Peace-Wishes.md`
+- [x] `07-Peace-Wishes.md`
 - [ ] `08-Dream-Wishes.md`
 - [ ] `09-Family-Wishes.md`
 - [ ] `10-Journey-Wishes.md`

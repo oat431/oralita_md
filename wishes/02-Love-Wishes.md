@@ -337,7 +337,7 @@ Freyja, hear this one.
 - **Sappho fr. 1, the mettā line, Gītā 12.13 are prayers** (solemnity register, not jokes)
 - **agapē is post-classical** (LXX/NT) as a noun. Don't present "four Greek loves" as one classical system, it's a later curation
 - **Catullus 5 is for romantic partners only**
-- **Heartbreak / condolence: not here**. Grief gets [[04-Wishing-Note-Guide]] rules; comfort wishes come with [[07-Peace-Wishes]] (planned)
+- **Heartbreak / condolence: not here**. Grief gets [[04-Wishing-Note-Guide]] rules; comfort wishes live in [[07-Peace-Wishes]]
 - **Crossover pick:** romantic gambles (crush DMs, confessions at long odds) → Ovid's *Audentem Forsque Venusque iuvat* lives in [[01-Luck-Wishes]]
 
 ## Sources
