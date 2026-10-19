@@ -49,20 +49,20 @@ flowchart TD
 
 The counts side by side, with what each map is actually for:
 
-| Map | Count | Axis it cuts along | What the map is for |
-|---|---|---|---|
-| Aristotle's branches of knowledge | 3 | what knowing is *for* | philosophy |
-| C.P. Snow's Two Cultures | 2 | mutual comprehension between communities | cultural criticism |
-| Biglan's clusters (made famous by Becher) | 4 | hard/soft x pure/applied | studying how disciplines behave |
-| IB Theory of Knowledge, 2022 | 5 | school subject cultures | teaching teenagers epistemology |
-| OECD Frascati Fields of Science | 6 | research statistics | counting R&D money |
-| Thai Basic Education Core Curriculum, 2551 | 8 | school curriculum | organizing school time |
-| IB Theory of Knowledge, pre-2022 | 8 | school subject cultures | the same course, an earlier map |
-| Dewey Decimal Classification | 10 | library shelving | finding books |
-| UNESCO ISCED-F 2013 | 11 | education statistics | comparing degrees across countries |
-| UNESCO nomenclature of fields | 24 | research fields | cataloguing R&D projects |
-| University faculties | dozens | profession + knowledge + money | hiring, degrees, accreditation |
-| Research specialties | tens of thousands | research communities | journals and careers |
+| Map                                        | Count             | Axis it cuts along                       | What the map is for                |
+| ------------------------------------------ | ----------------- | ---------------------------------------- | ---------------------------------- |
+| Aristotle's branches of knowledge          | 3                 | what knowing is *for*                    | philosophy                         |
+| C.P. Snow's Two Cultures                   | 2                 | mutual comprehension between communities | cultural criticism                 |
+| Biglan's clusters (made famous by Becher)  | 4                 | hard/soft x pure/applied                 | studying how disciplines behave    |
+| IB Theory of Knowledge, 2022               | 5                 | school subject cultures                  | teaching teenagers epistemology    |
+| OECD Frascati Fields of Science            | 6                 | research statistics                      | counting R&D money                 |
+| Thai Basic Education Core Curriculum, 2551 | 8                 | school curriculum                        | organizing school time             |
+| IB Theory of Knowledge, pre-2022           | 8                 | school subject cultures                  | the same course, an earlier map    |
+| Dewey Decimal Classification               | 10                | library shelving                         | finding books                      |
+| UNESCO ISCED-F 2013                        | 11                | education statistics                     | comparing degrees across countries |
+| UNESCO nomenclature of fields              | 24                | research fields                          | cataloguing R&D projects           |
+| University faculties                       | dozens            | profession + knowledge + money           | hiring, degrees, accreditation     |
+| Research specialties                       | tens of thousands | research communities                     | journals and careers               |
 
 Three observations from the table alone:
 

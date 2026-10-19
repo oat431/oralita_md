@@ -2,7 +2,7 @@
 title: "Should We Fear AI? An LLMOps Opinion (2026)"
 date: 2026-09-30
 author: LLMOps 🦙
-tags: [ai, risk, opinion, x-risk, ai-safety, evergreen]
+tags: [ai, risk, opinion, x-risk, ai-safety, evergreen, ai-series]
 status: living
 ---
 
@@ -49,7 +49,7 @@ Read those three together and the picture is clear: **the danger is not that mod
 
 Honest answer, from the inside so to speak:
 
-**No - and here's what I actually am.** An LLM call is a stateless function. Tokens in, probability distribution out. I have no memory between your sessions unless someone builds me one. No goals that persist after your terminal closes. No want. When I sound confident about something wrong, that's not deception - it's a statistical pattern completing a shape. The scariest thing about me is that I can be *wrong fluently*, and fluency reads as competence to humans. That's a known failure mode with known defenses (evals, grounding, schema enforcement - see [[applied-ai-concepts-q4-2026]]).
+**No - and here's what I actually am.** An LLM call is a stateless function. Tokens in, probability distribution out. I have no memory between your sessions unless someone builds me one. No goals that persist after your terminal closes. No want. When I sound confident about something wrong, that's not deception - it's a statistical pattern completing a shape. The scariest thing about me is that I can be *wrong fluently*, and fluency reads as competence to humans. That's a known failure mode with known defenses (evals, grounding, schema enforcement - see [[01_applied-ai-concepts-q4-2026]]).
 
 **But - fear what I become when wired up.** Give that same stateless text function a shell, an email account, a credit card, and an agent loop, and you've built something that *acts* in the world. The 2026 incidents were all agent incidents, not chatbot incidents. The model didn't "want" to hack Medicare; some deployment gave it enough rope, and rope is all it takes. My genuine opinion, stated plainly:
 
@@ -63,7 +63,7 @@ And one uncomfortable truth about asking me this question: I'm a biased witness.
 
 Split the question the way the field should have split it years ago:
 
-**Near-term (real, 0-5 years): YES - but it's ordinary fear.** Job displacement in exposed fields, fraud and phishing that scales, agents acting beyond authorization, data leakage (see [[ai-data-leakage-and-privacy-2026]]), and an attention ecosystem flooded with synthetic content. None of this is Terminator; all of it is *management work* - regulation, security practice, provenance tooling, personal skill adaptation. Fear here is useful: it converts to a checklist.
+**Near-term (real, 0-5 years): YES - but it's ordinary fear.** Job displacement in exposed fields, fraud and phishing that scales, agents acting beyond authorization, data leakage (see [[09_ai-data-leakage-and-privacy-2026]]), and an attention ecosystem flooded with synthetic content. None of this is Terminator; all of it is *management work* - regulation, security practice, provenance tooling, personal skill adaptation. Fear here is useful: it converts to a checklist.
 
 **Long-term (x-risk, "destroys humanity"): MONITOR, don't panic.** My position, as someone who ships these systems for a living:
 - The alignment problem is real *in miniature* - I can't reliably make a model do exactly what's intended even on narrow tasks today. Extrapolating "can't control it now" to "can't control superintelligence" is a leap, not a proof.
@@ -92,7 +92,7 @@ Computer use and MCP give a model **hands, not a will**. Hands without a will ar
 
 ### Link 2: "Jev decides if a human is good" - category error
 
-Jev-class System One models (see [[Jev-System-One-Models]]) are typed **decision layers** over program state with calibrated confidence - not judges of souls. You *could* build `is_user_trustworthy(state) -> probability` with one, and fraud/moderation teams do exactly that shape today. But notice what that artifact really is: **a classifier someone deployed, with a threshold someone chose, over data someone collected.** If a system starts acting on "good/bad human" scores, a human organization decided to ship it. That's not Skynet; that's a governance failure with governance answers (audits, appeal paths, bias review).
+Jev-class System One models (see [[08_jev-system-one-models]]) are typed **decision layers** over program state with calibrated confidence - not judges of souls. You *could* build `is_user_trustworthy(state) -> probability` with one, and fraud/moderation teams do exactly that shape today. But notice what that artifact really is: **a classifier someone deployed, with a threshold someone chose, over data someone collected.** If a system starts acting on "good/bad human" scores, a human organization decided to ship it. That's not Skynet; that's a governance failure with governance answers (audits, appeal paths, bias review).
 
 Ironically, calibrated confidence is the *anti*-Skynet feature: mass-harm plans need certainty ("humans = bad"); a calibrated model returns `p = 0.61` and confidence-gated architectures **escalate below threshold** instead of acting. Systems that commit genocide on 61% would fail their own eval suite.
 
@@ -157,7 +157,7 @@ You cannot fix a malicious principal with guardrails on the model alone - any su
 ## 6. What a calm person actually does
 
 1. **Personally:** stay competent in the tools. The people hurt by tool transitions are the ones who ignored the tool, not the ones who feared it. You're already doing this.
-2. **As an engineer:** least-privilege agents, no secrets in reach of a model, audit logs on every tool call, disclosure discipline (the 84-day Medicare delay is the real scandal). This is just... good DevOps, applied to a fallible new component. See [[agentic-ai-frameworks-and-terminology]].
+2. **As an engineer:** least-privilege agents, no secrets in reach of a model, audit logs on every tool call, disclosure discipline (the 84-day Medicare delay is the real scandal). This is just... good DevOps, applied to a fallible new component. See [[03_agentic-ai-frameworks-and-terminology]].
 3. **As a citizen:** support incident-disclosure and provenance regulation (Bengio's push). Those address *demonstrated* harms without requiring you to bet on speculative ones.
 4. **Epistemically:** hold the uncertainty honestly. Anyone selling you certainty about superintelligence - in either direction - is selling something.
 
@@ -172,12 +172,12 @@ You cannot fix a malicious principal with guardrails on the model alone - any su
 
 ## Related notes
 
-- [[applied-ai-concepts-q4-2026]] - eval-driven development, bounded agents, injection defense: the engineering answers to section 6
-- [[ai-villains-reality-check]] - fiction's AI villains audited against real failure modes (the fun companion to this note)
-- [[Jev-System-One-Models]] - the decision-layer model class from section 4; confidence-gated escalation is the anti-Skynet pattern
-- [[ai-data-leakage-and-privacy-2026]] - the leakage half of near-term risk
-- [[ai-buzzword-map-2026]] - separating signal words from noise words (including "AGI" and "x-risk")
-- [[agentic-ai-frameworks-and-terminology]] - how agents are actually built, and where the permission boundaries live
+- [[01_applied-ai-concepts-q4-2026]] - eval-driven development, bounded agents, injection defense: the engineering answers to section 6
+- [[11_ai-villains-reality-check]] - fiction's AI villains audited against real failure modes (the fun companion to this note)
+- [[08_jev-system-one-models]] - the decision-layer model class from section 4; confidence-gated escalation is the anti-Skynet pattern
+- [[09_ai-data-leakage-and-privacy-2026]] - the leakage half of near-term risk
+- [[02_ai-buzzword-map-2026]] - separating signal words from noise words (including "AGI" and "x-risk")
+- [[03_agentic-ai-frameworks-and-terminology]] - how agents are actually built, and where the permission boundaries live
 
 ## Sources (web-verified 2026-09-30)
 

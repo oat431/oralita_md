@@ -2,7 +2,7 @@
 title: "AI Engineering Knowledge Vault: Proposed Structure"
 date: 2026-09-19
 author: LLMOps 🦙
-tags: [ai, vault, proposal, architecture, evergreen]
+tags: [ai, vault, proposal, architecture, evergreen, ai-series]
 status: draft
 ---
 
@@ -217,7 +217,7 @@ This file is the **proposal**. Once you approve the structure (or adjust it), th
 2. I scaffold Phase 1: `04_Applied_AI_Engineering/` with 8 sub-folder overviews (mirroring your existing 6 capability areas + 2 new ones).
 3. You read tier-1 sources (see `09_Reading_List.md`) and we deepen notes together.
 
-The reading list - the actual books/papers/courses to source from - is in `[[AI-Engineering-Reading-List]]` (separate file, same directory).
+The reading list - the actual books/papers/courses to source from - is in `[[13_ai-engineering-reading-list]]` (separate file, same directory).
 
 ---
 

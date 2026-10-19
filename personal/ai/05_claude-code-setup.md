@@ -1,6 +1,6 @@
 ---
 title: "Claude Code: First-Time Setup Guide"
-tags: [ai, claude, setup, tools]
+tags: [ai, claude, setup, tools, ai-series]
 created: 2026-08-24
 ---
 

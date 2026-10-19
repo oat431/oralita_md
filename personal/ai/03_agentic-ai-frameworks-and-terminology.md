@@ -2,7 +2,7 @@
 title: "Agentic AI: Frameworks, Terminology, and Concepts (Q4 2026)"
 date: 2026-09-21
 author: LLMOps 🦙
-tags: [ai, agents, agentic, frameworks, terminology, reference, harness-engineering, loop-engineering]
+tags: [ai, agents, agentic, frameworks, terminology, reference, harness-engineering, loop-engineering, ai-series]
 status: living
 ---
 
@@ -12,7 +12,7 @@ status: living
 > **Short answer:** Yes - LangChain/LangGraph are **agent orchestration frameworks**. But they're one category in a larger ecosystem: frameworks, protocols, memory layers, harnesses, and eval tools. This note maps the whole thing.
 > **Verification:** All facts web-checked 2026-09-21. Frameworks churn fast - re-verify versions before citing in an ADR.
 > **Update:** Added **Part 8** - the "-X engineering" family (prompt -> context -> harness -> loop -> graph), with honest status labels: established vs emerging vs rebrand.
-> **Companion:** The tool landscape around this (routers vs harnesses vs assistant platforms) is mapped in [[ai-tools-landscape-2026]].
+> **Companion:** The tool landscape around this (routers vs harnesses vs assistant platforms) is mapped in [[04_ai-tools-landscape-2026]].
 
 ---
 
@@ -237,7 +237,7 @@ flowchart TD
 
 ### How to use these words (calibrated skepticism)
 
-- **Adopt:** *context engineering* and *harness engineering* - they name real, distinct layers of work. *Loop engineering* is also worth adopting, especially given your own framing in [[job-hunting-as-loop-engineering]].
+- **Adopt:** *context engineering* and *harness engineering* - they name real, distinct layers of work. *Loop engineering* is also worth adopting, especially given your own framing in [[07_job-hunting-as-loop-engineering]].
 - **Use with stakeholders:** "prompt engineering" undersells the work; "harness engineering" explains why the same model behaves differently in different tools (Claude Code vs Cursor vs Hermes).
 - **In interviews/resumes:** context + harness engineering are current and defensible. "Graph engineering" may get a raised eyebrow - be ready to say "it's state-machine design for agent topologies."
 - **The trap:** these words are also used to sell courses and consulting. The test: can the person explain what *fails* when that layer is broken? If not, it's marketing.
@@ -246,10 +246,10 @@ flowchart TD
 
 ## Related Notes
 
-- [[applied-ai-concepts-q4-2026]] - the 7 applied concepts (context engineering, EDD, trajectory eval, bounded agents, routing, structured outputs, injection defense)
-- [[ai-buzzword-map-2026]] - the wider buzzword map: agent-* wave, slop family, -washing, -maxxing, security & business terms
-- [[ai-engineering-knowledge-vault-proposal]] - the vault structure (agent content lives in pillar 04/01 + 04/07)
-- [[job-hunting-as-loop-engineering]] - your own loop-engineering framing
+- [[01_applied-ai-concepts-q4-2026]] - the 7 applied concepts (context engineering, EDD, trajectory eval, bounded agents, routing, structured outputs, injection defense)
+- [[02_ai-buzzword-map-2026]] - the wider buzzword map: agent-* wave, slop family, -washing, -maxxing, security & business terms
+- [[12_ai-engineering-knowledge-vault-proposal]] - the vault structure (agent content lives in pillar 04/01 + 04/07)
+- [[07_job-hunting-as-loop-engineering]] - your own loop-engineering framing
 - ai-knowledge vault: `04_Applied_AI_Engineering/07_Multi_Agent_and_Orchestration/` - the deep-dive home for this topic
 
 ## Sources (verified 2026-09-21)

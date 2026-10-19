@@ -1,6 +1,6 @@
 ---
 title: "Job-Hunting Loop: A Cloneable Loop-Engineering Template"
-tags: [ai, loop-engineering, agents, career, template, open-source]
+tags: [ai, loop-engineering, agents, career, template, open-source, ai-series]
 created: 2026-09-17
 updated: 2026-09-17
 ---

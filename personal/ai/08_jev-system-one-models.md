@@ -1,6 +1,6 @@
 ---
 title: "Jev & TypeSafe System One Models: What All the Buzz Is About"
-tags: [ai, llm-ops, model-routing, guardrails, structured-output, classification, news-2026]
+tags: [ai, llm-ops, model-routing, guardrails, structured-output, classification, news-2026, ai-series]
 created: 2026-09-19
 updated: 2026-09-19
 sources: 4 (see bottom)
@@ -163,6 +163,6 @@ Watch for: independent evals, price stability after early access, multimodal sta
 
 ## Related in vault
 
-- [[job-hunting-as-loop-engineering]] - human-gated loops; Jev's confidence routing is the machine version of that gate
+- [[07_job-hunting-as-loop-engineering]] - human-gated loops; Jev's confidence routing is the machine version of that gate
 - `swe-knowledge\career-path\18_Applied_AI_Engineer\05_Model_and_Inference_Operations\` - model routing & cost engineering (this is a new routing *primitive*, worth a note update)
 - `swe-knowledge\career-path\18_Applied_AI_Engineer\04_AI_Security_and_Guardrails\` - AutoModeMiddleware = guardrails as a model class

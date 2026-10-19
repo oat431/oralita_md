@@ -2,13 +2,13 @@
 title: "AI Engineering Vault: Curated Reading List"
 date: 2026-09-19
 author: LLMOps 🦙
-tags: [ai, vault, reading-list, sources, evergreen]
+tags: [ai, vault, reading-list, sources, evergreen, ai-series]
 status: draft
 ---
 
 # AI Engineering Vault: Curated Reading List
 
-> **Purpose:** The canonical sources to build `ai-knowledge/` from. Tiered by priority and mapped to the vault pillars in `[[AI-Engineering-Knowledge-Vault-Proposal]]`.
+> **Purpose:** The canonical sources to build `ai-knowledge/` from. Tiered by priority and mapped to the vault pillars in `[[12_ai-engineering-knowledge-vault-proposal]]`.
 >
 > **Principle:** Core principles churn slowly (textbooks). Frameworks/models/tooling churn fast (web-verify before citing). This list separates them.
 > **Verification:** Sources web-checked 2026-09-19. Re-verify editions/versions before buying or citing.

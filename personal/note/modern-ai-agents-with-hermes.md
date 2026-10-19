@@ -45,7 +45,7 @@ status: draft
 | Time | Segment | What happens | Open on screen |
 |---|---|---|---|
 | 0:00-0:03 | Open + hook | Personal hook, thesis, session roadmap | This note |
-| 0:03-0:10 | 1. Model vs harness | The 2023-2026 arc; what an agent actually is; "same model, different harness" | [[agentic-ai-frameworks-and-terminology]] (Part 6 + Part 8) |
+| 0:03-0:10 | 1. Model vs harness | The 2023-2026 arc; what an agent actually is; "same model, different harness" | [[03_agentic-ai-frameworks-and-terminology]] (Part 6 + Part 8) |
 | 0:10-0:18 | 2. The layer ladder | 5 layers, failure-mode table, the buzzword test | This note (tables below) |
 | 0:18-0:30 | 3. Hermes specimen | Profiles/SOUL, skills, memory, and a real cron loop | Registry -> Overview.md -> SKILL.md -> cron list/output |
 | 0:30-0:40 | 4. Loop engineering | Convergence trio, checklist highlights, the job-hunting-loop case study | loop-engineering.md (GitHub) -> job-hunting-loop repo |
@@ -82,7 +82,7 @@ Ordering rule for every segment: **point first, jargon second**. Show the thing,
 - The 2026 consensus line: **the harness matters more than the model.** Same model, different harness = very different capability. That is why two people with the same model get completely different results.
 - What is an agent, explicitly: a system where the model decides what to do next, in a loop, using tools. As opposed to a fixed pipeline where you decide each step. Loop = perceive -> plan -> act -> observe -> repeat.
 
-**Show:** open [[agentic-ai-frameworks-and-terminology]], go to **Part 6 (Agent Harnesses)** and the **Part 8 status table**. If the room wants the wider landscape, [[ai-tools-landscape-2026]] has the tool map.
+**Show:** open [[03_agentic-ai-frameworks-and-terminology]], go to **Part 6 (Agent Harnesses)** and the **Part 8 status table**. If the room wants the wider landscape, [[04_ai-tools-landscape-2026]] has the tool map.
 
 **Land it:** "When someone says 'this AI is dumb', the failure is usually not the model. It is the harness."
 
@@ -222,7 +222,7 @@ flowchart TD
 | How do I start on Monday? | Install one harness, run one real (not toy) task, then convert one recurring chore into a skill or a loop. Start manual, run it by hand about 3 times, then schedule it. Read the loop checklist before automation grows. |
 | Is it safe with company code? | Think in layers: least-privilege tools, sandbox for untrusted work, secrets in environment/vault (never in prompts), human gates before destructive or external actions, guardrails on tool traffic. And treat web pages, docs, and emails as untrusted input: prompt injection is a real attack class. |
 | What does it cost to run loops? | Budgets, not vibes: iteration caps, token budget per run, wall-clock timeout. Route cheap models to routing/formatting and strong models to judgment. Dedup first: idle runs should cost about zero model calls. Loops only pay off when verification is automated. |
-| Will this replace developers? | It replaces unverified toil, not judgment. The job moves up a layer: designing loops, verification, and reviews. See [[should-we-fear-ai-2026]] for my long-form opinion. |
+| Will this replace developers? | It replaces unverified toil, not judgment. The job moves up a layer: designing loops, verification, and reviews. See [[10_should-we-fear-ai-2026]] for my long-form opinion. |
 | Loops vs pipelines vs graphs: what do I actually need? | Simplest rung first: single call -> deterministic pipeline -> routed flow -> bounded loop -> graph -> multi-agent org. Climb only when the rung below demonstrably fails. |
 | What is MCP? | The standard way agents connect to tools and data (the agent-to-tool layer). It is the part of the stack that won; you will meet it in any framework. My Hermes connects to MCP servers for filesystem, search, GitHub, postgres. |
 | Aren't these buzzwords just marketing? | Partly. Apply the test: can the person explain what FAILS when that layer breaks? Context/harness/loop engineering survive the test. "Graph engineering" is the most contested: know it, use it carefully. |
@@ -239,9 +239,9 @@ flowchart TD
 
 **60-minute version:** full run sheet + open discussion. Optional extras, pick one or two:
 - Walk one full `SKILL.md` line by line (the "how a procedure becomes reusable" moment).
-- Open [[ai-buzzword-map-2026]] as a live "truth-checking the vocabulary" segment.
+- Open [[02_ai-buzzword-map-2026]] as a live "truth-checking the vocabulary" segment.
 - Ask the room for their most repetitive task and sketch its loop on a whiteboard: trigger, one bounded item, verification, bounds, exit.
-- Open [[ai-tools-landscape-2026]] and discuss which harness fits our team.
+- Open [[04_ai-tools-landscape-2026]] and discuss which harness fits our team.
 
 **If questions run long:** the two cuttable items are the graph deep-dive and the skills walkthrough; both are fully documented in the links.
 
@@ -266,7 +266,7 @@ flowchart TD
 - Zoom to ~125% so the room can read the tables.
 
 **Fallbacks:**
-- No internet: everything except the two GitHub walkthroughs is local. For the case study, open [[job-hunting-as-loop-engineering]] (same machinery and diagram, local copy). For the checklists, open the local copies in `F:\obsidian_note\swe-knowledge\checklist\ai-checklist\`.
+- No internet: everything except the two GitHub walkthroughs is local. For the case study, open [[07_job-hunting-as-loop-engineering]] (same machinery and diagram, local copy). For the checklists, open the local copies in `F:\obsidian_note\swe-knowledge\checklist\ai-checklist\`.
 - Terminal misbehaving: show the cron output folder instead; same story.
 - Running long: cut the graph segment first, keep the loop case study.
 
@@ -322,7 +322,7 @@ flowchart TD
 - Graph engineering checklist: https://github.com/oat431/swe-knowledge/blob/main/checklist/ai-checklist/graph-engineering.md
 - AI knowledge vault, applied pillar: https://github.com/oat431/ai-knowledge/tree/main/04_Applied_AI_Engineering
 - Hermes config backup (souls + skills): https://github.com/oat431/hermes_config_backup
-- Agentic AI terminology note: https://github.com/oat431/oralita_md/blob/main/personal/ai/agentic-ai-frameworks-and-terminology.md
+- Agentic AI terminology note: https://github.com/oat431/oralita_md/blob/main/personal/ai/03_agentic-ai-frameworks-and-terminology.md
 
 **External:**
 
@@ -344,4 +344,4 @@ flowchart TD
 
 ---
 
-*Drafted by Edu (📚), 2026-10-09, v0.1. Sources: [[agentic-ai-frameworks-and-terminology]], [[job-hunting-as-loop-engineering]], [[ai-buzzword-map-2026]], [[ai-tools-landscape-2026]], and the loop-engineering / graph-engineering checklists in swe-knowledge. All facts verified against the live machine and public repos on 2026-10-09.*
+*Drafted by Edu (📚), 2026-10-09, v0.1. Sources: [[03_agentic-ai-frameworks-and-terminology]], [[07_job-hunting-as-loop-engineering]], [[02_ai-buzzword-map-2026]], [[04_ai-tools-landscape-2026]], and the loop-engineering / graph-engineering checklists in swe-knowledge. All facts verified against the live machine and public repos on 2026-10-09.*

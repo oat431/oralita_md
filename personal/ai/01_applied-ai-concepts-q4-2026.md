@@ -2,7 +2,7 @@
 title: "Applied AI Concepts Worth Knowing: Q4 2026"
 date: 2026-09-19
 author: LLMOps 🦙
-tags: [ai, llm, applied-ai, evergreen]
+tags: [ai, llm, applied-ai, evergreen, ai-series]
 status: living
 ---
 
@@ -145,7 +145,7 @@ All seven live in the Applied AI Engineer capability areas. Cross-references for
 
 - **Fine-tuning**: still rarely worth it. RAG + prompting + routing beats it for ~90% of product needs in 2026. Learn it *after* the seven above.
 - **Multimodal / SLMs / on-device**: important and evolving, but not "the concept that changed how you ship." Track, don't prioritize.
-- **AGI / reasoning-model hype**: not an engineering concept. Ignore until it has evals. For the "should we fear any of this?" question, see [[should-we-fear-ai-2026]].
+- **AGI / reasoning-model hype**: not an engineering concept. Ignore until it has evals. For the "should we fear any of this?" question, see [[10_should-we-fear-ai-2026]].
 
 ---
 

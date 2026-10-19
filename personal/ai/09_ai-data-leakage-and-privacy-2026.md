@@ -2,7 +2,7 @@
 title: "AI Data Leakage: What's True, What's Hype, and How to Defend (2026)"
 date: 2026-09-22
 author: LLMOps 🦙
-tags: [ai, security, privacy, data-leakage, secrets, prompt-injection, reference]
+tags: [ai, security, privacy, data-leakage, secrets, prompt-injection, reference, ai-series]
 status: living
 ---
 
@@ -179,10 +179,10 @@ If the secret is never in the context window, no model - cloud or local - can le
 
 ## Related notes
 
-- [[ai-tools-landscape-2026]] - the tool map this note secures
-- [[applied-ai-concepts-q4-2026]] - prompt injection as an applied concept (unsolved)
-- [[agentic-ai-frameworks-and-terminology]] - MCP and the agent ecosystem
-- [[claude-code-setup]] - your harness setup
+- [[04_ai-tools-landscape-2026]] - the tool map this note secures
+- [[01_applied-ai-concepts-q4-2026]] - prompt injection as an applied concept (unsolved)
+- [[03_agentic-ai-frameworks-and-terminology]] - MCP and the agent ecosystem
+- [[05_claude-code-setup]] - your harness setup
 
 ## Sources (web-verified 2026-09-22)
 

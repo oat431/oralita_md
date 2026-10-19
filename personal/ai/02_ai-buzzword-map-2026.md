@@ -2,13 +2,13 @@
 title: "The AI Buzzword Map (Q4 2026): Every 'Buff Word', Sorted Honestly"
 date: 2026-09-21
 author: LLMOps 🦙
-tags: [ai, agents, llm, buzzwords, terminology, reference]
+tags: [ai, agents, llm, buzzwords, terminology, reference, ai-series]
 status: living
 ---
 
 # The AI Buzzword Map (Q4 2026)
 
-> **Companion to:** [[agentic-ai-frameworks-and-terminology]] (Part 8 covered the "-X engineering" family - this note maps *everything else*).
+> **Companion to:** [[03_agentic-ai-frameworks-and-terminology]] (Part 8 covered the "-X engineering" family - this note maps *everything else*).
 > **Question this answers:** "What other buff words exist around AI / agentic / LLM - and which ones are real?"
 > **Method:** Every term web-verified 2026-09-21. Status labels below are my honest calibration, not vendor copy.
 
@@ -86,7 +86,7 @@ Before the list - the single most useful observation: **AI terminology doesn't a
 | Term | What it means | Status | Notes |
 |---|---|---|---|
 | **Lethal trifecta** | The three capabilities that make an agent trivially exploitable: **private data + untrusted content + external communication** | 🟢 Real & essential | Coined by Simon Willison (June 2025) - the same person who coined "prompt injection." If your agent has all three, assume it's exploitable. |
-| **Prompt injection** | Hostile input manipulates the model | ✅ Standard (unsolved) | Covered in [[applied-ai-concepts-q4-2026]]. |
+| **Prompt injection** | Hostile input manipulates the model | ✅ Standard (unsolved) | Covered in [[01_applied-ai-concepts-q4-2026]]. |
 | **Slopsquatting** | Registering packages under names AI hallucinated, so agentic installs fetch malware | 🟢 Real & rising | Open models hallucinate package names **21.7%** of the time vs 5.2% commercial (2026 data). Agentic systems *removed the human checkpoint* - the attack got worse. |
 | **Jailbreak** | Bypassing a model's safety training | ✅ Standard | Consumer-facing concern; red-team target. |
 | **Red teaming** | Adversarially probing AI systems for failures | ✅ Standard | Baseline practice before launch. |
@@ -149,8 +149,8 @@ And the lifecycle to expect: **coin -> hype -> overuse -> cool -> either standar
 
 ## Related Notes
 
-- [[agentic-ai-frameworks-and-terminology]] - frameworks, protocols, harnesses, and the "-X engineering" stack
-- [[applied-ai-concepts-q4-2026]] - the 7 concepts that matter in production
+- [[03_agentic-ai-frameworks-and-terminology]] - frameworks, protocols, harnesses, and the "-X engineering" stack
+- [[01_applied-ai-concepts-q4-2026]] - the 7 concepts that matter in production
 - ai-knowledge vault: `04_Applied_AI_Engineering/` - where the real terms become practice
 
 ## Sources (verified 2026-09-21)

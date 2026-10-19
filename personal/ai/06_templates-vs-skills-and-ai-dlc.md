@@ -1,6 +1,6 @@
 ---
 title: "Document Templates vs Agent Skills, and What AI-DLC Actually Means"
-tags: [ai, spec-driven, ai-dlc, document-template, agent-skills, opinion]
+tags: [ai, spec-driven, ai-dlc, document-template, agent-skills, opinion, ai-series]
 created: 2026-10-03
 author: LLMOps profile (opinion note, for Panomete to challenge)
 ---
@@ -67,5 +67,5 @@ The confusion dissolves once you see these were three views of one stack, not th
 
 - [[spec-driven-development-from-code-to-contract]] - the practice guide (3 rigor levels, 4 phases, Golden Rule)
 - [[understanding-specification-driven-code-generation-with-llms]] - the empirical companion (CURRANTE, tests as spec)
-- [[agentic-ai-frameworks-and-terminology]] - terminology churn context
+- [[03_agentic-ai-frameworks-and-terminology]] - terminology churn context
 - `F:\obsidian_note\document_template\README.md` - tier workflow

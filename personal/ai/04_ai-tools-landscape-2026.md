@@ -2,7 +2,7 @@
 title: "AI Tools Landscape (Q4 2026): Routers, Harnesses, and Assistant Platforms"
 date: 2026-09-22
 author: LLMOps 🦙
-tags: [ai, tools, routers, harnesses, agents, reference]
+tags: [ai, tools, routers, harnesses, agents, reference, ai-series]
 status: living
 ---
 
@@ -19,7 +19,7 @@ status: living
 | Tool         | Layer              | One-liner                                                       |
 | ------------ | ------------------ | --------------------------------------------------------------- |
 | Codex        | Harness            | OpenAI coding agent: local CLI + cloud agent in ChatGPT         |
-| Claude Code  | Harness            | Anthropic terminal coding agent (see [[claude-code-setup]])     |
+| Claude Code  | Harness            | Anthropic terminal coding agent (see [[05_claude-code-setup]])     |
 | Antigravity  | Harness platform   | Google agentic dev platform: IDE + CLI + SDK + command center   |
 | OpenRouter   | Router (cloud)     | One API key, 500+ models, pay per token                         |
 | 9Router      | Router (local)     | Between your coding tools and 60+ providers, 3-tier fallback    |
@@ -84,13 +84,13 @@ The layers are independent. You can swap any one without touching the others. Th
 
 ### Where it fits (LLMOps read) 🎯
 
-Routers are **inference operations** infrastructure: exactly the "model routing" capability from [[applied-ai-concepts-q4-2026]]. Treat routing policy (which model for which job, fallback order, cost caps) as a designed artifact, not a default.
+Routers are **inference operations** infrastructure: exactly the "model routing" capability from [[01_applied-ai-concepts-q4-2026]]. Treat routing policy (which model for which job, fallback order, cost caps) as a designed artifact, not a default.
 
 ## 4. Harnesses: the coding agents 🚗
 
 | Tool | Maker | Surface | Notes |
 |---|---|---|---|
-| Claude Code | Anthropic | Terminal CLI | The reference harness; setup notes in [[claude-code-setup]] |
+| Claude Code | Anthropic | Terminal CLI | The reference harness; setup notes in [[05_claude-code-setup]] |
 | Codex | OpenAI | Local CLI + cloud | Open-source CLI; cloud agent inside ChatGPT, built for multi-agent workflows |
 | Antigravity | Google | IDE + CLI + SDK | Agentic dev platform: 2.0 command center (parallel local agents, Projects, scheduled messages), terminal-first CLI with background subagents, SDK to build custom agents on their harness |
 | Gemini CLI | Google | Terminal | Lightweight terminal agent |
@@ -101,7 +101,7 @@ Routers are **inference operations** infrastructure: exactly the "model routing"
 | Kiro | AWS | IDE | Agentic IDE |
 | GitHub Copilot | GitHub | IDE and beyond | The incumbent assistant, now agentic |
 
-Key insight from [[agentic-ai-frameworks-and-terminology]]: **the harness matters more than the model.** Same model in different harnesses = very different results. "Which coding tool?" is a better question than "which model?".
+Key insight from [[03_agentic-ai-frameworks-and-terminology]]: **the harness matters more than the model.** Same model in different harnesses = very different results. "Which coding tool?" is a better question than "which model?".
 
 ## 5. Assistant platforms: the persistent agents 🏠
 
@@ -152,16 +152,16 @@ These are not just coding tools. They are always-on personal agents.
 
 - You already run all four layers: Hermes (platform) + OpenRouter / QwenCloud (routers and providers) + Claude Code (harness) + models. That is a complete stack.
 - If Claude Code quota pain becomes real, 9Router is the pragmatic fix: stretch the subscription, fall back to cheap and free tiers. Respect the terms of service on the MITM features.
-- Watch Antigravity: the SDK lets you build custom agents on Google's harness, and run evaluations on top of it. Relevant to the eval-suite work in [[applied-ai-concepts-q4-2026]].
+- Watch Antigravity: the SDK lets you build custom agents on Google's harness, and run evaluations on top of it. Relevant to the eval-suite work in [[01_applied-ai-concepts-q4-2026]].
 - Before adopting any new tool, ask: (1) which layer is it? (2) what does it cost? (3) what happens when a provider dies? (4) does it lock in my config?
 
 ## Related notes
 
-- [[agentic-ai-frameworks-and-terminology]] - frameworks, protocols, memory, observability
-- [[ai-buzzword-map-2026]] - the vocabulary around all of this
-- [[claude-code-setup]] - your Claude Code setup guide
-- [[applied-ai-concepts-q4-2026]] - model routing as an applied practice
-- [[ai-data-leakage-and-privacy-2026]] - the security side: what leaks, why, and how to prevent it
+- [[03_agentic-ai-frameworks-and-terminology]] - frameworks, protocols, memory, observability
+- [[02_ai-buzzword-map-2026]] - the vocabulary around all of this
+- [[05_claude-code-setup]] - your Claude Code setup guide
+- [[01_applied-ai-concepts-q4-2026]] - model routing as an applied practice
+- [[09_ai-data-leakage-and-privacy-2026]] - the security side: what leaks, why, and how to prevent it
 
 ## Sources (web-verified 2026-09-22)
 
