@@ -24,7 +24,7 @@ Before the list - the single most useful observation: **AI terminology doesn't a
 | **Agentic wave**      | "agent-*"        | agents, subagents, agent skills, ambient agents, agentic RAG, agentic commerce, AX | 2024-2026 |
 | **Slop family**       | "slop*"          | AI slop, slopaganda, slopsquatting                                                 | 2024-2026 |
 | **Washing family**    | "-washing"       | AI washing, agent washing                                                          | 2024-2026 |
-| **Maxxing family**    | "-maxxing"       | tokenmaxxing                                                                       | 2025-2026 |
+| **Maxxing family**    | "-maxxing"       | tokenmaxxing, context-maxxing, harness-maxxing                                                                       | 2025-2026 |
 | **Frontier/econ**     | "AI + noun"      | AI capex, neoclouds, inference economics, physical AI                              | 2025-2026 |
 
 > **Why this matters:** when a new word appears, ask "which family is it in?" A new "-washing" term is a criticism of marketing. A new "-engineering" term claims a discipline. A new "agent-*" term claims a capability. The family tells you the intent before the definition.
@@ -104,6 +104,8 @@ These aren't engineering terms - but you need the vocabulary to read the discour
 | **AI slop** | Low-effort, high-volume AI-generated content | ✅ Established (culture) | Wikipedia + Britannica entries. The defining content-criticism word of the era. |
 | **Slopaganda** | AI slop + propaganda | 🟢 Emerging | Portmanteau; "a lexically perfect summary of the world in 2026." |
 | **Tokenmaxxing** | Maximizing token consumption (by orgs or individuals) - wasting costly AI resources to look AI-native | 🟢 Real criticism | Forbes: "foolishly inspiring employees to waste costly AI resources." The anti-pattern twin of cost engineering. |
+| **Context-maxxing** | Maximizing the *useful* context a model gets, deliberately and under user control - not just making the prompt longer | 🟢 Emerging (Brookings, 2026) | The constructive cousin: context accumulation is the failure mode when it is not curated. |
+| **Harness maxxing** | Tuning the wrapper around a fixed model to raise task success - either as engineering, or as benchmark theatre | 🟢 Emerging, contested | Named Aug 2026; a rebuttal ("The Harness-Maxxing Trap") followed within weeks. Covered in [[15_harness-maxxing-2026]]. |
 | **AI washing** | Rebranding ordinary products as "AI" without substance | ✅ Real | The SEC has pursued AI-washing fraud. |
 | **Agent washing** | Same, but for "agents" - rebranded chatbots/scripts sold as agents | 🟢 Real (Gartner term) | "95% of AI agents aren't real" (industry reports). Use as a diligence checklist when buying. |
 | **Vibe coding** | Writing code by describing intent and accepting AI output largely unread | ✅ Established (Karpathy) | Legit for prototypes; the pushback: real AI-assisted dev is "a deeply intellectual exercise." |
@@ -139,8 +141,8 @@ And the lifecycle to expect: **coin -> hype -> overuse -> cool -> either standar
 ## Quick Index (A-Z for lookup)
 
 - Agent Skills 🟢, Agent washing 🟢, Agentic AI ✅/🔴, Agentic commerce 🟢, Agentic RAG 🟢, Agent Experience (AX) 🟢, AI capex 🟢, AI slop ✅, AI washing ✅, Ambient agents 🟢
-- Computer use 🟢, Context rot 🟢, Deep research 🟢, Distillation ✅, Enshittification 🔴
-- HITL ✅, Inference economics ✅, Jailbreak ✅, Lethal trifecta 🟢, Long context degradation ✅, Lost in the middle ✅
+- Computer use 🟢, Context rot 🟢, Context-maxxing 🟢, Deep research 🟢, Distillation ✅, Enshittification 🔴
+- Harness-maxxing 🟢, HITL ✅, Inference economics ✅, Jailbreak ✅, Lethal trifecta 🟢, Long context degradation ✅, Lost in the middle ✅
 - Model collapse 🟢, MoE ✅, Neoclouds 🟢, Omni-modal ✅, Physical AI 🟢, Post-training ✅, Prompt injection ✅
 - Reasoning models ✅, Red teaming ✅, RLHF/DPO/GRPO ✅, Slopaganda 🟢, Slopsquatting 🟢, Subagents 🟢, Synthetic data ✅
 - Test-time compute ✅/🟡, Token economics ✅, Tokenmaxxing 🟢, Vibe coding ✅, World models 🟢, Zero trust for AI 🟢

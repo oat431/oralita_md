@@ -12,7 +12,7 @@ status: living
 > **Short answer:** Yes - LangChain/LangGraph are **agent orchestration frameworks**. But they're one category in a larger ecosystem: frameworks, protocols, memory layers, harnesses, and eval tools. This note maps the whole thing.
 > **Verification:** All facts web-checked 2026-09-21. Frameworks churn fast - re-verify versions before citing in an ADR.
 > **Update:** Added **Part 8** - the "-X engineering" family (prompt -> context -> harness -> loop -> graph), with honest status labels: established vs emerging vs rebrand.
-> **Companion:** The tool landscape around this (routers vs harnesses vs assistant platforms) is mapped in [[04_ai-tools-landscape-2026]].
+> **Companion:** The tool landscape around this (routers vs harnesses vs assistant platforms) is mapped in [[04_ai-tools-landscape-2026]]. The component-level anatomy - the 19 parts, the minimum viable set, and the market comparison - is in [[14_agent-harness-anatomy-2026]].
 
 ---
 
@@ -176,6 +176,8 @@ This is the most important concept for you personally. **An "agent harness" is t
 - A harness includes: system prompt/context assembly, tool set + permissions, the loop, checkpointing, sub-agent spawning, and safety rails.
 
 > **Why this matters for you:** When you "use Claude Code" or "use Hermes," you're not using a model - you're using a harness around a model. Evaluating agents means evaluating harnesses. And when you build your own agent, you're building a harness. This connects directly to your `job-hunting-as-loop-engineering.md` note.
+
+> **Go deeper:** [[14_agent-harness-anatomy-2026]] takes this definition apart: nineteen components, which seven are irreducible, and how the shipped harnesses compare on each one.
 
 ---
 

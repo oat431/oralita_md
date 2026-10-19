@@ -9,9 +9,9 @@ status: living
 # Applied AI: How the Pieces Fit
 
 > **Created:** 2026-10-19
-> **What this is:** the front door of the personal AI series. It started with one question ("which AI / LLM concepts are actually worth knowing, heading into Q4 2026?") and grew into vocabulary, agent internals, the tool layers, how the work changes, one worked agent loop, a model class that is not an LLM, what leaks, and how scared to be. Thirteen notes, one web.
-> **Reading order:** 01 to 13, top to bottom. The wikilinks connect everything, so any entry point works.
-> **There is no conclusion note, on purpose.** The field has not concluded, so a conclusion would be a lie with a date on it. Every note is `status: living`, new notes append as 14, 15, ... when a real question appears, and note 13 is a forward edge, not an ending.
+> **What this is:** the front door of the personal AI series. It started with one question ("which AI / LLM concepts are actually worth knowing, heading into Q4 2026?") and grew into vocabulary, agent internals, the tool layers, how the work changes, one worked agent loop, a model class that is not an LLM, what leaks, how scared to be, what is actually inside a harness, and how to squeeze one. Fifteen notes, one web.
+> **Reading order:** 01 to 15, top to bottom. The wikilinks connect everything, so any entry point works.
+> **There is no conclusion note, on purpose.** The field has not concluded, so a conclusion would be a lie with a date on it. Every note is `status: living`, new notes append as 16, 17, ... when a real question appears, and note 15 is the newest edge, not an ending.
 
 ## The chain
 
@@ -29,6 +29,8 @@ flowchart TD
     S10 --> S11["11 AI Villains Reality Check<br/>the movie villains, audited against real failure modes"]
     S11 --> S12["12 Vault Proposal<br/>backstage: how the knowledge base was planned"]
     S12 --> S13["13 Reading List<br/>backstage: what to read next"]
+    S13 --> S14["14 Harness Anatomy<br/>the parts, the tiers, the market"]
+    S14 --> S15["15 Harness Maxxing<br/>more out of a fixed model"]
 ```
 
 ## The notes
@@ -48,6 +50,8 @@ flowchart TD
 | 11 | [[11_ai-villains-reality-check]] | Could GLaDOS or Ultron actually happen, and what do the villains map onto? |
 | 12 | [[12_ai-engineering-knowledge-vault-proposal]] | Backstage: how was the AI knowledge vault planned and layered? |
 | 13 | [[13_ai-engineering-reading-list]] | Backstage: what should I read to go deeper? |
+| 14 | [[14_agent-harness-anatomy-2026]] | What is actually inside a harness, what is the minimum, and how do the tools compare? |
+| 15 | [[15_harness-maxxing-2026]] | How do I get more out of the model I already have, and how do I avoid fooling myself? |
 
 ## Why this order
 
@@ -60,6 +64,8 @@ The order walks one question outward, then back in:
 5. **Get surprised (08).** A model class that gives up text generation entirely is the strongest counterexample to everything in 01 to 07. Read it once you have a stack in your head to compare it against.
 6. **Make it safe (09, 10, 11).** Leakage mechanisms first, because they are concrete and fixable. Then the fear question, calm. Then the fiction audit, which is the same audit with better costumes.
 7. **Go deeper (12, 13).** Backstage notes: how the vault was planned, and what to read next.
+8. **Learn the machine (14).** Backstage done, the series returns to the technical layer at its most concrete: what is actually inside a harness, which parts are irreducible, and who ships what in 2026.
+9. **Turn the screws (15).** Last note is the practice: the ordered moves that get more capability out of a fixed model, the scorecard, and the trap that has the practice's name on it.
 
 ## How this series works
 
@@ -103,6 +109,8 @@ Cross-vault references in these notes are written as inline code paths, not wiki
 - [[10_should-we-fear-ai-2026]]: the opinion note the whole risk cluster hangs from.
 - [[11_ai-villains-reality-check]]: the same audit, wearing costumes. Fun, and it teaches the failure taxonomy better than a slide deck.
 - [[12_ai-engineering-knowledge-vault-proposal]] and [[13_ai-engineering-reading-list]]: backstage. Structure and sourcing for the deep vault.
+- [[14_agent-harness-anatomy-2026]]: the return to the technical layer. Nineteen components ranked into minimum, good, and best, the measured cost of getting them wrong, and a dated market comparison.
+- [[15_harness-maxxing-2026]]: the practice built on 14. Twelve ordered moves, the guide/sensor/cap split, a scorecard, and the three dangers of maxxing a harness against the wrong target.
 
 ## Key takeaways
 
