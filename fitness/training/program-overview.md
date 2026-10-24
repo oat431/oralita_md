@@ -17,15 +17,15 @@ tags: [fitness, program, training, overview]
 
 Gym: WE Fitness Esplanade Ratchada (Mon–Fri 06:00–22:00, Sat–Sun 08:00–22:00). Your windows: weekdays after 19:00, weekends 10:00–12:00.
 
-| Day | Session | Open | Where |
-|-----|---------|------|-------|
-| Mon | Upper | `[[exercise/upper-body]]` | Gym — take the MRT |
-| Tue | Walk 40–50 min | `[[exercise/walk-cardio]]` | Condo area |
-| Wed | Lower | `[[exercise/lower-body]]` | Gym — MRT |
-| Thu | Walk 40–50 min | `[[exercise/walk-cardio]]` | Condo area |
-| Fri | Full-Body | `[[exercise/full-body]]` | Gym — MRT |
-| Sat | Long walk | `[[exercise/walk-cardio]]` — condo→Esplanade 5.2 km + MRT back | Route |
-| Sun | Rest | — | — |
+| Day | Session        | Open                                                           | Where              |
+| --- | -------------- | -------------------------------------------------------------- | ------------------ |
+| Mon | Upper          | `[[exercise/upper-body]]`                                      | Gym — take the MRT |
+| Tue | Walk 40–50 min | `[[exercise/walk-cardio]]`                                     | Condo area         |
+| Wed | Lower          | `[[exercise/lower-body]]`                                      | Gym — MRT          |
+| Thu | Walk 40–50 min | `[[exercise/walk-cardio]]`                                     | Condo area         |
+| Fri | Full-Body      | `[[exercise/full-body]]`                                       | Gym — MRT          |
+| Sat | Long walk      | `[[exercise/walk-cardio]]` — condo→Esplanade 5.2 km + MRT back | Route              |
+| Sun | Rest           | —                                                              | —                  |
 
 **Rules:**
 
