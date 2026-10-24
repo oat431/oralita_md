@@ -5,7 +5,7 @@ tags: [fitness, template, nutrition, food-log, thai]
 
 # Food Log — Thai Freestyle Tracking System
 
-> The kcal audit for the 2,050/day target. Built for street food: **no app, no full macro logging** — fixed anchors + Thai dish table + one weekly audit day.
+> The kcal audit for the 2,200/day target. Built for street food: **no app, no full macro logging** — fixed anchors + Thai dish table + one weekly audit day.
 
 ## Why not a calorie app?
 
@@ -54,18 +54,18 @@ App logging breaks in Thailand: stalls have no labels, the same dish from two ve
 ### 3. Weekly audit — 1 day/week (e.g., Thursday)
 
 - Count **everything** that day using the dish table + a kitchen scale for one rice portion (learn what a ladle really weighs at your usual source).
-- Total it at night. Day lands 2,000–2,200 → anchors are calibrated, trust them the rest of the week.
+- Total it at night. Day lands 2,100–2,300 → anchors are calibrated, trust them the rest of the week.
 - Frequency: every Thursday for the first 3 weeks → then once a month.
 
-## The day structure (2,050 kcal target)
+## The day structure (2,200 kcal target)
 
 | Slot | What | ~Kcal |
 | ---- | ---- | ----- |
 | Breakfast — fixed | 3 boiled eggs + 1 scoop whey + fruit | ~500 |
-| Lunch — freestyle | Any dish-table item with a protein anchor | ~650 |
-| Dinner — freestyle | Any dish-table item with a protein anchor | ~650 |
-| Snack | Moo ping ×2 **or** Greek yogurt 200 g | ~250 |
-| **Total** | | **~2,050** |
+| Lunch — freestyle | Any dish-table item with a protein anchor | ~700 |
+| Dinner — freestyle | Any dish-table item with a protein anchor | ~700 |
+| Snack | Moo ping ×2 **or** Greek yogurt 200 g | ~300 |
+| **Total** | | **~2,200** |
 
 - **Free at any size:** clear soups, vegetables, chili / vinegar / lime. Sugary nam jim (sweet chili) is NOT free.
 - The 3-ladle rice budget lives inside the lunch and dinner slots.
@@ -76,7 +76,7 @@ Same-meal-forever is **not** required for the cut to work. What's required is kc
 
 ## Scoring (goes in the Kcal column of `daily-check-in.md`)
 
-- **✓** = day assembled within structure (~2,000–2,200)
+- **✓** = day assembled within structure (~2,100–2,300)
 - **▲** = over (fried meal, dessert, liquid calories, extra rice)
 - **⚠** = under (missed a protein anchor)
 - **6/7 ✓ per week** = the target. ▲ days are fine if planned (80/20 — see `[[foods-to-avoid]]`).

@@ -5,7 +5,7 @@ tags: [fitness, template, check-in, daily]
 
 # Daily Check-In — Template
 
-> Copy one table per week into the live phase file. Fill every day, morning weigh-in protocol: after bathroom, before food or water.
+> Copy one table per week into `training/logs/daily/training-log.md`. Fill every day, morning weigh-in protocol: after bathroom, before food or water.
 
 ## Week N Check-In
 

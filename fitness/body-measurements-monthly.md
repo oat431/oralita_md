@@ -36,4 +36,4 @@ Front + side, same light, same distance, phone at chest height. Save to `photos/
 
 - BIA noise is ±0.5 kg — over months, photos are the only reliable recomp evidence.
 
-*Weekly smart-scale numbers live in the phase folder: `phase_3/logs/weekly/smart-scale-weekly.md`.*
+*Weekly smart-scale numbers: `training/logs/weekly/smart-scale-weekly.md`.*

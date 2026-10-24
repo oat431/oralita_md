@@ -41,4 +41,4 @@ Front + side, same light, same distance, phone at chest height.
 - Save photos to `photos/` with date in the filename, link them here.
 - BIA noise is ±0.5 kg — over months, photos are the only reliable recomp evidence.
 
-*Baseline values to carry forward: 121.2 kg, 34.3% BF, 75.3 kg muscle, visceral 21, water 47.5%, waist 130 cm (from Phase 2, `../phase_2/smart-scale-tracking.md`).*
+*Baseline values to carry forward: 120.0 kg, 34.1% BF, 75.3 kg muscle, visceral 20, water 47.6%, waist 130 cm (last S400 reading 2026-08-23). Current weight: 119 kg (2026-10-24, regular scale).*

@@ -5,7 +5,7 @@ tags: [fitness, template, health, bloodwork]
 
 # Blood Panel — Baseline Template
 
-> One-time clinic draw at Phase 3 start. This becomes the reference point for the 12-month visceral-fat (<10) and overall health goals.
+> One-time clinic draw — pending. Book a fasted morning draw ASAP (target: week of 2026-10-26). This becomes the reference point for the visceral-fat (<10) and overall health goals.
 
 ## Pre-draw instructions
 
