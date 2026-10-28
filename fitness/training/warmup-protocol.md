@@ -22,7 +22,11 @@ The warm-up raises tissue temperature, lubricates joints, and rehearses movement
    - Hip circles — 10 each direction
    - Bodyweight squats — 10, slow
    - Torso twists or cat-cow — 10
-3. Then the first exercise's specific warm-up ladder (written inline in the exercise note).
+3. **Activation** (2–4 min, RPE 5–6) — the phase most lifters skip (demos: `../knowledge/fundamentals.md` §6–7):
+   - Glute bridges — 2 × 10 (before squat/DL days)
+   - Band pull-aparts — 2 × 15 (before pressing days)
+   - Dead bugs — 2 × 6/side (bracing)
+4. Then the first exercise's specific warm-up ladder (written inline in the exercise note).
 
 ---
 

@@ -3,9 +3,9 @@ date: 2026-07-27
 tags: [fitness, nutrition, foods-to-avoid]
 ---
 
-# Foods to Avoid — 2,200 kcal Cut
+# Foods to Avoid: 2,200 kcal Cut
 
-These aren't "never eat again" foods. They're **low-return foods** — high calories, low protein, minimal satiety. On 2,200 kcal with a 160g protein target, every calorie counts. These are the first things to cut.
+These aren't "never eat again" foods. They're **low-return foods**: high calories, low protein, minimal satiety. On 2,200 kcal with a 160g protein target, every calorie counts. These are the first things to cut.
 
 ---
 
@@ -32,7 +32,7 @@ These aren't "never eat again" foods. They're **low-return foods** — high calo
 | French fries | 400 kcal per serving, pure fat + carbs | Baked potato wedges, steamed corn |
 | Fried rice (khao pad) | High oil, restaurants use 2-3 tbsp oil per plate | Steamed rice with grilled meat |
 | Spring rolls / fried wontons | Each piece = 80-100 kcal, disappear in one bite | Fresh spring rolls (no frying) |
-| Fried pork belly (moo krob) | Calorie bomb — fat + fried | Lean pork loin, grilled |
+| Fried pork belly (moo krob) | Calorie bomb: fat + fried | Lean pork loin, grilled |
 
 **Why it matters:** Frying doubles or triples the calories of the same food. A grilled chicken breast is ~300 kcal. The same chicken battered and fried is ~500 kcal. You don't get twice as full.
 
@@ -55,10 +55,10 @@ These aren't "never eat again" foods. They're **low-return foods** — high calo
 
 | Avoid | Why | Swap To |
 |-------|-----|---------|
-| Potato chips / crisps | 500 kcal/bag, designed to be unfinishable | Roasted nuts (weighed portion — 30g = 180 kcal) |
+| Potato chips / crisps | 500 kcal/bag, designed to be unfinishable | Roasted nuts (weighed portion, 30g = 180 kcal) |
 | Instant noodles (Mama, ramen) | 300-400 kcal, all carbs + palm oil, zero protein | Quick boil eggs + rice if you need fast food |
 | Cookies, crackers | Empty calories, one leads to five | Rice cakes + peanut butter (measured) |
-| Processed meats (sausages, hot dogs, luncheon meat) | High fat, low protein quality, preservatives | Real meat — chicken, pork, beef |
+| Processed meats (sausages, hot dogs, luncheon meat) | High fat, low protein quality, preservatives | Real meat: chicken, pork, beef |
 | Sugary "protein" bars | Often just candy bars with whey sprinkled in. Read the label: if sugar >10g, skip | Whey shake + banana |
 
 ---
@@ -69,7 +69,7 @@ These foods are marketed as healthy but wreck your deficit:
 
 | Trap | Reality | Better Option |
 |------|---------|---------------|
-| Granola / muesli | 400-500 kcal per bowl, mostly sugar + oil | Oats (weighed — 40g = 150 kcal) |
+| Granola / muesli | 400-500 kcal per bowl, mostly sugar + oil | Oats (weighed, 40g = 150 kcal) |
 | "Acai bowls" / smoothie bowls | 500-700 kcal of blended fruit + granola + honey | Eat the fruit whole. 1 banana = 100 kcal |
 | Avocado (excess) | 1 whole = 320 kcal. Healthy fat, but fat is fat | Half an avocado, or weigh it |
 | Trail mix | 600 kcal per 100g. Mindless eating trap | Portion into 30g bags before eating |
@@ -83,8 +83,8 @@ These foods are marketed as healthy but wreck your deficit:
 
 If a food meets 3 of these 4, it's probably fine:
 
-1. **You can identify the animal or plant it came from** (chicken, egg, rice, broccoli — yes. "Cheese-flavored corn puff" — no)
-2. **It has protein** (meat, eggs, dairy, tofu — yes. Bread, chips, candy — no)
+1. **You can identify the animal or plant it came from** (chicken, egg, rice, broccoli, yes. "Cheese-flavored corn puff", no)
+2. **It has protein** (meat, eggs, dairy, tofu, yes. Bread, chips, candy, no)
 3. **It didn't come from a deep fryer or a soda fountain**
 4. **You weighed or measured it** (if you don't know the portion, you don't know the calories)
 
@@ -96,12 +96,12 @@ You're in Thailand. Some local notes:
 
 | Food | Verdict |
 |------|---------|
-| Som tum (papaya salad) | ✅ Fine — ask for less sugar, no crushed peanuts if strict |
-| Tom yum (clear spicy soup) | ✅ Great — high protein from shrimp, low calorie |
-| Gai yang (grilled chicken) | ✅ Best protein source — skin off saves 100 kcal |
+| Som tum (papaya salad) | ✅ Fine: ask for less sugar, no crushed peanuts if strict |
+| Tom yum (clear spicy soup) | ✅ Great: high protein from shrimp, low calorie |
+| Gai yang (grilled chicken) | ✅ Best protein source: skin off saves 100 kcal |
 | Pad thai | ⚠️ Oil-heavy, moderate. Occasional, not daily |
-| Khao man gai (chicken rice) | ✅ Chicken is lean. Rice oil is the variable — ask for less |
-| Moo ping (grilled pork skewers) | ✅ Good protein. Sugary marinade though — moderate |
+| Khao man gai (chicken rice) | ✅ Chicken is lean. Rice oil is the variable: ask for less |
+| Moo ping (grilled pork skewers) | ✅ Good protein. Sugary marinade though: moderate |
 | Thai omelette (kai jeow) | ⚠️ Deep-fried in oil. If pan-fried at home: fine |
 | Sticky rice + mango | ⚠️ Dessert. 400+ kcal. Rare occasion, share it |
 
@@ -109,6 +109,6 @@ You're in Thailand. Some local notes:
 
 ## The 80/20 Rule
 
-Follow this 80% of the time. The other 20% — a meal out with friends, a birthday, a beer — live your life. One bad meal doesn't ruin a week of good ones. The problem is when the 20% becomes 50%.
+Follow this 80% of the time. The other 20% (a meal out with friends, a birthday, a beer), live your life. One bad meal doesn't ruin a week of good ones. The problem is when the 20% becomes 50%.
 
 **Bottom line on 2,200 kcal:** you don't have room for empty calories. Every meal needs to pull its weight on protein and satiety. If a food doesn't help you hit 160g protein or keep you full for 3+ hours, it's a luxury you probably can't afford right now.

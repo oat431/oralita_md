@@ -7,9 +7,9 @@ tags:
 - protein
 ---
 
-# 160g Protein — Meal Templates
+# 160g Protein: Meal Templates
 
-Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans — they're templates showing you how the number breaks down into real food.
+Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans; they're templates showing you how the number breaks down into real food.
 
 ---
 
@@ -22,7 +22,7 @@ Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans — the
 | Snack | 1 scoop whey + 200ml milk | 30g | 250 |
 | Dinner | 150g chicken thigh + 1 cup rice + veggies | 42g | 650 |
 | Snack | 200g Greek yogurt | 20g | 150 |
-| | Cooking oil / sauces | — | 200 |
+| | Cooking oil / sauces | N/A | 200 |
 
 ---
 
@@ -35,7 +35,7 @@ Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans — the
 | Snack | 200g cottage cheese | 22g | 200 |
 | Dinner | 200g lean beef/pork + 1 cup rice + veggies | 56g | 700 |
 | Snack | 200g Greek yogurt | 20g | 150 |
-| | Cooking oil / sauces | — | 250 |
+| | Cooking oil / sauces | N/A | 250 |
 
 ---
 
@@ -49,7 +49,7 @@ Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans — the
 | Dinner | 4-egg omelette + 1 cup rice + veggies | 30g | 550 |
 | Snack | 200g Greek yogurt or 300ml milk | 20g | 200 |
 | Pre-bed | 1 scoop whey (optional) | 25g | 120 |
-| | Cooking oil / sauces | — | 190 |
+| | Cooking oil / sauces | N/A | 190 |
 
 ---
 
@@ -75,7 +75,7 @@ Target: **2,400 kcal / 160-180g protein.** These aren't rigid meal plans — the
 
 1. **Protein first.** Build every meal around the protein source. Rice/veggies fill the rest.
 2. **Meal prep Sundays.** Cook 4-5 chicken breasts and boil 8-10 eggs. You'll hit your numbers without thinking.
-3. **Don't drink your calories** (except whey + milk). Sodas, juices, sweet coffee — those are why people miss deficits.
+3. **Don't drink your calories** (except whey + milk). Sodas, juices, sweet coffee: those are why people miss deficits.
 4. **Track for 1 week.** Weigh everything once to calibrate your eye. After that you can go by feel.
 5. **If you're hungry at 2,400 kcal:** add 200g vegetables or a protein snack. If you're stuffed: cut the rice portion by 1/4 cup.
 

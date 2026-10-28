@@ -7,13 +7,13 @@ tags:
 - program
 ---
 
-# Alternative Exercises — Crowded Gym Swaps
+# Alternative Exercises: Crowded Gym Swaps
 
-When your planned exercise station is taken, grab one of these. **Same movement pattern, same muscle group.** Don't skip — swap.
+When your planned exercise station is taken, grab one of these. **Same movement pattern, same muscle group.** Don't skip; swap.
 
 ---
 
-## Mon — Upper (Push/Pull)
+## Mon: Upper (Push/Pull)
 
 | Planned Exercise | Alt 1 (best match) | Alt 2 (if both taken) | Alt 3 (last resort) |
 |------------------|--------------------|------------------------|----------------------|
@@ -25,7 +25,7 @@ When your planned exercise station is taken, grab one of these. **Same movement 
 
 ---
 
-## Tue — Lower (Squat Focus)
+## Tue: Lower (Squat Focus)
 
 | Planned Exercise | Alt 1 (best match) | Alt 2 (if both taken) | Alt 3 (last resort) |
 |------------------|--------------------|------------------------|----------------------|
@@ -37,7 +37,7 @@ When your planned exercise station is taken, grab one of these. **Same movement 
 
 ---
 
-## Wed — Run/Walk + Light Accessories
+## Wed: Run/Walk + Light Accessories
 
 | Planned Exercise | Alt 1 (best match) | Alt 2 (if both taken) |
 |------------------|--------------------|------------------------|
@@ -50,7 +50,7 @@ When your planned exercise station is taken, grab one of these. **Same movement 
 
 ---
 
-## Sat — Full Body (Deadlift Focus)
+## Sat: Full Body (Deadlift Focus)
 
 | Planned Exercise | Alt 1 (best match) | Alt 2 (if both taken) | Alt 3 (last resort) |
 |------------------|--------------------|------------------------|----------------------|
@@ -87,10 +87,10 @@ Either circuit takes ~20 min. Not ideal, but better than standing around waiting
 ## Don't Do This
 
 - ❌ Skip the exercise entirely and go home
-- ❌ Wait 15+ minutes for a station — swap immediately
-- ❌ Do a completely unrelated exercise because it's the only open machine (e.g., bicep curls instead of squats — no)
+- ❌ Wait 15+ minutes for a station: swap immediately
+- ❌ Do a completely unrelated exercise because it's the only open machine (e.g., bicep curls instead of squats, no)
 - ❌ Change the order so dramatically that you're doing accessories before compounds (one swap is fine; rearranging the whole session isn't)
 
 ---
 
-*If a station is consistently packed at your gym time, tell me — I'll rework the program around what's actually available.*
+*If a station is consistently packed at your gym time, tell me: I'll rework the program around what's actually available.*

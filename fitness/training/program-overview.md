@@ -83,7 +83,8 @@ Gym: WE Fitness Esplanade Ratchada (Mon–Fri 06:00–22:00, Sat–Sun 08:00–2
 
 - Exercise files: `exercise/` — upper-body, lower-body, full-body, walk-cardio (one file per session type)
 - Warm-up: `[[warmup-protocol]]`
-- Knowledge: `../00_gym_knowledge/` (meal templates, foods to avoid, crowded-gym swaps)
+- Knowledge: `../knowledge/` (fundamentals, meal templates, foods to avoid, crowded-gym swaps, watch settings)
+- Alignment & pre-workout note: `../knowledge/fundamentals.md` (visuals + cues + warm-up + supplements)
 - History: `../archive/` (phases 1–3, read-only)
 
 *First official Sunday weigh-in: 2026-10-25. W1 starts Mon 2026-10-26. Restart clean, rebuild on data, no revenge.*
