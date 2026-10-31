@@ -152,6 +152,13 @@ Two possible motives, and you don't need to know which:
 
 ---
 
+## 12. Machines vs free weights — the evidence (2026-10-25)
+
+- **Meta-analysis (Haugen et al., 2023, BMC Sports Science, Medicine & Rehabilitation):** no differences in maximal strength, jump performance or hypertrophy between free-weight and machine-based training.
+- **But strength is modality-specific:** when strength was tested with a free-weight exercise, free-weight trainers gained more (systematic review & meta-analysis, PubMed 34609100). Machine training makes you better at machines; barbell training makes you better at barbells.
+- **For your goal (fat loss + muscle preservation):** machines are adequate — muscle doesn't much care what resisted it. Barbell work matters for skill and daily-life carryover, not for keeping muscle per se.
+- **What machines cannot do:** teach you to hold alignment without rails. That's why we keep 4 barbell lifts at light loads and machine the rest.
+
 ## Sources & licensing
 
 - Exercise GIFs: `hasaneyldrm/exercises-dataset` (© Gym Visual, gymvisual.com): same source your workout notes already use.

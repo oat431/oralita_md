@@ -47,6 +47,17 @@ Gym: WE Fitness Esplanade Ratchada (Mon–Fri 06:00–22:00, Sat–Sun 08:00–2
 - **One load across all working sets.** No bonus sets. No revenge volume.
 - Muscle memory makes the rebuild fast — but only on clean reps.
 
+## Equipment Policy — trainer input 2026-10-25
+
+Your trainer suggested machines because a fixed path "forces alignment." Half true: machines delete the balance and stabilization demand, so alignment is easier to hold — but they can't teach you to align when nothing is guiding you. Evidence: free weights and machines produce the same hypertrophy and general strength (Haugen et al. 2023 meta-analysis), but strength is modality-specific — tested on a barbell, barbell trainers win (PubMed 34609100).
+
+**The split:**
+
+- **Barbell keeps:** bench, back squat, deadlift, front squat. At W1 loads form is the focus — these are the alignment classroom.
+- **Machines everywhere else:** shoulder press, incline press, leg press, leg curl, leg extension, pulldown, cable row, face pulls, pushdowns.
+- **Machine loads:** find the weight in working set 1 (RPE ≤ Medium), log the stack number, add 2.5–5 kg when all sets are clean.
+- If the trainer insists on all-machine: we can run 2–3 weeks machine-only, but barbell numbers rebuild slower afterward. Data over dogma.
+
 ## Cardio (walking)
 
 - Tue/Thu: 40–50 min brisk walk. Talk test; avg HR usually 105–130.

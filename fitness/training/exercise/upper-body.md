@@ -22,15 +22,14 @@ Focus: barbell bench + OHP. Time: ~60 min. **W1 re-entry** — every set Medium 
 - **Working:** 3 × 5 @ **32.5 kg** — rest 2–3 min
 - **Standard:** bar touches chest, no bounce, same load across all working sets
 
-## 2. Barbell OHP
+## 2. Lever Shoulder Press (machine)
 
-![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1456-wdRZISl.gif)
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0603-67n3r98.gif)
 
-- **Warm-up ladder:** rest 60–90 sec
-	- 20 kg (bar) × 5
-	- 22.5 kg × 3
-- **Working:** 3 × 5 @ **25 kg** — rest 2 min
-- **Standard:** strict, no leg drive
+- **Warm-up:** 1 light set — 10 kg stack × 10 (first shoulder work; rest ~60 sec after)
+- **Working:** 3 × 8–10 @ **find the load in set 1** (RPE ≤ Medium) — rest 90 sec
+- **Standard:** seat height so handles sit at shoulder level; back flat on the pad, ribs down, no arching off the seat
+- **Note:** barbell OHP returns in a later block — once the machine press is clean at ~30 kg and the trainer has seen your rack position
 
 ## 3. Chest-Supported Row
 

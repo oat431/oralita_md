@@ -30,6 +30,7 @@ Focus: deadlift + front squat. Time: ~60 min. **W1 re-entry** — every set Medi
 	- 25 kg × 3
 - **Working:** 3 × 5 @ **27.5 kg** — rest 2 min
 - **Standard:** elbows high; same load across work sets
+- **Machine alternative:** sled hack squat (same sets/reps, load found in set 1) if the rack position bothers your wrists or shoulders — swap 1:1
 
 ## 3. Lat Pulldown
 
@@ -39,21 +40,21 @@ Focus: deadlift + front squat. Time: ~60 min. **W1 re-entry** — every set Medi
 - **Working:** 3 × 8 @ **20 kg** — rest 90 sec
 - **Standard:** torso still; full controlled pull
 
-## 4. Incline Dumbbell Press
+## 4. Lever Incline Chest Press (machine)
 
-![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0314-ns0SIbU.gif)
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/1299-jHAnWmT.gif)
 
-- **Warm-up:** 1 light set — 10 kg per hand × 10 (first chest work; rest ~60 sec after)
-- **Working:** 3 × 8 @ **17.5 kg per hand** — rest 90 sec
-- **Standard:** controlled touch and press
+- **Warm-up:** 1 light set — 12.5 kg × 10 (first chest work; rest ~60 sec after)
+- **Working:** 3 × 8–10 @ **find the load in set 1** (RPE ≤ Medium) — rest 90 sec
+- **Standard:** seat height so handles sit at mid-chest; shoulder blades pinned to the pad; no bouncing out of the bottom
 
-## 5. Reverse Lunges
+## 5. Lever Leg Extension (machine)
 
-![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0381-SSsBDwB.gif)
+![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0585-my33uHU.gif)
 
-- **Warm-up:** none — legs warm from deadlift + front squat
-- **Working:** 3 × 8/leg @ **10 kg** — rest 90 sec
-- **Standard:** clean balance and knee tracking
+- **Warm-up:** 1 light set — 15 kg × 12 (first quad isolation; rest ~60 sec after)
+- **Working:** 3 × 12 @ **find the load in set 1** (RPE ≤ Medium) — rest 60 sec
+- **Standard:** knees track over toes; 2-sec lowering; no swinging or bouncing
 
 ## 6. Seated Cable Row
 
