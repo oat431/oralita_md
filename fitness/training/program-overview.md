@@ -38,7 +38,7 @@ Gym: WE Fitness Esplanade Ratchada (Mon–Fri 06:00–22:00, Sat–Sun 08:00–2
 | Lift | Pre-detrain final (Aug) | **W1 start** | Ramp if week clean |
 |------|-------------------------|--------------|--------------------|
 | Bench Press | 45 | **32.5** | +2.5 |
-| OHP | 35 | **25** | +2.5 |
+| Shoulder press — machine (was OHP) | 35 | **find load in set 1** | +2.5–5 |
 | Back Squat | 42.5 | **30** | +5 |
 | Deadlift | 70 | **50** | +5 |
 | Front Squat | 37.5 | **27.5** | +2.5 |

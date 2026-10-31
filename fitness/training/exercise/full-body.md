@@ -9,6 +9,8 @@ Focus: deadlift + front squat. Time: ~60 min. **W1 re-entry** — every set Medi
 
 **Before anything:** general warm-up 5–8 min (walk/cycle + dynamic moves) → `[[warmup-protocol]]` (barbell ladders)
 
+**Machine loads:** find the weight in working set 1 (RPE ≤ Medium), log the stack number, add 2.5–5 kg when all sets are clean.
+
 ---
 
 ## 1. Barbell Deadlift (conventional)
@@ -37,7 +39,7 @@ Focus: deadlift + front squat. Time: ~60 min. **W1 re-entry** — every set Medi
 ![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/2330-LEprlgG.gif)
 
 - **Warm-up:** 1 light set — 12.5 kg × 10 (first back exercise; rest ~60 sec after)
-- **Working:** 3 × 8 @ **20 kg** — rest 90 sec
+- **Working:** 3 × 8–10 @ **find the load in set 1** (RPE ≤ Medium) — rest 90 sec
 - **Standard:** torso still; full controlled pull
 
 ## 4. Lever Incline Chest Press (machine)
@@ -61,7 +63,7 @@ Focus: deadlift + front squat. Time: ~60 min. **W1 re-entry** — every set Medi
 ![form|150](https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0861-fUBheHs.gif)
 
 - **Warm-up:** none — back warm from pulldown
-- **Working:** 3 × 8 @ **25 kg** — rest 60 sec
+- **Working:** 3 × 8–10 @ **find the load in set 1** (RPE ≤ Medium, cable) — rest 60 sec
 - **Standard:** full range; no jerking
 
 ---
