@@ -60,7 +60,7 @@ From Wikipedia's *Wish* and charm traditions, each is a potential **format** for
 - [x] `05-Protection-Wishes.md`
 - [x] `06-New-Beginnings-Wishes.md`
 - [x] `07-Peace-Wishes.md`
-- [ ] `08-Dream-Wishes.md`
+- [x] `08-Dream-Wishes.md`
 - [ ] `09-Family-Wishes.md`
 - [ ] `10-Journey-Wishes.md`
 - [ ] `11-Format-Library.md`: delivery mechanisms as snippet formats (rune card, ema plaque, incantation, charm inscription)
