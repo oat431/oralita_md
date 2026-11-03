@@ -44,7 +44,7 @@ Til árs ok friðar.
 *EN:* "For plenty and peace." *(ON pronunciation: till OWRS ok FRITH-ar; á ≈ "ow".)*
 *Source:* Gylfaginning 24; Ynglinga saga 13: "…ok blótuðu mest til árs ok friðar alla ævi síðan": "…and sacrificed chiefly for plenty and peace ever afterwards." Use as the blessing over a new shop, job, or year.
 
-**2. The Fehu couplet (Anglo-Saxon)** 🍀🏪 *(wealth with generosity, the "share it" philosophy)*
+**2. ᚠ The Fehu couplet (Anglo-Saxon)** 🍀🏪 *(wealth with generosity, the "share it" philosophy)*
 
 ```
 Feoh byþ frofur fira gehwylcum;
@@ -63,7 +63,7 @@ Bú er betra, þótt lítit sé.
 *EN (Bellows):* "Better a house, though a hut it be." *(Source: Hávamál 36. The stanza continues about a home of one's own being better than begging; counsel register, not a blessing. Send only to the right friend, tone-labeled.)*
 ⚠️ Per verification: **no Hávamál wealth stanza is a blessing**. 36 is counsel, 78 is a warning ("Wealth is as swift as a winking eye, of friends the falsest it is"). Label tones when quoting.
 
-**4. Reference: the Icelandic Fehu poem** *(the warning voice)*
+**4. Reference: the ᚠ Icelandic Fehu poem** *(the warning voice)*
 
 ```
 Fé er frænda róg ok flæðar viti ok grafseiðs gata.
@@ -72,7 +72,7 @@ Fé er frænda róg ok flæðar viti ok grafseiðs gata.
 *EN (Dickins):* "Wealth, source of discord among kinsmen, and fire of the sea, and path of the serpent." *(Source: Old Icelandic Rune Poem.)*
 ⚠️ This is the **Icelandic** poem (not Norwegian, common mix-up); the Norwegian variant reads "Fé vældr frænda róge; føðesk ulfr í skóge" ("wealth is a source of discord; the wolf lives in the forest"). Both are medieval MSS, and both warn.
 
-*Vocabulary notes: auðr (wealth) · fé (cattle→money; cousin of Latin pecūnia and English "fee") · félag (partnership; literally "fee-laying," from fé + lag) · fésæla (wealth/abundance).*
+*Vocabulary notes: auðr (wealth) · ᚠ fé (cattle→money; cousin of Latin pecūnia and English "fee") · félag (partnership; literally "fee-laying," from fé + lag) · fésæla (wealth/abundance).*
 
 ---
 

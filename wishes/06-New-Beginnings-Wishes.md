@@ -25,7 +25,7 @@ tags: [wishes, new-beginnings, folklore, snippets]
 
 ## 1. ᚠ Viking Runes (Old Norse)
 
-**What's actually attested:** the Norse "new beginning" material is small and precious: a preserved **morning invocation** hailing day itself (Sigrdrífumál st. 3, the valkyrie's waking prayer), the everyday greeting **"be hale"** (*ves heill / ver þú heill*, Hymiskviða 11), and the calendar's own poem about Day (Anglo-Saxon rune poem, "Dæg"). No attested Norse "new year blessing" survives, and the famous runic "fresh start" readings are modern; they get labeled as such below.
+**What's actually attested:** the Norse "new beginning" material is small and precious: a preserved **morning invocation** hailing day itself (Sigrdrífumál st. 3, the valkyrie's waking prayer), the everyday greeting **"be hale"** (*ves heill / ver þú heill*, Hymiskviða 11), and the calendar's own poem about Day (Anglo-Saxon rune poem, ᛞ "Dæg"). No attested Norse "new year blessing" survives, and the famous runic "fresh start" readings are modern; they get labeled as such below.
 
 ### Snippets
 
@@ -47,7 +47,7 @@ Ver þú heill!
 
 *EN:* "Be hale [whole, well]!", the attested Norse greeting on meeting or parting. Full attested line (Hymiskviða st. 11): *"…Ver þú heill, Hymir, í hugum góðum"*: "Be hale, Hymir, in good spirits"; Finnur Jónsson's edition prints *Ves heill* in the same line. *(Swapping in a name is an adaptation, labeled.)* ⚠️ The drinking-toast "wassail" story is medieval, not Viking. See Misuse Notes.
 
-**3. Reference: "Dæg", the day-rune poem** 🎆 *(a poem about Day, not a blessing)*
+**3. Reference: ᛞ "Dæg", the day-rune poem** 🎆 *(a poem about Day, not a blessing)*
 
 ```
 Dæg byþ drihtnes sond, deore mannum,
@@ -357,7 +357,7 @@ May the world be as ready for you as you are for it.
 
 ## ⚠️ Misuse Notes
 
-- **Rune "new beginnings" readings are modern**. "Dagaz = breakthrough" & "Berkanan = growth" are 20th-c. esoteric; the poems say Day is the Lord's messenger, and the berec tree is fruitless yet fair (Dickins glosses beorc even as "poplar")
+- **Rune "new beginnings" readings are modern**. "ᛞ Dagaz = breakthrough" & "ᛒ Berkanan = growth" are 20th-c. esoteric; the poems say Day is the Lord's messenger, and the berec tree is fruitless yet fair (Dickins glosses beorc even as "poplar")
 - **"Ves þú heill" is not attested**. Real forms: *ves heill* (FJ) / *ver þú heill* (Neckel–Kuhn), Hymiskviða 11
 - **Wassail ≠ ancient toast**: "be hale" was a greeting; the drinking "wassail/drinkhail" is medieval (Geoffrey's Rowena legend; Layamon's Brut)
 - **Roman formula forms**: long "…felix fortunatumque sit" is epigraphic (Arval Acts, Q.B.F.F.S.); Livy uses "quod bonum, faustum felixque sit". Don't attribute the long form to Livy

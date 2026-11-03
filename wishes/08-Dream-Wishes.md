@@ -24,7 +24,7 @@ tags: [wishes, dreams, wish-fulfillment, folklore, snippets]
 
 ---
 
-## 1. ᚠ Viking Runes (Old Norse)
+## 1. ᚠ Old Norse: words & lore
 
 **What the Norse actually had:** the word for wish itself (*ósk*, the old cousin of English "wish"), a dream-vocabulary that includes the wish-fulfillment formula "a dream proves true" (*draumr rætist*), and two famous dream-literature items that are reference-only (register verdicts below). No attested Norse wish *formula* exists — the gap is reported honestly.
 
@@ -66,10 +66,18 @@ Blest is he who in this life gave shoes to the needy poor.
 *EN (Grøndahl, trans. of Moltke Moe's text):* the refrain runs "The moon it shines, and the roads do stretch so wide"; the ballad's protagonist Olav Åsteson sleeps Christmas Eve to Epiphany on a soul-journey.
 *Source:* the medieval Norwegian visionary ballad (NMB 54 / TSB B 31; oral Telemark transmission, written down from the 1840s; Liestøl 1946). ⚠️ The "Blest is he who…" stanzas are alms-beatitudes, not wishes — reference-only; quoted in English only (Norwegian stanza not verified this pass).
 
-**5. Reference — Baldrs draumar: excluded** 🚫 *(register verdict)*
+**5. Reference · Baldrs draumar: excluded** 🚫 *(register verdict)*
 The Eddic dream-poem is Baldr's death-dreams and Odin's necromancy — funeral register, misused online as a generic "dream poem." Excluded from sends; noted here as dream-literature footnote. (Also: it survives only in AM 748 I a 4to, NOT the Codex Regius.)
 
 *Vocabulary notes: ósk (wish, desire — the old cousin of English "wish"; óskasonr, beloved/adopted son) · œskja (to wish — œskja e-m e-s, to wish something for someone) · draumr (dream — segja e-m draum, tell a dream; ráða draum, read a dream).*
+
+**Modern rune flavor** `[modern esoteric: 20th-c. runology, not Viking-age fact]`
+
+- **ᛚ Laguz**: modern readings, water/the unconscious/dreams/intuition. Attested name-word: *lagu*, water/sea.
+- **ᛈ Perthro**: modern readings, mystery/the unseen/what is yet to unfold. Attested: the Peorth stanza is damaged and the name's meaning uncertain.
+
+⚠️ Fine as flavor on a dream send; never present these meanings as Viking-age fact.
+*Basis: the rune poems' name-words; the modern readings are 20th-c. esoteric runology.*
 
 ---
 

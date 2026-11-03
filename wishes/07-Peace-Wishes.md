@@ -23,7 +23,7 @@ tags: [wishes, peace, comfort, folklore, snippets]
 
 ---
 
-## 1. ᚠ Viking Runes (Old Norse)
+## 1. ᚠ Old Norse: words & lore
 
 **What the Norse actually had:** a precise vocabulary of peace: *friðr* (peace, sanctuary), *huggun* (consolation), *ró* (rest), *kyrr* (still); but no verified comfort send. So this section keeps the vocabulary, two attested reference lines, and one house `[craft]` built from attested words. (The popular "patience / fair-weather-after-foul" stanza doesn't exist; see Misuse Notes.)
 
@@ -59,6 +59,14 @@ en orðstírr deyr aldregi, hveim er sér góðan getr.
 *Source:* Hávamál 76 (standard numbering; Bellows prints it at 77–78, reordering the Fitjung stanza to 76). ⚠️ Register: memento-mori opener, remembrance consolation; **only** for messages honoring someone who died; too heavy for general comfort notes.
 
 *Vocabulary notes: friðr (peace; biðja e-n friðar, to sue for peace; friðar-hof, sanctuary) · huggun (consolation; hugganar-orð, a word of comfort; veita e-m huggun, to grant consolation) · ró (rest, calm; gefa ró reiði, to give rest to wrath) · kyrr (still, quiet; kyrr-latr, calm, peaceful) · sæll (blessed, happy; sæla, bliss; friðsæll, blessed with peace).*
+
+**Modern rune flavor** `[modern esoteric: 20th-c. runology, not Viking-age fact]`
+
+- **ᛁ Isa**: modern readings, stillness/patience/letting things settle. Attested name-word: ice.
+- **ᚹ Wunjo**: modern readings, joy/harmony/belonging. Attested name-word: joy (see [[01-Luck-Wishes]] and [[02-Love-Wishes]]).
+
+⚠️ Fine as flavor on a comfort send; never present these meanings as Viking-age fact.
+*Basis: the rune poems' name-words; the modern readings are 20th-c. esoteric runology.*
 
 ---
 
