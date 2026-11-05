@@ -63,7 +63,7 @@ From Wikipedia's *Wish* and charm traditions, each is a potential **format** for
 - [x] `08-Dream-Wishes.md`
 - [x] `09-Family-Wishes.md`
 - [x] `10-Journey-Wishes.md`
-- [ ] `11-Format-Library.md`: delivery mechanisms as snippet formats (rune card, ema plaque, incantation, charm inscription)
+- [x] `11-Format-Library.md`: delivery mechanisms as snippet formats (rune card, ema plaque, incantation, charm inscription)
 
 Each type file: **when to give it · tradition anchors · 3–5 ready snippets (EN + TH where natural) · ⚠️ misuse warnings** (e.g. never gacha-humor a condolence).
 
