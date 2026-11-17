@@ -28,6 +28,7 @@ A generic passive 3.5 mm-to-4.4 mm adapter only changes connector geometry. It c
 | Headphone/IEM | MX1 output | Cable | Verdict |
 |---|---|---|---|
 | COZOY D1 | 4.4 mm balanced | Direct 4.4 mm IEM cable | Correct |
+| Sony IER-EX15C | Not applicable | Fixed USB-C cable | Cannot connect — DAC/amp lives in its own USB-C plug ([[10-Sony-IER-EX15C-Setup]]) |
 | Sony WH-1000XM5 | 3.5 mm single-ended | Sony-supplied 3.5 mm stereo cable | Recommended |
 | Sony WH-1000XM5 | 4.4 mm balanced | Generic adapter | Avoid |
 | Sony WH-1000XM5 | 4.4 mm source | Explicitly engineered converter | Technically possible, but no benefit here |

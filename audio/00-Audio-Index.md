@@ -17,6 +17,7 @@ tags:
 - [[07-Sony-WH1000XM5-Setup]] — wired MX1 and wireless Bluetooth setup for the Sony WH-1000XM5
 - [[08-MX1-Output-Compatibility]] — which MX1 output and cable are appropriate for each owned headphone/IEM
 - [[09-Xiaomi-Buds-5-Pro-Setup]] — Xiaomi Buds 5 Pro, Xiaomi Earbuds app, EQ, codecs, ANC, and spatial audio
+- [[10-Sony-IER-EX15C-Setup]] — Sony IER-EX15C USB-C IEM: built-in DAC chain, fit/tips, microphonics, EQ, and what not to buy
 
 ## Fundamental knowledge
 
