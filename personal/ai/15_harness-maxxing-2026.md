@@ -255,6 +255,7 @@ Your setup is Hermes Agent (platform: memory, skills, scheduler, subagents) plus
 - [[01_applied-ai-concepts-q4-2026]] - context engineering, trajectory eval, bounded agents
 - [[02_ai-buzzword-map-2026]] - the `-maxxing` family and how to judge a new word
 - [[06_templates-vs-skills-and-ai-dlc]] - skills and hooks as process, not prompt text
+- [[16_prompt-tuning-2026]] - when "getting more from a fixed model" does mean training: soft prompts, LoRA, and the ladder between them
 - ai-knowledge vault: `04_Applied_AI_Engineering/03_Evaluation_and_Observability/`
 
 ## Sources (web-verified 2026-10-19)

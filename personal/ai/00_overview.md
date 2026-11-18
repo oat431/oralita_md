@@ -9,9 +9,9 @@ status: living
 # Applied AI: How the Pieces Fit
 
 > **Created:** 2026-10-19
-> **What this is:** the front door of the personal AI series. It started with one question ("which AI / LLM concepts are actually worth knowing, heading into Q4 2026?") and grew into vocabulary, agent internals, the tool layers, how the work changes, one worked agent loop, a model class that is not an LLM, what leaks, how scared to be, what is actually inside a harness, and how to squeeze one. Fifteen notes, one web.
-> **Reading order:** 01 to 15, top to bottom. The wikilinks connect everything, so any entry point works.
-> **There is no conclusion note, on purpose.** The field has not concluded, so a conclusion would be a lie with a date on it. Every note is `status: living`, new notes append as 16, 17, ... when a real question appears, and note 15 is the newest edge, not an ending.
+> **What this is:** the front door of the personal AI series. It started with one question ("which AI / LLM concepts are actually worth knowing, heading into Q4 2026?") and grew into vocabulary, agent internals, the tool layers, how the work changes, one worked agent loop, a model class that is not an LLM, what leaks, how scared to be, what is actually inside a harness, how to squeeze one, and the soft-prompt middle ground between prompting and fine-tuning. Sixteen notes, one web.
+> **Reading order:** 01 to 16, top to bottom. The wikilinks connect everything, so any entry point works.
+> **There is no conclusion note, on purpose.** The field has not concluded, so a conclusion would be a lie with a date on it. Every note is `status: living`, new notes append as 17, 18, ... when a real question appears, and note 16 is the newest edge, not an ending.
 
 ## The chain
 
@@ -31,6 +31,7 @@ flowchart TD
     S12 --> S13["13 Reading List<br/>backstage: what to read next"]
     S13 --> S14["14 Harness Anatomy<br/>the parts, the tiers, the market"]
     S14 --> S15["15 Harness Maxxing<br/>more out of a fixed model"]
+    S15 --> S16["16 Prompt Tuning<br/>the soft middle between prompting and fine-tuning"]
 ```
 
 ## The notes
@@ -52,6 +53,7 @@ flowchart TD
 | 13 | [[13_ai-engineering-reading-list]] | Backstage: what should I read to go deeper? |
 | 14 | [[14_agent-harness-anatomy-2026]] | What is actually inside a harness, what is the minimum, and how do the tools compare? |
 | 15 | [[15_harness-maxxing-2026]] | How do I get more out of the model I already have, and how do I avoid fooling myself? |
+| 16 | [[16_prompt-tuning-2026]] | What is prompt tuning really, and when is it the right lever instead of prompting or LoRA? |
 
 ## Why this order
 
@@ -65,7 +67,8 @@ The order walks one question outward, then back in:
 6. **Make it safe (09, 10, 11).** Leakage mechanisms first, because they are concrete and fixable. Then the fear question, calm. Then the fiction audit, which is the same audit with better costumes.
 7. **Go deeper (12, 13).** Backstage notes: how the vault was planned, and what to read next.
 8. **Learn the machine (14).** Backstage done, the series returns to the technical layer at its most concrete: what is actually inside a harness, which parts are irreducible, and who ships what in 2026.
-9. **Turn the screws (15).** Last note is the practice: the ordered moves that get more capability out of a fixed model, the scorecard, and the trap that has the practice's name on it.
+9. **Turn the screws (15).** The practice: the ordered moves that get more capability out of a fixed model, the scorecard, and the trap that has the practice's name on it.
+10. **Learn the middle gear (16).** Prompt tuning is the parameter-efficient middle between prompting and fine-tuning: what it changes, where LoRA ate its lunch, and the one serving niche where it still wins.
 
 ## How this series works
 
@@ -90,7 +93,7 @@ Cross-vault references in these notes are written as inline code paths, not wiki
 - **Evaluation:** an eval suite with a baseline and a CI regression gate. The notes keep saying "evals are the real deliverable" without showing one built end to end.
 - **Cost and latency engineering:** routing and cascading appear in 01 and 04 as vocabulary. Nothing here measures a token bill or a p95.
 - **Guardrails architecture:** 09 goes deep on leakage; input and output filtering, and least-privilege tool scoping, are still only referenced.
-- **Fine-tuning strategy:** when it is worth it (rarely), and how to prove it beat prompting.
+- **Fine-tuning strategy:** when it is worth it (rarely), and how to prove it beat prompting. Note 16 covers the soft-prompt corner and the escalation ladder; the weight-based strategy is still open.
 - **Multi-agent orchestration:** 03 covers the primitives (handoff, supervisor). No worked multi-agent system yet.
 - **Model card and AI risk assessment:** the governance artifacts. Nothing in this folder produces one.
 - **The next model-class surprise:** 08 exists because a new model class appeared. Assume another will, and keep the slot open.
@@ -111,6 +114,7 @@ Cross-vault references in these notes are written as inline code paths, not wiki
 - [[12_ai-engineering-knowledge-vault-proposal]] and [[13_ai-engineering-reading-list]]: backstage. Structure and sourcing for the deep vault.
 - [[14_agent-harness-anatomy-2026]]: the return to the technical layer. Nineteen components ranked into minimum, good, and best, the measured cost of getting them wrong, and a dated market comparison.
 - [[15_harness-maxxing-2026]]: the practice built on 14. Twelve ordered moves, the guide/sensor/cap split, a scorecard, and the three dangers of maxxing a harness against the wrong target.
+- [[16_prompt-tuning-2026]]: the vocabulary fix and the escalation ladder. Soft prompts demystified, the LoRA verdict, and the 2026 serving economics of the one niche left.
 
 ## Key takeaways
 
