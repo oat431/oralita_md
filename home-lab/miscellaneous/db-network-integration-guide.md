@@ -9,7 +9,7 @@
 |---------|-----------|---------|-------------------|-------------|
 | PostgreSQL 18 | `local-postgres` | `db-network` | `5432` | user: `postgres` |
 | Valkey 9 | `local-valkey` | `db-network` | `6379` | password: see `.env` |
-| MongoDB 8 | `local-mongodb` | `db-network` | `27017` | — |
+| MongoDB 8 | `local-mongodb` | `db-network` | `27017` | N/A |
 
 ### DNS Aliases on `db-network`
 
@@ -164,7 +164,7 @@ valkey:
   url: redis://:PASSWORD@valkey:6379/0
 ```
 
-**Note:** SearXNG deprecation warning if using `redis.url` — use `valkey.url` instead.
+**Note:** SearXNG deprecation warning if using `redis.url`, use `valkey.url` instead.
 
 ---
 
@@ -190,7 +190,7 @@ DB_CONNECTION_URI=postgres://infisical:infisical@postgres:5432/infisical
 REDIS_URL=redis://:PASSWORD@valkey:6379
 ```
 
-**Note:** Infisical runs Prisma migrations on startup — PG18 is compatible.
+**Note:** Infisical runs Prisma migrations on startup, PG18 is compatible.
 
 ---
 
@@ -212,7 +212,7 @@ REDIS_URL: redis://:PASSWORD@valkey:6379/0
 
 ### ByteStash (`~/application/bytestash/`)
 
-**Cannot integrate.** Uses SQLite (`better-sqlite3`) — file-based, no network database. Stays as-is.
+**Cannot integrate.** Uses SQLite (`better-sqlite3`): file-based, no network database. Stays as-is.
 
 ---
 
@@ -283,4 +283,4 @@ docker compose up -d
 
 ## Deployment History
 
-- [[2026-07-27-db-network-migration-and-fixes]] — SearXNG + Infisical migration log (first use of this guide)
+- [[2026-07-27-db-network-migration-and-fixes]]: SearXNG + Infisical migration log (first use of this guide)

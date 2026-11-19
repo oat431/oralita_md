@@ -1,4 +1,4 @@
-# 06 — Tailscale
+# 06: Tailscale
 
 > Zero-config mesh VPN for remote access. No port forwarding needed.
 
@@ -29,4 +29,4 @@ tailscale status
 tailscale ip
 ```
 
-**Why:** Access your server from anywhere — SSH, Portainer, Grafana — without exposing any ports to the internet. Works behind CGNAT, double NAT, anything. Free for personal use.
+**Why:** Access your server from anywhere, SSH, Portainer, Grafana: without exposing any ports to the internet. Works behind CGNAT, double NAT, anything. Free for personal use.

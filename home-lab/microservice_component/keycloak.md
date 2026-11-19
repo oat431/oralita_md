@@ -9,11 +9,11 @@
 
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
-> - Container: `flowero-guard` — Up, healthy
+> - Container: `flowero-guard`, Up, healthy
 > - Image: `ghcr.io/oat431/flowero-guard:latest` (GHCR)
 > - OIDC Discovery: `https://auth.panomete.com/realms/panomete/.well-known/openid-configuration` ✅
 > - JWKS: 2 RSA keys ✅
-> - Admin Console: `https://auth.panomete.com/admin` — HTTP 302 (redirect to login) ✅
+> - Admin Console: `https://auth.panomete.com/admin`, HTTP 302 (redirect to login) ✅
 > - Realm: `panomete` imported ✅
 > - Permanent admin: Created via Post Install procedure ✅
 > - Metrics: `/metrics` on management port 9000 ✅
@@ -28,7 +28,7 @@ Keycloak is the identity backbone for all Panomete Platform services. It handles
 - Role-based access control (RBAC)
 - Client management (registering which services can use auth)
 
-In the platform architecture, Keycloak **IS** Flowero Guard — there is no wrapper service.
+In the platform architecture, Keycloak **IS** Flowero Guard: there is no wrapper service.
 
 ---
 
@@ -87,7 +87,7 @@ sudo ln -s /etc/nginx/sites-available/auth.panomete.com /etc/nginx/sites-enabled
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-> No DNS changes needed — `*.panomete.com` wildcard already routes to the Cloudflare tunnel.
+> No DNS changes needed: `*.panomete.com` wildcard already routes to the Cloudflare tunnel.
 
 ---
 
@@ -145,7 +145,7 @@ cd ~/platform
 docker compose -f docker-compose.platform.yml up -d flowero-guard
 ```
 
-> First boot takes 15-30 seconds — Keycloak runs Liquibase migrations to create its schema.
+> First boot takes 15-30 seconds: Keycloak runs Liquibase migrations to create its schema.
 
 ---
 
@@ -189,7 +189,7 @@ cd ~/platform && docker compose -f docker-compose.platform.yml restart flowero-g
 
 ### Create a permanent admin user
 
-`KC_BOOTSTRAP_ADMIN_USERNAME` / `KC_BOOTSTRAP_ADMIN_PASSWORD` always create a **temporary** admin — this is by design in Keycloak 26+ ([GitHub #34768](https://github.com/keycloak/keycloak/issues/34768)). You need to create a permanent admin through the Admin Console.
+`KC_BOOTSTRAP_ADMIN_USERNAME` / `KC_BOOTSTRAP_ADMIN_PASSWORD` always create a **temporary** admin; this is by design in Keycloak 26+ ([GitHub #34768](https://github.com/keycloak/keycloak/issues/34768)). You need to create a permanent admin through the Admin Console.
 
 1. Log in to `https://auth.panomete.com/admin` with the temporary admin credentials
 2. Go to **Users** in the left sidebar (under the `master` realm)
@@ -213,7 +213,7 @@ cd ~/platform && docker compose -f docker-compose.platform.yml restart flowero-g
 
 ### Update .env after creating permanent admin
 
-Once you've created the permanent admin, update your `.env` to document the new username (password should NOT be in `.env` — keep it in your password manager):
+Once you've created the permanent admin, update your `.env` to document the new username (password should NOT be in `.env`, keep it in your password manager):
 
 ```env
 # Bootstrap admin (temporary — used only for first boot)
@@ -261,7 +261,7 @@ When onboarding a new service (e.g., Cute Gufo blog):
 
 **Most common cause:** Keycloak container is crash-looping, so Nginx has nothing to proxy to.
 
-#### Step 1 — Check if the container is actually running
+#### Step 1: Check if the container is actually running
 
 ```bash
 docker ps -a --format 'table {{.Names}}\t{{.Status}}' | grep flowero-guard
@@ -269,7 +269,7 @@ docker ps -a --format 'table {{.Names}}\t{{.Status}}' | grep flowero-guard
 
 If it shows `Restarting` or a high `RestartCount`, it's crash-looping. Check the logs.
 
-#### Step 2 — Check the logs
+#### Step 2: Check the logs
 
 ```bash
 docker logs --tail 30 flowero-guard
@@ -494,11 +494,11 @@ docker compose -f docker-compose.platform.yml up -d flowero-guard
 | `Connection refused` or `password authentication failed` | Wrong `KC_DB_URL`, `KC_DB_PASSWORD`, or PostgreSQL not running | Verify PostgreSQL is healthy: `docker exec local-postgres pg_isready -U postgres`. Check `.env` credentials. |
 | `Liquibase: Update has been unsuccessful` | Corrupted or partial migration | Last resort: `DROP DATABASE keycloak; CREATE DATABASE keycloak OWNER keycloak;` then redeploy. Realm re-imports from JSON. |
 | `WARN: Hostname v1 options [proxy] are still in use` | `KC_PROXY=edge` is deprecated in newer Keycloak | Remove `KC_PROXY=edge`, add `KC_PROXY_HEADERS=xforwarded` instead. |
-| `WARN: Likely misconfiguration detected. With HTTPS not enabled, proxy-headers unset` | Missing `KC_PROXY_HEADERS` — Keycloak doesn't know it's behind Nginx/Cloudflare | Add `KC_PROXY_HEADERS: xforwarded` to compose env. This tells Keycloak to trust `X-Forwarded-For/Proto/Host` headers. |
+| `WARN: Likely misconfiguration detected. With HTTPS not enabled, proxy-headers unset` | Missing `KC_PROXY_HEADERS`, Keycloak doesn't know it's behind Nginx/Cloudflare | Add `KC_PROXY_HEADERS: xforwarded` to compose env. This tells Keycloak to trust `X-Forwarded-For/Proto/Host` headers. |
 | `JOIN sent to xxx timed out` (repeated many times) | JGroups trying to form a distributed cluster on a single-node deployment | Add `KC_CACHE: local` to compose env. Disables distributed caching, cuts startup from ~60s to ~15s. |
 | `Unable to find composite client role: view-profile` | Realm JSON references client roles that weren't defined in the JSON. The `default-roles-panomete` composite role tries to reference `account` client roles (`view-profile`, `manage-account`) that don't exist yet. | Remove the client role references from the composite role definition, or drop the DB and re-import with the fixed JSON (see "Database cleanup" below). |
 | `KEYCLOAK_ADMIN is deprecated, use KC_BOOTSTRAP_ADMIN_USERNAME instead` | Keycloak 26+ renamed the admin bootstrap env vars | Replace `KEYCLOAK_ADMIN` → `KC_BOOTSTRAP_ADMIN_USERNAME`, `KEYCLOAK_ADMIN_PASSWORD` → `KC_BOOTSTRAP_ADMIN_PASSWORD` in compose. |
-| `HTTPS required` (403 on external access) | Keycloak rejects HTTP requests from Nginx because it doesn't know the original request was HTTPS (Cloudflare handles TLS) | Fix Nginx: hardcode `proxy_set_header X-Forwarded-Proto https;` instead of `$scheme`. Since Cloudflare terminates TLS, Nginx always receives HTTP — `$scheme` would be `http`. |
+| `HTTPS required` (403 on external access) | Keycloak rejects HTTP requests from Nginx because it doesn't know the original request was HTTPS (Cloudflare handles TLS) | Fix Nginx: hardcode `proxy_set_header X-Forwarded-Proto https;` instead of `$scheme`. Since Cloudflare terminates TLS, Nginx always receives HTTP, `$scheme` would be `http`. |
 
 ### Recommended compose environment (single-node homelab)
 
@@ -578,7 +578,7 @@ If `curl localhost:8001` returns nothing but the container shows "Up", Keycloak 
 
 ## Related
 
-- [[postgresql]] — Database backend
-- [[valkey]] — Used by Gate, not Guard
-- [[08.1-Add-Subdomain]] — How the Nginx block works
-- [[docker-network]] — Why container names are used for connections
+- [[postgresql]]: Database backend
+- [[valkey]]: Used by Gate, not Guard
+- [[08.1-Add-Subdomain]]: How the Nginx block works
+- [[docker-network]]: Why container names are used for connections

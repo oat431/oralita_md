@@ -1,4 +1,4 @@
-# Homelab Infrastructure Audit — `flowero@192.168.1.121`
+# Homelab Infrastructure Audit: `flowero@192.168.1.121`
 
 > **Date:** 2026-07-21
 > **Checklist:** [[Homelab-Infra-Checklist]]
@@ -41,10 +41,10 @@
 |------|--------|-------|
 | Static IP | ⚠️ | DHCP on LAN. Tailscale IP is stable (100.73.143.25) |
 | Local DNS | ✅ | AdGuard Home on port 53, router DNS set to 192.168.1.121 |
-| Reverse proxy | ✅ | Nginx — 5 sites enabled |
-| TLS/SSL | ✅ | Cloudflare edge — no certbot needed |
-| Firewall | ✅ | UFW active — default deny, SSH + Tailscale ports only |
-| Port forwarding | ✅ | None — no public IP |
+| Reverse proxy | ✅ | Nginx: 5 sites enabled |
+| TLS/SSL | ✅ | Cloudflare edge: no certbot needed |
+| Firewall | ✅ | UFW active: default deny, SSH + Tailscale ports only |
+| Port forwarding | ✅ | None: no public IP |
 | Tailscale | ✅ | Server + Windows PC connected |
 | Cloudflare Tunnel | ✅ | `homelab` tunnel active, 3 connections (Singapore) |
 
@@ -57,7 +57,7 @@
 | Cloudflare Tunnel | ✅ | `*.panomete.com` + `panomete.com` routed |
 | Tailscale | ✅ | Mesh VPN for SSH + management |
 | SSH hardened | ✅ | Password auth disabled, root login blocked, AllowUsers flowero |
-| fail2ban | ✅ | Active — **1888 failed, 324 banned** since install |
+| fail2ban | ✅ | Active: **1888 failed, 324 banned** since install |
 | No public IP | ✅ | Zero attack surface from internet |
 
 ---
@@ -78,7 +78,7 @@
 | Item | Status | Notes |
 |------|--------|-------|
 | rclone | ✅ | v1.74.4, OneDrive configured |
-| Backup automation | ❌ | No cron job yet — manual only |
+| Backup automation | ❌ | No cron job yet: manual only |
 | Database backups | ❌ | No pg_dump / mongodump scripts yet |
 | Config backup | ❌ | Compose files not in git yet |
 
@@ -114,12 +114,12 @@
 
 | Service | Container | Status | Health | Access |
 |---------|-----------|--------|--------|--------|
-| AdGuard Home | `adguard` | ✅ Up 24h | — | Public: `adguard.panomete.com` |
-| Portainer | `portainer` | ✅ Up 23h | — | Public: `container.panomete.com` |
-| Cloudflared | (systemd) | ✅ Active | — | Tunnel `homelab` |
-| Tailscale | (systemd) | ✅ Active | — | `100.73.143.25` |
-| Nginx | (systemd) | ✅ Active | — | 5 sites |
-| Fail2ban | (systemd) | ✅ Active | — | 324 banned |
+| AdGuard Home | `adguard` | ✅ Up 24h | N/A | Public: `adguard.panomete.com` |
+| Portainer | `portainer` | ✅ Up 23h | N/A | Public: `container.panomete.com` |
+| Cloudflared | (systemd) | ✅ Active | N/A | Tunnel `homelab` |
+| Tailscale | (systemd) | ✅ Active | N/A | `100.73.143.25` |
+| Nginx | (systemd) | ✅ Active | N/A | 5 sites |
+| Fail2ban | (systemd) | ✅ Active | N/A | 324 banned |
 
 ### Databases (7 containers)
 
@@ -128,10 +128,10 @@
 | PostgreSQL 18 | `local-postgres` | ✅ Up 2h | healthy | 127.0.0.1:5432 | SSH tunnel |
 | Valkey 9 | `local-valkey` | ✅ Up 2h | healthy | 127.0.0.1:6379 | SSH tunnel |
 | MongoDB 8 | `local-mongodb` | ✅ Up 2h | healthy | 127.0.0.1:27017 | SSH tunnel |
-| SeaweedFS Master | `seaweedfs-master` | ✅ Up 8m | — | 0.0.0.0:9333 | Tailscale only |
-| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 8m | — | internal | — |
-| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 8m | — | 0.0.0.0:8888 | Tailscale only |
-| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 8m | — | 127.0.0.1:8333 | Public: `s3.panomete.com` |
+| SeaweedFS Master | `seaweedfs-master` | ✅ Up 8m | N/A | 0.0.0.0:9333 | Tailscale only |
+| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 8m | N/A | internal | N/A |
+| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 8m | N/A | 0.0.0.0:8888 | Tailscale only |
+| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 8m | N/A | 127.0.0.1:8333 | Public: `s3.panomete.com` |
 
 ### Nginx Sites (5 enabled)
 
@@ -188,7 +188,7 @@
 | Object storage | 0 | SeaweedFS S3 | +1 |
 | DNS | ❌ | AdGuard Home | ✅ |
 | Backups | ❌ | rclone configured | ⚠️ |
-| Monitoring | ❌ | ❌ | — |
+| Monitoring | ❌ | ❌ | N/A |
 | Public sites | 0 | 5 Nginx sites | +5 |
 | fail2ban bans | 0 | 324 | +324 |
 

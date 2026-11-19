@@ -1,4 +1,4 @@
-# 01 — SSH Key Setup
+# 01: SSH Key Setup
 
 > Key-based authentication to the server. More secure than passwords and enables automation.
 
@@ -34,14 +34,14 @@ ssh-keygen -t ed25519 -C "flowero@panomete" -f ~/.ssh/id_homelab -N ""
 
 | Flag | What it does |
 |------|-------------|
-| `-t ed25519` | Key type. Ed25519 is the modern standard — faster, shorter, more secure than RSA |
+| `-t ed25519` | Key type. Ed25519 is the modern standard: faster, shorter, more secure than RSA |
 | `-C "flowero@panomete"` | Comment/label. Helps you identify which key is for what. Put the server name or purpose here |
 | `-f ~/.ssh/id_homelab` | Output file path. Use a descriptive name like `id_homelab`, `id_work`, `id_friendserver` |
-| `-N ""` | Empty passphrase. No password on the key — required for automation (scripts, cron, CI/CD). If you omit this flag, it will prompt for a passphrase |
+| `-N ""` | Empty passphrase. No password on the key: required for automation (scripts, cron, CI/CD). If you omit this flag, it will prompt for a passphrase |
 
 **Why:** This creates two files:
-- `~/.ssh/id_homelab` — **Private key** (never share this, never leave the machine)
-- `~/.ssh/id_homelab.pub` — **Public key** (copy this to every server you want to access)
+- `~/.ssh/id_homelab`: **Private key** (never share this, never leave the machine)
+- `~/.ssh/id_homelab.pub`: **Public key** (copy this to every server you want to access)
 
 ---
 
@@ -57,7 +57,7 @@ ssh-copy-id -i ~/.ssh/id_homelab flowero@192.168.1.121
 | `-i ~/.ssh/id_homelab` | Which key to copy. Points to the `.pub` file automatically |
 | `flowero@192.168.1.121` | Username@server-address (IP or hostname) |
 
-**Why:** The server needs your public key in its `authorized_keys` file to recognize you. This command handles it in one step — it will ask for the server password once, then never again.
+**Why:** The server needs your public key in its `authorized_keys` file to recognize you. This command handles it in one step; it will ask for the server password once, then never again.
 
 ---
 
@@ -71,7 +71,7 @@ ssh -o BatchMode=yes flowero@192.168.1.121 "echo 'key auth works ✅'"
 |------|-------------|
 | `-o BatchMode=yes` | Disables all interactive prompts (password, passphrase). If the key doesn't work, it fails immediately instead of falling back to password |
 
-**Why:** This confirms the key is working. If it says "Permission denied", the key wasn't copied correctly — go back to Step 3.
+**Why:** This confirms the key is working. If it says "Permission denied", the key wasn't copied correctly, go back to Step 3.
 
 ---
 

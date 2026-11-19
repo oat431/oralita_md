@@ -1,4 +1,4 @@
-# GitHub Actions — Tailscale Setup
+# GitHub Actions: Tailscale Setup
 
 > How to let GitHub Actions runners reach the homelab server behind Tailscale.
 > Last updated: 2026-07-24
@@ -49,9 +49,9 @@ GitHub Actions Runner (public internet)
 3. Configure:
    - **Description:** `GitHub Actions Deploy`
    - **Reusable:** ✅ Yes (one key for all deploys)
-   - **Ephemeral:** ✅ Yes (auto-removes the node after job ends — prevents clutter)
+   - **Ephemeral:** ✅ Yes (auto-removes the node after job ends, prevents clutter)
 4. Click **Generate**
-5. **Copy the key** (starts with `tskey-auth-...`) — you won't see it again
+5. **Copy the key** (starts with `tskey-auth-...`): you won't see it again
 
 > **Ephemeral** is important: Without it, every deploy creates a permanent Tailscale node entry that you'd have to clean up manually.
 
@@ -78,8 +78,8 @@ ssh-keygen -t ed25519 -f ~/.ssh/github_actions_deploy -C "github-actions-deploy"
 ```
 
 This creates:
-- `~/.ssh/github_actions_deploy` (private key — goes to GitHub)
-- `~/.ssh/github_actions_deploy.pub` (public key — goes to server)
+- `~/.ssh/github_actions_deploy` (private key, goes to GitHub)
+- `~/.ssh/github_actions_deploy.pub` (public key, goes to server)
 
 ---
 
@@ -222,7 +222,7 @@ echo "YOUR_PUBLIC_KEY" >> ~/.ssh/authorized_keys
 
 ## Related
 
-- [[../essential_component/06-Tailscale]] — Original Tailscale server setup
-- [[../microservice_component/gateway]] — Gateway deployment (uses this)
-- [[../microservice_component/discovery]] — Discover deployment (uses this)
-- [[../microservice_component/keycloak]] — Guard deployment (uses this)
+- [[../essential_component/06-Tailscale]]: Original Tailscale server setup
+- [[../microservice_component/gateway]]: Gateway deployment (uses this)
+- [[../microservice_component/discovery]]: Discover deployment (uses this)
+- [[../microservice_component/keycloak]]: Guard deployment (uses this)

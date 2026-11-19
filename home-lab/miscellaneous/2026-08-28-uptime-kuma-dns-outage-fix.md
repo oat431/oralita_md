@@ -1,18 +1,18 @@
 ---
-title: Uptime Kuma — DNS Outage Fix (2026-08-28)
+title: "Uptime Kuma: DNS Outage Fix (2026-08-28)"
 tags: [homelab, incident, dns, uptime-kuma, docker, adguard]
 created: 2026-08-28
 ---
 
-# Uptime Kuma — DNS Outage Fix (2026-08-28)
+# Uptime Kuma: DNS Outage Fix (2026-08-28)
 
-> Uptime Kuma (`status.panomete.com`) stopped monitoring everything — every
+> Uptime Kuma (`status.panomete.com`) stopped monitoring everything: every
 > monitor was red/failing. Not a server outage: the monitors were all still
 > there, but the **Uptime Kuma container could not resolve any public hostname**
 > (`getaddrinfo ENOTFOUND`).
 >
 > This is the **completion** of [[2026-08-24-searxng-dns-outage-fix]]. That fix
-> repaired the host `/etc/resolv.conf` so *new* containers inherit working DNS —
+> repaired the host `/etc/resolv.conf` so *new* containers inherit working DNS: 
 > but it never recreated the containers that had already baked the broken
 > `NO EXTERNAL NAMESERVERS DEFINED` config into their `/etc/resolv.conf`.
 > Today we recreated all 19 of them.
@@ -28,7 +28,7 @@ created: 2026-08-28
 | Why | Containers created while host `resolv.conf` had only a loopback nameserver (`127.0.0.1`, which Docker ignores) |
 | Why only now | 2026-08-24 fixed the host config but **didn't recreate existing containers** |
 | Fix | `docker compose up -d --force-recreate` on all 19 stale containers |
-| Data loss | None — all state in named volumes |
+| Data loss | None: all state in named volumes |
 | Verified | 0 broken containers remaining; all monitored services return healthy HTTP codes |
 
 ---
@@ -60,8 +60,8 @@ HTTP monitors all threw `getaddrinfo ENOTFOUND`.
 
 ## Why Uptime Kuma surfaced it (and not the other 18)
 
-Uptime Kuma's entire job is resolving public hostnames — `panomete.com`,
-`auth.panomete.com`, `api.panomete.com`, etc. — so it failed loudly. The other
+Uptime Kuma's entire job is resolving public hostnames: `panomete.com`,
+`auth.panomete.com`, `api.panomete.com`, etc.; so it failed loudly. The other
 18 affected containers (databases, Prometheus, Grafana, Loki, Promtail,
 SeaweedFS, apps) mostly talk to *other containers* by name, which still worked,
 so they stayed green on `docker ps` while quietly unable to reach the internet.
@@ -95,7 +95,7 @@ so they stayed green on `docker ps` while quietly unable to reach the internet.
    `ExtServers: [host(127.0.0.1) host(1.1.1.1)]` and resolved externally.
 
 That note even concluded "any future container inherits working DNS
-automatically." Correct — but **existing containers keep the `resolv.conf` they
+automatically." Correct, but **existing containers keep the `resolv.conf` they
 were created with.** Docker does not rewrite it on restart, only on recreation.
 
 So on 2026-08-28 the situation was:
@@ -143,13 +143,13 @@ cd ~/application/bytestash   && docker compose up -d --force-recreate bytestash
 cd ~/dns && docker compose up -d --force-recreate adguard
 ```
 
-> `--force-recreate` is essential — a plain `restart` keeps the old container
+> `--force-recreate` is essential: a plain `restart` keeps the old container
 > (and its broken `resolv.conf`). Only recreate regenerates it.
 
 > **Orphan-container warnings** (`Found orphan containers … for this project`)
 > appear because `docker-compose.observability.yml` and
 > `docker-compose.platform.yml` share the `platform` project but define
-> different services. **Do not** run `--remove-orphans` here — it would delete
+> different services. **Do not** run `--remove-orphans` here; it would delete
 > the other file's containers.
 
 ### Full list of recreated containers
@@ -198,25 +198,25 @@ done
 
 The one transient `502` on the `service discovery` monitor fired during the
 `flowero-discover` recreate (~1 s of downtime) and cleared on the next 60 s
-check — no repeat in the logs. `docker ps` showed all 19 containers healthy/up.
+check: no repeat in the logs. `docker ps` showed all 19 containers healthy/up.
 
 ---
 
 ## Prevention / follow-ups
 
-- [x] Recreate the 19 stale containers (this note) — done.
+- [x] Recreate the 19 stale containers (this note): done.
 - [ ] **Pin explicit DNS upstreams in `/etc/docker/daemon.json`** so this class
       of failure can't recur regardless of host `resolv.conf` changes:
       ```json
       { "dns": ["1.1.1.1", "8.8.8.8"] }
       ```
       Requires `systemctl restart docker` (restarts **all** containers, ~1 min
-      outage) — schedule a maintenance window. After this, containers use these
+      outage): schedule a maintenance window. After this, containers use these
       upstreams directly and no longer depend on Docker's loopback-ignoring
       read of the host file.
 - [ ] **Rule of thumb:** any change to host `/etc/resolv.conf` (or a DNS outage
       window) only affects *new* containers. Existing ones keep their
-      creation-time config — recreate them (or do a full
+      creation-time config: recreate them (or do a full
       `docker compose up -d --force-recreate`) if they need to pick it up.
 - [ ] Consider a `depends_on`/ordering note: on full-host reboots, AdGuard must
       be up before anything that resolves public hostnames at boot (gateway
@@ -255,9 +255,9 @@ docker exec <container> cat /etc/resolv.conf
 
 ## Related
 
-- [[2026-08-24-searxng-dns-outage-fix]] — the root-cause fix this note completes
-- [[adguard]] — owns `:53`; the loopback-nameserver gotcha
-- [[db-network-integration-guide]] — shared `db-network` infra
-- [[docker-network]] — external-DNS dependency note
-- [[flowero-gate-guard-recovery]] — sibling incident/runbook (same folder)
+- [[2026-08-24-searxng-dns-outage-fix]]: the root-cause fix this note completes
+- [[adguard]]: owns `:53`; the loopback-nameserver gotcha
+- [[db-network-integration-guide]]: shared `db-network` infra
+- [[docker-network]]: external-DNS dependency note
+- [[flowero-gate-guard-recovery]]: sibling incident/runbook (same folder)
 - Index: [[Homelab-Infra-Checklist]]

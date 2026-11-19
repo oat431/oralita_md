@@ -1,4 +1,4 @@
-# 09 — Backups
+# 09: Backups
 
 > Automated backups with rclone to OneDrive.
 > Last updated: 2026-07-20
@@ -7,7 +7,7 @@
 
 ## What We Set Up
 
-rclone connects your server to OneDrive for offsite backups. No paid service needed — uses your existing Microsoft account.
+rclone connects your server to OneDrive for offsite backups. No paid service needed: uses your existing Microsoft account.
 
 ---
 
@@ -46,7 +46,7 @@ This opens a browser → log in with your Microsoft account → terminal prints 
 
 ## Step 3: Get your Drive ID
 
-The token alone isn't enough — rclone needs your OneDrive drive ID. Get it from Microsoft's API:
+The token alone isn't enough: rclone needs your OneDrive drive ID. Get it from Microsoft's API:
 
 ```bash
 # On the server, use your access_token
@@ -118,7 +118,7 @@ rclone sync /path/to/data onedrive:homelab-backups/data/
 |---------|-------|-----|
 | `unable to get drive_id and drive_type` | Config missing `drive_id` | Fetch from Microsoft API (Step 3) |
 | `Failed to start auth webserver` | Old rclone process holding port | `sudo killall rclone` and retry |
-| Token expired | Access tokens expire in 1 hour | rclone auto-refreshes using `refresh_token` — no action needed |
+| Token expired | Access tokens expire in 1 hour | rclone auto-refreshes using `refresh_token`: no action needed |
 | `unzip: command not found` | Not installed | `sudo apt install -y unzip` |
 
 ---

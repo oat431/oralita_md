@@ -1,4 +1,4 @@
-# 03 — Firewall (UFW)
+# 03: Firewall (UFW)
 
 > Default deny all inbound. Only allow what's needed.
 
@@ -28,4 +28,4 @@ sudo ufw enable
 sudo ufw status verbose
 ```
 
-**Why:** Defense in depth. Even if a service accidentally binds to `0.0.0.0`, the firewall blocks external access. Only SSH is exposed — everything else goes through Cloudflare Tunnel later.
+**Why:** Defense in depth. Even if a service accidentally binds to `0.0.0.0`, the firewall blocks external access. Only SSH is exposed, everything else goes through Cloudflare Tunnel later.

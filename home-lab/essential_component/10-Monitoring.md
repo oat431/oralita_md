@@ -1,4 +1,4 @@
-# 10 — Monitoring
+# 10: Monitoring
 
 > Uptime Kuma + Beszel for service health and metrics.
 

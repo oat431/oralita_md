@@ -7,7 +7,7 @@
 
 ## Why SeaweedFS over MinIO?
 
-MinIO changed to AGPLv3 licensing with commercial restrictions. SeaweedFS is Apache 2.0 — truly free for any use.
+MinIO changed to AGPLv3 licensing with commercial restrictions. SeaweedFS is Apache 2.0: truly free for any use.
 
 ## Architecture
 
@@ -24,7 +24,7 @@ Master (metadata) → Volume (data storage) → S3 API (S3 protocol)
 | Service | Container | Port | Access |
 |---------|-----------|------|--------|
 | Master | `seaweedfs-master` | `0.0.0.0:9333` | Tailscale only |
-| Volume | `seaweedfs-volume` | internal | — |
+| Volume | `seaweedfs-volume` | internal | N/A |
 | Filer | `seaweedfs-filer` | `0.0.0.0:8888` | Tailscale only |
 | S3 API | `seaweedfs-s3` | `127.0.0.1:8333` | Via Nginx (`s3.panomete.com`) |
 
@@ -75,7 +75,7 @@ client := s3.NewFromConfig(cfg, func(o *s3.Options) {
 
 Nginx config: `/etc/nginx/sites-enabled/s3.conf`
 
-⚠️ **S3 API is public** — credentials required. Filer/Master UI are Tailscale-only (no auth).
+⚠️ **S3 API is public**: credentials required. Filer/Master UI are Tailscale-only (no auth).
 
 ## Pitfalls
 
@@ -83,5 +83,5 @@ Nginx config: `/etc/nginx/sites-enabled/s3.conf`
 |---------|-------|-----|
 | `wrong jwt` on Filer | `security.toml` enforcing JWT | Remove `security.toml`, don't use `-s3` flag on filer |
 | `maximum recursion depth` (AWS CLI) | Python 3.14 bug in AWS CLI v2.36 | Use rclone or MinIO client (`mc`) instead |
-| S3 IAM warning in logs | Missing signing key | Warning only — basic S3 still works |
-| S3 `AccessDenied` on root | No credentials provided | Normal — use credentials to access |
+| S3 IAM warning in logs | Missing signing key | Warning only: basic S3 still works |
+| S3 `AccessDenied` on root | No credentials provided | Normal: use credentials to access |

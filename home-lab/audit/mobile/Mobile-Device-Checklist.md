@@ -4,9 +4,9 @@ tags: [mobile, android, moc, checklist]
 
 # Mobile Device Checklist
 
-Audit index for the user's Android phone — **Xiaomi Redmi Note 14 Pro+ 5G (24115RA8EG, HyperOS)** — audited from SAHACHAN-LAPTOP via ADB. Mirrors the [[Personal-Computer-Checklist]] conventions: dated snapshot notes, real command output as evidence, findings tracked as R# rows with outcomes.
+Audit index for the user's Android phone: **Xiaomi Redmi Note 14 Pro+ 5G (24115RA8EG, HyperOS)**, audited from SAHACHAN-LAPTOP via ADB. Mirrors the [[Personal-Computer-Checklist]] conventions: dated snapshot notes, real command output as evidence, findings tracked as R# rows with outcomes.
 
-> **Tooling prerequisite:** platform-tools installed at `C:\Users\Admin\platform-tools\` + phone-side USB debugging — see [[ADB-Mobile-Audit-Manual]] (install and USB-debugging enablement are **user-executed manually**, high-risk boundary).
+> **Tooling prerequisite:** platform-tools installed at `C:\Users\Admin\platform-tools\` + phone-side USB debugging, see [[ADB-Mobile-Audit-Manual]] (install and USB-debugging enablement are **user-executed manually**, high-risk boundary).
 
 ## Audit Log
 
@@ -32,7 +32,7 @@ Numbered sections, each audited per the command map in [[ADB-Mobile-Audit-Manual
 | 8 | Backup & recovery (bmgr state + manual Google One/Drive coverage) | adb `bmgr` + on-phone | ✅ enabled, Google transport active · coverage ⏳ manual |
 | 9 | Manual on-phone checks (screen lock/biometrics, Play Protect, Find Device, SIM PIN, permission manager, auto-update, unknown VPN) | on-phone (manual) | ⏳ pending user verification |
 | 10 | Findings & recommendations (R# table, severity, owner, outcome) | synthesized | ✅ R1–R10 recorded in [[mobile-audit-2026-09-04]] |
-| 11 | Post-audit hardening (USB debugging off / authorizations revoked — user executes) | adb verify + on-phone | ⏳ pending |
+| 11 | Post-audit hardening (USB debugging off / authorizations revoked, user executes) | adb verify + on-phone | ⏳ pending |
 
 ## Boundaries
 

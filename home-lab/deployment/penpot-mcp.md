@@ -3,7 +3,7 @@ tags: [quick-note, penpot, mcp, devops, nginx, homelab]
 created: 2026-08-13
 ---
 
-# Penpot MCP — Working Configuration Notes
+# Penpot MCP: Working Configuration Notes
 
 > How the Penpot ↔ Hermes MCP connection was fixed and how to keep it alive.
 
@@ -36,12 +36,12 @@ created: 2026-08-13
 - `proxy_read_timeout 60s` (default) → stream killed after 1 min
 - `proxy_http_version 1.0` (default) → wrong semantics for long-lived streams
 
-**Fix** — dedicated `/mcp/` location: `proxy_buffering off`, `proxy_read_timeout 1d`, `proxy_send_timeout 1d`, HTTP/1.1, `Connection ""`, `chunked_transfer_encoding on`, `gzip off`.
+**Fix:** dedicated `/mcp/` location: `proxy_buffering off`, `proxy_read_timeout 1d`, `proxy_send_timeout 1d`, HTTP/1.1, `Connection ""`, `chunked_transfer_encoding on`, `gzip off`.
 
 ### 2. Same buffering problem inside the frontend container
 `penpotapp/frontend:2.16` bakes `/mcp/stream` proxying into the image with buffering on + 300s timeout.
 
-**Fix** — bind-mount a corrected config:
+**Fix:** bind-mount a corrected config:
 ```yaml
 # docker-compose.yaml (frontend service)
 volumes:
@@ -52,7 +52,7 @@ volumes:
 ### 3. `Connection ""` broke the WebSocket handshake 🚨
 The first fix matched `/mcp/` **including** `/mcp/ws`, stripping `Connection: upgrade` → browser bridge could never register ("No plugin instance connected").
 
-**Fix** — dedicated `/mcp/ws` location **BEFORE** `/mcp/`:
+**Fix:** dedicated `/mcp/ws` location **BEFORE** `/mcp/`:
 ```nginx
 location /mcp/ws {
     proxy_pass http://127.0.0.1:7009;
@@ -69,14 +69,14 @@ location /mcp/ws {
 - Regenerating the MCP key in Penpot (**Integrations → REGENERATE MCP KEY**) changes the token → must update Hermes config too
 - Symptoms of stale token: MCP server logs show `userTokenFp=<different>` for browser vs Hermes calls
 
-**How to verify token sync:** check `docker logs penpot-penpot-mcp-1` — both the browser WS registration and Hermes tool calls must show the **same `userTokenFp`**.
+**How to verify token sync:** check `docker logs penpot-penpot-mcp-1`, both the browser WS registration and Hermes tool calls must show the **same `userTokenFp`**.
 
 ## Reconnect checklist (when it breaks)
 
 | # | Check |
 |---|-------|
 | 1 | Penpot file tab open in browser (the file you want to edit) |
-| 2 | Click **MCP → "Connect here"** in Penpot toolbar (no dialog in 2.16 — button flips to Connected) |
+| 2 | Click **MCP → "Connect here"** in Penpot toolbar (no dialog in 2.16, button flips to Connected) |
 | 3 | Hermes config has matching URL: `C:\Users\Admin\AppData\Local\hermes\profiles\ui-ux\config.yaml` → `mcp_servers.penpot.url` |
 | 4 | Restart Hermes after config change |
 | 5 | Verify in logs: browser WS registered + Hermes session with same `userTokenFp` |
@@ -109,7 +109,7 @@ docker logs -f penpot-penpot-mcp-1
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-> External `curl` WS test returns **426** — that's curl lacking WebSocket-over-HTTP/2, NOT a server problem. Browsers handle it natively. Test WS from inside the server instead.
+> External `curl` WS test returns **426**; that's curl lacking WebSocket-over-HTTP/2, NOT a server problem. Browsers handle it natively. Test WS from inside the server instead.
 
 ## Gotcha: Penpot "Connect here" has no dialog (v2.16)
 

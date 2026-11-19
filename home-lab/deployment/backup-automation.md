@@ -20,8 +20,8 @@
 
 Two automated backup scripts protect platform data:
 
-- **`backup-db.sh`** — Dumps all PostgreSQL databases daily, retains 7 days locally, syncs to OneDrive
-- **`backup-volumes.sh`** — Backs up Docker volumes weekly, retains 4 weeks locally, syncs to OneDrive
+- **`backup-db.sh`:** Dumps all PostgreSQL databases daily, retains 7 days locally, syncs to OneDrive
+- **`backup-volumes.sh`:** Backs up Docker volumes weekly, retains 4 weeks locally, syncs to OneDrive
 
 Both scripts run via cron on the homelab server.
 
@@ -145,7 +145,7 @@ docker start flowero-guard
 
 ## Troubleshooting
 
-### Backup script fails — rclone not connected
+### Backup script fails: rclone not connected
 
 **Error:** `CRITICAL: couldn't fetch token: invalid_grant`
 
@@ -160,7 +160,7 @@ rclone config reconnect onedrive:
 # Paste the token
 ```
 
-### Backup script fails — pg_dumpall error
+### Backup script fails: pg_dumpall error
 
 **Error:** `pg_dumpall: error: connection to server failed`
 
@@ -176,7 +176,7 @@ docker start local-postgres
 docker exec local-postgres psql -U postgres -c "SELECT 1;"
 ```
 
-### Backup script fails — volume not found
+### Backup script fails: volume not found
 
 **Error:** `Volume xxx does not exist, skipping`
 
@@ -207,7 +207,7 @@ onedrive:panomete-backups/
 
 ## Related
 
-- [[github-actions-tailscale]] — CI/CD deployment pipeline
-- [[../microservice_component/keycloak]] — Keycloak realm backup (version-controlled in git)
-- [[../microservice_component/discovery]] — Discover uses no persistent data
-- [[../microservice_component/gateway]] — Gateway uses no persistent data
+- [[github-actions-tailscale]]: CI/CD deployment pipeline
+- [[../microservice_component/keycloak]]: Keycloak realm backup (version-controlled in git)
+- [[../microservice_component/discovery]]: Discover uses no persistent data
+- [[../microservice_component/gateway]]: Gateway uses no persistent data

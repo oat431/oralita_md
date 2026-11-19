@@ -5,23 +5,23 @@
 
 ---
 
-## Public — Cloudflare Tunnel (anyone can access)
+## Public: Cloudflare Tunnel (anyone can access)
 
 | Service | Subdomain | Auth |
 |---------|-----------|------|
-| Profile site | `panomete.com` | — |
-| API Gateway | `gateway.panomete.com` | — |
+| Profile site | `panomete.com` | N/A |
+| API Gateway | `gateway.panomete.com` | N/A |
 | S3 API | `s3.panomete.com` | S3 credentials required |
 | AdGuard | `adguard.panomete.com` | AdGuard admin password |
 | Portainer | `container.panomete.com` | Portainer admin password |
 
-## Private — Tailscale only
+## Private: Tailscale only
 
 | Service | URL | Notes |
 |---------|-----|-------|
 | SSH | `100.73.143.25:22` | Key auth only |
-| SeaweedFS Filer | `100.73.143.25:8888` | No auth — don't expose |
-| SeaweedFS Master | `100.73.143.25:9333` | No auth — don't expose |
+| SeaweedFS Filer | `100.73.143.25:8888` | No auth, don't expose |
+| SeaweedFS Master | `100.73.143.25:9333` | No auth, don't expose |
 | Databases | `localhost:5432/6379/27017` | SSH tunnel through Tailscale |
 
 ## Rule of Thumb

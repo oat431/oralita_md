@@ -9,12 +9,12 @@
 
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
-> - Container: `flowero-gate` — Up, healthy
+> - Container: `flowero-gate`, Up, healthy
 > - Image: `ghcr.io/oat431/flowero-gateway:latest` (GHCR)
 > - Health: `status: UP`
 > - 401 rejection: Working (unauthenticated requests correctly rejected)
-> - Eureka registration: `FLOWERO-GATE` — 1 instance registered
-> - External access: `https://api.panomete.com` — HTTP 200
+> - Eureka registration: `FLOWERO-GATE`, 1 instance registered
+> - External access: `https://api.panomete.com`, HTTP 200
 > - Metrics: `/actuator/prometheus` ✅
 > - Routes: blog, short, todo (all `lb://` via Eureka)
 
@@ -22,13 +22,13 @@
 
 ## What & Why
 
-Flowero Gate is the **API gateway** — all business API traffic flows through it. It handles:
+Flowero Gate is the **API gateway**: all business API traffic flows through it. It handles:
 
-- **JWT validation** — validates tokens locally using cached JWKS from Guard (zero per-request calls to Keycloak)
-- **Rate limiting** — Valkey-backed, per-IP, survives restarts
-- **Route resolution** — `lb://` URIs resolved via Eureka service discovery
-- **Claim forwarding** — extracts `X-User-Id`, `X-User-Roles` from JWT and forwards to backends
-- **Structured logging** — JSON logs with method, path, status, latency, trace ID
+- **JWT validation:** validates tokens locally using cached JWKS from Guard (zero per-request calls to Keycloak)
+- **Rate limiting:** Valkey-backed, per-IP, survives restarts
+- **Route resolution:** `lb://` URIs resolved via Eureka service discovery
+- **Claim forwarding:** extracts `X-User-Id`, `X-User-Roles` from JWT and forwards to backends
+- **Structured logging:** JSON logs with method, path, status, latency, trace ID
 
 Gate does NOT handle:
 - TLS (Cloudflare handles it)
@@ -48,7 +48,7 @@ Gate does NOT handle:
 | Port | `127.0.0.1:8000` |
 | Network | `db-network` |
 | Domain | `api.panomete.com` (via Nginx) |
-| Database | None — stateless |
+| Database | None: stateless |
 | Dependencies | Guard (JWKS), Discover (Eureka), Valkey (rate limiting) |
 
 ---
@@ -57,9 +57,9 @@ Gate does NOT handle:
 
 - Docker + Compose installed
 - `db-network` exists
-- **Guard running** — JWKS endpoint must be reachable
-- **Discover running** — Eureka registry must be available
-- **Valkey running** — rate limiting backend
+- **Guard running:** JWKS endpoint must be reachable
+- **Discover running:** Eureka registry must be available
+- **Valkey running:** rate limiting backend
 - Nginx configured for `api.panomete.com`
 - `.env` has `VALKEY_PASSWORD`, `KEYCLOAK_GATEWAY_SECRET`, `POST_LOGIN_REDIRECT_URL`
 - `flowero-gateway` OAuth2 client registered in Keycloak `panomete` realm
@@ -226,9 +226,9 @@ docker exec local-valkey valkey-cli -a "$VALKEY_PASSWORD" ping
 | `blog` | `/api/blog/**` | `lb://cute-gufo` | JWT | 100/min |
 | `short` | `/api/short/**` | `lb://fluffy-mouton` | JWT | 100/min |
 | `todo` | `/api/todo/**` | `lb://tiny-mchwa` | JWT | 100/min |
-| `fallback-404` | `/**` | `forward:/fallback/not-found` | — | — |
+| `fallback-404` | `/**` | `forward:/fallback/not-found` | N/A | N/A |
 
-> Future routes (Phase 2+): `ledger`, `recipe`, `hora` — commented out in `application.yaml`
+> Future routes (Phase 2+): `ledger`, `recipe`, `hora`, commented out in `application.yaml`
 
 ### Security
 
@@ -271,7 +271,7 @@ docker ps | grep -E 'cute-gufo|fluffy-mouton|tiny-mchwa'
 docker logs <service> 2>&1 | grep -i "eureka\|register"
 ```
 
-> This is expected in Phase 1 — no business services are deployed yet.
+> This is expected in Phase 1: no business services are deployed yet.
 
 ### All requests return 401 (even with valid token)
 
@@ -304,7 +304,7 @@ docker exec local-valkey valkey-cli -a "$VALKEY_PASSWORD" keys "request_rate_lim
 docker exec local-valkey valkey-cli -a "$VALKEY_PASSWORD" del $(docker exec local-valkey valkey-cli -a "$VALKEY_PASSWORD" keys "request_rate_limiter*" | tr '\n' ' ')
 ```
 
-### Gateway won't start — JWKS fetch failed
+### Gateway won't start: JWKS fetch failed
 
 **Cause:** Guard is down or unreachable.
 
@@ -317,7 +317,7 @@ curl -sf http://localhost:8001/health/ready
 docker compose -f docker-compose.platform.yml restart flowero-gate
 ```
 
-### Gateway won't start — Valkey connection failed
+### Gateway won't start: Valkey connection failed
 
 **Cause:** Valkey is down or wrong password.
 
@@ -332,7 +332,7 @@ grep VALKEY_PASSWORD ~/platform/.env
 docker compose -f docker-compose.platform.yml restart flowero-gate
 ```
 
-### Gateway won't start — missing environment variable
+### Gateway won't start: missing environment variable
 
 **Cause:** `app.post-login-redirect-url` not set (SecurityConfig requires it).
 
@@ -413,8 +413,8 @@ flowerogate/
 
 ## Related
 
-- [[keycloak]] — Identity provider (Guard issues JWTs, Gate validates them)
-- [[discovery]] — Service registry (Gate resolves `lb://` routes via Eureka)
-- [[valkey]] — Rate limiting backend
-- [[docker-network]] — Why `db-network` and container names matter
-- [[08.1-Add-Subdomain]] — How the Nginx block works
+- [[keycloak]]: Identity provider (Guard issues JWTs, Gate validates them)
+- [[discovery]]: Service registry (Gate resolves `lb://` routes via Eureka)
+- [[valkey]]: Rate limiting backend
+- [[docker-network]]: Why `db-network` and container names matter
+- [[08.1-Add-Subdomain]]: How the Nginx block works

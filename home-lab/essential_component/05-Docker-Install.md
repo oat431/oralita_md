@@ -1,4 +1,4 @@
-# 05 — Docker + Docker Compose
+# 05: Docker + Docker Compose
 
 > Container runtime for all services.
 
@@ -47,4 +47,4 @@ docker compose version
 docker run hello-world
 ```
 
-**Why:** Docker is the foundation — every service (Keycloak, databases, your apps) runs in containers. Docker Compose manages multi-container stacks.
+**Why:** Docker is the foundation, every service (Keycloak, databases, your apps) runs in containers. Docker Compose manages multi-container stacks.

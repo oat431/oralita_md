@@ -172,7 +172,7 @@ for t in json.load(sys.stdin)['data']['activeTargets']:
 # - Wrong metrics path → check service actuator config
 ```
 
-### Grafana alert errors — "data source not found"
+### Grafana alert errors: "data source not found"
 
 **Cause:** Alert rules reference wrong datasource UID.
 
@@ -183,7 +183,7 @@ curl -sf -u admin:$GRAFANA_ADMIN_PASSWORD http://localhost:3000/api/datasources 
 
 Update `alert-rules.yml` with correct UID, restart Grafana.
 
-### Promtail — "ingestion rate limit exceeded"
+### Promtail: "ingestion rate limit exceeded"
 
 **Cause:** Loki rate limit too low for container log volume.
 
@@ -196,7 +196,7 @@ limits_config:
 
 Restart Loki + Promtail.
 
-### Promtail — "empty ring"
+### Promtail: "empty ring"
 
 **Cause:** Loki just restarted and hasn't formed its ring yet.
 
@@ -222,8 +222,8 @@ docker compose -f docker-compose.observability.yml logs -f
 
 ## Related
 
-- [[github-actions-tailscale]] — CI/CD pipeline (deployed observability via compose)
-- [[backup-automation]] — Backup scripts (runs on same server)
-- [[../microservice_component/gateway]] — Gate metrics endpoint (`/actuator/prometheus`)
-- [[../microservice_component/discovery]] — Discover metrics endpoint (`/actuator/prometheus`)
-- [[../microservice_component/keycloak]] — Guard metrics endpoint (`/metrics` on management port 9000)
+- [[github-actions-tailscale]]: CI/CD pipeline (deployed observability via compose)
+- [[backup-automation]]: Backup scripts (runs on same server)
+- [[../microservice_component/gateway]]: Gate metrics endpoint (`/actuator/prometheus`)
+- [[../microservice_component/discovery]]: Discover metrics endpoint (`/actuator/prometheus`)
+- [[../microservice_component/keycloak]]: Guard metrics endpoint (`/metrics` on management port 9000)

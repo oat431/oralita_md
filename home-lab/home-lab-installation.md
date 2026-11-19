@@ -37,16 +37,16 @@ After completing all steps, verify:
 
 ## Components
 
-- [[home-lab-apps]] — app / subdomain / port registry
-- [[db-network-integration-guide]] — shared database network
+- [[home-lab-apps]]: app / subdomain / port registry
+- [[db-network-integration-guide]]: shared database network
 - [[docker-network]] · [[port-convention]] · [[public-vs-private]]
 
 ## Obsidian LiveSync (self-hosted)
 
-1. [[01-full-setup]] — server side: CouchDB → Nginx → CORS
-2. [[02-connection-guide]] — client side: connect a vault
-3. [[03-couchdb-user-management]] — add users
+1. [[01-full-setup]]: server side: CouchDB → Nginx → CORS
+2. [[02-connection-guide]]: client side: connect a vault
+3. [[03-couchdb-user-management]]: add users
 
 ## Audit Trail
 
-- [[Homelab-Infra-Checklist]] — index of all infrastructure audits
+- [[Homelab-Infra-Checklist]]: index of all infrastructure audits

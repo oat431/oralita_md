@@ -11,8 +11,8 @@ tags: [personal-computer, moc, checklist]
 
 | Date | Note | Focus |
 |------|------|-------|
-| 2026-09-03 | [[personal-computer-audit-2026-09-03]] | First full audit — hardware, storage, network, security, toolchain, events |
-| 2026-09-03 | [[2026-09-03-startmenu-crash-loop-fix]] | Start menu crash loop (StartDocked.dll 0xc000027b) — AppX pipeline wedged → **resolved by reboot** |
+| 2026-09-03 | [[personal-computer-audit-2026-09-03]] | First full audit: hardware, storage, network, security, toolchain, events |
+| 2026-09-03 | [[2026-09-03-startmenu-crash-loop-fix]] | Start menu crash loop (StartDocked.dll 0xc000027b): AppX pipeline wedged → **resolved by reboot** |
 
 ## Standing Checklist (verified sections per audit)
 
@@ -28,6 +28,6 @@ tags: [personal-computer, moc, checklist]
 
 ## Related
 
-- [[Homelab-Infra-Checklist]] — homelab server audits (flowero, 192.168.1.121)
-- [[home-lab-installation]] — server setup guides (how the homelab was built)
-- [[home-lab-apps]] — app/port registry
+- [[Homelab-Infra-Checklist]]: homelab server audits (flowero, 192.168.1.121)
+- [[home-lab-installation]]: server setup guides (how the homelab was built)
+- [[home-lab-apps]]: app/port registry

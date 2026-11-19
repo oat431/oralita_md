@@ -1,4 +1,4 @@
-# Obsidian LiveSync — Complete Setup Guide (Zero → Working)
+# Obsidian LiveSync: Complete Setup Guide (Zero → Working)
 
 > Full journey: CouchDB deployment → Nginx → user/database → CORS → Obsidian plugin.
 > All steps were executed and verified on the Panomete homelab, 2026-08-13.
@@ -24,13 +24,13 @@ CouchDB 3.5.2 (container: local-couchdb, db-network)
     └── _users             ← user accounts
 ```
 
-- **CouchDB speaks HTTP** — no database driver needed, the plugin talks REST directly.
+- **CouchDB speaks HTTP:** no database driver needed, the plugin talks REST directly.
 - **CORS is handled by CouchDB itself** (Nginx stays a clean pass-through proxy).
-- MongoDB **cannot** be used — LiveSync is built on the CouchDB replication protocol (PouchDB).
+- MongoDB **cannot** be used: LiveSync is built on the CouchDB replication protocol (PouchDB).
 
 ---
 
-## Step 1 — Deploy CouchDB
+## Step 1: Deploy CouchDB
 
 ### 1.1 Create the compose directory
 
@@ -100,7 +100,7 @@ curl http://127.0.0.1:5984/          # expect: {"couchdb":"Welcome",...}
 
 ---
 
-## Step 2 — Nginx Reverse Proxy
+## Step 2: Nginx Reverse Proxy
 
 `/etc/nginx/sites-available/obsync.conf`:
 
@@ -141,7 +141,7 @@ Then create the Cloudflare Tunnel route for `obsync.panomete.com` → local HTTP
 
 ---
 
-## Step 3 — Create Database & Users
+## Step 3: Create Database & Users
 
 ### 3.1 Create system + sync databases
 
@@ -168,7 +168,7 @@ curl -X PUT -u $ADMIN:$ADMINPASS -H "Content-Type: application/json" \
   http://127.0.0.1:5984/_users/org.couchdb.user:obsidian
 ```
 
-### 3.3 Grant database access (critical — users are DB-isolated by default)
+### 3.3 Grant database access (critical: users are DB-isolated by default)
 
 ```bash
 curl -X PUT -u $ADMIN:$ADMINPASS -H "Content-Type: application/json" \
@@ -176,7 +176,7 @@ curl -X PUT -u $ADMIN:$ADMINPASS -H "Content-Type: application/json" \
   http://127.0.0.1:5984/obsidian-livesync/_security
 ```
 
-> ⚠️ `_security` PUT **replaces the whole list** — include ALL existing members when adding one.
+> ⚠️ `_security` PUT **replaces the whole list**: include ALL existing members when adding one.
 
 ### 3.4 Verify the user works
 
@@ -190,13 +190,13 @@ curl -u obsidian:obsidian-livesync http://127.0.0.1:5984/obsidian-livesync
 
 ---
 
-## Step 4 — Enable CORS (THE gotcha step)
+## Step 4: Enable CORS (THE gotcha step)
 
 ### The three rules learned the hard way
 
-1. **Master switch:** `[chttpd] enable_cors = true` — defaults to **false**. Without it, CouchDB silently ignores all `[cors]` settings and returns no CORS headers at all.
-2. **`origins = *` + `credentials = true` is invalid** — CouchDB silently disables credentials when origins is `*`. Use an explicit origin list.
-3. **No spaces after commas** in the origin list — CouchDB doesn't trim.
+1. **Master switch:** `[chttpd] enable_cors = true`, defaults to **false**. Without it, CouchDB silently ignores all `[cors]` settings and returns no CORS headers at all.
+2. **`origins = *` + `credentials = true` is invalid**: CouchDB silently disables credentials when origins is `*`. Use an explicit origin list.
+3. **No spaces after commas** in the origin list: CouchDB doesn't trim.
 
 ### 4.1 Set via API (applies immediately)
 
@@ -226,7 +226,7 @@ curl -X PUT -u $ADMIN:$ADMINPASS -H "Content-Type: application/json" \
 
 ### 4.2 Persist in docker.ini (survives restarts)
 
-The official image regenerates `/opt/couchdb/etc/local.d/docker.ini` from runtime config on graceful shutdown — but write it explicitly to be safe:
+The official image regenerates `/opt/couchdb/etc/local.d/docker.ini` from runtime config on graceful shutdown, but write it explicitly to be safe:
 
 ```ini
 [chttpd]
@@ -267,12 +267,12 @@ access-control-max-age: 600
 
 ---
 
-## Step 5 — Connect Obsidian (First Device)
+## Step 5: Connect Obsidian (First Device)
 
 1. Install **Self-hosted LiveSync** from Community Plugins → Enable
 2. Click the **"Welcome to Self-hosted LiveSync"** notice
 3. Choose **I am setting this up for the first time** → confirm
-4. Connection Method → **Configure a remote manually** (NOT Setup URI — that's for additional devices)
+4. Connection Method → **Configure a remote manually** (NOT Setup URI, that's for additional devices)
 5. Choose **CouchDB** → enter:
 
    | Field | Value |
@@ -290,19 +290,19 @@ access-control-max-age: 600
 
 ### Compatibility Review Pause
 
-On an existing vault, LiveSync pauses with *"No previously acknowledged internal database version was found"*. This is a **safety gate, not an error** — click acknowledge/resume. It records the current version and starts replication.
+On an existing vault, LiveSync pauses with *"No previously acknowledged internal database version was found"*. This is a **safety gate, not an error**: click acknowledge/resume. It records the current version and starts replication.
 
 ---
 
-## Step 6 — Add More Devices (Setup URI)
+## Step 6: Add More Devices (Setup URI)
 
 1. On the working first device: Command Palette → **Self-hosted LiveSync: Copy settings as a new Setup URI** → set a URI passphrase → copy link
 2. On the new device: install plugin → onboarding → **I am adding a device** → paste URI + URI passphrase → **Restart and Fetch Data**
 3. Store the Setup URI and its passphrase **separately** (different channels)
 
 Two distinct passphrases exist:
-- **Vault encryption passphrase** — encrypts your note data (same on all devices)
-- **Setup URI passphrase** — decrypts the connection-settings link (per-URI, can differ)
+- **Vault encryption passphrase:** encrypts your note data (same on all devices)
+- **Setup URI passphrase:** decrypts the connection-settings link (per-URI, can differ)
 
 ---
 
@@ -335,7 +335,7 @@ docker exec local-couchdb couchdb-dump http://admin:PASS@localhost:5984 > couchd
 
 ### Monitoring
 
-Uptime Kuma can monitor `https://obsync.panomete.com/` — expect HTTP 200 (or 401 without auth, still healthy).
+Uptime Kuma can monitor `https://obsync.panomete.com/`, expect HTTP 200 (or 401 without auth, still healthy).
 
 ---
 
@@ -357,5 +357,5 @@ Uptime Kuma can monitor `https://obsync.panomete.com/` — expect HTTP 200 (or 4
 
 ## Related Notes
 
-- [[03-couchdb-user-management]] — creating/removing users, permissions
-- [[02-connection-guide]] — end-user connection guide + troubleshooting
+- [[03-couchdb-user-management]]: creating/removing users, permissions
+- [[02-connection-guide]]: end-user connection guide + troubleshooting

@@ -38,22 +38,22 @@
 
 | Name | Sub Domain | Port | Source | Status |
 |------|-----------|------|--------|--------|
-| Grafana | grafana | — | [grafana/grafana](https://hub.docker.com/r/grafana/grafana) | ✅ |
-| Prometheus | — | — | [prom/prometheus](https://hub.docker.com/r/prom/prometheus) | ✅ |
-| Loki | — | — | [grafana/loki](https://hub.docker.com/r/grafana/loki) | ✅ |
-| Promtail | — | — | [grafana/promtail](https://hub.docker.com/r/grafana/promtail) | ✅ |
-| Uptime Kuma | status | — | [louislam/uptime-kuma](https://hub.docker.com/r/louislam/uptime-kuma) | ✅ |
+| Grafana | grafana | N/A | [grafana/grafana](https://hub.docker.com/r/grafana/grafana) | ✅ |
+| Prometheus | N/A | N/A | [prom/prometheus](https://hub.docker.com/r/prom/prometheus) | ✅ |
+| Loki | N/A | N/A | [grafana/loki](https://hub.docker.com/r/grafana/loki) | ✅ |
+| Promtail | N/A | N/A | [grafana/promtail](https://hub.docker.com/r/grafana/promtail) | ✅ |
+| Uptime Kuma | status | N/A | [louislam/uptime-kuma](https://hub.docker.com/r/louislam/uptime-kuma) | ✅ |
 
 ## Home Lab Database : Default Ports
 
 | DB | Sub Domain | Port | Status |
 |----|-----------|------|--------|
-| PostgreSQL 18 | — | 5432 | ✅ |
-| Valkey 9 | — | 6379 | ✅ |
-| MongoDB 8 | — | 27017 | ✅ |
+| PostgreSQL 18 | N/A | 5432 | ✅ |
+| Valkey 9 | N/A | 6379 | ✅ |
+| MongoDB 8 | N/A | 27017 | ✅ |
 | SeaweedFS S3 | s3 | 8333 | ✅ |
-| SeaweedFS Filer | — | 8888 | ✅ |
-| SeaweedFS Master | — | 9333 | ✅ |
+| SeaweedFS Filer | N/A | 8888 | ✅ |
+| SeaweedFS Master | N/A | 9333 | ✅ |
 
 ## Infrastructure
 

@@ -1,4 +1,4 @@
-# Deployment Log — 2026-07-27
+# Deployment Log: 2026-07-27
 
 ## db-network Integration
 
@@ -7,7 +7,7 @@ Migrated 3 services from bundled databases to shared homelab `db-network`.
 ### SearXNG
 - Removed bundled `searxng-valkey` container
 - Joined `db-network`, using shared `local-valkey`
-- Added `valkey.url` to `core-config/settings.yml` (use `valkey.url` not `redis.url` — deprecation warning)
+- Added `valkey.url` to `core-config/settings.yml` (use `valkey.url` not `redis.url`, deprecation warning)
 - Port: `127.0.0.1:7004`
 
 ### Infisical

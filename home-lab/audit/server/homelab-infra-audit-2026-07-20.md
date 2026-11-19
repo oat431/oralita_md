@@ -1,4 +1,4 @@
-# Homelab Infrastructure Audit — `flowero@192.168.1.121`
+# Homelab Infrastructure Audit: `flowero@192.168.1.121`
 
 > **Date:** 2026-07-19
 > **Checklist:** [[Homelab-Infra-Checklist]]
@@ -27,7 +27,7 @@
 | Item | Status | Notes |
 |------|--------|-------|
 | Hardware | ✅ | i7-7700HQ, 34GB RAM |
-| Storage | ✅ | 98GB NVMe, 13% used — plenty of room |
+| Storage | ✅ | 98GB NVMe, 13% used: plenty of room |
 | UPS | ❌ | No UPS protection |
 | Base OS | ✅ | Ubuntu 26.04 LTS, headless, SSH only |
 | Docker | ✅ | Docker 29.6.2 + Compose v5.3.1 |
@@ -41,10 +41,10 @@
 | ----------------- | ------ | --------------------------------------------------------- |
 | Static IP         | ⚠️     | Still DHCP on LAN. Tailscale IP is stable (100.73.143.25) |
 | Local DNS         | ❌      | No Pi-hole / AdGuard                                      |
-| Reverse proxy     | ✅      | Nginx — catch-all (444) + gateway.panomete.com config     |
-| TLS/SSL           | ✅      | Handled by Cloudflare at edge — no certbot needed         |
-| Firewall          | ✅      | UFW active — default deny, only SSH (22) allowed          |
-| Port forwarding   | ✅      | None — no public IP, no ports open on router              |
+| Reverse proxy     | ✅      | Nginx: catch-all (444) + gateway.panomete.com config     |
+| TLS/SSL           | ✅      | Handled by Cloudflare at edge: no certbot needed         |
+| Firewall          | ✅      | UFW active: default deny, only SSH (22) allowed          |
+| Port forwarding   | ✅      | None: no public IP, no ports open on router              |
 | Tailscale         | ✅      | Installed, connected, enabled on boot                     |
 | Cloudflare Tunnel | ✅      | `homelab` tunnel active, 4 connections (Singapore)        |
 
@@ -57,8 +57,8 @@
 | Cloudflare Tunnel | ✅ | `*.panomete.com` + `panomete.com` routed to tunnel |
 | Tailscale | ✅ | Server + Windows PC on tailnet |
 | SSH hardened | ✅ | Password auth disabled, root login blocked, AllowUsers flowero |
-| fail2ban | ✅ | Active on sshd jail — 17 failed attempts, 3 banned (since install) |
-| No direct public IP | ✅ | Public IP cancelled — zero attack surface |
+| fail2ban | ✅ | Active on sshd jail: 17 failed attempts, 3 banned (since install) |
+| No direct public IP | ✅ | Public IP cancelled: zero attack surface |
 
 ---
 
@@ -67,8 +67,8 @@
 | Item | Status | Notes |
 |------|--------|-------|
 | Docker + Compose | ✅ | 29.6.2 + 5.3.1 |
-| Containers running | ➖ | None yet — clean slate |
-| Compose files | ➖ | None yet — ready for deployment |
+| Containers running | ➖ | None yet: clean slate |
+| Compose files | ➖ | None yet: ready for deployment |
 | Restart policies | ➖ | N/A |
 | Resource limits | ➖ | N/A |
 | Network isolation | ➖ | N/A |
@@ -80,7 +80,7 @@
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Backup strategy | ❌ | Not set up yet — will configure after services deploy |
+| Backup strategy | ❌ | Not set up yet: will configure after services deploy |
 | Automated backups | ❌ | Pending |
 | Config backup (GitOps) | ❌ | Pending |
 
@@ -105,7 +105,7 @@
 | fail2ban | ✅ | Active, 3 IPs banned so far |
 | Firewall | ✅ | UFW default deny, only port 22 |
 | No public exposure | ✅ | All traffic via Cloudflare Tunnel |
-| Secrets management | ➖ | N/A — no services yet |
+| Secrets management | ➖ | N/A: no services yet |
 
 ---
 

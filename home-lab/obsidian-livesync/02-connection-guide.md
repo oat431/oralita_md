@@ -5,7 +5,7 @@
 
 ---
 
-## Step 1 — Install the Plugin
+## Step 1: Install the Plugin
 
 1. Open **Obsidian** (desktop or mobile)
 2. Go to **Settings** (⚙️) → **Community plugins**
@@ -16,7 +16,7 @@
 
 ---
 
-## Step 2 — Open the Setup Wizard
+## Step 2: Open the Setup Wizard
 
 1. After enabling, a notice appears: **"Welcome to Self-hosted LiveSync"**
 2. Click it to open the onboarding wizard
@@ -29,7 +29,7 @@
 
 ---
 
-## Step 3A — First Device: Manual Configuration
+## Step 3A: First Device: Manual Configuration
 
 > Use this when connecting to a **fresh CouchDB** for the first time.
 
@@ -45,7 +45,7 @@
 
 4. Choose whether to encrypt your synced data:
    - **Enable E2E Encryption** (recommended) → enter a strong **Vault encryption passphrase**
-   - Store this passphrase safely — **losing it means your synced data is unrecoverable**
+   - Store this passphrase safely: **losing it means your synced data is unrecoverable**
    - Optional: enable **Obfuscate Properties** to hide document metadata too
 
 ### CouchDB Connection
@@ -60,7 +60,7 @@
    | **Password** | *(your password, e.g. `obsidian-livesync`)* |
    | **Database name** | `obsidian-livesync` |
 
-7. Click **Check server requirements** (optional but recommended — verifies the connection)
+7. Click **Check server requirements** (optional but recommended, verifies the connection)
 8. Click **Create or connect to database and continue**
 9. You should see **Setup Complete: Preparing to Initialise Server**
 
@@ -68,7 +68,7 @@
 
 10. Click **Restart and Initialise Server**
 11. Read the overwrite warning carefully → click **I Understand, Overwrite Server**
-    *(This is expected for a first device — it pushes your local vault to the empty server)*
+    *(This is expected for a first device, it pushes your local vault to the empty server)*
 12. If prompted **"No Synchronisation Settings Found"** → select **Use this device's settings**
 13. Acknowledge **"All optional features are disabled"** → let it finish
 
@@ -81,20 +81,20 @@
 
 ---
 
-## Step 3B — First Device: Setup URI Method (Alternative)
+## Step 3B: First Device: Setup URI Method (Alternative)
 
 > If the admin generated a Setup URI for you (instead of manual config), use this path.
 
 1. Choose `I am setting this up for the first time`
 2. On **Connection Method**, select **Use a Setup URI (Recommended)**
 3. **Paste the Setup URI** (starts with `obsidian://setuplivesync?settings=`)
-4. Enter the **Setup URI passphrase** (decrypts the URI — different from the vault encryption passphrase)
+4. Enter the **Setup URI passphrase** (decrypts the URI, different from the vault encryption passphrase)
 5. Click **Test Settings and Continue**
 6. Follow steps 9-13 above (Restart, Initialise Server, Overwrite warning)
 
 ---
 
-## Step 4 — Generate a Setup URI (for Other Devices)
+## Step 4: Generate a Setup URI (for Other Devices)
 
 > Once the **first device** is working, generate a Setup URI to quickly configure additional devices.
 
@@ -103,11 +103,11 @@
 3. Enter a **new passphrase** to protect this Setup URI → click OK
 4. The Setup URI is copied to your clipboard → click OK
 
-> ⚠️ **Store the Setup URI and its passphrase separately.** The URI is encrypted but contains credentials — protect both. Send them through different channels.
+> ⚠️ **Store the Setup URI and its passphrase separately.** The URI is encrypted but contains credentials: protect both. Send them through different channels.
 
 ---
 
-## Step 5 — Add Another Device
+## Step 5: Add Another Device
 
 > For any device AFTER the first one is synced.
 
@@ -123,9 +123,9 @@
    - **Empty/new vault** → select **Overwrite all with remote files**
    - **Vault with existing local notes** → choose carefully (see warning below)
 10. When asked about extra local files → **Keep local files even if not on remote** (safest)
-11. Let it finish — keep Obsidian open until progress indicators clear
+11. Let it finish: keep Obsidian open until progress indicators clear
 
-> ⚠️ If the vault already has notes that aren't on the server yet, do NOT choose "Overwrite all" — this deletes local-only files. Use the merge strategy instead.
+> ⚠️ If the vault already has notes that aren't on the server yet, do NOT choose "Overwrite all"; this deletes local-only files. Use the merge strategy instead.
 
 ---
 
@@ -136,7 +136,7 @@
 | **Vault encryption passphrase** | Your synced note data (E2EE) | Configured on first device; same on all devices |
 | **Setup URI passphrase** | The Setup URI link itself | Only when using Setup URI to add devices |
 
-These are **two different passwords** — don't confuse them:
+These are **two different passwords**: don't confuse them:
 - The Setup URI passphrase decrypts the *connection settings link*
 - The Vault passphrase decrypts your *actual note content on the server*
 
@@ -155,7 +155,7 @@ These are **two different passwords** — don't confuse them:
 ## Troubleshooting
 
 ### "The native fetch API failed! Please check CORS settings"
-This is a CORS problem on the server. It was fixed once on this homelab (2026-08-13) — the CouchDB config now includes:
+This is a CORS problem on the server. It was fixed once on this homelab (2026-08-13): the CouchDB config now includes:
 
 ```ini
 [chttpd]
@@ -182,7 +182,7 @@ curl -si -X OPTIONS -H "Origin: app://obsidian.md" \
 ```
 Should return `HTTP/1.1 204` + `access-control-allow-origin: app://obsidian.md`.
 
-**Gotchas learned:** `[chttpd] enable_cors = true` is the master switch (default false — CORS silently does nothing without it). Config values with `origins = *` and `credentials = true` conflict; use explicit origins. CouchDB doesn't trim spaces in comma lists — no spaces after commas.
+**Gotchas learned:** `[chttpd] enable_cors = true` is the master switch (default false, CORS silently does nothing without it). Config values with `origins = *` and `credentials = true` conflict; use explicit origins. CouchDB doesn't trim spaces in comma lists: no spaces after commas.
 
 ### "Database not found" or "You are not allowed"
 The admin hasn't added your username to the database members list yet. Ask them to add you via Fauxton → `obsidian-livesync` → Permissions.
@@ -193,7 +193,7 @@ The admin hasn't added your username to the database members list yet. Ask them 
 3. Check server: `https://obsync.panomete.com/_utils/` should be accessible
 
 ### Conflicts (same note edited on two devices)
-LiveSync keeps both versions. You'll see a ` (conflict copy)` suffix — manually merge and delete the duplicate.
+LiveSync keeps both versions. You'll see a ` (conflict copy)` suffix: manually merge and delete the duplicate.
 
 ### Mobile-specific
 - Keep Obsidian open during first full sync (iOS kills background apps aggressively)

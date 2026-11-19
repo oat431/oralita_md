@@ -1,4 +1,4 @@
-# 04 — Fail2ban
+# 04: Fail2ban
 
 > Ban IPs after repeated failed login attempts.
 

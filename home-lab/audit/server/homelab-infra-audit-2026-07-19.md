@@ -1,11 +1,11 @@
-# Homelab Infrastructure Audit — `flowero@remote.panomete.com`
+# Homelab Infrastructure Audit: `flowero@remote.panomete.com`
 
 > **Date:** 2026-07-19
 > **Checklist:** [[Homelab-Infra-Checklist]]
-> **Server:** `panomete` — Ubuntu 24.04.4 LTS, kernel 6.8.0-124
+> **Server:** `panomete`, Ubuntu 24.04.4 LTS, kernel 6.8.0-124
 > **Hardware:** Intel i7-7700HQ (4C/8T @ 2.8GHz), 36GB RAM, 98GB LVM root (NVMe)
 > **Uptime:** 42 days
-> **IP:** `192.168.1.121` (eth) / `192.168.1.108` (wifi) — both DHCP
+> **IP:** `192.168.1.121` (eth) / `192.168.1.108` (wifi), both DHCP
 
 ---
 
@@ -13,11 +13,11 @@
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Hardware | ✅ | i7-7700HQ, 36GB RAM — solid for a homelab |
+| Hardware | ✅ | i7-7700HQ, 36GB RAM: solid for a homelab |
 | Storage | ⚠️ | Single NVMe, **58% used** (54GB/98GB). No separate data drive, no RAID/ZFS |
 | UPS | ❌ | **No UPS protection.** No `apcupsd`, `nut`, or any power management |
 | Base OS | ✅ | Ubuntu 24.04 LTS, headless, SSH access |
-| Proxmox | ➖ | Not using — bare metal + Docker (valid choice) |
+| Proxmox | ➖ | Not using: bare metal + Docker (valid choice) |
 | Docker | ✅ | Docker 29.5.3 + Compose v5.1.4 |
 | Resource monitoring | ⚠️ | No `lm-sensors` (no temp monitoring). Netdata compose exists but **not running** |
 
@@ -32,7 +32,7 @@ Power loss = filesystem corruption on that NVMe. Even a small APC UPS with auto-
 |------|--------|-------|
 | Static IP | ❌ | **Both interfaces are DHCP** (`dynamic`). Server IP could change |
 | Local DNS | ❌ | No Pi-hole, no AdGuard Home, no dnsmasq. No local DNS resolution |
-| VLAN segmentation | ❓ | Cannot verify from SSH — need router access |
+| VLAN segmentation | ❓ | Cannot verify from SSH: need router access |
 | Reverse proxy | ✅ | **Nginx** with 25+ subdomains (`*.panomete.com`) |
 | Wildcard TLS/SSL | ✅ | **Certbot/Let's Encrypt** per-subdomain certs. All HTTPS with HTTP→HTTPS redirect |
 | Firewall | ⚠️ | `ufw` exists but status check requires root (likely **not configured**) |
@@ -73,8 +73,8 @@ Then `sudo systemctl restart sshd`
 
 ### 🔴 Critical: Direct Public Exposure
 Your server is directly reachable from the internet. Consider:
-- **Cloudflare Tunnel** — zero open ports, DDoS protection, free
-- **Tailscale** — for admin/management access (SSH, Portainer, Grafana)
+- **Cloudflare Tunnel:** zero open ports, DDoS protection, free
+- **Tailscale:** for admin/management access (SSH, Portainer, Grafana)
 - At minimum, **close port 22** to the internet and use Tailscale for SSH
 
 ---
@@ -109,14 +109,14 @@ Add this to compose files, especially for Java-heavy services (Keycloak, n8n).
 |------|--------|-------|
 | Backup strategy | 🔴 | **No backups detected.** No cron jobs, no scripts, no backup directories |
 | Automated backups | 🔴 | Zero backup automation |
-| Docker volume backup | 🔴 | Only 2 named volumes — most data is in bind mounts, unbacked |
-| Database backups | 🔴 | PostgreSQL, MongoDB, Redis all running — **no pg_dump, mongodump, or any backup scripts** |
+| Docker volume backup | 🔴 | Only 2 named volumes: most data is in bind mounts, unbacked |
+| Database backups | 🔴 | PostgreSQL, MongoDB, Redis all running: **no pg_dump, mongodump, or any backup scripts** |
 | Config backup (GitOps) | ❌ | Only 4 `.git` repos found (blog, kutt, ots, writefreely). Most compose files are **not in git** |
 | Backup testing | 🔴 | Nothing to test |
 | Encryption at rest | ❌ | No LUKS or disk encryption |
 
 ### 🔴 Critical: No Backups
-This is the single biggest risk. If that NVMe dies, **everything is gone** — Keycloak identities, databases, MinIO objects, compose configs.
+This is the single biggest risk. If that NVMe dies, **everything is gone**: Keycloak identities, databases, MinIO objects, compose configs.
 
 **Minimum viable backup:**
 1. `tar` all compose directories to an external drive/NAS daily
@@ -139,7 +139,7 @@ This is the single biggest risk. If that NVMe dies, **everything is gone** — K
 | Health checks | ⚠️ | Only 3/9 running containers have healthchecks (flowerogate, keycloak, stirling-pdf) |
 
 ### ⚠️ Priority: Get Monitoring Running
-You have the compose files for Beszel, Grafana, and Netdata — they just need to be started. Uptime Kuma or Beszel for service health, Grafana + Prometheus for metrics.
+You have the compose files for Beszel, Grafana, and Netdata; they just need to be started. Uptime Kuma or Beszel for service health, Grafana + Prometheus for metrics.
 
 ---
 
@@ -148,8 +148,8 @@ You have the compose files for Beszel, Grafana, and Netdata — they just need t
 | Item | Status | Notes |
 |------|--------|-------|
 | Auto security updates | ✅ | `unattended-upgrades` installed and active |
-| Non-root containers | ❓ | Cannot verify without inspecting each Dockerfile — likely most run as root |
-| Default passwords | ❓ | **Cannot verify** — need to check Keycloak, MinIO, Portainer, PostgreSQL, MongoDB, Redis passwords |
+| Non-root containers | ❓ | Cannot verify without inspecting each Dockerfile: likely most run as root |
+| Default passwords | ❓ | **Cannot verify:** need to check Keycloak, MinIO, Portainer, PostgreSQL, MongoDB, Redis passwords |
 | Secrets management | ⚠️ | Need to check if `.env` files are gitignored and chmod 600 |
 | fail2ban | ✅ | Active and running (since Jul 8) |
 | Crowdsec | ❌ | Not installed |
@@ -201,7 +201,7 @@ Grafana, Netdata, Beszel, n8n, Nextcloud, SonarQube, MongoDB, PostgreSQL, Redis,
 - **PostgreSQL** (native, port 5432)
 - **MongoDB** (native, port 27017, bound to localhost ✅)
 - **Redis** (native, port 6379, bound to localhost ✅)
-- **Mail server** (ports 25, 110, 143, 587, 993, 995 — SMTP/IMAP/POP3)
+- **Mail server** (ports 25, 110, 143, 587, 993, 995, SMTP/IMAP/POP3)
 
 ### ⚠️ Keycloak Unhealthy
 Stack trace in logs suggests JGroups certificate rotation issues. Needs investigation.
@@ -243,8 +243,8 @@ Stack trace in logs suggests JGroups certificate rotation issues. Needs investig
 
 ## 🎯 Top 5 Actions (Priority Order)
 
-1. **🔒 Harden SSH NOW** — Disable password auth, disable root login, add `AllowUsers flowero`
-2. **💾 Set up backups** — At minimum: compose files to git + `pg_dump`/`mongodump` daily + rclone to B2
-3. **🛡️ Configure firewall** — `ufw` default deny, allow only 22/80/443, bind containers to `127.0.0.1`
-4. **🌐 Tailscale or Cloudflare Tunnel** — Stop exposing SSH directly to the internet
-5. **📊 Start monitoring** — You have the compose files, just `docker compose up -d` Beszel + Grafana
+1. **🔒 Harden SSH NOW:** Disable password auth, disable root login, add `AllowUsers flowero`
+2. **💾 Set up backups:** At minimum: compose files to git + `pg_dump`/`mongodump` daily + rclone to B2
+3. **🛡️ Configure firewall:** `ufw` default deny, allow only 22/80/443, bind containers to `127.0.0.1`
+4. **🌐 Tailscale or Cloudflare Tunnel:** Stop exposing SSH directly to the internet
+5. **📊 Start monitoring:** You have the compose files, just `docker compose up -d` Beszel + Grafana

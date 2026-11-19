@@ -1,4 +1,4 @@
-# 08 — Reverse Proxy (Nginx)
+# 08: Reverse Proxy (Nginx)
 
 > Single entry point for all services. Routes by subdomain.
 
@@ -46,8 +46,8 @@ sudo systemctl reload nginx
 
 | Command | What it does |
 |---------|-------------|
-| `ln -s` | Creates a symbolic link in `sites-enabled` — Nginx only reads configs from this directory |
+| `ln -s` | Creates a symbolic link in `sites-enabled`: Nginx only reads configs from this directory |
 | `nginx -t` | Tests the config for syntax errors before applying. Always run this before reload |
 | `systemctl reload nginx` | Applies the new config without dropping connections (graceful reload) |
 
-**Why:** Nginx sits behind Cloudflare Tunnel. All services bind to `127.0.0.1` — Nginx routes traffic by subdomain. One config file per service.
+**Why:** Nginx sits behind Cloudflare Tunnel. All services bind to `127.0.0.1`, Nginx routes traffic by subdomain. One config file per service.

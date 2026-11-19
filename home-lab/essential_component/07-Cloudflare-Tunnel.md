@@ -1,4 +1,4 @@
-# 07 — Cloudflare Tunnel
+# 07: Cloudflare Tunnel
 
 > Expose web services to the internet without opening ports.
 
@@ -54,7 +54,7 @@ ingress:
 |------|-------------|
 | `tunnel` | Your tunnel ID (from the create command) |
 | `credentials-file` | Path to the tunnel credentials JSON |
-| `ingress` | Route rules — which domain goes where. `*.panomete.com` catches all subdomains |
+| `ingress` | Route rules: which domain goes where. `*.panomete.com` catches all subdomains |
 | `service: http_status:404` | Catch-all. Required last rule. Returns 404 for unmatched requests |
 
 ---

@@ -1,4 +1,4 @@
-# Homelab Infrastructure Audit — `flowero@192.168.1.121`
+# Homelab Infrastructure Audit: `flowero@192.168.1.121`
 
 > **Date:** 2026-07-20 (end of day)
 > **Checklist:** [[Homelab-Infra-Checklist]]
@@ -41,10 +41,10 @@
 |------|--------|-------|
 | Static IP | ⚠️ | DHCP on LAN. Tailscale IP stable |
 | Local DNS | ✅ | AdGuard Home, router DNS set |
-| Reverse proxy | ✅ | Nginx — 8 sites enabled |
+| Reverse proxy | ✅ | Nginx: 8 sites enabled |
 | TLS/SSL | ✅ | Cloudflare edge |
-| Firewall | ✅ | UFW active — default deny |
-| Port forwarding | ✅ | None — no public IP |
+| Firewall | ✅ | UFW active: default deny |
+| Port forwarding | ✅ | None: no public IP |
 | Tailscale | ✅ | Server + Windows PC |
 | Cloudflare Tunnel | ✅ | `homelab` active, 3 connections |
 
@@ -114,10 +114,10 @@
 
 | Service | Container | Status | Health |
 |---------|-----------|--------|--------|
-| AdGuard Home | `adguard` | ✅ Up 4 days | — |
-| Portainer | `portainer` | ✅ Up 3 days | — |
-| Cloudflared | (systemd) | ✅ Active | — |
-| Nginx | (systemd) | ✅ Active | — |
+| AdGuard Home | `adguard` | ✅ Up 4 days | N/A |
+| Portainer | `portainer` | ✅ Up 3 days | N/A |
+| Cloudflared | (systemd) | ✅ Active | N/A |
+| Nginx | (systemd) | ✅ Active | N/A |
 
 ### Platform Services (3 containers)
 
@@ -125,7 +125,7 @@
 |---------|-----------|--------|--------|------|--------|
 | Flowero Gate | `flowero-gate` | ✅ Up 44m | healthy | 8000 | `api.panomete.com` |
 | Flowero Discover | `flowero-discover` | ✅ Up 2h | healthy | 8999 | `discovery.panomete.com` |
-| Flowero Guard (Keycloak) | `flowero-guard` | ✅ Up 3h | — | 8001 | `auth.panomete.com` |
+| Flowero Guard (Keycloak) | `flowero-guard` | ✅ Up 3h | N/A | 8001 | `auth.panomete.com` |
 
 ### Databases (7 containers)
 
@@ -134,10 +134,10 @@
 | PostgreSQL 18 | `local-postgres` | ✅ Up 3 days | healthy | 127.0.0.1:5432 |
 | Valkey 9 | `local-valkey` | ✅ Up 3 days | healthy | 127.0.0.1:6379 |
 | MongoDB 8 | `local-mongodb` | ✅ Up 3 days | healthy | 127.0.0.1:27017 |
-| SeaweedFS Master | `seaweedfs-master` | ✅ Up 3 days | — | 0.0.0.0:9333 |
-| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 3 days | — | internal |
-| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 3 days | — | 0.0.0.0:8888 |
-| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 3 days | — | 127.0.0.1:8333 |
+| SeaweedFS Master | `seaweedfs-master` | ✅ Up 3 days | N/A | 0.0.0.0:9333 |
+| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 3 days | N/A | internal |
+| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 3 days | N/A | 0.0.0.0:8888 |
+| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 3 days | N/A | 127.0.0.1:8333 |
 
 ### Nginx Sites (8 enabled)
 
@@ -216,9 +216,9 @@
 ## Summary
 
 **All 3 platform services deployed and healthy:**
-- ✅ Flowero Gate (API Gateway) — `api.panomete.com`
-- ✅ Flowero Discover (Service Discovery) — `discovery.panomete.com`
-- ✅ Flowero Guard (Keycloak) — `auth.panomete.com`
+- ✅ Flowero Gate (API Gateway): `api.panomete.com`
+- ✅ Flowero Discover (Service Discovery): `discovery.panomete.com`
+- ✅ Flowero Guard (Keycloak): `auth.panomete.com`
 
 **Infrastructure solid. 12 containers running. No issues.**
 

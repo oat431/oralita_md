@@ -1,4 +1,4 @@
-# 02 — SSH Hardening
+# 02: SSH Hardening
 
 > Disable password auth, block root login, whitelist users.
 

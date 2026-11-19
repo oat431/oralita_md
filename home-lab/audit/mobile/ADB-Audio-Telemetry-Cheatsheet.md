@@ -2,18 +2,18 @@
 tags: [android, adb, audio, reference, audiophile, mobile]
 ---
 
-# ADB Audio Telemetry — Cheat Sheet
+# ADB Audio Telemetry: Cheat Sheet
 
 > **Created:** 2026-09-04 · from the mobile-audit session (see [[mobile-audit-2026-09-04]])
-> **Device:** Xiaomi Redmi Note 14 Pro+ 5G (`24115RA8EG`, `amethyst_global`) — Android 16, HyperOS 3.0.304, Snapdragon 7s Gen 3 (per spec)
+> **Device:** Xiaomi Redmi Note 14 Pro+ 5G (`24115RA8EG`, `amethyst_global`), Android 16, HyperOS 3.0.304, Snapdragon 7s Gen 3 (per spec)
 > **For:** audiophile-profile session · **All commands read-only** · Outputs = Bluetooth + USB-C audio
 
 ## Prerequisites (user executes manually)
 
-1. Phone → Developer options → USB debugging ON (may re-accept the RSA prompt if authorizations were revoked after the security audit — expected, one tap)
+1. Phone → Developer options → USB debugging ON (may re-accept the RSA prompt if authorizations were revoked after the security audit, expected, one tap)
 2. Plug into PC → verify: `"C:/Users/Admin/platform-tools/adb.exe" devices -l` → state `device`
-3. **Start playback first** — codec/stream dumps are only meaningful while audio plays (or BT headphones connected / DAC plugged in)
-4. Privacy boundary: capture config/telemetry only. No call logs, SMS, or personal content providers — out of scope.
+3. **Start playback first:** codec/stream dumps are only meaningful while audio plays (or BT headphones connected / DAC plugged in)
+4. Privacy boundary: capture config/telemetry only. No call logs, SMS, or personal content providers, out of scope.
 
 ## A. Bluetooth codec (headphones connected, playing)
 
@@ -53,7 +53,7 @@ Check the negotiated rate/bit depth on the USB output thread while playing hi-re
 "$ADB" shell dumpsys audio > audio.txt        # volumes, devices, ringer, sessions
 ```
 
-Note: Dolby Atmos / MIUI sound-effects packages are visible here; their tuning files are **not** readable without root — expected limit, don't chase it.
+Note: Dolby Atmos / MIUI sound-effects packages are visible here; their tuning files are **not** readable without root, expected limit, don't chase it.
 
 ## E. Glitch / drop-out investigation (if ever needed)
 
@@ -61,9 +61,9 @@ Note: Dolby Atmos / MIUI sound-effects packages are visible here; their tuning f
 "$ADB" logcat -d | grep -iE 'audioflinger|a2dp|ldac|usb_audio|underrun|AudioTrack' | tail -80
 ```
 
-## Known limits (no root — by design)
+## Known limits (no root: by design)
 
-- Can't read vendor DSP tuning files, can't force/persist codec policy, can't change resampling behavior system-wide, can't uninstall preloads (disable only, and only on explicit approval). Root is out of scope for this device (bootloader stays locked — see [[mobile-audit-2026-09-04]]).
+- Can't read vendor DSP tuning files, can't force/persist codec policy, can't change resampling behavior system-wide, can't uninstall preloads (disable only, and only on explicit approval). Root is out of scope for this device (bootloader stays locked, see [[mobile-audit-2026-09-04]]).
 
 ## Related
 

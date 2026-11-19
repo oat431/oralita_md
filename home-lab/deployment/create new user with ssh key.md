@@ -14,7 +14,7 @@
 
 ---
 
-## Step 1 — Create the New User
+## Step 1: Create the New User
 
 SSH in as your current user, then create a new one:
 
@@ -34,11 +34,11 @@ sudo usermod -aG docker <new-user>
 
 ---
 
-## Step 2 — Set Up SSH Key Auth
+## Step 2: Set Up SSH Key Auth
 
 You have two options:
 
-### Option A — Generate a NEW key pair (recommended, separate identity)
+### Option A: Generate a NEW key pair (recommended, separate identity)
 
 On your **local machine**:
 
@@ -61,7 +61,7 @@ cat ~/.ssh/<new-user>_rsa.pub | ssh flowero@remote.panomete.com \
    sudo -u <new-user> chmod 600 /home/<new-user>/.ssh/authorized_keys"
 ```
 
-### Option B — Reuse your existing key
+### Option B: Reuse your existing key
 
 If you want to use the same RSA key you already have:
 
@@ -75,7 +75,7 @@ cat ~/.ssh/id_rsa.pub | ssh flowero@remote.panomete.com \
 
 ---
 
-## Step 3 — Harden SSH (Disable Password Login)
+## Step 3: Harden SSH (Disable Password Login)
 
 On the server, edit sshd config:
 
@@ -106,7 +106,7 @@ sudo systemctl restart sshd
 
 ---
 
-## Step 4 — Test the Connection
+## Step 4: Test the Connection
 
 From your local machine:
 
@@ -135,9 +135,9 @@ ssh panomete-<short-name>
 
 ---
 
-## Step 5 — Tailscale Lockdown (Service Port)
+## Step 5: Tailscale Lockdown (Service Port)
 
-Since the server is already behind Tailscale, your service port is only reachable via Tailscale by default — **as long as you bind it to the Tailscale interface IP** (not `0.0.0.0`).
+Since the server is already behind Tailscale, your service port is only reachable via Tailscale by default: **as long as you bind it to the Tailscale interface IP** (not `0.0.0.0`).
 
 Find the Tailscale IP:
 
@@ -152,7 +152,7 @@ ports:
   - "100.x.x.x:<port>:<port>"   # Replace with your server's Tailscale IPv4
 ```
 
-This ensures the service is **only** accessible over Tailscale — not exposed to the public internet.
+This ensures the service is **only** accessible over Tailscale, not exposed to the public internet.
 
 ---
 

@@ -1,4 +1,4 @@
-# GitHub Stats Extended — Self-Hosted Deployment
+# GitHub Stats Extended: Self-Hosted Deployment
 
 > **Date:** 2026-08-31
 > **Service:** GitHub Stats Extended (successor to `github-readme-stats`)
@@ -11,7 +11,7 @@
 
 ## Overview
 
-Self-hosted instance of **GitHub Stats Extended** — a TypeScript/Express.js service that dynamically generates SVG stats cards for GitHub READMEs (fork of `anuraghazra/github-readme-stats`).
+Self-hosted instance of **GitHub Stats Extended**: a TypeScript/Express.js service that dynamically generates SVG stats cards for GitHub READMEs (fork of `anuraghazra/github-readme-stats`).
 
 **Why self-host:**
 - Own GitHub PAT → no shared rate limits
@@ -188,7 +188,7 @@ Once DNS propagates + Certbot SSL, the subdomain will serve HTTPS.
 Base URL (until DNS): `http://remote.panomete.com:7010`
 After DNS: `https://ghstatus.panomete.com`
 
-> ⚠️ **No trailing slashes** on the path — the router uses exact string matching.
+> ⚠️ **No trailing slashes** on the path: the router uses exact string matching.
 
 | Endpoint | Description | Example |
 |---|---|---|
@@ -275,5 +275,5 @@ Visible at <https://status.panomete.com/dashboard>
 
 ## Related
 
-- [[2026-08-28-uptime-kuma-dns-outage-fix]] — Kuma DNS/SQLite notes
-- [[db-network-integration-guide]] — db-network shared across services
+- [[2026-08-28-uptime-kuma-dns-outage-fix]]: Kuma DNS/SQLite notes
+- [[db-network-integration-guide]]: db-network shared across services

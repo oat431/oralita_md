@@ -7,7 +7,7 @@
 
 ## Why Valkey over Redis?
 
-Redis changed licensing in 2024 (no longer open source). Valkey is the open-source fork by Linux Foundation — same commands, same protocol, truly free.
+Redis changed licensing in 2024 (no longer open source). Valkey is the open-source fork by Linux Foundation: same commands, same protocol, truly free.
 
 ## Setup
 
@@ -43,7 +43,7 @@ docker exec local-valkey valkey-cli -a *** ping
 
 ## Code
 
-Valkey uses the same protocol as Redis — use any Redis client library:
+Valkey uses the same protocol as Redis: use any Redis client library:
 
 ```go
 // Go

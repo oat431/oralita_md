@@ -45,11 +45,11 @@ uri := "mongodb://admin:***@local-mongodb:27017/mydb"
 endpoint := "http://seaweedfs-s3:8333"
 ```
 
-No port mapping needed between containers — Docker handles internal routing.
+No port mapping needed between containers: Docker handles internal routing.
 
 ## ⚠️ External DNS Depends on the Host
 
-Container-name resolution above always works — Docker's embedded DNS (`127.0.0.11`) handles that internally regardless of host state. **External** hostname lookups are different: Docker seeds each container's forwarder from the *host's* `/etc/resolv.conf` at container-create time. If that's broken (e.g. a dangling symlink after disabling `systemd-resolved` — see [[adguard]]), containers on `db-network` come up perfectly healthy but can't resolve any external host, and outbound HTTP calls fail silently with connection errors. This bit SearXNG exactly this way on 2026-08-24 — see [[2026-08-24-searxng-dns-outage-fix]].
+Container-name resolution above always works: Docker's embedded DNS (`127.0.0.11`) handles that internally regardless of host state. **External** hostname lookups are different: Docker seeds each container's forwarder from the *host's* `/etc/resolv.conf` at container-create time. If that's broken (e.g. a dangling symlink after disabling `systemd-resolved`, see [[adguard]]), containers on `db-network` come up perfectly healthy but can't resolve any external host, and outbound HTTP calls fail silently with connection errors. This bit SearXNG exactly this way on 2026-08-24, see [[2026-08-24-searxng-dns-outage-fix]].
 
 Check any new `db-network` container with:
 ```bash

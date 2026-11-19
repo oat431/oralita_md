@@ -9,7 +9,7 @@
 
 > **Deployed:** 2026-07-24 | **Status:** Running, needs first-time setup
 >
-> - Container: `uptime-kuma` — Running (unhealthy until admin account created)
+> - Container: `uptime-kuma`, Running (unhealthy until admin account created)
 > - Port: `127.0.0.1:3001`
 > - Domain: `status.panomete.com`
 > - Admin setup: ⬜ Pending (browser task)
@@ -18,7 +18,7 @@
 
 ## What & Why
 
-Uptime Kuma is a lightweight uptime monitor that pings all `*.panomete.com` URLs every 30 seconds and shows a status page. Unlike Grafana (which monitors metrics), Uptime Kuma monitors **availability** — is the service reachable?
+Uptime Kuma is a lightweight uptime monitor that pings all `*.panomete.com` URLs every 30 seconds and shows a status page. Unlike Grafana (which monitors metrics), Uptime Kuma monitors **availability**: is the service reachable?
 
 ---
 
@@ -89,7 +89,7 @@ ss -tlnp | grep 3001
 
 ## Related
 
-- [[observability-stack]] — Prometheus + Grafana (metrics monitoring)
-- [[../microservice_component/keycloak]] — Keycloak health check
-- [[../microservice_component/discovery]] — Discover health check
-- [[../microservice_component/gateway]] — Gate health check
+- [[observability-stack]]: Prometheus + Grafana (metrics monitoring)
+- [[../microservice_component/keycloak]]: Keycloak health check
+- [[../microservice_component/discovery]]: Discover health check
+- [[../microservice_component/gateway]]: Gate health check

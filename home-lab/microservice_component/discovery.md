@@ -9,11 +9,11 @@
 
 > **Deployed:** 2026-07-23 | **Verified:** Healthy
 >
-> - Container: `flowero-discover` — Up, healthy
+> - Container: `flowero-discover`, Up, healthy
 > - Image: `ghcr.io/oat431/flowero-discovery:latest` (GHCR)
 > - Health: `status: UP`
-> - Dashboard: `https://discovery.panomete.com` — HTTP 200
-> - Registry API: `http://localhost:8999/eureka/apps` — working
+> - Dashboard: `https://discovery.panomete.com`, HTTP 200
+> - Registry API: `http://localhost:8999/eureka/apps`, working
 > - Metrics: `/actuator/prometheus` ✅
 > - Registered services: `FLOWERO-GATE` (1 instance)
 
@@ -21,7 +21,7 @@
 
 ## What & Why
 
-Flowero Discover is the **service registry** — every microservice registers itself on startup, and services discover each other by logical name instead of hardcoded URLs. It runs Spring Cloud Netflix Eureka in standalone mode.
+Flowero Discover is the **service registry**: every microservice registers itself on startup, and services discover each other by logical name instead of hardcoded URLs. It runs Spring Cloud Netflix Eureka in standalone mode.
 
 - Gate resolves `lb://cute-gufo` → queries Eureka → gets `host:port`
 - Services register on boot, send heartbeats every 30s
@@ -42,10 +42,10 @@ Flowero Discover is the **service registry** — every microservice registers it
 | Port (Dashboard) | `127.0.0.1:3999` (maps to container 8999) |
 | Network | `db-network` |
 | Domain | `discovery.panomete.com` (via Nginx) |
-| Database | None — fully in-memory |
+| Database | None: fully in-memory |
 | Mode | Standalone (single node) |
 
-> Both host ports 8999 and 3999 map to container port 8999. The dashboard and REST API run on the same Eureka port — the dual-port is a Docker port-mapping convention so Nginx can proxy `discovery.panomete.com` → `:3999` while services register on `:8999`.
+> Both host ports 8999 and 3999 map to container port 8999. The dashboard and REST API run on the same Eureka port: the dual-port is a Docker port-mapping convention so Nginx can proxy `discovery.panomete.com` → `:3999` while services register on `:8999`.
 
 ---
 
@@ -89,7 +89,7 @@ sudo ln -sf /etc/nginx/sites-available/discovery.panomete.com /etc/nginx/sites-e
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
-> No DNS changes needed — `*.panomete.com` wildcard already routes to the Cloudflare tunnel.
+> No DNS changes needed: `*.panomete.com` wildcard already routes to the Cloudflare tunnel.
 
 ### Compose service definition (actual deployed config)
 
@@ -187,8 +187,8 @@ Key settings in `src/main/resources/application.yaml`:
 | Property | Value | Why |
 |----------|-------|-----|
 | `server.port` | `8999` | REST API port |
-| `eureka.client.register-with-eureka` | `false` | Standalone — don't self-register |
-| `eureka.client.fetch-registry` | `false` | Standalone — don't fetch from self |
+| `eureka.client.register-with-eureka` | `false` | Standalone: don't self-register |
+| `eureka.client.fetch-registry` | `false` | Standalone: don't fetch from self |
 | `eureka.server.enable-self-preservation` | `true` | Keeps registry intact during network hiccups |
 | `eureka.server.eviction-interval-timer-in-ms` | `5000` | Evict dead instances every 5s |
 | `eureka.server.renewal-percent-threshold` | `0.85` | Self-preservation triggers below 85% heartbeats |
@@ -219,7 +219,7 @@ cd ~/platform
 docker compose -f docker-compose.platform.yml up -d --build flowero-discover
 ```
 
-> The service itself is fine — only the health check was broken. The container was running and serving requests normally.
+> The service itself is fine: only the health check was broken. The container was running and serving requests normally.
 
 ### 502 Bad Gateway on `discovery.panomete.com`
 
@@ -260,10 +260,10 @@ docker logs flowero-gate 2>&1 | grep -i "eureka\|discovery\|register"
 
 **Symptom:** Dashboard shows red warning "EMERGENCY! EUREKA MAY BE INCORRECTLY CLAIMING INSTANCES ARE UP WHEN THEY'RE NOT."
 
-**Cause:** Eureka sees a sudden drop in heartbeats (e.g., mass restart, network partition). This is **by design** — it prevents cascading failures.
+**Cause:** Eureka sees a sudden drop in heartbeats (e.g., mass restart, network partition). This is **by design**; it prevents cascading failures.
 
 **Fix:**
-1. This is expected behavior — do NOT panic
+1. This is expected behavior: do NOT panic
 2. Verify all expected services are actually running
 3. Heartbeats will resume and self-preservation will auto-disable
 4. If truly stale: force deregister specific instances (see Common Commands)
@@ -287,7 +287,7 @@ docker inspect flowero-discover --format '{{.State.OOMKilled}}'
 docker compose -f docker-compose.platform.yml up -d flowero-discover
 ```
 
-### Build fails — Gradle dependency timeout
+### Build fails: Gradle dependency timeout
 
 ```bash
 # Retry the build
@@ -336,7 +336,7 @@ flowerodiscovery/
 
 ## Related
 
-- [[keycloak]] — Identity provider (Guard registers health with Discover)
-- [[valkey]] — Used by Gate, not Discover
-- [[docker-network]] — Why `db-network` and container names matter
-- [[08.1-Add-Subdomain]] — How the Nginx block works
+- [[keycloak]]: Identity provider (Guard registers health with Discover)
+- [[valkey]]: Used by Gate, not Discover
+- [[docker-network]]: Why `db-network` and container names matter
+- [[08.1-Add-Subdomain]]: How the Nginx block works

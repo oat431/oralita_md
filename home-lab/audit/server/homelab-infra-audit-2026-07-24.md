@@ -1,4 +1,4 @@
-# Homelab Infrastructure Audit — `flowero@192.168.1.121`
+# Homelab Infrastructure Audit: `flowero@192.168.1.121`
 
 > **Date:** 2026-07-24 (UTC+7)
 > **Checklist:** [[Homelab-Infra-Checklist]]
@@ -40,9 +40,9 @@
 |------|--------|-------|
 | Static IP | ⚠️ | DHCP on LAN. Tailscale IP stable |
 | Local DNS | ✅ | AdGuard Home, router DNS set |
-| Reverse proxy | ✅ | Nginx — 10 sites enabled |
+| Reverse proxy | ✅ | Nginx: 10 sites enabled |
 | TLS/SSL | ✅ | Cloudflare edge |
-| Firewall | ✅ | UFW active — default deny |
+| Firewall | ✅ | UFW active: default deny |
 | Tailscale | ✅ | Server + Windows PC |
 | Cloudflare Tunnel | ✅ | `homelab` active, 4 connections |
 
@@ -89,7 +89,7 @@
 | Prometheus | ✅ | Metrics collection, healthy |
 | Loki | ✅ | Log aggregation, healthy |
 | Promtail | ✅ | Log shipper (no healthcheck) |
-| Uptime Kuma | ⚠️ | `status.panomete.com`, unhealthy — 502 errors on some monitors |
+| Uptime Kuma | ⚠️ | `status.panomete.com`, unhealthy: 502 errors on some monitors |
 | System metrics | ✅ | Via Prometheus |
 | Alerting | ⚠️ | Grafana configured, needs alert rules |
 
@@ -113,10 +113,10 @@
 
 | Service      | Container   | Status      | Health |
 | ------------ | ----------- | ----------- | ------ |
-| AdGuard Home | `adguard`   | ✅ Up 5 days | —      |
-| Portainer    | `portainer` | ✅ Up 5 days | —      |
-| Cloudflared  | (systemd)   | ✅ Active    | —      |
-| Nginx        | (systemd)   | ✅ Active    | —      |
+| AdGuard Home | `adguard`   | ✅ Up 5 days | N/A |
+| Portainer    | `portainer` | ✅ Up 5 days | N/A |
+| Cloudflared  | (systemd)   | ✅ Active    | N/A |
+| Nginx        | (systemd)   | ✅ Active    | N/A |
 
 ### Platform Services (3 containers)
 
@@ -131,9 +131,9 @@
 | Service | Container | Status | Health | Access |
 |---------|-----------|--------|--------|--------|
 | Grafana | `grafana` | ✅ Up 42m | healthy | `grafana.panomete.com` |
-| Prometheus | `prometheus` | ✅ Up 28m | healthy | — |
-| Loki | `loki` | ✅ Up 42m | healthy | — |
-| Promtail | `promtail` | ✅ Up 42m | — | — |
+| Prometheus | `prometheus` | ✅ Up 28m | healthy | N/A |
+| Loki | `loki` | ✅ Up 42m | healthy | N/A |
+| Promtail | `promtail` | ✅ Up 42m | N/A | N/A |
 | Uptime Kuma | `uptime-kuma` | ✅ Up 45m | ⚠️ unhealthy | `status.panomete.com` |
 
 ### Databases (7 containers)
@@ -143,10 +143,10 @@
 | PostgreSQL 18 | `local-postgres` | ✅ Up 4 days | healthy | 127.0.0.1:5432 |
 | Valkey 9 | `local-valkey` | ✅ Up 4 days | healthy | 127.0.0.1:6379 |
 | MongoDB 8 | `local-mongodb` | ✅ Up 4 days | healthy | 127.0.0.1:27017 |
-| SeaweedFS Master | `seaweedfs-master` | ✅ Up 4 days | — | 0.0.0.0:9333 |
-| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 4 days | — | internal |
-| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 4 days | — | 0.0.0.0:8888 |
-| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 4 days | — | 127.0.0.1:8333 |
+| SeaweedFS Master | `seaweedfs-master` | ✅ Up 4 days | N/A | 0.0.0.0:9333 |
+| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 4 days | N/A | internal |
+| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 4 days | N/A | 0.0.0.0:8888 |
+| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 4 days | N/A | 127.0.0.1:8333 |
 
 ### Nginx Sites (10 enabled)
 
@@ -191,7 +191,7 @@
 | Databases healthy | ✅ |
 | Platform services healthy | ✅ |
 | Monitoring deployed | ✅ |
-| Uptime monitoring | ⚠️ (unhealthy — 502 on some monitors) |
+| Uptime monitoring | ⚠️ (unhealthy, 502 on some monitors) |
 | Backups | ⚠️ (configured, no cron) |
 
 ---
@@ -214,16 +214,16 @@
 ## Summary
 
 **Full monitoring stack deployed:**
-- ✅ Grafana — dashboards and visualization
-- ✅ Prometheus — metrics collection
-- ✅ Loki — log aggregation
-- ✅ Promtail — log shipping
-- ⚠️ Uptime Kuma — service health (unhealthy, needs attention)
+- ✅ Grafana: dashboards and visualization
+- ✅ Prometheus: metrics collection
+- ✅ Loki: log aggregation
+- ✅ Promtail: log shipping
+- ⚠️ Uptime Kuma: service health (unhealthy, needs attention)
 
 **17 containers running. Infrastructure solid.**
 
 **Issues:**
-- ⚠️ Uptime Kuma unhealthy — showing 502 on keycloak/API gateway monitors
+- ⚠️ Uptime Kuma unhealthy: showing 502 on keycloak/API gateway monitors
 - ❌ Backup cron not set up
 
 **Next:**

@@ -18,7 +18,7 @@ tags: [homelab, moc, checklist]
 | 2026-07-24 | [[homelab-infra-audit-2026-07-24]] | Follow-up fixes |
 | 2026-07-26 | [[homelab-infra-audit-2026-07-26]] | Latest full audit |
 | 2026-07-27 | [[2026-07-27-db-network-migration-and-fixes]] | db-network migration log |
-| 2026-08-24 | [[2026-08-24-searxng-dns-outage-fix]] | SearXNG DNS outage — host resolv.conf + AdGuard upstream fix |
+| 2026-08-24 | [[2026-08-24-searxng-dns-outage-fix]] | SearXNG DNS outage: host resolv.conf + AdGuard upstream fix |
 
 ## Standing Checklist (verified sections per audit)
 
@@ -34,6 +34,6 @@ tags: [homelab, moc, checklist]
 
 ## Related
 
-- [[home-lab-installation]] — setup guides (how it was built)
-- [[db-network-integration-guide]] — shared database network
-- [[home-lab-apps]] — app/port registry
+- [[home-lab-installation]]: setup guides (how it was built)
+- [[db-network-integration-guide]]: shared database network
+- [[home-lab-apps]]: app/port registry

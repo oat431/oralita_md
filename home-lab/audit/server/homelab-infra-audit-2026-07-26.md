@@ -1,4 +1,4 @@
-# Homelab Infrastructure Audit — `flowero@192.168.1.121`
+# Homelab Infrastructure Audit: `flowero@192.168.1.121`
 
 > **Date:** 2026-07-26 (UTC+7)
 > **Checklist:** [[Homelab-Infra-Checklist]]
@@ -40,9 +40,9 @@
 |------|--------|-------|
 | Static IP | ⚠️ | DHCP on LAN. Tailscale IP stable |
 | Local DNS | ✅ | AdGuard Home, router DNS set |
-| Reverse proxy | ✅ | Nginx — 16 sites enabled |
+| Reverse proxy | ✅ | Nginx: 16 sites enabled |
 | TLS/SSL | ✅ | Cloudflare edge |
-| Firewall | ✅ | UFW active — default deny |
+| Firewall | ✅ | UFW active: default deny |
 | Tailscale | ✅ | Server + Windows PC (direct connection) |
 | Cloudflare Tunnel | ✅ | `homelab` active, 4 connections |
 
@@ -112,10 +112,10 @@
 
 | Service | Container | Status | Health |
 |---------|-----------|--------|--------|
-| AdGuard Home | `adguard` | ✅ Up 7 days | — |
-| Portainer | `portainer` | ✅ Up 6 days | — |
-| Cloudflared | (systemd) | ✅ Active | — |
-| Nginx | (systemd) | ✅ Active | — |
+| AdGuard Home | `adguard` | ✅ Up 7 days | N/A |
+| Portainer | `portainer` | ✅ Up 6 days | N/A |
+| Cloudflared | (systemd) | ✅ Active | N/A |
+| Nginx | (systemd) | ✅ Active | N/A |
 
 ### Platform Services (3 containers)
 
@@ -130,9 +130,9 @@
 | Service | Container | Status | Health | Access |
 |---------|-----------|--------|--------|--------|
 | Grafana | `grafana` | ✅ Up 2 days | healthy | `grafana.panomete.com` |
-| Prometheus | `prometheus` | ✅ Up 47h | healthy | — |
-| Loki | `loki` | ✅ Up 2 days | healthy | — |
-| Promtail | `promtail` | ✅ Up 2 days | — | — |
+| Prometheus | `prometheus` | ✅ Up 47h | healthy | N/A |
+| Loki | `loki` | ✅ Up 2 days | healthy | N/A |
+| Promtail | `promtail` | ✅ Up 2 days | N/A | N/A |
 | Uptime Kuma | `uptime-kuma` | ✅ Up 6m | **healthy** ✅ | `status.panomete.com` |
 
 ### Self-hosted Apps (6 containers)
@@ -153,10 +153,10 @@
 | PostgreSQL 18 | `local-postgres` | ✅ Up 6 days | healthy | 127.0.0.1:5432 |
 | Valkey 9 | `local-valkey` | ✅ Up 6 days | healthy | 127.0.0.1:6379 |
 | MongoDB 8 | `local-mongodb` | ✅ Up 6 days | healthy | 127.0.0.1:27017 |
-| SeaweedFS Master | `seaweedfs-master` | ✅ Up 6 days | — | 0.0.0.0:9333 |
-| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 6 days | — | internal |
-| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 6 days | — | 0.0.0.0:8888 |
-| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 6 days | — | 127.0.0.1:8333 |
+| SeaweedFS Master | `seaweedfs-master` | ✅ Up 6 days | N/A | 0.0.0.0:9333 |
+| SeaweedFS Volume | `seaweedfs-volume` | ✅ Up 6 days | N/A | internal |
+| SeaweedFS Filer | `seaweedfs-filer` | ✅ Up 6 days | N/A | 0.0.0.0:8888 |
+| SeaweedFS S3 | `seaweedfs-s3` | ✅ Up 6 days | N/A | 127.0.0.1:8333 |
 
 ### Nginx Sites (16 enabled)
 
@@ -235,12 +235,12 @@
 
 **New since last audit:**
 - ✅ Uptime Kuma fixed (now healthy)
-- ✅ Infisical — secret management (`secret.panomete.com`)
-- ✅ OTS — one-time secret sharing (`ots.panomete.com`)
-- ✅ ByteStash — code snippets (`snippet.panomete.com`)
-- ✅ SearXNG — private search (`search.panomete.com`)
-- ✅ Stirling PDF — PDF tools (`pdf-tools.panomete.com`)
-- ✅ Homarr — dashboard (`overview.panomete.com`)
+- ✅ Infisical: secret management (`secret.panomete.com`)
+- ✅ OTS: one-time secret sharing (`ots.panomete.com`)
+- ✅ ByteStash: code snippets (`snippet.panomete.com`)
+- ✅ SearXNG: private search (`search.panomete.com`)
+- ✅ Stirling PDF: PDF tools (`pdf-tools.panomete.com`)
+- ✅ Homarr: dashboard (`overview.panomete.com`)
 - ✅ 6 new Nginx sites (8 → 16)
 
 **Remaining:**

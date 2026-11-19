@@ -35,12 +35,12 @@
 
 | DB | Subdomain | Port |
 |----|-----------|------|
-| PostgreSQL | — | 5432 |
-| Valkey | — | 6379 |
-| MongoDB | — | 27017 |
+| PostgreSQL | N/A | 5432 |
+| Valkey | N/A | 6379 |
+| MongoDB | N/A | 27017 |
 | SeaweedFS S3 | `s3` | 8333 |
-| SeaweedFS Filer | — | 8888 |
-| SeaweedFS Master | — | 9333 |
+| SeaweedFS Filer | N/A | 8888 |
+| SeaweedFS Master | N/A | 9333 |
 
 ### Infrastructure
 
