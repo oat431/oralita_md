@@ -3,13 +3,13 @@ date: 2026-08-25
 tags: [branding, template, roadmap, ci, index]
 ---
 
-# Brand Roadmap — Zero to Hero
+# Brand Roadmap: Zero to Hero
 
 > Master index for building a Corporate Identity (CI) from nothing. Work top to bottom; each phase links to its fill-in template. Name live client files `YYYYMMDD-<brand>-<doc>.md`.
 
 ## What is CI?
 
-**CI = Corporate Identity** — the designed system (logo, colors, typography, voice) a company uses to present itself everywhere. Related but different:
+**CI = Corporate Identity:** the designed system (logo, colors, typography, voice) a company uses to present itself everywhere. Related but different:
 
 | Term | Meaning |
 | --- | --- |
@@ -17,20 +17,20 @@ tags: [branding, template, roadmap, ci, index]
 | **Branding** | The *process* of shaping that impression |
 | **Brand identity / CI** | The *tangible system* you design and document |
 
-Why it pays: recognition (signature color alone boosts recall ~80%), credibility, faster production (no redesign per material), cheaper vendor briefings. It takes 5–7 impressions to remember a brand — every off-brand piece resets that counter.
+Why it pays: recognition (signature color alone boosts recall ~80%), credibility, faster production (no redesign per material), cheaper vendor briefings. It takes 5–7 impressions to remember a brand; every off-brand piece resets that counter.
 
 ## The Journey
 
 | Phase | Output | Template |
 | --- | --- | --- |
-| **0. Learn** | Read this roadmap | — |
+| **0. Learn** | Read this roadmap | N/A |
 | **1. Strategy** | Positioning statement, mission/values, personality, voice | [[01_brand-strategy]] |
 | **2. Visual identity** | Logo system, color palette, typography, supporting elements | [[02_visual-identity]] |
 | **3. Guidelines** | The CI manual / style guide document | [[03_style-guide]] |
 | **4. Application** | Apply across touchpoints (web, social, PPT, product UI) | [[04_design-process]] |
 | **5. Maintain** | Audit quarterly; update guide as brand evolves | [[03_style-guide]] § Versioning |
 
-**Rule of the road:** strategy before design. Design expresses strategy — a great logo cannot fix wrong positioning. Never start at Phase 2.
+**Rule of the road:** strategy before design. Design expresses strategy; a great logo cannot fix wrong positioning. Never start at Phase 2.
 
 ## Phase Order Checklist (one brand = one pass)
 
@@ -53,7 +53,7 @@ Why it pays: recognition (signature color alone boosts recall ~80%), credibility
 ## Study Material (real-world references)
 
 - **Guideline archives:** brandingstyleguides.com · Canva "50 of the best brand style guides"
-- **Online hubs worth copying:** IBM (ibm.com/design/language) · Starbucks (creative.starbucks.com) · Firefox (mozilla.design/firefox) · Klarna (brand.klarna.com) · Dropbox (dropbox.design — strategy + design system + writing)
+- **Online hubs worth copying:** IBM (ibm.com/design/language) · Starbucks (creative.starbucks.com) · Firefox (mozilla.design/firefox) · Klarna (brand.klarna.com) · Dropbox (dropbox.design, strategy + design system + writing)
 - **Process reads:** The Branding Journal "How to Build a Brand" (5-stage framework) · Big Cat Creative "Complete Client Brand Design Process"
 - **CI theory:** relevantaudience.com "CI Branding: Meaning, Components" · Spellbrand "Brand Identity System"
 

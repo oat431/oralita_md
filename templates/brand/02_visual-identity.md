@@ -3,13 +3,13 @@ date: 2026-08-25
 tags: [branding, template, visual-identity, logo, color, typography]
 ---
 
-# Visual Identity — Build Sheet
+# Visual Identity: Build Sheet
 
-> Phase 2 of [[00_brand-roadmap]]. Requires [[01_brand-strategy]] completed. Copy as `YYYYMMDD-<brand>-identity.md`. A logo alone is not an identity — build the **system**: mark, color, type, supporting elements reinforcing each other.
+> Phase 2 of [[00_brand-roadmap]]. Requires [[01_brand-strategy]] completed. Copy as `YYYYMMDD-<brand>-identity.md`. A logo alone is not an identity; build the **system**: mark, color, type, supporting elements reinforcing each other.
 
 ## 1. Moodboard First
 
-Collect 15–30 images (product, texture, type, photography) that *feel* like the personality adjectives from strategy. Arrange, delete until only cohesive pieces remain. Derive palette candidates FROM the board — never invent colors in isolation.
+Collect 15–30 images (product, texture, type, photography) that *feel* like the personality adjectives from strategy. Arrange, delete until only cohesive pieces remain. Derive palette candidates FROM the board; never invent colors in isolation.
 
 ## 2. Color Palette (3 tiers)
 

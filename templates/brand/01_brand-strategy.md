@@ -3,7 +3,7 @@ date: 2026-08-25
 tags: [branding, template, strategy, positioning]
 ---
 
-# Brand Strategy — Template
+# Brand Strategy: Template
 
 > Phase 1 of [[00_brand-roadmap]]. Answer these BEFORE any design work. Copy the whole file as `YYYYMMDD-<brand>-strategy.md` and fill inline. Every later design decision must pass through what you write here.
 
@@ -70,7 +70,7 @@ If our brand were a person, they would:
 Emotions we want people to feel (pick 2–3): [confidence / calm / excitement / trust / belonging / curiosity]
 ```
 
-**Slider calibration** — mark where you sit between poles:
+**Slider calibration:** mark where you sit between poles:
 
 ```
 Playful  ●————○————● Serious

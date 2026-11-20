@@ -3,7 +3,7 @@ date: 2026-08-25
 tags: [branding, template, style-guide, guidelines, ci-manual]
 ---
 
-# Style Guide (CI Manual) — Document Skeleton
+# Style Guide (CI Manual): Document Skeleton
 
 > Phase 3 of [[00_brand-roadmap]]. Turns strategy ([[01_brand-strategy]]) + identity ([[02_visual-identity]]) into ONE reference doc anyone can follow without asking a designer. Copy as `YYYYMMDD-<brand>-guidelines.md` (or export to PDF/slides for sharing).
 
@@ -13,10 +13,10 @@ tags: [branding, template, style-guide, guidelines, ci-manual]
 Brand name, version, date, owner, one-line mission. State what the doc covers and who must follow it.
 
 ### 1. Brand Foundation
-Mission · vision · values · positioning statement · personality adjectives. Copied verbatim from strategy — this justifies every visual rule that follows.
+Mission · vision · values · positioning statement · personality adjectives. Copied verbatim from strategy; this justifies every visual rule that follows.
 
 ### 2. Logo Usage
-All variants displayed at actual sizes · clearspace diagram · minimum size · approved/rejected background examples · **don'ts row** (stretched, rotated, recolored, shadowed — show each violation crossed out).
+All variants displayed at actual sizes · clearspace diagram · minimum size · approved/rejected background examples · **don'ts row** (stretched, rotated, recolored, shadowed; show each violation crossed out).
 
 ### 3. Color
 Swatch table with **all three models**: HEX (web) · RGB (screen/social) · CMYK (print) · usage ratio guidance (e.g. 60% neutral / 30% primary / 10% secondary).
@@ -67,5 +67,5 @@ Changelog:
 | Format | Use when |
 | --- | --- |
 | PDF | small team, vendor handoff, print |
-| Online hub (Frontify-style) | multiple teams/products, frequent updates — see IBM, Starbucks, Firefox, Klarna portals |
+| Online hub (Frontify-style) | multiple teams/products, frequent updates: see IBM, Starbucks, Firefox, Klarna portals |
 | Notion/Obsidian page | internal-first, fast iteration |

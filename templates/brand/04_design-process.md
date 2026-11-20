@@ -3,19 +3,19 @@ date: 2026-08-25
 tags: [branding, template, process, checklist, client-work]
 ---
 
-# Brand Design Process — Project Checklist
+# Brand Design Process: Project Checklist
 
 > Phase 4 workflow of [[00_brand-roadmap]]: running an actual branding project start-to-finish (own brand or client). Tick boxes in order; each phase has a gate before the next starts.
 
 ## Phase Checklist
 
 ### A. Intake (gate: signed-off answers)
-- [ ] Send questionnaire part 1 — audience & business:
+- [ ] Send questionnaire part 1: audience & business:
   - What does your company do, for whom?
   - Mission, goals, purpose?
   - Who are your top 3 competitors?
-  - Brands you admire / dislike — why?
-- [ ] Send questionnaire part 2 — design preferences:
+  - Brands you admire / dislike: why?
+- [ ] Send questionnaire part 2: design preferences:
   - Emotions should the brand exude?
   - Colors you're drawn to / allergic to?
   - Typography preferences?
@@ -28,7 +28,7 @@ tags: [branding, template, process, checklist, client-work]
 
 ### C. Direction (gate: moodboard approved BEFORE any logo work)
 - [ ] Moodboard built (15–30 images, curated hard)
-- [ ] Present **2–3 palette options max** — more choices = worse decisions
+- [ ] Present **2–3 palette options max**: more choices = worse decisions
 - [ ] Get written approval on direction
 
 ### D. Identity Design (gate: system complete, not just a logo)
@@ -36,7 +36,7 @@ tags: [branding, template, process, checklist, client-work]
 - [ ] Palette finalized with HEX/RGB/CMYK + contrast checks
 - [ ] Type pairing + hierarchy set
 - [ ] Supporting elements: icons, imagery rules, pattern
-- [ ] Assemble **brand style board** — everything on one page; the backbone you re-check every asset against
+- [ ] Assemble **brand style board**: everything on one page; the backbone you re-check every asset against
 - [ ] Revise rounds agreed upfront (2 included, then bill extra)
 
 ### E. Documentation
@@ -59,7 +59,7 @@ Folder structure:
 └── guidelines/        .PDF or hub link
 ```
 
-- [ ] Record 5-min walkthrough video (file tour + rationale) — kills 90% of follow-up questions
+- [ ] Record 5-min walkthrough video (file tour + rationale): kills 90% of follow-up questions
 - [ ] Handoff spec complete enough to build without questions
 
 ### G. Close
